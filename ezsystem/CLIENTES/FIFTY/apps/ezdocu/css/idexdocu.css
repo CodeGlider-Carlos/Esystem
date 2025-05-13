@@ -1,0 +1,1692 @@
+
+body{
+    overflow: hidden;
+  
+}
+
+/*/////////////////////////////////////////NAVEGACION LEFT*/
+
+#navleft{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    width: 46px;
+     text-align: center;
+     z-index: 2;
+}
+
+
+.bakBoton{
+    width: 100%;
+    cursor: pointer;
+    text-align: center;
+    position: relative;
+    margin: auto;
+      margin-top: auto;
+    margin-top: 18%;
+    border: 0.5px solid transparent;
+}
+#bakBoton1{
+    margin-top: 103%;
+}
+
+.lognav{
+    width: 74%;
+}
+
+#lognav7{
+    position: absolute;
+    bottom: 1%;
+    left: 0%;
+}
+#lognav7b {
+    position: absolute;
+    bottom: 0%;
+    left: 60%;
+  }
+/*////////////////////////TEXTO NAVEGACION LEFT*/
+
+
+
+.txttx{
+    position: absolute;
+    width: 399%;
+    top: 28%;
+    border-radius: 5px;
+    left: 90%;
+  
+    font-size: 13px;
+ display: none;
+}
+
+#txt7{
+    position: absolute;
+   
+}
+
+/*///////////////////////////////CONEXION MODS*/
+#MODS{
+    display: block;
+    position: absolute;
+    left: 46px;
+    width: 96.9%;
+    border: 1px solid rgb(206, 202, 202);
+    height: 100%;
+}
+
+#iframeSuite{
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+
+.submit{
+    position: absolute;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    left: 0px;
+    color: transparent;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+/*//////////////////////////////////barra superior nav*/
+
+#navsup{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 46px;
+    text-align: right;
+    background: #121212;
+}
+#blockMod{
+    position: absolute;
+    top: -26px;
+    left: -28px;
+    width: 103%;
+    height: 112%;
+    text-align: right;
+    z-index: 1;
+    background: white;
+    display: none;
+    border-radius: 21px 0px 0px 0px;
+}
+
+
+
+
+/*///////////////////////MODO SEGUIMIENTO*/
+
+#modprosp{
+    position: absolute;
+    top: 47px;
+    left: 48.3px;
+    width: 95.6vw;
+    height: 93%;
+    text-align: center;
+    background: white;
+    border-radius: 5px;
+  
+
+    
+}
+
+#modname{
+    font-size: 24px;
+    width: 19.8%;
+    border-radius: 5px;
+    z-index: 20;
+    position: absolute;
+    left: 3.1%;
+    top: 19%;
+    text-align: center;
+    height: 68%;
+    display: none;
+}
+
+.sectionmod{
+    position: absolute;
+    width: 19.3%;
+    height: 93.3%;
+   
+}
+.sectionmodVINC{
+    background: #F6F9FA;
+    position: absolute;
+    width: 19.3%;
+    height: 21.3%;
+
+   
+}
+.line1{
+    background-color:#F3C144;
+    height: 5px;
+    width: 100%;
+}
+
+.namesect{
+    position: relative;
+    top: 0px;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 1.3vw; /*OJO VERIFICAR RESPONSIVE*/
+}
+
+#Buscar{
+    background: #9aa6b7;
+    color: white;
+    width: 20%;
+    margin-left: -80%;
+    text-align: center;
+}
+
+#namesect3{
+   
+   
+    font-size: 1.3vw;
+}
+
+#namesect4{
+    background: #a58123;
+    color: white;
+}
+#namesect5{
+    background: #4f6a7d;
+    color: white;
+}
+
+
+/**/
+
+
+.tabcpo{
+
+    width: 100%;
+    background: #ffffff;
+    margin-top: 2%;
+  
+}
+
+/*///////////////////////////////////////////////////////*/
+
+
+
+#section1{
+    display: block;
+    left: 1%;
+    width: 22.3%;
+    top: 8px;
+    height: 96.3%;
+}
+#section1a{
+    display: block;
+    left: 1%;
+    width: 19.7%;
+    top: 8px;
+    height: 96.3%;
+    
+}
+
+#section2{
+    display: block;
+    left: 24%;
+    width: 75.3%;
+    top: 8px;
+  
+}
+
+
+#section2VINC{
+    display: block;
+    top: 8px;
+    left: 40%;
+    display: none;
+}
+
+
+#section3{
+    display: block;
+    top: 8px;
+    left: 62%;
+   display: none;
+}
+/*/////////////////////////////////////////////////////////////AGREGAR*/
+
+.label{
+    margin: auto;
+    width: 98%;
+    font-size: 0.8vw;
+    text-align: left;
+  /*  color: gray;*/
+}
+.select{
+    margin: auto;
+    width: 98%;
+    text-align: center;
+   
+    box-shadow: 2px 1px 5px -2px #9b9393;
+}
+
+.textarea{
+    margin: auto;
+    width: 97%;
+    text-align: center;
+    resize: none;
+    border: 1px solid gray;
+    border-radius: 3px;
+
+    box-shadow: 2px 3px 5px -2px #9b9393;
+}
+
+.input:focus,
+.select:focus,
+.textarea:focus,
+.inputx:focus{
+    background-color: #ffffff;
+  
+    box-shadow: inset 2px 3px 5px -2px #ff914d;
+}
+
+/*/////////////////////////////////////////////////////////////////////////////FILTROS*/
+#back_filtrar{
+    width: 23vw;
+    height: 389px;
+ 
+    overflow: hidden;
+    margin: auto;
+      margin-top: auto;
+    margin-top: auto;
+    margin-top: 12%;
+}
+
+.input {
+    margin: auto;
+    margin-top: auto;
+  width: 98%;
+  text-align: left;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  background-color: #F9F9F9;
+  border: none;
+  box-shadow: 2px 3px 5px -2px #9b9393;
+  height: 25px;
+  border-radius: 5px;
+  margin-top: 1%;
+  padding-left: 10px;
+  }
+  .inputx {
+    margin: auto;
+    margin-top: auto;
+    width: 98%;
+  text-align: left;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  background-color: #F9F9F9;
+  border: none;
+  box-shadow: 2px 3px 5px -2px #9b9393;
+  height: 25px;
+  border-radius: 5px;
+  margin-top: 1%;
+  padding-left: 10px;
+  }
+  .inputx2 {
+    margin: auto;
+      margin-top: auto;
+    margin-top: auto;
+    width: 95%;
+    text-align: left;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    background-color: #F9F9F9;
+    border: none;
+    box-shadow: 2px 3px 5px -2px #9b9393;
+    height: 25px;
+    border-radius: 5px;
+    margin-top: 1%;
+    padding-left: 10px;
+  }
+.inputDoc {
+    margin: auto;
+    margin-top: auto;
+  width: 98%;
+  text-align: left;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  background-color: #F9F9F9;
+  border: none;
+  box-shadow: 2px 3px 5px -2px #9b9393;
+  height: 25px;
+  border-radius: 5px;
+  margin-top: 1%;
+  padding-left: 10px;
+  }
+  .namesect {
+    position: relative;
+    top: 0px;
+    width: 98%;
+    border-radius: 5px;
+    font-size: 1.3vw;
+    background: black;
+    color: white;
+    text-align: center;
+border:1px solid white;
+margin-bottom: 3%;
+  }
+
+
+  #continuar1 {
+    width: 98%;
+    cursor: pointer;
+    height: 22px;
+    margin-top: 6px;
+    margin: auto;
+      margin-top: auto;
+    margin-top: auto;
+    margin-top: 6px;
+
+  }
+  
+
+  /*////////////////////////////////////////////CARRUSEL*/
+
+  #back_rrusel{
+    position: relative;
+    width: 23vw;
+    height: 219px; 
+    overflow: hidden;
+    margin: auto;
+      margin-top: auto;
+    margin-top: auto;
+    margin-top: 12%;
+}
+
+#backriel{
+    width: 23vw;
+    border:1px solid transparent;
+    position: relative;
+    
+    margin: auto;
+      margin-top: auto;
+    margin-top: auto;
+    bottom: 0px;
+    text-align: center;
+}
+.boton_riel{
+    width: 20px;
+    height: 20px;
+    border-radius:100px;
+    background: linear-gradient(181deg, rgb(143, 142, 141) 0%, rgb(218, 216, 213) 64%);
+    box-shadow: 0px 1px 3px 1px #8A8372;
+    cursor: pointer;
+    display: inline-block;
+   
+}
+.marginleft{
+    margin-left: 35px;
+}
+#mover{
+    width: 100%;
+    height: 100%;
+    border: 1px solid transparent;
+    position: absolute;
+    display: block;
+}
+
+
+
+
+/*///////////////MODOS*/
+#mod_indica{
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0%;
+}
+  #mod_estado{
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 100%;
+  }
+  #mod_estrat{
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 200%;
+  }
+
+/*////////////////////////////////////////////////////////////////////////ESTADO DE RESULTADOS*/
+
+#back_estado{
+    position: absolute;
+    background: #19191a;
+    width: 40%;
+    height: 497px;
+    top: 65px;
+    left: 2%;
+    box-shadow: 1px 0px 10px 0px #000;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+#back_ingresos{
+    position: absolute;
+    width: 40%;
+    height: 556px;
+    top: 21px;
+    left: 50%;
+    box-shadow: 1px 0px 10px 0px #000;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+#back_comercial{
+    position: absolute;
+    width: 99%;
+    height: 556px;
+    top: -16px;
+    left: 0%;
+    border-radius: 12px;
+}
+
+.iframeCal3{
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    height: 100%;
+    overflow-y: scroll;
+    border: none;
+    border-radius: 8px;
+}
+
+/*////////////////////////////////////////////////////////////////////////OBJETVOS Y PRESUPUESTO*/
+
+#backallobj{
+    position: absolute;
+    top: 5%;
+    left: 39%;
+    border-radius: 12px;
+    width: 17%;
+    border: 1px solid transparent;
+    height: 251px;
+}
+
+.circobj{
+    z-index: 1;
+    position: absolute;
+}
+.img_grafa{
+    width: 102%;
+}
+
+
+.img_grafa0{
+    width: 100%;
+    position: absolute;
+}
+
+
+#backppto{
+    position: absolute;
+    top: 55%;
+    left: 39%;
+    border-radius: 12px;
+    width: 17%;
+    border: 1px solid transparent;
+    height: 251px;
+}
+
+.cirppto{
+    z-index: 1;
+    position: absolute;
+}
+.gra_b{
+    width: 102%;
+}
+
+
+
+
+
+
+
+
+/*////////////////////////////////////////////////////////////////////////////////////////////////////BARRAS*/
+#backBARRAS{
+    width: 31.8%;
+    position: absolute;
+    right: 5.4%;
+    border: 1px solid transparent;
+    top: 29%;
+}
+
+.taball{
+    width:100% ;
+}
+.colicon{
+    width: 1%;
+}
+.colbarr{
+    width: 99%;
+}
+.imaboto2{
+    position: relative;
+    left: 1px;
+    top: 0px;
+    width: 100%;
+    top: -0.3px;
+}
+
+.backicon2{
+    border: 1px solid transparent;
+    margin-top: 2%;
+    background: #212327;
+    margin-left: 35%;
+    width: 23px;
+    height: 23px;
+    border-radius: 10px;
+    box-shadow: 1px 0px 3px 0px #000;
+    text-align: center;
+    z-index: 1;
+    position: relative;
+    margin-top: 14%;
+    transition: 900ms;
+    cursor: pointer;
+}
+.backicon2:hover{
+    width: 50px;
+    height: 50px;
+    border-radius:100px;
+}
+.barraBack{
+    width: 100%;
+    background: #999;
+    height: 17px;
+   /* border-radius: 0px 10px 10px 0px;*/
+   border-radius:10px;
+    margin-left: 0%;
+    margin-top: 2px;
+}
+
+.barraProg1{
+    background: #999;
+    height: 17px;
+   /* border-radius: 0px 10px 10px 0px;*/
+   border-radius:10px;
+    margin-left: 0%;
+    background: linear-gradient(29deg, #FF3432 0%, #FF8A4B 100%);
+    background: #19191a;
+}
+.barraProg2{
+    background: #999;
+    height: 17px;
+      /* border-radius: 0px 10px 10px 0px;*/
+   border-radius:10px;
+    margin-left: 0%;
+    background: linear-gradient(29deg, #FF3432 0%, #FF8A4B 100%);
+}
+.barraProg3{
+    background: #999;
+    height: 17px;
+     /* border-radius: 0px 10px 10px 0px;*/
+     border-radius:10px;
+    margin-left: 0%;
+    background: linear-gradient(29deg, #ffc700 0%, #d58327 100%);
+}
+.barraProg4{
+    background: #999;
+    height: 17px;
+      /* border-radius: 0px 10px 10px 0px;*/
+   border-radius:10px;
+    margin-left: 0%;
+    background: linear-gradient(29deg, #ffc700 0%, #d58327 100%);
+
+}
+  /*SEMAFORO BARRAS*/
+
+
+  
+.porceNE {
+    width: 0%;
+}
+
+.porce0 {
+    width: 0%;
+ 
+}
+.porce2_5 {
+    width: 2.5%;
+ 
+}
+
+.porce5 {
+    width: 5%;
+    
+}
+
+.porce10 {
+    width: 10%;
+  
+}
+
+.porce15 {
+    width: 15%;
+   
+}
+
+.porce20 {
+    width: 20%;
+  
+}
+
+.porce25 {
+    width: 25%;
+ 
+}
+
+.porce30 {
+    width: 30%;
+    
+}
+
+.porce35 {
+    width: 35%;
+  
+}
+
+.porce40 {
+    width: 40%;
+
+}
+
+.porce45 {
+    width: 45%;
+    
+}
+
+.porce50 {
+    width: 50%;
+  
+}
+
+.porce55 {
+    width: 55%;
+ 
+}
+
+.porce60 {
+    width: 60%;
+   
+}
+
+.porce65 {
+    width: 65%;
+   
+}
+
+.porce70 {
+    width: 70%;
+   
+}
+
+.porce75 {
+    width: 75%;
+   
+}
+
+.porce80 {
+    width: 80%;
+  
+}
+
+.porce85 {
+    width: 85%;
+    
+}
+
+.porce90 {
+    width: 90%;
+  
+}
+
+.porce95 {
+    width: 95%;
+    
+}
+
+.porce98 {
+    width: 98%;
+
+}
+
+.porce100 {
+    width: 100%;
+}
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////CIRCULOS*/
+
+
+.backCIRC{
+    display: block;
+    position: absolute;
+    border: 1px solid transparent;
+    width: 115px;
+    height: 115px;
+    border-radius: 100px;
+    background: linear-gradient(29deg, #C6BFBD 0%, #E9E9E9 100%);
+    text-align: center;
+    box-shadow: inset 1px -1px 11px -1px #9b9393;
+}
+.circUno{
+    background: linear-gradient(29deg, #ffc700 0%, #d58327 100%);
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 27px;
+    left: 23%;
+    border-radius: 100px;
+}
+.circUno2{
+    background: linear-gradient(29deg, #FF3432 0%, #FF8A4B 100%);
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 27px;
+    left: 23%;
+    border-radius: 100px;
+}
+.circDos{
+    display: block;
+    background: #19191a;
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: 8.5px;
+    left: 8px;
+    border-radius: 100px;
+}
+.imagdl{
+    width: 76%;
+    text-align: center;
+    margin-top: 13%;
+}
+.imagdltxt{
+    width: 48%;
+    text-align: center;
+    margin-top: 10%;
+}
+
+
+#backCIRC1{
+    left: 63%;
+    top: 74%;
+}
+#backCIRC2{
+    left: 75%;
+    top: 74%;
+}
+#backCIRC3{
+    top: 74%;
+    left: 87%;
+}
+
+
+
+/*////////////////////////////////////////////////////////////////////MODS*/
+
+#backMOD{
+    display: block;
+    color: white;
+    position: absolute;
+    top: 19px;
+    width: 72%;
+    text-align: left;
+}
+
+#granback_comercial{
+    display: block;
+}
+
+#granback_estados{
+    display: none;
+}
+
+#granback_okrs{
+    display: none;
+}
+
+/*//////////////////////////////*/
+
+.construc{
+    width: 20%;
+    margin: auto;
+    position: absolute;
+    left: 40%;
+    top: 29%;
+}
+.txttxconstruc{
+    width: 100%;
+    text-align: center;
+    top: 18%;
+    position: relative;
+}
+
+
+
+
+/*//////////////////////////////////////////////////////////////////////////////////////regresar*/
+#backregresar{
+    position: absolute;
+    border: 1px solid transparent;
+    width: 102%;
+    height: 50px;
+    background: #DCE2EB;
+    bottom: -4%;
+    left: -2%;
+  }
+#backbackRegre{
+    position: absolute;
+    width: 37px;
+    height: 37px;
+    border: 1px solid transparent;
+    right: 18%;
+    top: 10%;
+  
+}
+#subback{
+    position: absolute;
+    width: 37px;
+    height: 37px;
+    border: 1px solid transparent;
+    right: 0%;
+    top: 0%;
+    background: transparent;
+    cursor: pointer;
+    color: transparent;
+}
+#regresartxt{
+    position: absolute;
+  background: transparent;
+  border: none;
+  right: -559%;
+  top: 15%;
+  color: #154567;
+  font-size: 1vw;
+}
+
+
+#imagRegresar{
+    width: 100%;
+}
+
+/*///////////////////////////////////////ACTUAL SU TASK*/
+
+
+
+#conttablaUpd {
+    display: block;
+    position: absolute;
+    top: 39px;
+    left: 1%;
+    width: 98%;
+    height: 92%;
+    border: 1px solid transparent;
+    overflow-y: scroll;
+  }
+
+
+#tablataUpd {
+  width: 99%;
+
+  margin-top: -5%;
+
+  margin-bottom: 4%;
+
+}
+/*/////////////////////////////////////DISEÑO DE TABLA*/
+#backTask{
+    display: block;
+    position: absolute;
+    background: #F9F9F9;
+    top: 102px;
+    left: 1%;
+    width: 98%;
+    height: 30%;
+    border: 1px solid transparent;
+    z-index: 2;
+    border-radius: 5px;
+
+}
+
+#conttabla{
+    display: block;
+    position: absolute;
+    top: 16px;
+    left: 1%;
+    width: 98%;
+    height: 92%;
+    border: 1px solid transparent;
+
+    overflow-y: scroll;
+    
+}
+
+
+
+#tablata{
+    width: 99%;
+    margin-top: 1%;
+    margin-bottom: 4%;
+}
+.center{
+    text-align: center;
+}
+
+.justy{
+    text-align: justify;
+}
+
+#backcabe3{
+    position: absolute;
+    width: 4%;
+    height: 78px;
+    margin-top: -127px;
+    right: 5.3%;
+    border: none;
+    border: 1px solid transparent;
+    z-index: 1;
+}
+
+
+/*///////////////////////////////////////guardar*/
+
+
+#backGuardarUPD {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: -60px;
+  right: 0.2%;
+  background-color: transparent;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  text-align: center;
+  box-shadow: 2px 3px 5px -2px #9b9393;
+}
+input[type="image"]#guardarUPD {
+    position: relative;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    
+}
+input[type="submit"]#submit2 {
+    position: absolute;
+    border: none;
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    top: 0%;
+    border: 1px solid transparent;
+    left: 0%;
+    background: transparent;
+    color: transparent;
+}
+
+
+/*/////////////////////////////////////////////////NUEVA SUTASK*/
+.col0{
+    width: 2%;
+}
+.col1{
+    width: 10%;
+}
+.col2{
+    width: 10%;
+}
+.col3{
+    width: 10%;
+}
+.col4{
+    width: 10%;
+}
+.col5{
+    width: 10%;
+}
+.col6{
+    width: 10%;
+}
+#tablata th{
+    border:1px solid transparent;
+}
+
+
+
+
+
+
+.lineaTask{
+    display: block;
+    position: relative;
+    top: 1%;
+    width: 100%;
+    height: 4px;
+    background: #ffe4a4;
+    border-radius: 6px;
+    border-radius: 6px;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+#tablata td{
+    border:1px solid transparent;
+}
+
+.nameResp{
+    width: 100%;
+    background: transparent;
+      background-color: transparent;
+    box-shadow: 1px 1px 2px 1px transparent !important;
+    color: #ff914d;
+  font-size: 15px;
+  
+}
+
+
+
+.resptask{
+    width: 100%;
+    background: linear-gradient(90deg, rgb(143, 142, 141) 0%, rgb(218, 216, 213) 64%);
+      background-color: rgba(0, 0, 0, 0);
+    border-radius: 5px;
+    box-shadow: 2px 3px 5px -2px #9b9393 !important;
+    text-align: center;
+}
+.respseg{
+    width: 100%;
+  background: linear-gradient(90deg, rgb(143, 142, 141) 0%, rgb(218, 216, 213) 64%);
+    background-color: rgba(0, 0, 0, 0);
+  border-radius: 5px;
+  box-shadow: 2px 3px 5px -2px #9b9393 !important;
+  text-align: center;
+}
+
+
+
+.idtask{
+    width: 100%;
+    background: #D9D9D9 !important;
+}
+.tarea{
+    width: 100%;
+    background: #D9D9D9 !important;
+}
+
+
+
+
+.entreg{
+    width: 100%;
+  /*  background: #D9D9D9 !important;*/
+  
+    resize: vertical;
+}
+.fepro{
+    width: 100%;
+    text-align: center;
+}
+.fereal{
+    width: 100%;
+    text-align: center;
+}
+
+.estatusUpdate{
+    width: 100%;
+    background: #2068E4;
+    color: white;
+    text-align: center;
+}
+
+
+
+.obse{
+    width: 100%;
+}
+
+
+
+#bloq0{
+    margin-top: 2%;
+}
+#bloq1{
+    margin-top: 2%;
+}
+
+
+input[type="submit"]#submit2 {
+   
+    width: 15%;
+   
+    top: 0%;
+ 
+    right: 2%;
+    position: absolute;
+  }
+
+
+    /*////////////////////////////////////////////CARRUSEL*/
+
+    #back_rrusel{
+        position: relative;
+        width: 23vw;
+        height: 219px; 
+        overflow: hidden;
+        margin: auto;
+          margin-top: auto;
+        margin-top: auto;
+        margin-top: 12%;
+    }
+    
+    #backriel{
+        width: 23vw;
+        border:1px solid transparent;
+        position: relative;
+        
+        margin: auto;
+          margin-top: auto;
+        margin-top: auto;
+        bottom: 0px;
+        text-align: center;
+    }
+    .boton_riel{
+        width: 20px;
+        height: 20px;
+        border-radius:100px;
+        background: linear-gradient(29deg, #ff3131 0%, #ff914d 100%);
+        color: white;
+        box-shadow: 0px 1px 3px 1px #8A8372;
+        cursor: pointer;
+        display: inline-block;
+       
+    }
+    .marginleft{
+        margin-left: 35px;
+    }
+    #mover{
+        width: 100%;
+        height: 100%;
+        border: 1px solid transparent;
+        position: absolute;
+        display: block;
+    }
+    
+    
+    
+    
+    /*///////////////MODOS*/
+    #mod_Lin{
+        width: 100%;
+        left: 0%;
+        margin: auto;
+    }
+      #mod_Proceso{
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0%;
+        display: none;
+      }
+      #mod_Respon{
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0%;
+        display: none;
+      }
+      #mod_Prog{
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0%;
+        display: none;
+      }
+     
+
+      /*////////////////////////////////MENU HOME*/
+
+      #backmenu{
+        width: 454px;
+        margin: auto;
+          margin-top: auto;
+        margin-top: auto;
+        margin-top: auto;
+        margin-top: auto;
+        margin-top: auto;
+        margin-top: 2%;
+        display: block;
+        position: absolute;
+        left: 34%;
+        border: 1px solid transparent;
+        height: 425px;
+      
+
+      }
+      .imgbackhome{
+        width: 100%;
+      }
+
+      .linemodop{
+        position: absolute;
+        width: 96%;
+        height: 1px;
+        background-color: white;
+        left: 2%;
+        top: 32px;
+        border-radius: 100px;
+      }
+.txtmodop{
+    position: absolute;
+    width: 88%;
+    height: 1px;
+    left: 2%;
+    color: white;
+    font-size: 1.8vw;
+    top: 0px;
+}
+
+.linemodfifty{
+    position: absolute;
+    width: 98%;
+    height: 1px;
+    left: 2%;
+    color: white;
+    font-size: 1.8vw;
+    top: -17px;
+  }
+
+  .imagLog{
+    position: absolute;
+  left: 2%;
+  height: 47%;
+  top: 24%;
+  }
+
+
+  
+#backallres{
+    position: absolute;
+    background: transparent;
+    width: 100%;
+    height: 86%;
+    top: 74PX;
+    left: 0%;
+    border-radius: 22px 0px 0px 22px;
+    overflow-y: scroll;
+
+}
+
+
+
+
+#backhome {
+    width: 96%;
+    height: 77%;
+    border: none;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 2px 3px 5px -2px black;
+    overflow: hidden;
+    position: absolute;
+    left: 2%;
+    top: 15%;
+    background: black;
+  }
+
+  .BACK_LOGIN{
+    position: absolute;
+    left: 0%;
+    width: 100%;
+    top: 0%;
+  }
+
+/*/////////////////////*/
+.boton{
+    width: 11px;
+    height: 11px;
+    background: white;
+    position: absolute;
+    top: 0px;
+    border-radius: 100px;
+    box-shadow: 2px 1px 5px -2px black;
+    cursor: pointer;
+    border: none;
+    color: transparent;
+    margin-left: 5px;
+    margin-top: 6px;
+}
+
+#botonhome1{
+    top: 6%;
+    left: 47%;
+    background: rgb(48, 48, 114);
+}
+#botonhome2{
+    top: 10%;
+    left: 61%;
+    background: rgb(48, 48, 114);
+  
+ }
+
+ #botonhome3{
+    top: 20%;
+    left: 74%;
+    background: rgb(48, 48, 114);
+  }
+
+  #botonhome3b{
+    top: 34%;
+    left: 81%;
+    background: rgb(48, 48, 114);
+  }
+ #botonhome4{
+    top: 85%;
+    left: 45%;
+    background: rgb(48, 48, 114);
+  
+ }
+
+ #botonhome5{
+    top: 39%;
+    left: 26%;
+ }
+
+ #botonhome6{
+    top: 51%;
+    left: 25%;
+ }
+ #botonhome7{
+    top: 61%;
+    left: 29%;
+ }
+ #botonhome8{
+    top: 67%;
+    left: 39%;
+ }
+
+ #botonhome9{
+    top: 28.4%;
+    left: 45%;
+ }
+
+ #botonhome10{
+    top: 67%;
+    left: 65%;
+ }
+
+ #botonhome11{
+    top: 75%;
+    left: 45%;
+ }
+
+ #botonhome12{
+    top: 52%;
+    left: 56.8%;
+    background: skyblue;
+    border: 3px solid #2068E4;
+ }
+
+ #botonhome13{
+    top: 44%;
+    left: 73.3%;
+ }
+
+ /**/
+
+
+ .imgEsta{
+   
+    background: white;
+    z-index: 1;
+    position: absolute;
+    border-radius: 10px;
+    text-align: center;
+    padding-left: 2%;
+    padding-right: 2%;
+
+ }
+
+#gld{    
+    top: 6%;
+    left: 0%;
+    display: none;
+}
+#fin{    
+    top: 11%;
+    left: 21%;
+    display: none;
+}
+#prov{    
+    top: 20.4%;
+    left: -1%;
+    display: none;
+}
+#vinc{    
+    top: 34.6%;
+    left: 41%;
+    display: none;
+}
+#qps{    
+    top: 85%;
+    left: -45%;
+    display: none;
+}
+#mmu{    
+    top: 39%;
+    left: -63%;
+    display: none;
+}
+#pci{    
+    top: 51%;
+    left: -51%;
+    display: none;
+}
+#fms{
+    top: 61.3%;
+    left: -46%;
+    display: none;
+}
+#sqe{    
+    top: 67.5%;
+    left: -20%;
+        display: none;
+}
+#misp{    
+    top: 29%;
+    left: -60%;
+    display: none;
+}
+#mci{    
+    top: 67.8%;
+    left: 7%;
+    display: none;
+}
+#ginf{
+    top: 75.6%;
+    left: -9%;
+    display: none;
+}
+
+#px{
+    top: 52.6%;
+    left: 14%;
+    display: none;
+}
+
+
+
+ .img50d{
+    width: 56px;
+    position: absolute;
+    left: 41%;
+    margin: auto;
+    top: 45%;
+  }
+
+
+  .img50db {
+    width: 27px;
+    position: absolute;
+    left: 41%;
+    margin: auto;
+    top: 43%;
+  }
+    /*///////////////////////////////////////////////////////////////////////////////////ESTANDARES*/
+
+#backbackEst{
+    width: 20%;
+    height: 86%;
+    border: none;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 2px 3px 5px -2px black;
+ 
+    position: absolute;
+    left: 2%;
+    top: 66px;
+    background: black;
+    z-index: 100;
+}
+    #backhomeESTAN {
+        width: 75%;
+        height: 86%;
+        border: none;
+        margin: auto;
+        border-radius: 10px;
+        box-shadow: 2px 3px 5px -2px black;
+        overflow: hidden;
+        position: absolute;
+        left: 23%;
+        top: 66px;
+        background: black;
+      }
+
+
+/*
+width: 96%;
+  height: 82%;
+  border: none;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 2px 3px 5px -2px black;
+  overflow: hidden;
+  position: absolute;
+  left: 2%;
+  top: 66px;
+  background: black;
+
+*/
+
+    #backmenuESTANDAR {
+        width: 100%;
+        margin: auto;
+          margin-top: auto;
+        margin-top: auto;
+        margin-top: auto;
+        margin-top: auto;
+        margin-top: auto;
+        margin-top: auto;
+        margin-top: 2%;
+        display: block;
+        position: absolute;
+      
+        border: 1px solid transparent;
+        height: 215px;
+      
+ }
+
+ #backform{
+    width: 95%;
+    margin: auto;
+      margin-top: auto;
+    margin-top: auto;
+    margin-top: auto;
+    margin-top: auto;
+    margin-top: auto;
+    margin-top: auto;
+    margin-top: auto;
+    margin-top: 86%;
+ 
+    border: 1px solid transparent;
+    height: 215px;
+ }
+#backresp{
+    width: 46px;
+    margin: auto;
+      margin-top: auto;
+    margin-top: auto;
+    margin-top: auto;
+    top: 66px;
+    display: block;
+    position: absolute;
+    left: 19.6%;
+    border: 1px solid transparent;
+    height: 77%;
+    background: black;
+    border-radius: 7px;
+    z-index: 10;
+}
+ .respA{
+    border-radius: 10px;
+    text-align: center;
+    font-size: 9.2px;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    margin-top: 3%;
+    transition: 800ms;
+    cursor: pointer;
+ }
+ .tablebackresp{
+    width: 100%;
+    margin-top: 9%;
+    display: none;
+ }
+ .respA:hover{
+    font-size: 20px;
+ }
+.tableVER{
+    width: 100%;
+    text-align: center;
+}
+ .verRESP{
+    color: white;
+    font-size: 28px;
+ }
+
+ #verRESP{
+    display: block;
+    cursor: pointer;
+ }
+
+ .nameENFOQ{
+    width: 98%;
+    color: white;
+    text-align: right;
+    margin-top: 1%;
+ }

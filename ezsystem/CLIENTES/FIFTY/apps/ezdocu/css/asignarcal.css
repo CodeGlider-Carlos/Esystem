@@ -1,0 +1,159 @@
+#back_asigcal {
+  width: 96%;
+  margin: auto;
+    margin-top: auto;
+  margin-top: auto;
+  margin-top: auto;
+  margin-top: auto;
+  margin-top: auto;
+  position: absolute;
+  overflow-y: scroll;
+  height: 88%;
+  top: 38px;
+  left: 2%;
+  background-color: #F9F9F9;
+  border: none;
+  box-shadow: 2px 3px 5px -2px #9b9393;
+  border-radius: 8px;
+  }
+#backGuardar{
+    width: 80%;
+    margin: auto;
+      margin-top: auto;
+    margin-top: auto;
+    margin-top: auto;
+    margin-top: auto;
+    position: absolute;
+    height: 40px;
+    top: 3px;
+    left: 10%;
+}
+
+#backGuardarUpd {
+  width: 80%;
+  margin: auto;
+    margin-top: auto;
+  margin-top: auto;
+  margin-top: auto;
+  margin-top: auto;
+  margin-top: auto;
+  position: absolute;
+  height: 40px;
+  top: 3px;
+  right: 1%;
+}
+
+#submit {
+    width: 265px;
+    right: 20px;
+    cursor: pointer;
+    box-shadow: 2px 3px 5px -2px #9b9393;
+  position: absolute;
+  }
+  #tableTask{
+    width: 95%;
+    margin: auto;
+      margin-top: auto;
+      margin-bottom: auto;
+    margin-top: 3%;
+    margin-bottom: 3%;
+  }
+
+  .anchoCOl1s{
+    width: 4%;
+  }
+  .anchoCOl2s{
+    width: 22%;
+  }
+  .anchoCOl3s{
+    width: 17%;
+  }
+
+
+ .INPUTASK{
+    margin: auto;
+    margin-top: auto;
+  margin-top: auto;
+  margin-top: auto;
+  margin-top: auto;
+  width: 95%;
+  text-align: left;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  background-color: #F9F9F9;
+  border: none;
+  box-shadow: 2px 3px 5px -2px #9b9393;
+  height: 33px;
+  border-radius: 5px;
+  margin-top: 8px;
+  background: linear-gradient(29deg, #ff3131 0%, #ff914d 100%);
+  padding-left: 9px;
+
+ }
+
+
+textarea:focus{
+    background: #ffffff!important;
+  
+    box-shadow: inset 2px 3px 5px -2px #ff914d;
+}
+
+.line1 {
+    background-color: #f36a44;
+    height: 5px;
+    width: 100%;
+  }
+
+
+
+
+
+  .barraline{
+    width: 100%;
+  background-color: transparent;
+    color:transparent;
+    margin-bottom: 5% !important;
+  
+  display: block;
+  }
+
+
+  .titulo1{
+    width: 3%;
+    background: linear-gradient(29deg, #67954c 0%, #058f30 100%);
+    box-shadow: 2px 3px 5px -2px #9b9393;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  .center{
+    text-align: center;
+  }
+  .titulo2{
+    width: 3%;
+  }
+  .lineamiento{
+    width: 100%;
+    
+  }
+  .sangria1{
+    padding-left: 0px;
+  }
+  .sangria2{
+    padding-left: 0px;
+  }
+  .sangria3{
+    padding-left: 20px;
+  }
+
+  #tableTask td{
+    border:1px solid transparent;
+  }
+
+  .titblack{
+    box-shadow: 2px 3px 5px -2px #9b9393;
+    background: #000000;
+    border-radius: 5px;
+    color:#F9F9F9;
+  }
+

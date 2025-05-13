@@ -1,0 +1,376 @@
+#plnCOm{
+    width: 80%;
+    margin: auto;
+    position: relative;
+    overflow-y: scroll;
+    height: 95%;
+    margin-top: 1.5%;
+}
+#backtablaINDI{
+  width: 63%;
+  border: 1px solid transparent;
+  height: 90%;
+  position: relative;
+  overflow-y: scroll;
+  margin-top: 34px;
+ /* box-shadow: inset 1px 1px 5px 1px #9b9393;*/
+  border-radius: 13px;
+}
+.tablataINDI{
+  width: 95%;
+  margin: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+  margin-bottom: auto;
+  margin-bottom: 4%;
+  margin-top: 4%;
+}
+
+  .pondes{
+    width: 3%;
+  }
+  .metas{
+    width: 3%;
+  }
+  .logros{
+    width: 3%;
+  }
+  .cumples{
+    width: 3%;
+  }
+  .result{
+    width: 3%;
+  }
+
+  .obse{
+    width: 54%;
+  }
+.idindi{
+
+  text-align: center;
+}
+
+
+  .input1{
+    width: 12%;
+    margin-left: -110%;
+    cursor: pointer;
+    box-shadow: 2px 3px 5px -2px #9b9393;
+    background: black;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    height: 29px;
+  }
+  .input2{
+    width: 100%;
+    margin-left: -110%;
+    cursor: pointer;
+    box-shadow: 2px 3px 5px -2px #9b9393;
+    background: rgb(247, 244, 244);
+    border-radius: 20px;
+    border: none;
+    border: 4px solid black;
+    padding: 4px;
+    height: 20px;
+  }
+
+  .input3{
+    width: 12%;
+    margin-left: -110%;
+    cursor: pointer;
+    box-shadow: 2px 3px 5px -2px #9b9393;
+    background: linear-gradient(29deg, #ff3131 0%, #ff914d 100%);
+    color: white;
+    border-radius: 20px;
+    border: none;
+    height: 29px;
+  }
+
+  .input4{
+    width: 100%;
+    margin-left: -110%;
+    cursor: pointer;
+    box-shadow: 2px 3px 5px -2px #9b9393;
+    background: rgb(247, 244, 244);
+    border-radius: 32px;
+    border: none;
+    border: 4px solid rgb(173, 173, 173);
+    color: black;
+    height: 20px;
+    margin-top: 7%;
+    resize: vertical;
+    padding: 4px;
+  }
+  .textarea{
+    width: 100%;
+  }
+  .marginleft{
+
+    text-align: left;
+    padding-left: 2px;
+  }
+.divdiv{
+  background: #f2d291;
+  width: 100%;
+  height: 7px;
+  margin-top: 18px;
+  margin-bottom: 18px;
+  border-radius: 10px;
+}
+
+.center{
+  text-align: center;
+}
+
+.justify{
+  text-align: justify;
+}
+  .focus:hover{
+    box-shadow: inset 1px 1px 5px 1px rgb(253, 112, 31)!important;
+  }
+
+  placeholder{
+    color:black;
+  }
+
+
+  
+/*//////////////////regresar*/
+#backregresar{
+  position: absolute;
+  border: 1px solid transparent;
+  width: 102%;
+  height: 49px;
+  background: #DCE2EB;
+  bottom: 0%;
+  left: -0.1%;
+}
+#backbackRegre{
+  position: absolute;
+  width: 37px;
+  height: 37px;
+  border: 1px solid transparent;
+  right: 18%;
+  top: 10%;
+
+}
+#subback{
+  position: absolute;
+  width: 37px;
+  height: 37px;
+  border: 1px solid transparent;
+  right: 0%;
+  top: 0%;
+  background: transparent;
+  cursor: pointer;
+  color: transparent;
+}
+#regresartxt{
+  position: absolute;
+background: transparent;
+border: none;
+right: -559%;
+top: 15%;
+color: #154567;
+font-size: 1vw;
+}
+
+
+#imagRegresar{
+  width: 100%;
+}
+
+/*//////////////////////////////////////////////////////////////////////////////GLOBALS*/
+
+
+#backGlobal{
+  width: 15%;
+  border: 1px solid transparent;
+  height: 18px;
+  position: absolute;
+  left: 74%;
+  top: 5%;
+}
+/*////////////////////////////////////////////////////////////////////////OBJETVOS Y PRESUPUESTO*/
+
+#backallobj{
+  top: 0%;
+  left: 2%;
+  border-radius: 12px;
+  width: 95%;
+  border: 1px solid transparent;
+}
+
+.circobj{
+  z-index: 1;
+  position: absolute;
+}
+.img_grafa{
+  width: 102%;
+  margin-top: -2px;
+}
+.desmep{
+  color: white;
+  position: absolute;
+  margin: auto;
+  top: 5.9vw;
+  width: 100%;
+  text-align: center;
+  font-size: 2vw;
+}
+
+.img_grafa0{
+  width: 100%;
+  position: absolute;
+}
+
+
+#backppto{
+  position: absolute;
+  top: 55%;
+  left: 39%;
+  border-radius: 12px;
+  width: 17%;
+  border: 1px solid transparent;
+  height: 251px;
+}
+
+.cirppto{
+  z-index: 1;
+  position: absolute;
+}
+.gra_b{
+  width: 102%;
+}
+
+/*//////////////////////////////////////////////////////////////////////////////////MESES*/
+
+#backMEses{
+  width: 32%;
+  position: absolute;
+  top: 323px;
+  left: 65%;
+  height: 209px;
+  border: 1px solid transparent;
+}
+.tableGRAFME{
+  width: 40%;
+  height: 200px;
+  border: 1px solid black;
+}
+
+
+.numes{
+  display: block;
+  position: absolute;
+  bottom: -39px;
+}
+
+
+.backbarr{
+  height: 119%;
+  width: 3%;
+  background: rgb(176, 174, 174);
+  box-shadow: 2px 3px 5px -2px #9b9393;
+  border-radius: 12px 12px 12px 12px;
+  display: inline-block;
+  margin-left: 5%;
+}
+.barraS{
+  width: 2%;
+    background: linear-gradient(29deg, #ff3131 0%, #ff914d 100%);
+    display: block;
+    position: absolute;
+    bottom: -1px;
+    box-shadow: 2px 3px 5px -2px #9b9393;
+    border-radius: 12px 12px 0px 0px;
+    border: 3px solid black;
+   
+}
+
+
+.barrablack{
+  background: black;
+  width: 100%;
+  height: 17px;
+  position: absolute;
+  bottom: -12px;
+  border-radius: 8px;
+  left: 0%;
+}
+
+
+
+
+
+
+
+
+
+
+.porceVert0{
+  height: 0%;
+}
+.porceVert5{
+  height: 5%;
+}
+.porceVert10{
+  height: 10%;
+}
+.porceVert20{
+  height: 20%;
+}
+.porceVert30{
+  height: 30%;
+}
+
+.porceVert40{
+  height: 40%;
+}
+
+.porceVert50{
+  height: 50%;
+}
+
+.porceVert60{
+  height: 60%;
+}
+.porceVert70{
+  height: 70%;
+}
+.porceVert75{
+  height: 75%;
+}
+.porceVert80{
+  height: 80%;
+}
+.porceVert85{
+  height: 85%;
+}
+.porceVert90{
+  height: 90%;
+}
+.porceVert95{
+  height: 95%;
+}
+.porceVert98{
+  height: 98%;
+}
+.porceVert100{
+  height: 100%;
+}
+
+
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+#tablataINDImes{
+  width: 95%;
+  margin: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+  margin-bottom: auto;
+  margin-bottom: 4%;
+  margin-top: 4%;
+  background: #DCE2EB;
+  display: none;
+}

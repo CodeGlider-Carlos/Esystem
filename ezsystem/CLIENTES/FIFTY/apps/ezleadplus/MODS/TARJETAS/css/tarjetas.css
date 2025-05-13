@@ -1,0 +1,1050 @@
+/*01. ///GENERALES///*/
+
+*{
+    user-select: none;
+}
+
+body{
+    overflow: hidden;
+}
+
+/*/////////////////////////////////////////NAVEGACION LEFT*/
+
+#navleft{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    width: 46px;
+     text-align: center;
+     z-index: 2;
+}
+
+
+.bakBoton{
+    width: 100%;
+    cursor: pointer;
+    text-align: center;
+    position: relative;
+    margin: auto;
+      margin-top: auto;
+    margin-top: 18%;
+    border: 0.5px solid transparent;
+}
+#bakBoton1{
+    margin-top: 103%;
+}
+
+.lognav{
+    width: 74%;
+}
+
+#lognav7{
+    position: absolute;
+    bottom: 1%;
+    left: 0%;
+}
+
+/*////////////////////////TEXTO NAVEGACION LEFT*/
+
+
+
+.txttx{
+    position: absolute;
+    width: 399%;
+    top: 28%;
+    border-radius: 5px;
+    left: 90%;
+    font-size: 13px;
+ display: none;
+}
+
+#txt7{
+    position: absolute;
+}
+
+/*///////////////////////////////CONEXION MODS*/
+#MODS{
+    display: block;
+    position: absolute;
+    left: 46px;
+    width: 96.9%;
+    border: 1px solid rgb(206, 202, 202);
+    height: 100%;
+}
+
+#iframeSuite{
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+
+.submit{
+    position: absolute;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    left: 0px;
+    color: transparent;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+/*//////////////////////////////////barra superior nav*/
+
+#navsup{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 46px;
+    text-align: right;
+
+}
+#blockMod{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+    text-align: right;
+    z-index: 0;
+    border-radius: 21px 0px 0px 0px;
+   display: none;
+}
+
+/*///////////////////////MODO SEGUIMIENTO*/
+
+#modprosp{
+    position: absolute;
+    top: 47px;
+    left: 48.3px;
+    width: 95.6vw;
+    height: 93%;
+    text-align: center;
+    border-radius: 5px;
+  
+
+    
+}
+
+#modname{
+    font-size: 24px;
+ /*   color: #154567;*/
+    color: #F4571E;
+    width: 19.8%;
+    box-shadow: 1px 1px 3px -1px gray;
+    border-radius: 5px;
+    z-index: 20;
+    position: absolute;
+    left: 3.1%;
+    top: 19%;
+    text-align: center;
+    height: 68%;
+}
+
+.sectionmod{
+    background: #F6F9FA;
+    position: absolute;
+    width: 19.3%;
+    height: 96.3%;
+   
+}
+.sectionmodVINC{
+    background: #F6F9FA;
+    position: absolute;
+    width: 59%;
+    height: 96.3%;
+
+   
+}
+.sectionmodVINCMED {
+    background: #F6F9FA;
+    position: absolute;
+    width: 36%;
+    height: 96.3%;
+  }
+
+.namesect{
+    position: relative;
+    top: 0px;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 1.3vw; /*OJO VERIFICAR RESPONSIVE*/
+}
+
+
+#Buscar{
+    background: #9aa6b7;
+    color: white;
+    width: 20%;
+    margin-left: -80%;
+    text-align: center;
+}
+
+#namesect3{
+    font-size: 1.3vw;
+}
+
+
+
+/**/
+
+
+.tabcpo{
+
+    width: 39%;
+    background: #ffffff;
+ 
+    margin-top: 7%;
+  
+}
+
+.tabcposELECT1 {
+    width: 100%;
+    background: #ffffff;
+    margin-top: 7%;
+    height: 382px;
+  border-radius: 4px;
+  }
+  
+.tabcposELECT2 {
+    width: 100%;
+    background: #ffffff;
+    margin-top: 7%;
+    height: 382px;
+  border-radius: 4px;
+  display: none;
+  }
+  
+/*//////////////////////////////////////////////////////////////*/
+
+#block0{
+    display: block;
+    margin-top: 31px;
+    position: absolute;
+    width: 100%;
+    border: 1px solid transparent;
+    height: 73%;
+}
+#blokeUNO{
+    display: block;
+  position: absolute;
+  top: 77px;
+  width: 49%;
+  left: 0%;
+  border: 1px solid transparent;
+}
+#blokeDOS{
+    display: block;
+    position: absolute;
+    top: 75px;
+    width: 42%;
+    left: 57%;
+    border: 1px solid transparent;
+}
+/*///////////////////////////////////////////////////////*/
+
+
+
+#section1{
+    display: block;
+    left: 1%;
+    width: 36.3%;
+    top: 8px;
+    height: 96.3%;
+    
+}
+#section1a{
+    display: block;
+    left: 1%;
+    width: 19.7%;
+    top: 8px;
+    height: 96.3%;
+    
+}
+
+#section2{
+    display: block;
+    top: 21px;
+    left: 62%;
+}
+
+
+#section2VINC{
+    display: block;
+    top: 8px;
+    left: 40%;
+    display: none;
+}
+
+
+#section3{
+    display: block;
+    top: 8px;
+    left: 62%;
+   display: none;
+}
+/*////////////////////////////////////AGREGAR*/
+
+.label{
+    margin: auto;
+    width: 98%;
+    font-size: 0.8vw;
+    text-align: left;
+    color: gray;
+}
+.select{
+    margin: auto;
+    width: 98%;
+    text-align: center;
+    border-radius: 3px;
+    border: 0.5px solid transparent;
+    height: 18px;
+    box-shadow: 2px 3px 5px -2px #9b9393;
+}
+.select2{
+    width: 50%;
+    margin-top: 11%;
+    cursor: pointer;
+    display: block;
+    margin-left: 49%;
+    background-color: #1a1a1a;
+    color: white;
+    height: 21px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 2px 3px 5px -2px #9b9393;
+    padding-left: 6px;
+}
+.textarea{
+    margin: auto;
+    width: 97%;
+    text-align: center;
+    border: 0.5px solid transparent;
+    color: #000000;
+}
+.input{
+    margin: auto;
+    width: 98%;
+    text-align: center;
+    border: 0.5px solid transparent;
+    color: #000000;
+
+    box-shadow: 2px 3px 5px -2px #9b9393;
+    border-radius: 3px;
+}
+.input:focus,
+.select:focus,
+.accion:focus,
+.textarea:focus{
+    background-color: #ffffff;
+  
+    box-shadow: inset 2px 3px 5px -2px #00A3E1;
+}
+.accion{
+    margin: auto;
+    width: 98%;
+    text-align: left;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    color: #000000;
+
+    box-shadow: 2px 3px 5px -2px #9b9393;
+    background: #FFD966;
+  border-radius: 5px;
+  margin-top: 3%;
+}
+#textarea{
+    display: block;
+    height: 95px;
+    width: 102%;
+    left: 0%;
+  
+    position: relative;
+}
+#GUARDARta{
+    width: 50%;
+    margin-top: 3%;
+   
+    cursor: pointer;
+ 
+    display: block;
+    margin-left: 49%;
+
+}
+#GUARDAR{
+    width: 50%;
+    margin-top: 3%;
+   
+    cursor: pointer;
+ 
+    display: block;
+    margin-left: 49%;
+    border-radius: 3px;
+    border: none;
+}
+/*/////////////////PROSPECTOS*/
+#Buscar:focus{
+    background-color: #ffffff;
+    color: #154567;
+    box-shadow: inset 2px 3px 5px -2px #00A3E1;
+}
+#backtable{
+    width: 100%;
+    background: #ffffff;
+ 
+}
+.table{
+    width: 99%;
+}
+
+.table .title td{
+    font-size: 0.8vw;
+    text-align: center;
+    color: gray;
+}
+.table td{
+    font-size: 0.8vw;
+    text-align: center;
+ 
+}
+
+.table .fil td{
+    border:1px solid gray;
+    border-radius: 3px;
+}
+
+
+
+
+input[type='submit']#editar  
+{    
+    width: 100%;
+   cursor: pointer;
+}
+
+#editar:focus{
+    background-color: #F4571E!important;
+    border:none;
+}
+
+.left{
+    text-align: left!Important;
+}
+.center{
+    text-align: center!Important;
+}
+.justify{
+    text-align: justify!Important;
+}
+
+
+.etpacolor1{
+    background: #164668;
+}
+.etpacolor2{
+    background: #F4571E;
+}
+.etpacolor3{
+    background: #53C0D8;
+}
+.etpacolor4{
+    background: #FFA136;
+}
+.etpacolor5{
+    background: #4f6a7d;
+}
+
+/*///////////////////////////////////////////////////TARJETA*/
+
+/*//////////////////FOTO YNOMBRE*/
+
+.labelTarj{
+    position: absolute;
+}
+.txtarj{
+    position: absolute;
+}
+
+
+
+#backfotoname{
+    position: absolute;
+    top: 23px;
+    left: 1%;
+    width: 59%;
+    height: 343px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    box-shadow: 1px 1px 3px -1px gray;
+}
+#backfotoALL{
+    position: absolute;
+    top: 15%;
+  left: 0%;
+  width: 100%;
+  height: 152px;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  color: #154567;
+}
+.backfoto{
+    position: absolute;
+    top: 13%;
+    left: 6%;
+    border: 1px solid transparent;
+    width: 7vw;
+    height: 7vw;
+    border-radius: 7vw;
+    box-shadow: 1px 1px 3px -1px gray;
+    overflow: hidden;
+}
+
+#imgPERSO{
+    width: 124%;
+    position: absolute;
+    left: -11%;
+}
+
+#imgPERSOsf{
+    width: 131%;
+    position: absolute;
+    left: -18%;
+    top: -5%;
+}
+
+
+#nombreTXT{
+    position: absolute;
+    top: 19%;
+    left: 44%;
+    font-size: 1vw;
+    width: 56%;
+    border: 1px solid transparent;
+    text-align: left;
+}
+#nombreNAME{
+    position: absolute;
+    top: 32%;
+  
+    left: 44%;
+    font-size: 0.9vw;
+    width: 56%;
+    border: 1px solid transparent;
+    text-align: left;
+}
+
+
+#especialidadTXT{
+    position: absolute;
+    top: 52%;
+  
+    left: 44%;
+    font-size: 1vw;
+    width: 56%;
+    border: 1px solid transparent;
+    text-align: left
+}
+#especialidadNAME{
+    position: absolute;
+    top: 65%;
+ 
+    left: 44%;
+    font-size: 1vw;
+    width: 56%;
+    border: 1px solid transparent;
+    text-align: left;
+}
+
+#procedimi{
+    position: absolute;
+    top: 65%;
+  left: 44%;
+  font-size: 0.9vw;
+  width: 56%;
+  border: 1px solid transparent;
+  text-align: left;
+  width: 52%;
+}
+
+#obstxt{
+    position: absolute;
+    top: 100%;
+    left: 2%;
+    font-size: 1vw;
+    width: 56%;
+    border: 1px solid transparent;
+    text-align: left;
+}
+#obs{
+    position: absolute;
+    top: 117%;
+    left: 2%;
+    width: 93%;
+    height: 62%;
+}
+
+#idhospitalTXT{
+    position: absolute;
+  right: 0px;
+  bottom: 31px;
+}
+#idhospitalID{
+    position: absolute;
+    left: 23px;
+    top: 49px;
+    border-radius: 4px;
+    font-size: 1vw;
+    width: 20.9%;
+}
+/*//////////NIVEL*/
+.backNivel{
+    position: absolute;
+    bottom: 22%;
+    left: -4%;
+    border: 1px solid transparent;
+    height: 1.5vw;
+    width: 100%;
+}
+.nivel{
+    display: inline-block;
+    height: 100%;
+
+}
+#nivel{
+    position: absolute;
+    color: #859aa8;
+    top: 11%;
+    left: 8%;
+    border: 1px solid transparent;
+    height: 100%;
+    font-size: 1.5vw;
+}
+/*//////////////////VALOR*/
+
+#backValorPerson{
+    position: absolute;
+    top: 23px;
+    left: 63%;
+    border: 1px solid transparent;
+    width: 36%;
+    height: 412px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px -1px gray;
+    background: #E9E9ED;
+}
+
+
+
+
+#estatusTXT{
+    position: absolute;
+    left: 1%;
+}
+#teamESTATUS{
+    position: absolute;
+  left: 4%;
+  top: 15%;
+}
+
+
+#totCXTXT{
+    position: absolute;
+    left: 84%
+}
+#totCX{
+    position: absolute;
+    left: 89%;
+    top: 15%;
+}
+/*/////////////////////RED*/
+
+#backred{
+    position: absolute;
+    top: 321px;
+    left: 1%;
+    width: 59%;
+    height: 114px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    box-shadow: 1px 1px 3px -1px gray;
+}
+#backredEMP{
+    position: absolute;
+    top: 381px;
+    left: 0%;
+    width: 61%;
+    height: 114px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+}
+
+
+/*//////////////////TEAM*/
+#backteam{
+    position: relative;
+    top: 0%;
+    left: 33%;
+    width: 27%;
+    height: 19%;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    box-shadow: 1px 1px 3px -1px gray;
+}
+#teamTXT{
+   
+    top: 74%;
+    left: 33%;
+    font-size: 25px;
+  }
+#teamback{
+    position: absolute;
+    bottom: 2px;
+    left: 34%;
+    border: 1px solid blueviolet;
+    width: 30%;
+    height: 34px;
+}
+
+
+
+.checkw{
+    width: 45%;
+}
+
+
+.tablered{
+    width: 99%;
+    font-size: 0.8vw;
+    position: absolute;
+    top: 4px;
+}
+
+.tablered td{
+    border: 1px solid transparent;
+    border-radius: 3px;
+}
+.tablered th{
+    border: 1px solid transparent;
+    border-radius: 3px;
+}
+
+
+
+
+.tableredEM{
+    width: 99%;
+    font-size: 0.8vw;
+    position: absolute;
+    top: 4px;
+}
+
+.tableredEM td{
+    border: 1px solid transparent;
+    border-radius: 3px;
+}
+.tableredEM th{
+    border: 1px solid transparent;
+    border-radius: 3px;
+}
+.redEmpCol{
+    width: 10%;
+}
+
+
+
+
+
+
+
+.tableteam{
+    width: 50%;
+    margin-left: 51%;
+    font-size: 0.8vw;
+    top: 4px;
+    position: absolute;
+}
+.tableteam td{
+    border: 1px solid transparent;
+  border-radius: 3px;
+}
+.tableteam th{
+    border: 1px solid transparent;
+    border-radius: 3px;
+}
+
+
+.colcheck{
+    width: 20%;
+}
+.colcheck2{
+    width: 20%;
+}
+
+
+
+
+
+.colcheck3{
+    width: 1%;
+}
+.colcheck4{
+    width: 33%;
+}
+.colcheck5{
+    width: 35%;
+}
+
+
+/*//////////////SATISFACCION*/
+
+.backSatsfacc{
+    position: absolute;
+    bottom: 7%;
+    left: -4%;
+    border: 1px solid transparent;
+    height: 1.5vw;
+    width: 100%;
+}
+.nivel{
+    display: inline-block;
+    height: 100%;
+    margin-left: 6%;
+}
+#satsfa{
+    position: absolute;
+    color: #859aa8;
+    top: 11%;
+    left: 8%;
+    border: 1px solid transparent;
+    height: 100%;
+    font-size: 1.5vw;
+}
+
+
+
+/*////////////////////////////////////////////////////////////////ABRIRMAS1*/
+
+.imgmas{
+    width: 80%;
+}
+#MAS1{
+    position: relative;
+    top: 3px;
+    font-size: 1.2vw;
+    width: 100.3%;
+    border-radius: 5px;
+}
+
+
+#MAS2{
+    position: absolute;
+    top: 0px;
+    left: 60%;
+    font-size: 2vw;
+    cursor: pointer;
+    color: #164668;
+    display: none;
+}
+
+#MENOS2{
+    position: absolute;
+    top: 16px;
+    left: 60.1%;
+    font-size: 3vw;
+    cursor: pointer;
+    color: #164668;
+    display: none;
+}
+
+
+
+/*//////////////////regresar*/
+#backregresar{
+    position: absolute;
+    border: 1px solid transparent;
+    width: 102%;
+    height: 50px;
+    background: #DCE2EB;
+    bottom: 0%;
+    left: -1px;
+  }
+#backbackRegre{
+    position: absolute;
+    width: 37px;
+    height: 37px;
+    border: 1px solid transparent;
+    right: 18%;
+    top: 10%;
+  
+}
+#subback{
+    position: absolute;
+    width: 37px;
+    height: 37px;
+    border: 1px solid transparent;
+    right: 0%;
+    top: 0%;
+    background: transparent;
+    cursor: pointer;
+    color: transparent;
+    z-index: 10;
+}
+#regresartxt{
+    position: absolute;
+  background: transparent;
+  border: none;
+  right: -559%;
+  top: 15%;
+  color: #154567;
+  font-size: 1vw;
+}
+
+
+#imagRegresar{
+    width: 100%;
+}
+
+
+
+
+
+
+/*///////////////////////////////////////////////////////////////////////////////BOTONES checkbox*/
+
+/*////OCULTAR DISEÑO ORIGINAL DE CHECK BOTON*/
+.content-input {
+    position: relative;
+   /* right: 59px;*/
+  }
+.content-input input{
+	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+}
+ 
+.content-input input{
+	visibility: hidden;
+	position: absolute;
+	right: 0;
+}
+
+
+
+ /* BACK DE BOTON y tamaño de boton*/
+ .content-input input[type=checkbox ] + i{
+    width: 60px;
+    height: 14px;
+    border-radius: 7px;
+    cursor: pointer;
+ }
+ 
+ /* FONDO DE CHECK Y POSICION GENERAL*/
+
+ 
+ .content-input input + i{
+    background-color: #F9F9F9;
+    border: 2px solid rgba(0,0,0,0.2);
+    position: absolute;
+    left: -59px;
+    top: -8px;
+    box-shadow: inset 3px 3px 5px -2px #1a1a1a;
+ }
+  
+ 
+
+     
+ /*BOTON CIRCULAR*/
+ .content-input input[type=checkbox] + i:before{
+    content: '';
+    width: 18px;
+    height: 18px;
+    background: linear-gradient(29deg, #d9a41c 0%, #F3C144 100%);
+    border-radius: 50%;
+    position: absolute;
+
+    left: -3px;
+    top: -3px;
+    box-shadow: 3px 3px 5px -2px #1a1a1a;
+ }
+ 
+ /*POSCIION AL DAR CLICK EN BOTON*/
+ .content-input input[type=checkbox]:checked + i:before{
+    left: 75%;
+ }
+  /*FONDO AL SELECCIONAR RADIO BOTON*/
+ .content-input input[type=checkbox]:checked + i{
+    background: #a09e7d;
+    box-shadow: inset  1px 1px 2px 1px  #023b1a;
+ 
+ }
+ 
+ /*TEXTO CUADNO SE SELECCIONA */
+ .content-input input[type=checkbox] + i:after{
+     content: 'SI';
+     position: absolute;
+     font-size: 10px;
+     color: white;
+     top: 12%;
+     left: 4px;
+     opacity: 0 /* Ocultamos este elemento */;
+     transition: all 0.25s ease 0.25s;
+     
+ }
+  
+ /* Cuando esté checkeado cambiamos la opacidad a 1 y lo mostramos */
+ .content-input input[type=checkbox]:checked + i:after{
+  opacity: 1;
+ }
+
+
+
+ /*//////////////////////////////////////////////////////*/
+ .tablaca{
+    width: 101%;
+}
+.nomtx{
+    box-shadow: 2px 3px 5px -2px #9b9393;
+    background: linear-gradient(29deg, #d9a41c 0%, #F3C144 100%);
+    color: black;
+    text-align: left;
+    border-radius: 5px 10px 10px 5px;
+    height: 18px;
+    width: 100%;
+    padding-left: 8px;
+}
+
+.bene{
+    width: 98%;
+    height: 17px;
+}
+
+.catnam{
+    width: 100%;
+    height: 18px;
+}
+
+.input2 {
+    margin: auto;
+    width: 129%;
+  text-align: center;
+  border: 1px solid transparent;
+  border-radius: 7px;
+  box-shadow: 2px 3px 5px -2px #9b9393;
+
+  margin-top: 3px;
+  background-color: #f4d392;
+  
+  }
+
+  .input2:focus{
+    background-color: #ffffff;
+  
+    box-shadow: inset 2px 3px 5px -2px #00A3E1;
+}

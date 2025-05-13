@@ -1,0 +1,432 @@
+/*//////////////////////////////GENERALES////////////////////////////////////////////*/
+/*01. ///GENERALES///*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+    user-select: none;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ /*quita marco post link*/
+*:focus{
+    outline: none;
+}
+/*body de home - dash*/
+body{
+    background: transparent;
+    display: block;  
+    z-index: 110;  
+    overflow: hidden;
+}
+
+/*////////////////////////////////////////////**/
+   
+input[type='text'],
+input[type='list'], 
+input[type='button'] 
+{
+    position: relative;
+    width: 80%;
+    height: 30px;
+    margin-top:3.5px;
+    background-color: #F9F9F9;
+    box-shadow: 1px 1px 2px 1px #D9D9D9;
+    border: none; 
+    color: #050505;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+select{
+    position: relative;
+    width: 90%;
+    height: 30px;
+    margin-top: 3.5px;
+    background-color: #F9F9F9;
+    box-shadow: 1px 1px 2px 1px #D9D9D9;
+    border: none;
+    color: #050505;
+    cursor: pointer;
+   /* margin-left: 5%;*/
+    border-radius: 5px;
+    text-align: left;
+}
+/*FONDO OPTION SELECT*/
+
+select option{
+  
+    font-family:Gill Sans MT!important;
+}
+
+input[type='text']:focus, 
+input[type='list']:focus, 
+select:focus
+{
+    box-shadow: inset 1px 1px 1px 1px  rgb(70, 115, 167);
+    background-color: white;
+}
+#filtros{
+    position: relative;
+    width: 100%;
+    height: 30px;
+    margin-top: 0%;
+    box-shadow: 1px 1px 2px 1px #D9D9D9;
+    border: 1px solid #D9D9D9;
+    margin-left: 0%;
+    border-radius: 5px;
+    text-align: center;
+    color: #2f2d29;
+    padding-left: 0%;
+    background-color: #F9F9F9;
+}
+#filtrosB{
+    position: relative;
+    width: 100%;
+    height: 30px;
+    top: -13%;
+    margin-left: 0%;
+    border-radius: 5px;
+    text-align: center;
+    color: #2f2d29;
+    font-size: 10px;
+}
+#imputVacio{
+    position: relative;
+    width: 100%;
+    height: 30px;
+    margin-top: 3.5px;
+    box-shadow: 1px 1px 2px 1px #D9D9D9;
+    border: none;
+    cursor: pointer;
+    margin-left: 0%;
+    border-radius: 5px;
+
+    background-color: #D9D9D9;
+}
+
+#buscarrisk{
+    position: absolute;
+    width: 100%;
+    height: 30px;
+    top: 273.5px;
+    box-shadow: 1px 1px 2px 1px #D9D9D9;
+    border: none;
+    cursor: pointer;
+    margin-left: 0%;
+    border-radius: 5px;
+
+    background-color: #D9D9D9;
+}
+
+#buscarrisk:hover{
+    background: linear-gradient(90deg, rgb(2, 4, 141) 0%, rgb(45, 93, 237) 64%);
+    color: white;
+}
+
+
+
+#resetrisk{
+    position: absolute;
+    width: 49%;
+    height: 30px;
+    top: 307.5px;
+    box-shadow: 1px 1px 2px 1px #D9D9D9;
+    border: none;
+    cursor: pointer;
+    margin-left: 0%;
+    border-radius: 5px;
+  
+    border-radius: 5px;
+    background-color: #D9D9D9;
+  
+}
+
+
+#reloadIcon{
+    position: absolute;
+    width: 50%;
+    height: 30px;
+    top: 303.5px;
+    box-shadow: 1px 1px 2px 1px #D9D9D9;
+    border: none;
+    cursor: pointer;
+    left: 50%;
+    border-radius: 5px;
+    border-radius: 5px;
+    background-color: #D9D9D9;
+  
+}
+#resetrisk:hover,
+#reloadIcon:hover
+{
+    background: #151719;
+    color: white;
+}
+
+#cliente{
+    width: 49%;
+    left: 0%;
+    top: 199px;
+    position: absolute;
+}
+#year{
+    width: 50%;
+    left: 50%;
+    top: 199px;
+    position: absolute;
+}
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+/*//////////////////////////////////////////////////FORMULARIO//////////////////////////////////////////*/
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+#fondoform{
+    display:block;
+    position:absolute;
+    top: 5%;
+    left: 0%;
+    width:100%;
+    height: 81%;
+   
+}
+
+/*//////////////////////////////////////////////////////////////////////*/
+#backpob{
+    display: block;
+    position: absolute;
+    top: 5px;
+    left: 44.8%;
+    width: 32%;
+    height: 90%;
+    border: 1px solid transparent;
+}
+
+/*MEUSTRA ACTUAL*/
+#backmuestra{
+    display: block;
+    position: absolute;
+    top: 60px;
+    left: 0%;
+    width: 48%;
+    height: 134px;
+    background-color: rgb(33, 85, 181);
+    border-radius: 7px;
+    text-align: center;
+    background: linear-gradient(-65deg, #676666 -2%, #D9D9D9 64%);
+    border: none;
+}
+/*murstra text*/
+#muvi{
+    font-size: 30px;
+    top: 16%;
+    color: rgb(168, 166, 163);
+    position: relative;
+}
+/*PROBABILIDAD DE DESEMPEÑO*/
+#probdes{
+    width: 49%;
+    position: absolute;
+    left: 0%;
+    top: 235px;
+}
+
+/*TAMAÑO DE LA MUESTRA*/
+#tamues{
+    width: 50%;
+    left: 50%;
+    top: 235px;
+    position: absolute;
+}
+
+#tamuesI{
+    left: 50%;
+    top: 235px;
+    position: absolute;
+    width: 50%;
+    height: 30px;
+    background-color: #F9F9F9;
+    box-shadow: 1px 1px 2px 1px #D9D9D9;
+    border: none;
+    color: #050505;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/*NIVEL DE CONFIANZA*/
+#confianza{
+    display: block;
+    position: absolute;
+    top: 60px;
+    left: 50%;
+    width: 24%;
+    height: 134px;
+    border: 1px solid transparent;
+    background-color: #F9F9F9;
+    box-shadow: 1px 1px 2px 1px #D9D9D9;
+    border-radius: 7px;
+}
+/*ERROR ESTIMADO*/
+#errorest{
+    display: block;
+    position: absolute;
+    top: 60px;
+    left: 76%;
+    width: 24%;
+    height: 134px;
+    border: 1px solid transparent;
+    background-color: #F9F9F9;
+    box-shadow: 1px 1px 2px 1px #D9D9D9;
+    border-radius: 7px;
+}
+
+/*///////////////////////////////////////////////////////////////////////////////BOTONES RADIO*/
+
+/*////OCULTAR DISEÑO ORIGINAL DE CHECK BOTON*/
+	
+.content-input{
+    display: block;
+    position: relative;
+}
+
+.content-input input{
+    position: relative;
+	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+}
+ 
+.content-input input{
+	visibility: hidden;
+	position: relative;
+	right: 0;
+}
+
+
+
+ /* BACK DE BOTON y tamaño de boton*/
+ .content-input input[type=radio ] + i{
+    width: 53%;
+    height: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+ }
+ 
+ /* FONDO DE CHECK Y POSICION GENERAL*/
+
+ 
+ .content-input input + i{
+    background-color: #F9F9F9;
+    border: 2px solid rgba(0,0,0,0.2);
+    position: absolute;
+    left: 37%;
+    top: 47%;
+    box-shadow: inset 3px 3px 5px -2px #1a1a1a;
+ }
+  
+ 
+
+     
+ /*BOTON CIRCULAR*/
+ .content-input input[type=radio] + i:before{
+    content: '';
+    width: 18px;
+    height: 18px;
+    background: linear-gradient(181deg, #6B6458 -2%, #CDC2AE 64%);
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1;
+    left: -3px;
+    top: -2px;
+    box-shadow: 3px 3px 5px -2px #1a1a1a;
+ }
+ 
+ /*POSCIION AL DAR CLICK EN BOTON*/
+ .content-input input[type=radio]:checked + i:before{
+    left: 78%;
+ }
+  /*FONDO AL SELECCIONAR RADIO BOTON*/
+ .content-input input[type=radio]:checked + i{
+    background: #a09e7d;
+    box-shadow: inset  1px 1px 2px 1px  #023b1a;
+ 
+ }
+ 
+ /*TEXTO ON CUENDO SE SELECCIONA */
+ .content-input input[type=radio] + i:after{
+     content: 'OK';
+     position: absolute;
+     font-size: 10px;
+     color: white;
+     top: 12%;
+     left: 4px;
+     opacity: 0 /* Ocultamos este elemento */;
+     transition: all 0.25s ease 0.25s;
+     
+ }
+  
+ /* Cuando esté checkeado cambiamos la opacidad a 1 y lo mostramos */
+ .content-input input[type=radio]:checked + i:after{
+  opacity: 1;
+ }
+
+ /*POSICIONES BOTONES*/
+
+ .po1{
+    position: relative;
+    top: -23%;
+ }
+ .po2{
+    position: relative;
+    top:-17%;
+}
+.po3{
+    position: relative;
+    top:-11%;
+}
+.po4{
+    position: relative;
+    top: -6%;
+}
+.po5{
+    position: relative;
+    top: -1%;
+}
+/*POSICIONES TEXTO BOTONES*/
+
+
+.nco1{
+    position: absolute;
+    top: 8%;
+    left: 6%;
+    font-size: 10px;
+ }
+ .nco2{
+    position: absolute;
+    top: 27%;
+    left: 6%;
+    font-size: 10px;
+}
+.nco3{
+    position: absolute;
+    top: 48%;
+    font-size: 10px;
+    left: 6%;
+}
+.nco4{
+    position: absolute;
+    top: 66%;
+    font-size: 10px;
+    left: 6%;
+}
+.nco5{
+    position: absolute;
+    top: 85%;
+    font-size: 10px;
+    left: 6%;
+}

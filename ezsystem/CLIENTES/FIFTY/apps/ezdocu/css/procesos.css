@@ -1,0 +1,250 @@
+
+
+.vacBloques{
+    width: 77%;
+    margin: auto;
+    text-align: center;
+}
+.bloque{
+    width: 399px;
+    height: 339px;
+    position: relative;
+    display: inline-block;
+}
+.colcol{
+    width: 100%;
+}
+.tableTask td{
+    width: 100%;
+
+}
+
+.imgetapa{
+    width: 100%;
+    margin-left: -9px;
+}
+
+.etapatxt{
+    font-size: 14px;
+    position: absolute;
+    margin-top: -14%;
+    margin-left: 7%;
+    text-align: left;
+    box-shadow: 2px 3px 5px -2px #9b9393;
+    border-radius: 5px;
+    background: #ebe9e9;
+    padding-left: 8px;
+ 
+}
+.textDoc{
+    color: #5d5b9e;
+}
+/*CAMBIAR TEXTO DE BASE DE DATOS A AMYUSCULA*/
+.etapatxt{
+    text-transform: lowercase;
+}
+
+
+/*CAMBIAR PRIMERA LETRA A MAYUSCULA*/
+.etapatxt p::first-letter {
+    text-transform: uppercase!important;
+}
+
+
+
+.numetapa{
+    width: 35px;
+    height: 35px;
+    font-size: 17px;
+    box-shadow: 2px 1px 5px -2px #9b9393;
+    border-radius: 100px;
+    position: absolute;
+    top: 17%;
+    left: 43%;
+    text-align: center;
+    background: black;
+    color: white;
+}
+.numetapa p{
+    margin-top: 21%;
+    margin-left: -5%;
+}
+
+
+
+/*RUTINAS////////////////////////////////////////////////////////////////////////*/
+.rutinas{
+    font-size: 0.6vw;
+    box-shadow: 2px 3px 5px -2px #9b9393;
+    position: absolute;
+    top: 99%;
+    z-index: 10;
+    background: #ebe9e9;
+    border-radius: 10px;
+    left: 7%;
+    cursor: pointer;
+    width: 94%;
+}
+
+.tableTare{
+    width: 100%;
+    font-size: 11.7px;
+}
+.tableTare th{
+    box-shadow: 2px 1px 5px -2px #9b9393;
+}
+.tableTare td{
+    box-shadow: 2px 1px 5px -2px #9b9393;
+}
+
+
+
+
+/*CAMBIAR TEXTO DE BASE DE DATOS A AMYUSCULA*/
+.activi,
+.frecue{
+    text-transform: lowercase;
+}
+
+
+/*CAMBIAR PRIMERA LETRA A MAYUSCULA*/
+
+.activi p::first-letter,
+.frecue p::first-letter {
+    text-transform: uppercase;
+}
+
+
+
+/*OCULTAR RUTINAS*/
+
+#rutinas1,
+#rutinas2,
+#rutinas3,
+#rutinas4,
+#rutinas5,
+#rutinas6,
+#rutinas7,
+#rutinas8,
+#rutinas9,
+#rutinas10,
+#rutinas11,
+#rutinas12,
+#rutinas13,
+#rutinas14,
+#rutinas17,
+#rutinas
+{
+    display: none;
+}
+
+
+
+
+
+.boronrutinas{
+    width: 36px;
+    height: 36px;
+    font-size: 13px;
+    box-shadow: 2px 1px 5px -2px black;
+    border-radius: 100px;
+    position: absolute;
+    top: 43%;
+    left: 22%;
+    text-align: center;
+    background: rgb(255, 255, 255);
+    color: white;
+    cursor: pointer;
+    background: black;
+}
+.imgrutina{
+    width: 100%;
+}
+
+.boronrutinas:hover{
+    box-shadow: 1px 0px 3px 10px #1810ff;
+
+}
+.left{
+    text-align: left;
+}
+
+
+/*///////////////////////////////////RESPONSABLES*/
+
+.taskresp{
+    width: 20px;
+    height: 20px;
+    font-size: 13px;
+    box-shadow: 2px 1px 5px -2px black;
+    border-radius: 100px;
+    
+    text-align: center;
+    background: rgb(255, 255, 255);
+    color: white;
+    cursor: pointer;
+    border: 1px solid transparent;
+    z-index: 1;
+}
+
+#resptask1{
+    position: absolute;
+    display: block;
+    left: 55%;
+    top: 21%;
+}
+#resptask2{
+    position: absolute;
+    display: block;
+    left: 63%;
+    top: 27%;
+}
+#resptask3{
+    position: absolute;
+    display: block;
+    left: 69%;
+    top: 35%;
+}
+#resptask4{
+    position: absolute;
+    display: block;
+    left: 72%;
+    top: 46%;
+}
+#resptask5{
+    position: absolute;
+    display: block;
+    left: 71%;
+    top: 58%;
+}
+#resptask6{
+    position: absolute;
+    display: block;
+    left: 66%;
+    top: 70%;
+}
+
+#resptask7{
+    position: absolute;
+    display: block;
+    left: 58%;
+    top: 78%;
+}
+#resptask8{
+    position: absolute;
+    display: block;
+    left: 49%;
+    top: 82%;
+}
+#resptask9{
+    position: absolute;
+    display: block;
+    left: 37%;
+    top: 82%;
+}
+#resptask10{
+    position: absolute;
+    display: block;
+    left: 27%;
+    top: 78%;
+}

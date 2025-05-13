@@ -1,0 +1,576 @@
+/*01. ///GENERALES///*/
+
+*{
+  
+    user-select: none;
+}
+
+body{
+    overflow: hidden;
+}
+
+/*/////////////////////////////////////////NAVEGACION LEFT*/
+
+#navleft{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    width: 46px;
+     text-align: center;
+     z-index: 1000;
+
+}
+
+
+.bakBoton{
+    width: 100%;
+    cursor: pointer;
+    text-align: center;
+    position: relative;
+    margin: auto;
+      margin-top: auto;
+    margin-top: 18%;
+    border: 0.5px solid transparent;
+}
+#bakBoton1{
+    margin-top: 103%;
+}
+
+.lognav{
+    width: 74%;
+}
+
+#lognav7{
+    position: absolute;
+    bottom: 1%;
+    left: 0%;
+}
+
+/*////////////////////////TEXTO NAVEGACION LEFT*/
+
+
+
+.txttx{
+    position: absolute;
+    width: 399%;
+    top: 28%;
+    border-radius: 5px;
+    left: 90%;
+    font-size: 13px;
+ display: none;
+}
+
+#txt7{
+    position: absolute;
+}
+
+/*///////////////////////////////CONEXION MODS*/
+#MODS{
+    display: block;
+    position: absolute;
+    left: 46px;
+    width: 96.9%;
+    border: 1px solid rgb(206, 202, 202);
+    height: 100%;
+}
+
+#iframeSuite{
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+
+.submit{
+    position: absolute;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    left: 0px;
+    color: transparent;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+/*//////////////////////////////////barra superior nav*/
+
+#navsup{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 46px;
+    text-align: right;
+
+}
+#blockMod{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+    text-align: right;
+    z-index: 100;
+    border-radius: 21px 0px 0px 0px;
+   display: none;
+}
+
+
+/*///////////////////////MODO SEGUIMIENTO*/
+
+#modseg{
+    position: absolute;
+    top: 47px;
+    left: 48.3px;
+    width: 95.6vw;
+    height: 93%;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#modname{
+    font-size: 24px;
+ /*   color: #154567;*/
+    color: #F4571E;
+    width: 19.8%;
+    box-shadow: 1px 1px 3px -1px gray;
+    border-radius: 5px;
+    z-index: 20;
+    position: absolute;
+    left: 3.1%;
+    top: 19%;
+    text-align: center;
+    height: 68%;
+}
+
+.sectionmod{
+    background: #F6F9FA;
+    position: absolute;
+    display: inline-block;
+    width: 23.3%;
+    height: 96.3%;
+    top: 2%;
+    left: -0.1%;
+ 
+}
+
+
+
+.backbackTavle{
+    background: #F6F9FA;
+    position: absolute;
+    border: 1px solid transparent;
+    width: 99.3%;
+    height: 94.3%;
+    top: 34px;
+    left: -0.1%;
+    overflow-y: scroll;
+    font-size: 0.6vw;
+}
+
+#section1{
+    left: 0.9%;
+}
+#section2{
+    left: 25.9%;
+}
+#section3{
+    left: 50.9%;
+}
+#section4{
+    left: 75.9%;
+}
+
+
+.line1{
+    background-color: #131318;
+    height: 5px;
+    width: 100%;
+}
+
+.namesect{
+    position: relative;
+    top: 0px;
+    width: 40%;
+    border-radius: 5px;
+    font-size: 1.3vw; /*OJO VERIFICAR RESPONSIVE*/
+}
+
+
+
+
+/*/////////////////////////////TARJETAS MEDICOS*/
+
+
+.tabcpo{
+    width: 97%;
+  /*  height: 145px;*/
+    position: relative;
+    display: block;
+    top: -41px;
+    margin-bottom: 19px;
+}
+.coltb1{
+    width: 22%;
+}
+.coltb2{
+    width: 43%;
+    }
+
+    .coltb3{
+        width: 3%;
+        }
+        
+
+
+
+
+
+
+
+
+
+
+
+
+#backfoto{
+    display: block;
+    width: 3.5vw;
+    height: 3.5vw;
+    position: relative;
+    background: gray;
+    border-radius: 100px;
+    overflow: hidden;
+    margin: auto;
+}
+#imgPERSO{
+    width: 200%;
+    position: absolute;
+    left: -67%;
+}
+
+
+#imgPERSOsf{
+    width: 156%;
+    position: absolute;
+    left: -23%;
+    top: -22%;
+}
+
+#imgabrirTarj{
+    width: 100%;
+    cursor: pointer;
+    margin-top: 1px;
+  
+}
+#submit{
+    border: 1px solid transparent;
+    position: absolute;
+    height: 30px;
+    background: transparent;
+    color: transparent;
+    z-index: 10;
+    margin-top: 0px;
+    margin-left: -34px;
+    width: 30px;
+}
+
+.backsub{
+    width: 30px;
+    height: 30px;
+    z-index: 1;
+    border: 1px solid transparent;
+    margin-left: 0px;
+    margin-bottom: 7px;
+    margin-top: -12px;
+}
+.center{
+    text-align: center!important;
+}
+.left{
+    text-align: left!important;
+}
+/*////////////////////////////////////CLIENTES POTENCIALES*/
+
+.clipo{
+    width: 93%;
+    position: relative;
+    margin: auto;
+      margin-top: auto;
+      margin-bottom: auto;
+    margin-top: -2px;
+    margin-bottom: 3%;
+    display: block;
+    border: 1px solid transparent;
+}
+.clipoLEAD{
+    width: 97%;
+    margin-top: 55px;
+    position: relative;
+    background: linear-gradient(29deg, #000000 0%, #2C4457 100%);
+    border-radius: 6px;
+    box-shadow: 2px 3px 5px -2px #9b9393;
+    color: white !important;
+    height: 169px;
+}
+.clipoCOT{
+    width: 97%;
+    margin-top: 55px;
+    position: relative;
+    background: linear-gradient(29deg, #818b93 0%, #4da0ff 100%);
+    color: white;
+    border-radius: 6px;
+    box-shadow: 2px 3px 5px -2px #9b9393;
+    color: white !important;
+    height: 169px;
+}
+
+.clipoPROG{
+    width: 97%;
+    margin-top: 55px;
+    position: relative;
+    background: linear-gradient(29deg, #1F4E79 0%, #2E75B6 100%);
+    color: white;
+    border-radius: 6px;
+    box-shadow: 2px 3px 5px -2px #9b9393;
+    color: white !important;
+    height: 169px;
+  
+}
+
+
+
+
+.clipoCONC{
+    width: 97%;
+    margin-top: 55px;
+    position: relative;
+    background: linear-gradient(29deg, #000000 0%, #131313 100%);
+    color: white;
+    border-radius: 6px;
+    box-shadow: 2px 3px 5px -2px #9b9393;
+    color: white !important;
+    height: 169px;
+}
+.clipo td{
+    border: 1px solid transparent;
+}
+
+input[type='submit']   
+{    
+    width: 60%;
+   cursor: pointer;
+}
+
+.ciret2{
+    position: absolute;
+    width: 45%;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    font-size: 0.8vw;
+    color: rgb(7, 23, 96);
+    text-align: center;
+    box-shadow: 1px 1px 3px -1px gray;
+    background: #a6b3bc;
+    margin-top: -13px;
+    margin-left: -46%;
+    display: block;
+}
+
+
+.nameesttxt{
+    display: block;
+    position: relative;
+    box-shadow: 1px 1px 3px -1px rgb(22, 22, 22);
+    border-radius: 4px;
+    background: white;
+    width: 100%;
+    margin-top: 10%;
+    color: black;
+    padding-left: 4px;
+    padding-right: 4px;
+    transition: 200ms;
+    height: 10px;
+}
+.nameesttxtB{
+    display: block;
+    position: relative;
+    border-radius: 4px;
+    background: transparent;
+    width: 100%;
+    margin-top: 10%;
+    color: black;
+    padding-left: 4px;
+    padding-right: 4px;
+    transition: 200ms;
+    height: 10px;
+}
+
+.nameest{
+    display: block;
+    position: relative;
+    box-shadow: 1px 1px 3px -1px rgb(12, 12, 12);
+    border-radius: 5px;
+    background: #DCE2EB;
+    width: 100%;
+   
+}
+
+
+.namenomtxt{
+
+    text-align: left;
+  
+ 
+}
+.namenom{
+  
+    text-align: left;
+  font-size: 0.9vw;
+  
+}
+
+
+.nameespetxt{
+    text-align: left;
+}
+.nameespe{
+    text-align: left;
+    font-size: 0.9vw;
+
+}
+
+
+.allpxtxt{
+   display: block;
+    position: relative;
+
+    box-shadow: 1px 1px 3px -1px gray;
+    border-radius: 5px;
+    background: #DCE2EB;
+    width: 100%;
+    color: #154567;
+ 
+}
+
+.allpx{
+ position: relative;
+  
+  
+    border-radius: 5px;
+    width: 100%;
+ 
+}
+
+
+
+.valorcli{
+    text-align: left;
+
+    font-size: 13px;
+ 
+    position: relative;
+}
+
+
+
+
+.ciret1{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 100px;
+    border: 1px solid transparent;
+    font-size: 11px;
+   
+    box-shadow: 1px 1px 3px -1px gray;
+  
+    margin-top: -49px;
+    margin-left: -101%;
+
+
+}
+.ciret1 p{
+    margin-top: 20%;
+}
+
+
+
+
+.redmed{
+    display: block;
+    box-shadow: 1px 1px 3px -1px gray;
+    border-radius: 3px;
+
+}
+.redco{
+    display: block;
+    box-shadow: 1px 1px 3px -1px gray;
+    border-radius: 3px;
+
+}
+.redpro{
+    display: block;
+    box-shadow: 1px 1px 3px -1px gray;
+    border-radius: 3px;
+
+}
+.redcie{
+    display: block;
+    box-shadow: 1px 1px 3px -1px gray;
+    border-radius: 3px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.etpacolor1{
+    background: #164668;
+    color: white;
+}
+.etpacolor2{
+    background: #F4571E;
+    color: white;
+}
+.etpacolor3{
+    background: #53C0D8;
+}
+.etpacolor4{
+    background: #FFA136;
+}
+.etpacolor5{
+    background: #FFA136;
+    color: white;
+}
+
+
+/*//////////////////////////////*/
+
+.construc{
+    width: 20%;
+    margin: auto;
+    position: absolute;
+    left: 40%;
+    top: 29%;
+}
+.txttxconstruc{
+    width: 100%;
+    text-align: center;
+    top: 18%;
+    position: relative;
+}

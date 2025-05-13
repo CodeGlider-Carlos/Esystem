@@ -1,0 +1,2004 @@
+
+/*01. ///GENERALES///*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+  /*  user-select: none;*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ /*quita marco post link*/
+*:focus{
+    outline: none;
+}
+
+body{
+  /* background: black;*/
+   overflow: hidden;
+}
+
+/*////////////////////////////////////////////**/
+   
+input[type='text'],
+input[type='list'],
+input[type='number']
+{
+ 
+
+
+    background-color: #F9F9F9;
+    border-radius: 0px;
+    box-shadow: inset 2px 3px 5px -2px #9b9393;
+    border: 1px solid transparent;
+
+    resize: none;
+    width: 100%;
+    border-radius: 6px;
+    font-size: 15px;
+    margin: auto;
+      margin-top: auto;
+  text-align: center;
+    border: 1px solid;
+    height: 27px;
+}
+
+input[type='button'] 
+{
+    position: relative;
+
+    background-color: #F9F9F9;
+    box-shadow: 1px 1px 2px 1px #D9D9D9;
+    border: none;
+    color: #2f2d29;
+
+    font-size: 15px;
+    margin: auto;
+      margin-top: auto;
+    margin-top: 2%;
+}
+
+select{
+   
+
+    margin: auto;
+    margin-top: auto;
+  margin-top: auto;
+  width: 98%;
+  text-align: left;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  background-color: #F9F9F9;
+  border: none;
+  box-shadow: 2px 3px 5px -2px #9b9393;
+  height: 25px;
+  border-radius: 5px;
+  margin-top: 1%;
+  padding-left: 10px;
+}
+select option{
+
+    font-family:Gill Sans MT!important;
+}
+input[type='text']:focus, 
+input[type='list']:focus, 
+input[type='number']:focus, 
+select:focus
+{
+    box-shadow: inset 1px 1px 1px 1px  #ef781d;
+}
+
+
+/*/////////////////////////////////////////////////////////////////////////////BOTON REGRESAR*/
+
+
+#backRegresar{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 29%;
+    left: 38%;
+    border-radius: 5px;
+    z-index: 10;
+    box-shadow: 2px 3px 5px -2px #9b9393;
+    cursor: pointer;
+}
+#regresar{
+    position: absolute;
+
+    width: 100%;
+    cursor: pointer;
+    transition: 100ms;
+}
+#contdatsave{
+    display: block;
+    position: absolute;
+    background-color: #F9F9F9;
+    width: 100%;
+    height: 100px;
+    top: 112px;
+    left: 0%;
+
+}
+#datsave{
+    display: block;
+    position: absolute;
+    top: 26%;
+    left: 143%;
+    color: black;
+    font-size: 16px;
+    width: 1000%;
+  
+}
+#filtros{
+    position: relative;
+    width: 100%;
+    margin-top: 0%;
+
+    box-shadow: 1px 1px 2px 1px #D9D9D9;
+    border: 1px solid #a09e7d;
+    margin-left: 0%;
+    border-radius: 5px;
+    text-align: center;
+    color: #2f2d29;
+    padding-left: 0%;
+    background-color: #F9F9F9;
+}
+
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+/*////////////////////////////////////////////////////////////////////////////////////////////*/
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+/*//////////////////////////////////////////////////FORMULARIO//////////////////////////////////////////*/
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+#fondoform0{
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 4%;
+    width: 29%;
+    border-radius: 0px 0px 10px 10px;
+  }
+#fondoform1{
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 19.3%;
+    width: 29%;
+    border-radius: 0px 0px 10px 10px;
+  }
+  #fondoform2{
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 35%;
+    width: 29%;
+    border-radius: 0px 0px 10px 10px;
+  }
+  #fondoform3{
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 51.5%;
+    width: 29%;
+    border-radius: 0px 0px 10px 10px;
+  }
+#paquete{
+    width: 86%; 
+    margin-top: 2%;
+    margin-left: 6%;
+   
+    border-radius: 4px;
+}
+#accion{
+    width: 86%; 
+    margin-top: 2%;
+    margin-left: 6%;
+   
+    border-radius: 4px;
+}
+#promo{
+    width: 86%; 
+    margin-top: 2%;
+    margin-left: 6%;
+   
+    border-radius: 4px;
+}
+#descuento{
+    width: 86%; 
+    margin-top: 2%;
+    margin-left: 6%;
+  
+    border-radius: 4px;
+}
+
+#comisionSo{
+    width: 86%; 
+    margin-top: 2%;
+    margin-left: 6%;
+  
+    border-radius: 4px;
+}
+#comisionOT{
+    width: 86%; 
+    margin-top: 2%;
+    margin-left: 6%;
+   
+    border-radius: 4px;
+}
+#backGuardar{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 37px;
+    right: 3%;
+    border-radius: 5px;
+    z-index: 10;
+    box-shadow: 2px 3px 5px -2px #9b9393;
+}
+#modi{
+    width: 100%;
+}
+#modisubmit {
+    position: absolute;
+ 
+    cursor: pointer;
+    transition: 100ms;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    background: transparent;
+    border: none;
+    color: transparent;
+  }
+#buscarrisk{
+    width: 86%; 
+    margin-top: 2%;
+    margin-left: 6%;
+    border: 1px solid transparent;
+    box-shadow: 1px 1px 1px 1px #767575;
+    border-radius: 4px;
+    background: BLACK;
+    color: #ffffff;
+    font-size: 19px;
+    height: 27px;
+    cursor: pointer;
+}
+
+
+#buscarrisk:hover{
+    background: linear-gradient(90deg,  #ce6846 20%, #e76852 54%  100%); 
+    color: white;
+}
+
+
+
+#resetrisk{
+    width: 86%; 
+    margin-top: 2%;
+    margin-left: 6%;
+    border: 1px solid transparent;
+    box-shadow: 2px 3px 5px -2px #9b9393;
+    border-radius: 4px;
+    height: 27px;
+    cursor: pointer;
+}
+
+
+trisk:hover,
+#reloadIcon:hover
+{
+    background: #151719;
+    color: white;
+}
+#reloadIcon{
+    width: 86%;
+    margin-top: 2%;
+    margin-left: 6%;
+    border: 1px solid transparent;
+    box-shadow: 2px 3px 5px -2px #9b9393;
+    border-radius: 4px;
+    height: 27px;
+    margin-bottom: 4%;
+    cursor: pointer;
+}
+
+/*/////////////////////////////////////LOAD/////////////////////////////////////////*/   
+
+#backLoad {
+    display: block;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background: #000000;
+    z-index: 5000;
+    /*display: none;*/
+  }
+  
+  #tileLoad {
+    position: absolute;
+    width: 100%;
+    color: #ffffff;
+    top: 58%;
+    font-size: 3vh;
+    text-align: center;
+  
+  }
+  
+  #contIcL {
+    position: relative;
+    width: 10%;
+    border: 1px solid transparent;
+    margin: auto;
+    top: 44%;
+  }
+  
+  #icLoad {
+    border: 10px solid #ed1c24;
+    border-top-color: #D9D9D9;
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    -webkit-animation: girar 1.5s linear infinite;
+    -o-animation: girar 1.5 linear infinite;
+    animation: girar 1.5 linear infinite;
+    z-index: 21;
+  }
+  
+  @keyframes girar {
+    from {
+      transform: rotate(0deg);
+    }
+  
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  
+  section[id]{
+    scroll-margin-top: 50px;
+  }
+  
+
+#backNav{
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    
+}
+
+#bobybody{
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    background: #ffffff;
+    z-index: -100;
+}
+
+#smartybot{
+    position: absolute!important;
+    left: 6%;
+    top: -3px;
+}
+#riskbot{
+    position: absolute!important;
+    left: 11%;
+  top: -2px;
+}
+#salirDeo{
+    position: absolute !important;
+    left: -4%;
+    bottom: 0%;
+    width: 40px;
+    height: 40px;
+}
+#backNavBarra{
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 80px;
+    top: 0%;
+    left: 0%;
+ 
+    z-index: 10;
+    overflow: hidden;
+}
+
+
+
+#logseica{
+    position: absolute;
+    height: 37%;
+    top: 7px;
+    left: 1%;
+}
+#barranav{
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 29px;
+    top: 53%;
+    left: 0%;
+    z-index: 11;
+    border-radius: 5px;
+}
+
+#backdegra{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    background: #19191a;
+    /*   
+     background: linear-gradient(90deg, #0000D0 0%, #002D85 64%);
+
+    */
+    z-index: -1;
+    height: 100%;
+    border: none;
+}
+#nameFiltros{
+    color: white;
+    position: absolute;
+    left: 7%;
+    top: 0%;
+    font-size: 20px;
+    cursor: pointer;
+    width: 20%;
+    text-align: center;
+    height: 29px;
+    border: 1px solid red;
+    z-index: 100;
+}
+#botonFiltro{
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0%;
+    top: 0%;
+
+}
+#userUnid{
+    position: absolute;
+    top: 0%;
+    left: 3%;
+    width: 94%;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    background: linear-gradient(29deg, #ff3131 0%, #F87F4E 100%);
+    background: linear-gradient(29deg, #182128 0%, #2C4457 100%);
+    border-radius: 8px;
+  
+}
+/*/////////////////botones*/
+
+
+
+.imgmod{
+    display: block;
+    height: 100%;
+    margin-top: -8%;
+  
+}
+
+.imgmod2{
+    display: block;
+    height: 34px;
+}
+
+#salirDeo{
+    cursor: pointer;
+    background-color: transparent;
+
+    z-index: 100;
+    text-align: center;
+}
+
+#line1{
+    display: block;
+    position: absolute;
+    width: 1.5px;
+    height: 100%;
+    top: 0%;
+    left: -479%;
+    background: #ec8989;
+
+}
+
+
+
+
+
+/*useuario*/
+#backUser{
+    display: block;
+    position: absolute;
+    width: 21%;
+    height: 29px;
+    top: 9%;
+    right: 1%;
+    border: 1px solid transparent;
+}
+#userU{
+    display: block;
+    position: absolute;
+    bottom: 23%;
+    right: 20.5%;
+    font-size: 11px;
+    color: white;
+    text-align: center;
+    z-index: 1;
+    width: 50%;
+}
+
+#userLogo{
+    height: 87%;
+    right: 10%;
+    position: absolute;
+}
+#line2{
+    display: block;
+    position: absolute;
+    width: 1.5px;
+    height: 100%;
+    top: 0%;
+    right: 73%;
+    background: #8989EC;
+
+}
+
+
+
+
+#line3{
+    display: block;
+    position: absolute;
+    width: 98%;
+    height: 1.5px;
+    bottom: 6%;
+    left: 1%;
+    background: #8989EC;
+}
+
+#backimg{
+    width: 120.6%;
+    margin-top: -12%;
+    margin-left: 0%;
+    z-index: -5;
+    position: absolute;
+}
+#backimg2{
+    width: 83.6%;
+    margin-top: -7%;
+    margin-left: 100%;
+}
+/*/////////////////////////////DASHBOARD*/
+#cabecera{
+    position: relative;
+    width: 97%;
+    margin-top: 1%;
+    left: 1%;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 2px 3px 5px -2px #9b9393;
+    text-align: center;
+    /*
+    background: linear-gradient(90deg, rgb(143, 142, 141) 0%, rgb(218, 216, 213) 64%);
+*/
+    background: linear-gradient(90deg, rgb(2, 4, 141) 0%, rgb(45, 93, 237) 64%);
+    color: #ffffff;
+}
+/*TITULOS SECCIONES*/
+
+.titleSection2
+{
+    position: relative;
+    width: 98%;
+    border: none;
+    text-align: left;
+    z-index: 1;
+    margin: auto;
+      margin-top: auto;
+    margin-top: auto;
+    margin-left: auto;
+    border-radius: 5px;
+    color: white;
+    margin-top: 1%;
+    text-align: center;
+    background: linear-gradient(29deg, #ff3131 0%, #F87F4E 100%);
+    color: #ffffff;
+}
+#entrar{
+    position: absolute;
+    height: 113%;
+    top: -8%;
+    right: 1%;
+    cursor: pointer;
+}
+#tablata{
+    display: block;
+    width: 93%;
+    border: 1px solid transparent;
+    margin: auto;
+}
+#tablata th{
+    font-size: 12px;
+}
+
+.center{
+    text-align: center;
+}
+.left{
+    text-align: left;
+}
+.justi{
+    text-align: justify;
+}
+
+
+
+/*/////////////////////////////////////DESEMPEÑO ALL*/
+
+
+
+
+
+
+
+.namemodS{
+    height: 3vw;
+    text-align: left;
+    border: 1px solid transparent;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+}
+
+#backini{
+    display: block;
+    position: absolute;
+    top: -3%;
+    left: 2%;
+    width: 98%;
+    height: 99%;
+    border: 1px solid transparent;
+    z-index: 10;
+    background: #ffffff;
+    border-radius: 0px 0px 0px 23px;
+    z-index: 2;
+    box-shadow: inset 1px 1px 5px 1px #38393a;
+    box-shadow: inset 1px 1px 5px 1px #696969;
+    border: none;
+}
+
+
+/*navegacion*/
+
+
+#backmas{
+    display: none;
+}
+
+
+.navleftce{
+    position: absolute;  
+    box-shadow: 3px 3px 5px -2px rgb(12, 12, 12);
+    width: 58px;
+    height:57px;
+    background: rgb(228,228,223);
+    background: linear-gradient(0deg, rgba(228,228,223,1) 0%, rgba(249,249,249,1) 100%);
+    overflow: hidden;
+    left: 20%;
+    border-radius: 8px;
+}
+
+
+/*////////////////////////<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</botones navegacion*/
+/*CONTENEDOR BOTONES*/
+#contnames{
+    position: absolute;
+    top: 4%;
+    left: 5.1%;
+    width: 89.7%;
+    height: 31px;
+    display: none;
+    z-index: 100;
+
+    box-shadow: 0px 2px 7px 0px #9b9393;
+}
+
+.botones{    
+    display: inline-block;
+
+    font-size:12px;
+    top: 20%;
+    color: #232323;
+    cursor: pointer;
+
+    height: 100%;
+    border-radius: 10px;
+    text-align:center;
+    margin-left: 9%;
+
+}
+.botones p{
+    margin-top: 5%;
+}
+
+.salir{
+    position: absolute;
+    width: 121%;
+    left: -8%;
+}
+.botones:hover{   
+    color: #006AA6;
+}
+
+
+
+
+
+/*///////////////////////////////////////////////<<<<<<<<<<<<<<<<<<<<<<<<<</TITULOS DE MODULOS/////////////////*/
+
+.titlemod{
+    position: absolute;
+    top: 25%;
+    left: 0%;
+    width: 100%;
+    color: #272727;
+    text-align: center;
+  
+    border: 1px solid transparent;
+}
+#modInicioTit{
+    display: block;
+}
+#modConfTit{
+    display: none;
+}
+#modOneTit{
+    display: none;
+}
+#modDosTit{
+    display: none;
+}
+#modTresTit{
+    display: none;
+}
+#modFourTit{
+    display: none;
+}
+#modFiveTit{
+    display: none;
+}
+
+/*//////////////////////////////////////////////////////////////////<<<<<<<<<<<<<<<<<<<<<<<<<<<<</////MODULOS*/
+#mod{
+    position: absolute;
+    width: 100%;
+    height: 200%;
+    top: 80px;
+    left: 0%;
+    background-color: black;
+  
+}
+.mods{
+    position: absolute;
+    width: 100%;
+    height:100%;
+    top: 0%;
+    left: 0%;
+
+    box-shadow: 3px 3px 5px -2px #9b9393;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+#modOne{
+    display: none;
+}
+#modConf{
+   
+    display: none;
+}
+
+#modDos{
+    display: none;
+}
+#modTres{
+    display: none;
+}
+#modFour{
+    display: none;
+}
+#modFive{
+    display: none;
+}
+#seiTitle{
+    display: block;
+    position: absolute;
+    bottom: 1%;
+    left: -7.5%;
+    width: 100%;
+
+    font-size: 15px;
+    color: #ffffff;
+    text-align: right;
+    z-index: 1;
+}
+/*////////////////////////CERRAR MODULOS*/
+#cerrarMod{
+    width: 130%;
+    height: 31px;
+    border-radius: 100px;
+    text-align: center;
+    font-size: 29px;
+    color: #9b9393;
+    position: absolute;
+    left: -5px;
+    top: -10px;
+}
+#cerrarModIcon{
+    cursor: pointer;
+    transition: 100ms;
+}
+
+.navleftce{
+    position: absolute;  
+    box-shadow: 1px 1px 5px 1px #9b9393;
+    width: 4%;
+    height:57px;
+    background: #ffffff;
+    overflow: hidden;
+    left: 20%;
+    border-radius: 8px;
+}
+/*LOGO SEICAPP BLANCO DE FONDO*/
+#sokbl{
+    position: absolute;
+    top: -59%;
+    left: -37%;
+    width: 161%;
+
+}
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<//////////////////////////////////////////////////////////////<<<<<<<<MURAL*/
+#mural{
+    display: block;
+    position: absolute;
+    width: 94%;
+    height: 42%;
+    top: -2px;
+    left: 3%;
+    border: 1px solid transparent;
+    z-index: 11;
+    box-shadow: 0px 1px 5px 2px black;
+    border-radius: 10px;
+    background-color: #ffffff;
+    overflow-y: scroll;
+    transition: 150ms;
+}
+#backlogdeo{
+    display: block;
+    position: absolute;
+    top: 30%;
+    left: 7.6%;
+    width: 83%;
+    height: 36%;
+    border: 1px solid transparent;
+    z-index: 1;
+    text-align: center;
+  }
+
+#icsol{
+    height: 100%;
+}
+.log550dw{
+    display: block;
+    position: absolute;
+    width: 58%;
+    left: 50%;
+    top: 1%;
+}
+
+/*////////////////////////////////////////////////////////////////////*/
+#backtab{
+    position: relative;
+    width: 89%;
+    height: 75%;
+    top: 13%;
+    border: 1px solid transparent;
+    z-index: 11;
+    background-color: #F9F9F9;
+    box-shadow: 0px 1px 5px 2px #9b9393;
+    border-radius: 5px;
+    margin: auto;
+    overflow-y: scroll;
+}
+.cx{
+    position: absolute;
+    width: 244px;
+    height: 93px;
+    background: #D9D9D9;
+    box-shadow: 1px -1px 11px -1px #9b9393;
+    margin: auto;
+    top: 10px;
+    text-align: center;
+}
+
+.cx2{
+    position: absolute;
+    width: 244px;
+    height: 93px;
+    border: 1px solid red;
+    top: 120px;
+    text-align: center;
+}
+.contcx{
+    position: relative;
+    width: 99%;
+    height: 84%;
+    background: #D9D9D9;
+    box-shadow: 1px -1px 11px -1px #9b9393;
+    margin: auto;
+}
+.titlesec{
+    position: relative;
+    width: 99.5%;
+    margin-top: 9px;
+    border: none;
+    box-shadow: 2px 3px 5px -2px #9b9393;
+    text-align: center;
+    background: linear-gradient(90deg, rgb(143, 142, 141) 0%, rgb(218, 216, 213) 64%);
+    color: #27243F;
+    z-index: 1;
+    margin: auto;
+}
+
+
+#cxSOCIOS{
+    left: 1%;
+}
+#cxPART{
+    left: 20.5%;
+}
+#cxSEGUROS{
+    left: 40%;
+}
+#cxCONVENIOS{
+    left: 59.5%;
+}
+#DESEMPENO{
+    left: 79%;
+    width: 20%;
+}
+
+
+#consultas{
+    left: 1%;
+}
+
+#SAD{
+    left: 20.5%;
+}
+
+
+
+#areasresultado{
+    position: absolute;
+    width: 20%;
+    height: 332px;
+    background: #D9D9D9;
+    box-shadow: 1px -1px 11px -1px #9b9393;
+    top: 119px;
+    left: 79%;
+}
+.tabpptos{
+    position: absolute;
+    width: 57%;
+    height: 100px;
+    background: #D9D9D9;
+    box-shadow: 1px -1px 11px -1px #9b9393;
+}
+#pptoingresos{
+    left: 1%;
+    top: 230px;
+}
+#pptoegresoss{
+    left: 1%;
+    top: 348px;
+}
+/*
+#filtros{
+    position: absolute;
+    width: 18%;
+    height: 221px;
+    background: #D9D9D9;
+    box-shadow: 1px -1px 11px -1px #9b9393;
+    top: 230px;
+    left: 60%;
+}
+*/
+/*BOTONES*/
+.namemod{
+    display: inline-block;
+    margin-left: 4%;
+}
+
+/*RESULTADOS DE PRODUCTIVIDAD*/
+
+.allprod{
+    color: #086BA3;
+    font-size: 62px;
+}
+
+/*///////////////////////////////////////////////////////*/
+
+#backmenu{
+    position: absolute;
+    width: 9%;
+    height: 26%;
+    top: 25px;
+    border: 1px solid transparent;
+    z-index: 11;
+    background-color: #F9F9F9;
+    box-shadow: 0px 1px 5px 2px #9b9393;
+    border-radius: 5px;
+    margin: auto;
+    left: 2%;
+    font-size: 4vw;
+    text-align: center;
+    color: #086BA3;
+}
+#backYear p{
+    margin-top: 3vw;
+}
+#backMenu2{
+    position: absolute;
+    width: 94%;
+    height: 30px;
+    border: 1px solid transparent;
+    z-index: 100;
+    left: 3%;
+    display: none;
+    top: 80px;
+    background: #101010;
+
+    border-radius: 8px;
+}
+
+#abrimenu{
+    position: absolute;
+    width: 40px;
+    height: 21px;
+    top: 0%;
+    left: 3.7%;
+
+    z-index: 1000;
+    cursor: pointer;
+}
+#abrimenu2{
+    position: absolute;
+    width: 40px;
+    height: 21px;
+    top: 4px;
+    left: 1%;
+    z-index: 1000;
+    cursor: pointer;
+}
+.abrirmenuLine{
+
+    width: 100%;
+    height: 2px;
+    background: rgb(255, 255, 255);
+    margin-top: 4px;
+}
+
+.abrirmenuLine2{
+
+    width: 100%;
+    height: 2px;
+    background: rgb(255, 255, 255);
+    margin-top: 4px;
+}
+#backDesm{
+    position: absolute;
+    width: 18%;
+    height: 89%;
+    top: 25px;
+    border: 1px solid transparent;
+    z-index: 11;
+    border-radius: 5px;
+    margin: auto;
+    left: 4%;
+    display: block;
+    overflow-y: scroll;
+}
+
+
+
+/*////////////////////////////////////////////////////////////////////////////////////////FORMULARIO*/
+
+#iframeIntegrarPaq{
+    display: block;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    border: 1px solid transparent;
+    background: #ffffff;
+    box-shadow: 2px 3px 5px -2px #9b9393;
+    overflow: hidden;
+    display: none;
+}
+#iframeCotizarPaq{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    border: 1px solid transparent;
+    background: #ffffff;
+    box-shadow: 2px 3px 5px -2px #9b9393;
+    overflow: hidden;
+    display: none;
+}
+#iframeModPaq{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    border: 1px solid transparent;
+    background: #ffffff;
+    box-shadow: 2px 3px 5px -2px #9b9393;
+    overflow: hidden;
+    display: none;
+}
+#iframeElimPaq{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    border: 1px solid transparent;
+    background: #ffffff;
+    box-shadow: 2px 3px 5px -2px #9b9393;
+    overflow: hidden;
+    display: none;
+}
+#formCot{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    border: 1px solid transparent;
+    background: #ffffff;
+    box-shadow: 2px 3px 5px -2px #9b9393;
+    overflow: hidden;
+}
+
+
+
+
+
+input[type="submit"]#generar {
+    position: absolute;
+    border: none;
+    cursor: pointer;
+    margin: auto;
+      margin-top: auto;
+      margin-bottom: auto;
+    top: 107px;
+    right: 4.8%;
+    z-index: 1000;
+    color: white;
+    background: rgb(44, 44, 44);
+    box-shadow: 2px 3px 5px -2px #9b9393;
+    width: 9%;
+    border-radius: 3px;
+    height: 30px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    
+}
+input[type="submit"]#modi {
+    position: absolute;
+  border: none;
+  cursor: pointer;
+  margin: auto;
+  top: 46px;
+  right: 3.2%;
+  z-index: 1000;
+  color: white;
+  background: rgb(44, 44, 44);
+  box-shadow: 2px 3px 5px -2px #9b9393;
+  width: 9%;
+  border-radius: 3px;
+}
+
+#backgeneral{
+    border: 1px solid transparent;
+    width: 98%;
+    margin: auto;
+      margin-top: auto;
+    box-shadow: 2px 3px 5px -2px #9b9393;
+    margin-top: 1%;
+    border-radius: 5px;  
+    background: #ECECEC;
+    
+}
+.empresa{
+ 
+    margin: auto !important;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+  margin-top: auto;
+  margin-left: auto;
+  margin-left: 2% !important;
+  margin-top: 1% !important;
+  width: 33% !important;
+  margin-bottom: 1% !important;
+  padding-left: 0.5%;
+  padding-right: 0.5%;
+}
+.proced{
+    width: 63.1% !important;
+    margin-left: 0.5% !important;
+}
+.empresa2{
+ 
+    margin: auto !important;
+      margin-top: auto;
+      margin-left: auto;
+      margin-left: 4.8% !important;
+      margin-top: 2% !important;
+      width: 54% !important;
+}
+.procedimiento{
+    width: 90.8%;
+    margin: auto !important;
+      margin-top: auto;
+      margin-bottom: auto;
+      margin-left: auto;
+   
+    margin-left: 5% !important;
+    margin-top: 1.4% !important;
+    margin-bottom: 2% !important;
+    height: 31px;
+}
+
+.medico{
+    display: block;
+}
+
+.descuento{
+    display: block;
+}
+/*///////////////////////////SECCIONES*/
+#backback{
+    border: 1px solid transparent;
+    position: relative;
+    width: 98%;
+    margin: auto;
+      margin-top: auto;
+      margin-left: auto;
+    margin-top: auto;
+    margin-top: auto;
+    margin-top: auto;
+    margin-top: 2%;
+    margin-left: 1%;
+}
+.botonmenu{
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+    color: white;
+    border-radius: 8px 8px 0px 0px;
+    box-shadow: 2px 3px 5px -2px #9b9393;
+    cursor: pointer;
+}
+#modulosMenu{
+    display: inline-block;
+    width: 83%;
+    color: rgb(255, 255, 255);
+    overflow: hidden;
+    height: 100%;
+}
+.modulosMenu0{
+    font-size: 15px;
+    display: inline-block;
+    margin-left: 7%;
+    cursor: pointer;
+    height: 100%;
+    text-align: center;
+    margin-top: 0px;
+    position: relative;
+    border: 1px solid transparent;
+}
+.modulosMenu1{
+    font-size: 15px;
+    display: inline-block;
+    margin-left: 7%;
+    cursor: pointer;
+    background: transparent;
+    height: 100%;
+    text-align: center;
+    margin-top: 0px;
+    position: relative;
+    border: 1px solid transparent;
+    border-radius: 8px;
+}
+.modulosMenu1:hover{
+    color: #fa5e5e ;
+}
+.modulosMenu2{
+    font-size: 15px;
+  display: inline-block;
+  margin-left: 7%;
+  cursor: pointer;
+    background: transparent;
+    height: 100%;
+    text-align: center;
+    margin-top: 0px;
+    position: relative;
+    border: 1px solid transparent;
+    border-radius: 8px;
+}
+.modulosMenu2:hover{
+    color: #fa5e5e ;
+}
+.modulosMenu3{
+    font-size: 15px;
+    display: inline-block;
+    margin-left: 7%;
+    cursor: pointer;
+      background: transparent;
+      height: 100%;
+      text-align: center;
+      margin-top: 0px;
+      position: relative;
+      border: 1px solid transparent;
+}
+.modulosMenu3:hover{
+    color: #fa5e5e ;
+}
+.posiBotonM{
+    margin-top: 2%;
+}
+.modulosMenu4{
+    font-size: 15px;
+  display: inline-block;
+  margin-left: 7%;
+  cursor: pointer;
+    background: transparent;
+    height: 100%;
+    text-align: center;
+    margin-top: 0px;
+    position: relative;
+    border: 1px solid transparent;
+}
+.modulosMenu4:hover{
+    color: #fa5e5e ;
+}
+#intpaq p{
+    margin-top: 6%;
+}
+#intcot p{
+    margin-top: 6%;
+}
+#elcot p{
+    margin-top: 6%;
+}
+#bothab{
+    background: #fa5e5e ;
+}
+/*///////////////////////////////////////////////*/
+#backHabit{
+    border: 1px solid transparent;
+    background: white;
+    box-shadow: 2px 3px 5px -2px #9b9393;
+    position: relative;
+    width: 75%;
+    margin: auto;
+      margin-top: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+    margin-top: auto;
+    margin-top: auto;
+    height:64%;
+    overflow-y: scroll;
+    border-radius: 5px;
+   
+    background: #ECECEC;
+    margin-top: 4%;
+    width: 98%;
+}
+.GRUPOA{
+    width: 8%;
+}
+.colArticulo{
+    width: 43%;
+}
+.colCantidad{
+    width: 5%;
+}
+.colCompara {
+    width: 8%;
+  }
+  
+  .colCompara2 {
+    width: 1%;
+  }
+  #tableHabi{
+    width: 98%;
+    margin: auto;
+    margin-bottom: 3%;
+    margin-top: 1%;
+}
+
+#tableHabi th{
+    font-size: 18px;
+    box-shadow: rgb(155, 147, 147) 2px 3px 5px -2px;
+    border-radius: 5px;
+    background: black;
+    color: white;
+
+}
+
+#tableHabi td{
+    border: 1px solid transparent;
+
+}
+
+
+
+#tableQx{
+    width: 98%;
+    margin: auto;
+    margin-bottom: 3%;
+    display: none;
+}
+#tableQx th{
+    font-size: 10px;
+
+}
+
+#tableQx td{
+    border: 1px solid transparent;
+
+}
+
+
+
+
+#tableIns{
+    width: 91%;
+    margin: auto;
+    margin-bottom: 3%;
+    display: none;
+}
+#tableIns th{
+    font-size: 10px;
+
+}
+
+#tableIns td{
+    border: 1px solid transparent;
+
+}
+
+
+
+#tableMed{
+    width: 91%;
+    margin: auto;
+    margin-bottom: 3%;
+    display: none;
+}
+#tableMed th{
+    font-size: 10px;
+
+}
+
+#tableMed td{
+    border: 1px solid transparent;
+
+}
+/*////////////////////////////////////////////////////////////////////////////////*/
+
+.articulo{
+   width: 100%;
+   margin-top: 0% !important;
+}
+.cantidad{
+    width: 100%;
+    margin-top: 0% !important;
+}
+.compara{
+    width: 100%;
+    margin-top: 0% !important;
+}
+/*////////////////////////////////////////////////borrador*/
+
+#backBorrador{
+    position: relative;
+    background-color: rgb(223, 223, 223);
+    width: 100%;
+    height: 100%;
+    border: 1px solid purple;
+    margin: auto;
+}
+#backtable{
+    width: 77%;
+    border: 1px solid red;
+    margin: auto;
+      margin-top: auto;
+    margin-top: 6%;
+    background: #D9D9D9;
+    box-shadow: 2px 3px 5px -2px #9b9393;
+}
+#tableBorrador{
+    width: 77%;
+    margin: auto;
+      margin-top: auto;
+      margin-bottom: auto;
+    margin-top: auto;
+    margin-top: 6%;
+    margin-bottom: 2%;
+    font-size: 11px;
+}
+
+/*//////////////////////////////////////////////////*/
+#bloq1{
+    display: block;
+    position: absolute;
+}
+
+/*///////////////////////////////////////////////////////////////////////INTEGRAR COTIZACION*/
+#verCotizacion{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    border: 1px solid transparent;
+    background: white;
+    box-shadow: 2px 3px 5px -2px #9b9393;
+    overflow: hidden;
+}
+.titleSection3
+{
+    position: absolute;
+    width: 71%;
+    border: none;
+ 
+    z-index: 1;
+
+    border-radius: 5px;
+
+    margin-top: 1%;
+    text-align: center;
+    background: linear-gradient(29deg, #182128 0%, #2C4457 100%);
+    background: linear-gradient(29deg, #ff3131 0%, #F87F4E 100%);
+    color: white;
+    left: 1%;
+}
+.titleSection4
+{
+    position: absolute;
+    width: 25%;
+    border: none;
+    z-index: 1;
+    border-radius: 5px;
+    margin-top: 1%;
+    text-align: center;
+    background: linear-gradient(29deg, #182128 0%, #2C4457 100%);
+    background: linear-gradient(29deg, #ff3131 0%, #F87F4E 100%);
+    color: white;
+    left: 73%;
+}
+.titleSection5
+{
+    position: absolute;
+    width: 94%;
+    border: none;
+    z-index: 1;
+    border-radius: 5px;
+    top: 11px;
+    text-align: center;
+    background: linear-gradient(29deg, #182128 0%, #2C4457 100%);
+    background: linear-gradient(29deg, #ff3131 0%, #F87F4E 100%);
+    color: white;
+    left: 3%;
+}
+
+#backCotiz {
+    border: 1px solid transparent;
+
+    box-shadow: 2px 3px 5px -2px #9b9393;
+    position: absolute;
+    width: 71%;
+    background: #ECECEC;
+    height: 85%;
+    overflow-y: scroll;
+    border-radius: 5px;
+    top: 46px;
+    left: 1%;
+  }
+#tablecotiz{
+    width: 98%;
+    margin: auto;
+      margin-top: auto;
+      margin-bottom: auto;
+    margin-top: 1%;
+    margin-bottom: 3%;
+}
+
+#tablecotiz th{
+    font-size: 18px;
+    box-shadow: 2px 3px 5px -2px #9b9393;
+    border-radius: 5px;
+    background: black;
+    color: white;
+  
+}
+
+#tablecotiz td{
+    margin: auto;
+    text-align: center;
+    border-radius: 3px;
+
+
+    box-shadow: 2px 3px 5px -2px #9b9393;
+    border-radius: 5px;
+ 
+    border-radius: 5px;
+ }
+.colcotz1{
+    width: 1%;
+}
+.colcotz2{
+    width: 21%;
+}
+.colcotz3{
+    width: 2%;
+}
+.colcotz4{
+    width: 1%;
+}
+.colcotz5{
+    width: 1%;
+}
+.nametipo{
+    background: rgb(163, 163, 163) !important;
+    text-align: left !important;
+    padding-left: 7px;
+}
+.center{
+    text-align: center;
+}
+.left{
+    text-align: left!important;
+}
+.colorwhite{
+    background: rgb(255, 255, 255) !important;
+}
+.col0{
+    width: 4%;
+}
+.col1{
+    width: 1%;
+}
+.col2{
+    width: 10%;
+}
+.col3{
+    width: 1%;
+}
+.col4{
+    width: 1%;
+}
+.col5{
+    width: 1%;
+}
+
+.articuloM{
+    margin-top: 0% !important;
+}
+.coloblue{
+    background:#bcbcbc!important;
+    color:rgb(94, 94, 94);
+}
+  
+
+/*//////////////////////////////////////////////////////////////ANALISIS COTIZACION*/
+
+
+#analisisCOTI{
+    border: 1px solid transparent;
+    background: white;
+    box-shadow: 2px 3px 5px -2px #9b9393;
+    position: absolute;
+    width: 25%;
+    height: 85%;
+    overflow-y: scroll;
+    border-radius: 5px;
+    top: 46px;
+    left: 73%;
+    background: #ECECEC;
+}
+
+#tablecotiz2{
+    width: 93%;
+    margin: auto;
+      margin-top: auto;
+      margin-bottom: auto;
+      margin-top: 2.7%;
+    margin-bottom: 3%;
+}
+
+#tablecotiz2 th{
+    font-size: 18px;
+    box-shadow: 2px 3px 5px -2px #9b9393;
+    border-radius: 6px;
+    color: white;
+    user-select: text !important;
+    background: black;
+    color: white;
+}
+
+#tablecotiz2 td{
+    text-align: center !important;
+  
+    border-radius: 3px;
+
+    box-shadow: 2px 3px 5px -2px #9b9393;
+    border-radius: 5px;
+    border-radius: 5px;
+ }
+  .seccion {
+    background: #d3d2d2;
+  border: 2px solid black;
+  border-radius: 4px;
+  text-align: left!important;
+  padding-left: 4px;
+}
+
+ /*//////////////////////////////////////////////////////////////PRINT*/
+
+ #backbackpri{
+    width: 98%;
+    border-radius: 5px;
+
+    margin: auto;
+ }
+
+ #printregresar{
+    border: 1px solid transparent;
+    background: white;
+    box-shadow: 2px 3px 5px -2px #9b9393;
+ 
+    width: 93%;
+    height: 10.7%;
+    border-radius: 5px;
+
+    margin: auto;
+ }
+ #backRegresarMOD {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 37px;
+    right: 7%;
+    border-radius: 5px;
+    z-index: 10;
+    box-shadow: 2px 3px 5px -2px #9b9393;
+  }
+
+  #backRegresar {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 37px;
+    right: 7%;
+    border-radius: 5px;
+    z-index: 10;
+    box-shadow: 2px 3px 5px -2px #9b9393;
+  }
+ #backprint {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    margin-top: -12%;
+    margin-left: 85%;
+    border-radius: 5px;
+    z-index: 10;
+  }
+  #printIcon {
+    position: absolute;
+ 
+    cursor: pointer;
+    transition: 100ms;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    background: transparent;
+    border: none;
+    color: transparent;
+  }
+#backRegresarCot{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    top: 3%;
+    left: 0%;
+    border-radius: 5px;
+    z-index: 10;
+}
+#backPaqRegresar{
+
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 188px;
+    right: 12.4%;
+    border-radius: 5px;
+    z-index: 10;
+    box-shadow: 2px 3px 5px -2px #9b9393;
+
+}
+#backPaqRegresarCero{
+
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 114px;
+    right: 1%;
+    border-radius: 5px;
+    z-index: 10;
+    box-shadow: 2px 3px 5px -2px #9b9393;
+
+}
+
+.colorblack{
+    user-select: text !important;
+    box-shadow: 2px 3px 5px -2px #9b9393;
+    border-radius: 5px;
+    border-radius: 5px;
+    background: #d3d2d2;
+    border: 2px solid black;
+}
+/*//////////////////////////////////////TABLA MODIFICAR*/
+#modpaqqq{
+    position: absolute;
+    top: 0%;
+    margin: auto;
+      margin-top: auto;
+    margin-top: auto;
+    width: 94%;
+    height: 77%;
+    border: 1px solid transparent;
+    background: white;
+    box-shadow: 2px 3px 5px -2px #9b9393;
+    margin-top: 84px;
+    border-radius: 5px;
+    overflow-y: scroll;
+    left: 3%;
+    background: #ECECEC;
+}
+#tableMOd{
+    width: 91%;
+    margin: auto;
+      margin-top: auto;
+      margin-bottom: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-top: 3%;
+    margin-bottom: 3%
+}
+
+#tableMOd th{
+    font-size: 14px;
+    background: #0797FF;
+    box-shadow: 2px 3px 5px -2px #9b9393;
+    border-radius: 3px;
+    color: white;
+}
+
+#tableMOd td{
+    font-size: 14px;
+    background: white;
+  box-shadow: 2px 3px 5px -2px #9b9393;
+ }
+
+
+ #tableMOdEx{
+    width: 91%;
+    margin: auto;
+      margin-top: auto;
+      margin-bottom: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-top: 1%;
+    margin-bottom: 3%
+}
+#tableMOdEx th{
+    font-size: 18px;
+    box-shadow: 2px 3px 5px -2px #9b9393;
+    border-radius: 5px;
+    background: black;
+    color: white;
+}
+
+#tableMOdEx td{
+    font-size: 14px;
+    background: white;
+  box-shadow: 2px 3px 5px -2px #9b9393;
+ }
+
+
+
+ #reloadIconVer{
+    width: 7%;
+    margin-top: 2%;
+    margin-left: 6%;
+    border: 1px solid white;
+    box-shadow: 1px 1px 1px 1px #767575;
+    border-radius: 4px;
+    height: 27px;
+    margin-bottom: 4%;
+
+}
+
+#tipoMO{
+    width: 100%;
+}
+
+/*///////////////////////////////////////////////PRINT*/
+
+.utilidad{
+    background: #002D85 !important;
+    color: white;
+    box-shadow: 2px 3px 5px -2px #9b9393 !important;
+    border: 1px solid transparent !important;
+}
+
+/*/////////////////////////////////////////////SEMADORO DIFERENCIA PRECIO*/
+
+.difAZUL{
+    background: #0255F3;
+    color: white;
+}
+
+.difRED{
+    background: red;
+    color: white;
+}

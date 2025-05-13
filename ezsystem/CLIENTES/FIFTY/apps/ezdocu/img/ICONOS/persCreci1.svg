@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="87.425163mm"
+   height="78.45446mm"
+   viewBox="0 0 87.425163 78.45446"
+   version="1.1"
+   id="svg1"
+   xml:space="preserve"
+   sodipodi:docname="persCreci1.svg"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="2.6203896"
+     inkscape:cx="165.2426"
+     inkscape:cy="91.780246"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" /><defs
+     id="defs1" /><g
+     id="Icons"
+     transform="matrix(1.1544116,0,0,1.1544116,-11.816955,-16.151169)"><path
+       d="m 32.487,66.865 c 1.7877,0.8974 3.7606,1.3642 5.761,1.363 3.4457,0.0012 6.7501,-1.369 9.184,-3.808 L 79.69,32.162 c 0.0039,-0.0039 0.0103,-0.0038 0.0141,1e-4 0.0018,0.0019 0.0029,0.0043 0.0029,0.0069 v 8.564 h 2 v -12 H 69.734 v 2 h 8.532 c 0.0055,10e-5 0.0099,0.0046 0.0099,0.0101 -10e-5,0.0026 -0.0011,0.0051 -0.0029,0.0069 L 46.235,62.788 c -1.7921,1.8485 -4.1571,3.0359 -6.71,3.369 -4.0158,0.4712 -7.9664,-1.2986 -10.288,-4.609 l -2.106,-3 -1.631,1.152 1.835,2.614 c 1.312,1.922 3.0828,3.4862 5.152,4.551 z"
+       fill="#27243f"
+       id="path1" /><path
+       d="M 16,14 H 14 V 82 H 81.97 V 80 H 16 Z"
+       fill="#27243f"
+       id="path2" /></g></svg>

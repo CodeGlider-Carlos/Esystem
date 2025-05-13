@@ -1,0 +1,521 @@
+/*////////////////////////////////////////*/
+
+
+@font-face {
+  font-family: 'OpenSans';
+  src: url('../ezsystem/fonts/Open_Sans/static/OpenSans-Light.ttf') format('truetype');
+  font-style: Light;
+  font-weight: Light;
+}
+
+@font-face {
+  font-family: 'OpenSansRegular';
+  src: url('../ezsystem/fonts/Open_Sans/static/OpenSans-Regular.ttf') format('truetype');
+  font-style: Regular;
+}
+
+@font-face {
+  font-family: 'Spartan';
+  src: url('../ezsystem/fonts/League_Spartan/LeagueSpartan-Bold.ttf') format('truetype');
+  font-style: Bold;
+  font-weight: Bold;
+}
+
+@font-face {
+  font-family: 'SpartanRegular';
+  src: url('../ezsystem/fonts/League_Spartan/LeagueSpartan-Regular.ttf') format('truetype');
+  font-style: Regular;
+  font-weight: Regular;
+}
+
+@font-face {
+  font-family: 'agrandir';
+  src: url('../ezsystem/fonts/agrandir-narrow-maisfontes.6cee/agrandir-narrow.otf') format('truetype');
+  font-style: narrow;
+  font-weight: narrow;
+}
+
+/*01. ///GENERALES///*/
+
+* {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+    user-select: none;
+  /*
+  font-family: 'agrandir';
+  */
+  font-family: OpenSansRegular;
+}
+
+*:focus {
+  outline: none;
+}
+
+body {
+  display: block;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -1000;
+  background-color: #19191a;
+}
+
+.center {
+  text-align: center;
+}
+
+.left {
+  text-align: left;
+}
+
+.justify {
+  text-align: justify;
+}
+
+.input {
+  margin: auto;
+  width: 98%;
+  text-align: center;
+  border: 1px solid gray;
+  border-radius: 3px;
+  color: #164668;
+  background-color: #F9F9F9;
+  border: none;
+  box-shadow: 2px 3px 5px -2px #9b9393;
+  height: 40px;
+  border-radius: 5px;
+  border: 0.5px solid gray;
+  margin-top: 3%;
+  font-size: 1.7vw;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.input:focus {
+  box-shadow: inset 2px 3px 5px -2px #ff3131;
+}
+a{
+  color:white;
+}
+/*///////////////////////////////////////*/
+.colorOr {
+  color: #FF513A;
+  text-shadow: 1px 1px 8px #FF513A;
+}
+
+.colorOr1 {
+  color: #FF513A;
+  text-shadow: 1px 1px 8px #FF513A;
+}
+
+.colorOr2 {
+  color: #000000;
+}
+.center {
+  text-align: center;
+}
+/*/////////////////////////////////////LOAD/////////////////////////////////////////*/
+
+#backLoad {
+  display: block;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background: #000000;
+  z-index: 5000;
+  /*display: none;*/
+}
+
+#tileLoad {
+  position: absolute;
+  width: 100%;
+  color: #ffffff;
+  top: 58%;
+  font-size: 3vh;
+  text-align: center;
+
+}
+
+#contIcL {
+  position: relative;
+  width: 10%;
+  border: 1px solid transparent;
+  margin: auto;
+  top: 44%;
+}
+
+#icLoad {
+  border: 10px solid #ed1c24;
+  border-top-color: #D9D9D9;
+  height: 80px;
+  width: 80px;
+  border-radius: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  -webkit-animation: girar 1.5s linear infinite;
+  -o-animation: girar 1.5 linear infinite;
+  animation: girar 1.5 linear infinite;
+  z-index: 21;
+}
+
+@keyframes girar {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+section[id]{
+  scroll-margin-top: 50px;
+}
+
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////BARRA DE NAVEGACION*/
+
+
+#backbavbar {
+  position: absolute;
+  color: white;
+  font-size: 0.9vw;
+  width: 101%;
+  background: #121212;
+  top: 0px;
+  border: 0.1px solid transparent;
+  height: 50px;
+  left: -1%;
+  display: block;
+}
+
+#bavbar {
+  position: absolute;
+  color: white;
+  width: 38%;
+  border: 0.01px solid transparent;
+  right: 0%;
+  top: 11px;
+}
+
+.botmenu {
+  display: inline-block;
+  margin-left: 10%;
+  cursor: pointer;
+}
+
+.botmenu:hover,
+a:hover {
+  color: #FF513A;
+  text-shadow: 1px 1px 8px #FF513A;
+}
+
+#backbackICON4 {
+  display: block;
+  position: absolute;
+  top: -7px;
+  left: 0%;
+  width: 4.5%;
+  height: 97%;
+  border: 0.1px solid transparent;
+  cursor: pointer;
+}
+
+#iconez1 {
+  display: block;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+}
+
+#iconez2 {
+  display: block;
+  height: 100%;
+  position: absolute;
+  transform: rotate(40deg);
+}
+
+#ezabsC {
+  position: absolute;
+  top: 17px;
+  left: 53%;
+  width: 240%;
+  z-index: 1;
+}
+
+
+
+
+#iconezBOD1 {
+  display: block;
+  height: 400px;
+  position: absolute;
+  z-index: 1;
+}
+
+#iconezBOD2 {
+  display: block;
+  height: 400px;
+  position: absolute;
+  transform: rotate(40deg);
+}
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////INICIO//////////*/
+#bobybody {
+  display: block;
+  position: absolute;
+  top: -8px;
+  left: -1%;
+  width: 101%;
+  height: 100%;
+  text-align: center;
+  border: 0.1px solid transparent;
+  z-index: 4500;
+  background-color: #0e0e0e;
+}
+
+#backIndex0 {
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}
+
+
+#backbackICON1 {
+  display: block;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  /*   background: #D9D9D9;*/
+  opacity: 0.3;
+}
+/*PAGE UNO*/
+
+#sombraUno {
+  width: 63%;
+  text-align: center;
+  margin-top: -6%;
+  z-index: -1;
+  box-shadow: 0px 2px 7px 0px #9b9393;
+}
+
+#backIndex {
+  width: 20%;
+  text-align: center;
+  top: 40%;
+  position: relative;
+}
+
+
+
+#backbackICON2 {
+  display: block;
+  position: absolute;
+  top: 21%;
+  left: 16%;
+  width: 20%;
+  height: 87%;
+  border: 0.1px solid transparent;
+}
+
+
+
+
+#ezabs {
+  position: absolute;
+  top: 197px;
+  left: 53%;
+  width: 135%;
+  z-index: 1;
+
+}
+
+#ezabs0 {
+  position: absolute;
+  top: 40%;
+  left: 97%;
+  width: 135%;
+  z-index: 1;
+}
+
+#slogan {
+  font-family: agrandir;
+  position: absolute;
+  top: 65%;
+  left: 40%;
+  width: 100%;
+  z-index: 1;
+  color: white;
+  font-size: 3.1vw;
+  opacity: 0.1;
+  text-align: justify;
+}
+
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////BACK ALL*/
+#backall {
+  width: 100.5%;
+  text-align: center;
+  top: 40%;
+  position: absolute;
+  border: 0.1px solid transparent;
+  overflow-y: scroll;
+  height: 100%;
+  top: 50px;
+  left: -1%;
+  overflow-y: scroll;
+  display: none;
+}
+
+/*/////////////////////////////////////////////////////////////////////////////////FORM*/
+
+#formloguin{
+  display: block;
+  position: relative;
+  margin: auto;
+  width: 269px;
+  border: 1px solid transparent;
+  margin-top: 8%;
+}
+#singin{
+  margin: auto;
+  margin-top: auto;
+  margin-top: auto;
+  width: 100%;
+  border: 1px solid transparent;
+  height: 37px;
+  margin-top: 11%;
+  color: white;
+  font-size: 42px;
+  text-align: center;
+}
+/*///////////////////////////*/
+
+#backuser{
+  margin: auto;
+  margin-top: auto;
+  width: 100%;
+  border: 1px solid transparent;
+  height: 28px;
+  margin-top: 11%;
+
+}
+
+#userOk{
+  display: block;
+  height: 34px;
+  position: absolute;
+  margin-left: -10px;
+  margin-top: -1%;
+}
+
+.usuario{
+  display: block;
+  position: absolute;
+  width: 88%;
+  height: 26px;
+  left: 30px;
+  background: #ccc;
+  border-radius: 5px;
+  border: none;
+  text-align: center;
+}
+/*///////////////////////////*/
+#backpass{
+  display: block;
+  margin: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+  margin-top: auto;
+  width: 100%;
+  border: 1px solid transparent;
+  height: 28px;
+  margin-top: 6%;
+  margin-bottom: 4%;
+}
+
+.pass{
+  display: block;
+  position: absolute;
+  width: 88%;
+  height: 26px;
+  left: 30px;
+  background: #ccc;
+  border-radius: 5px;
+  border: none;
+  text-align: center;
+}
+#candado{
+  display: block;
+  height: 32px;
+  position: absolute;
+  margin-left: -10px;
+  margin-top: -1%;
+}
+
+/*///////////////////////////*/
+
+
+
+.LOGIN{
+  display: block;
+  margin: auto;
+    margin-top: auto;
+    margin-left: auto;
+  margin-top: auto;
+  margin-top: auto;
+  width: 88%;
+  border: 1px solid transparent;
+
+  margin-top: 11%;
+  background-color: #131318;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 31px;
+  margin-left: 29px;
+  cursor: pointer;
+}
+
+
+.pass:focus,
+.usuario:focus{
+  background-color: #ffffff;
+
+  box-shadow: inset 2px 3px 5px -2px #131318;
+}
+
+
+
+
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px #fff inset;
+}
+
+
+
+
+
+
+.tuLogo{
+  height: 100%;
+  margin-left: 16px;
+  margin-top: 7px;
+}
+
+
+

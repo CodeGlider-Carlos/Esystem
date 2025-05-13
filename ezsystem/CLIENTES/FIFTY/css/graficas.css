@@ -1,0 +1,205 @@
+.container-gp {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.graph-container {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #333;
+    text-align: center;
+    margin-top: 0;
+}
+
+/* 
+============================================
+GRÁFICA CIRCULAR (DE PASTEL)
+============================================
+*/
+.pie-chart {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: conic-gradient(
+        /* PARA MODIFICAR LA GRÁFICA CIRCULAR:
+           1. Añade o quita colores según necesites
+           2. Cambia los grados (deg) para ajustar el tamaño de cada porción
+           3. Cambia los colores (códigos HEX, RGB o nombres)
+           Ejemplo: #FF6384 0deg 120deg, #36A2EB 120deg 240deg, #FFCE56 240deg 360deg
+        */
+        #FF6384 0deg 120deg, 
+        #36A2EB 120deg 240deg, 
+        #FFCE56 240deg 360deg
+    );
+    margin: 0 auto;
+    position: relative;
+}
+
+.pie-chart::before {
+    content: '';
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    background: white;
+    border-radius: 50%;
+    top: 25%;
+    left: 25%;
+}
+
+.pie-legend {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.pie-legend-item {
+    display: flex;
+    align-items: center;
+    margin: 5px 15px;
+}
+
+.pie-legend-color {
+    width: 20px;
+    height: 20px;
+    border-radius: 3px;
+    margin-right: 8px;
+}
+
+/* 
+============================================
+GRÁFICA DE BARRAS
+============================================
+*/
+.bar-chart {
+    display: flex;
+    height: 300px;
+    align-items: flex-end;
+    justify-content: space-around;
+    padding-top: 20px;
+    border-bottom: 2px solid #ddd;
+    position: relative;
+}
+
+.bar-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40px;
+}
+
+.bar {
+    width: 30px;
+    background: linear-gradient(to top, #4BC0C0, #4BC0C0dd);
+    border-radius: 5px 5px 0 0;
+    transition: height 0.5s ease;
+    position: relative;
+}
+
+/* 
+PARA MODIFICAR LA GRÁFICA DE BARRAS:
+1. Ajusta el valor de 'height' para cada barra (en porcentaje)
+2. Cambia los colores en 'background' (puedes usar diferentes colores para cada barra)
+3. Añade o quita elementos .bar según necesites
+*/
+.bar:nth-child(1) { height: 30%; background: linear-gradient(to top, #FF6384, #FF6384dd); }
+.bar:nth-child(2) { height: 60%; background: linear-gradient(to top, #36A2EB, #36A2EBdd); }
+.bar:nth-child(3) { height: 45%; background: linear-gradient(to top, #FFCE56, #FFCE56dd); }
+.bar:nth-child(4) { height: 80%; }
+.bar:nth-child(5) { height: 25%; background: linear-gradient(to top, #9966FF, #9966FFdd); }
+
+.bar-label {
+    margin-top: 10px;
+    font-size: 12px;
+    color: #666;
+}
+
+.y-axis {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 30px;
+    border-right: 1px solid #ddd;
+}
+
+.y-tick {
+    position: absolute;
+    width: 100%;
+    text-align: right;
+    padding-right: 5px;
+    font-size: 10px;
+    color: #999;
+}
+
+/* 
+============================================
+GRÁFICA LINEAL
+============================================
+*/
+.line-chart {
+    height: 300px;
+    position: relative;
+    padding: 20px 0 40px 40px;
+    border-bottom: 2px solid #ddd;
+    border-left: 2px solid #ddd;
+}
+
+.line {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.line-path {
+    fill: none;
+    stroke: #FF6384;
+    stroke-width: 3px;
+    stroke-linejoin: round;
+}
+
+/* 
+PARA MODIFICAR LA GRÁFICA LINEAL:
+1. Ajusta los puntos en el 'polyline' con los valores de 'points'
+   Formato: "x1,y1 x2,y2 x3,y3 ..."
+   - El eje Y es invertido (valores más altos están más abajo)
+   - Los valores son relativos al tamaño del contenedor
+2. Cambia el color en 'stroke'
+3. Modifica el grosor de la línea con 'stroke-width'
+*/
+.line-fill {
+    fill: #FF638422;
+    stroke: none;
+}
+
+.line-point {
+    fill: #FF6384;
+    stroke: white;
+    stroke-width: 2px;
+    r: 5px;
+}
+
+.x-labels {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.x-label {
+    font-size: 12px;
+    color: #666;
+}

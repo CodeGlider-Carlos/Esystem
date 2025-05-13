@@ -1,0 +1,1190 @@
+/*//////////////////////////////GENERALES////////////////////////////////////////////*/
+/*01. ///GENERALES///*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+    user-select: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ /*quita marco post link*/
+*:focus{
+    outline: none;
+}
+/*body de home - dash*/
+body{
+   
+    display: block;  
+    overflow: hidden;
+
+}
+
+/*/////////////////////////////////////LOAD/////////////////////////////////////////*/   
+
+#backLoad{
+    display: block;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height:100%;
+    background: #F9F9F9;
+    z-index: 5000;
+   /* display: none;*/
+}
+
+#tileLoad{
+    position: absolute;
+    width: 10%;
+    color: #181717;   
+    top: 58%;
+    left: 44%;
+    font-size: 25px;
+}
+
+#contIcL{
+    position: absolute;
+    width: 10%;
+    top: 45.5%;
+    left: 44%;
+    border: 1px solid transparent;
+}
+#icLoad{
+    border: 10px solid #006AA6;
+    border-top-color: #D9D9D9;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    -webkit-animation: girar 1.5s linear infinite;
+    -o-animation: girar 1.5 linear infinite;
+    animation: girar 1.5 linear infinite;
+    z-index: 21;
+}
+@keyframes girar{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }   
+}
+
+
+/*////////////////////////////////////////////////////////////////////////////REGRESAR Y RECARGA*/
+#back8{
+    top: 75%;
+    left: 77%;
+    width: 22%;
+    height: 17%;
+    box-shadow: inset 1px 1px 5px 1px #9b9393;
+}
+
+#backRegresar{
+    position: absolute;
+    width: 58px;
+    height: 58px;
+    overflow: hidden;
+    top: 15%;
+    left: 65%;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 2px 3px 5px -2px #9b9393;
+}
+#regresar{
+    position: relative;
+    top: 20%;
+    width: 73%;
+    cursor: pointer;
+    transition: 100ms;
+    height: 73%;
+}
+
+#reload{
+    left: 17%;
+    display: block;
+    height: 58px;
+    position: absolute;
+    width: 58px;
+    top: 15%;
+    right: 0%;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    text-align: center;
+    background: #D9D9D9;
+    box-shadow: 2px 3px 5px -2px #9b9393;
+
+}
+#reloadIcon{
+    height: 42px;
+    position: relative;
+    top: 2vh;
+    z-index: 1000;
+}
+
+/*/////////////////////////////////////////////////////////////////////////////////////*/
+#contTab{
+    display: block;
+    position: absolute;
+    top: 24PX;
+    left: 0%;
+    width: 100%;
+    height: 93%;
+    border: 1px solid transparent;
+    display: none;
+
+}
+#filtros{
+    position: absolute;
+    color: black;
+    font-size: 10px;
+    margin-left: 2.2%;
+}
+.backtab{
+    position: absolute;
+    background-color: #D9D9D9; 
+    border-radius: 5px;
+}
+
+#back1{
+    top: 1%;
+    left: 1%;
+    width: 75%;
+    height: 90.7%;
+    box-shadow: 1px 1px 5px 1px #9b9393;
+    transition: 400ms;
+    overflow: hidden;
+}
+#backClick1{
+    position: absolute;
+    top: 29px;
+    left: 21px;
+    width: 39px;
+    height: 7%;
+    border-radius: 2px;
+    cursor: pointer;
+    border: 1px solid transparent;
+}
+#backClick1b{
+    position: absolute;
+    top: 29px;
+    left: 21px;
+    width: 39px;
+    height: 7%;
+    border-radius: 2px;
+    cursor: pointer;
+    border: 1px solid transparent;
+    display: none;
+}
+.barrclick{
+    position: relative;
+    margin-top: 7%;
+    left: 5%;
+    width: 90%;
+    height: 2px;
+    background-color: #333536;
+    border-radius: 9px;
+    box-shadow: 0px 2px 7px 0px #9b9393;
+}
+/*TITULO GENERAL DE SECCION*/
+.titleSection{
+    position: relative;
+    width: 96%;
+    border: none;
+    box-shadow: 2px 3px 5px -2px #9b9393;
+    text-align: center;
+    background: linear-gradient(90deg, rgb(2, 4, 141) 0%, rgb(45, 93, 237) 64%);
+    color: #ffffff;
+    z-index: 1;
+    margin: auto;
+      margin-top: auto;
+    border-radius: 5px;
+    margin-top: 9px;
+}
+.titleSection2{
+    position: relative;
+    width: 100%;
+    margin-top: 9px;
+    border: none;
+    box-shadow: 2px 3px 5px -2px #9b9393;
+    text-align: center;
+    background: linear-gradient(90deg, rgb(143, 142, 141) 0%, rgb(218, 216, 213) 64%);
+    color: #27243F;
+    z-index: 1;
+    margin: auto;
+    border-radius: 5px;
+}
+
+#back2{
+    top: 1%;
+    left: 24%;
+    width:52%;  
+    height:29%;
+    box-shadow:  1px 1px 5px 1px   #9b9393;
+}
+
+#back3{
+    top: 1%;
+    left: 77%;
+    width:22%;  
+    height:29%;
+    box-shadow:  1px 1px 5px 1px  #9b9393;
+    transition: 300ms;
+}
+
+
+
+#back4{
+    top: 33%;
+    left: 77.1%;
+    width: 22%;
+    height: 39%;
+    box-shadow: 1px 1px 5px 1px #9b9393;
+    overflow: hidden;
+    transition: 300ms;
+}
+
+#backClick4{
+    display: block;
+    position:absolute;
+    top: 5%;
+    left: 6%;
+    width:21%;  
+    height:37px;
+    background-color: #F9F9F9;  
+    box-shadow:  1px 1px 5px 1px   #9b9393;
+    border-radius: 2px;
+    cursor: pointer;
+}
+#backClick4b{
+    display: block;
+    position:absolute;
+    top: 5%;
+    left: 6%;
+    width:21%;  
+    height:37px;
+    background-color: #F9F9F9;  
+    box-shadow:  1px 1px 5px 1px   #9b9393;
+    border-radius: 2px;
+    cursor: pointer;
+    display: none;
+}
+#click4{
+    position: absolute;
+    top: 7%;
+    left: 13%;
+    height: 31px; 
+}
+
+#back5{
+    top: 32.9%;
+    left: 90.2%;
+    width: 9%;
+    height: 19%;
+    box-shadow: inset 1px 1px 6px 1px #9b9393;
+}
+
+/*///////////////////////////////////////////////////////////////////////BACK DESEMPEÑO GLOBAL*/
+#back6{
+    top: 1%;
+    left: 77%;
+    width: 22%;
+    height: 29%;
+    box-shadow: 1px 1px 5px 1px #9b9393;
+}
+#back6uno{
+    display: block;
+    position: relative;
+    top: 14%;
+    left: 6%;
+    width: 88%;
+    height: 47%;
+    background: linear-gradient(90deg, rgb(44, 1, 1) 6%, #E5314C 54%, #EFD846 74%, #47CF52 95%, #0255F3 100%);
+      cursor: pointer;
+    border-radius: 7px;
+}
+.destotal{
+    position: absolute;
+    top: -41%;
+    left: 0%;
+    width: 100%;
+    font-size: 15px;
+    text-align: center;
+    z-index: 1;
+    color: white;
+}
+
+#backAguja{
+    display: block;
+    position: relative;
+    top: 36%;
+    width: 100%;
+    height: 92%;
+    border: 1px solid transparent;
+}
+#aguja{
+    position: relative;  
+    height: 100%;    
+}
+
+/*0 A 15*/
+.aguj015{
+    position: relative;
+    left:5%;
+}
+/*15 A 25*/
+.aguj1525{
+    position: relative;
+    left:10%;
+}
+/*25 A 35*/
+.aguj2535{
+    position: relative;
+    left:20%;
+}
+/*35 A 45*/
+.aguj3545{
+    position: relative;
+    left:30%;
+}
+
+/*50%
+45 55
+*/
+.aguj4555{
+    position: relative;
+    left:45%;
+}
+
+
+/*55 A 75*/
+
+.aguj5575{
+    position: relative;
+    left:55%;
+}
+
+/*75 A 85*/
+
+.aguj7585{
+    position: relative;
+    left:65%;
+}
+/*85A95*/
+.aguj8595{
+    position: relative;
+    left:75%;
+}
+/*95 A 100*/
+.aguj95100{
+    position: relative;
+    left:85%;
+}
+
+
+
+
+#back7{
+    position: relative;
+    top: 54%;
+    left: 90.4%;
+    width: 8.6%;
+    height: 18.6%;
+    color: #AFABAB;
+    font-size: 32px;
+    box-shadow: 1px 1px 6px 1px #9b9393;
+}
+
+
+
+/*///////////////////////////////////////////////////////////////////////////////////////INDICADORES*/
+
+.divdiv{
+
+    height: 5px;
+    background: rgb(185, 183, 183);
+    border-radius: 5px;
+    margin-top: 15px;
+    width: 235%;
+    display: block;
+    margin-left: 2%;
+
+}
+
+/*columnas*/
+
+#vacios{
+    width: 37%;
+
+}
+#pondes{
+    width: 10%;
+}
+#metas{
+    width: 10%;
+}
+
+#logros{
+    width: 10%;
+}
+
+#cumples{
+    width: 10%;
+}
+
+#deses{
+    width: 10%;
+}
+
+
+
+/*////*/
+input[type='text']#ponderacion,
+input[type='text']#meta,
+input[type='text']#logro,
+input[type='text']#desempeno
+{
+    position: relative;
+    width: 96%;
+  
+    margin-top: 3.5px;
+    background-color: #F9F9F9;
+    box-shadow: 1px 1px 2px 1px #9b9393;
+    border: none;
+    color: #050505;
+    margin-left: 2%;
+    border-radius: 5px;
+    text-align: center;
+}
+input[type='text']#servdepp
+{
+    position: relative;
+    width: 96%;
+  
+    margin-top: 3.5px;
+    background: #858585;
+    box-shadow: 1px 1px 2px 1px #9b9393;
+    border: none;
+    color: white;
+    margin-left: 2%;
+    border-radius: 5px;
+    text-align: center;
+}
+
+input[type='text']#resultado
+{
+    position: relative;
+    width: 96%;
+  
+    margin-top:3.5px;
+    box-shadow:  1px 1px 2px 1px  #9b9393;
+    border: none; 
+    margin-left: 2%;
+    border-radius: 5px;
+    text-align: center;
+}
+
+textarea#nomindic
+{
+    position: relative;
+    width: 96%;
+    height: 50px;
+    margin-top: 1px;
+    background-color: #F9F9F9;
+    box-shadow: 1px 1px 2px 1px #9b9393;
+    border: none;
+
+    margin-left: 2%;
+    border-radius: 5px;
+    resize: vertical;
+    text-align: justify;
+    font-size: 13px;
+    transition: 200ms;
+    cursor: pointer;
+}
+textarea#nomindic:focus{
+    font-size: 20px;
+    color: black;
+}
+input[type='text']#perspecc
+{
+    position: relative;
+    width: 300%;
+    height: 50px;
+    margin-top: 3.5px;
+    background-color: #F9F9F9;
+    box-shadow: 1px 1px 2px 1px #9b9393;
+    border: none;
+    color: gray;
+    margin-left: 2%;
+    border-radius: 5px;
+    resize: none;
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 4px;
+}
+
+input[type='text']#idobjet
+{
+    position: relative;
+    width: 198%;
+    height: 50px;
+    margin-top: -0.5px;
+    background-color: #F9F9F9;
+    box-shadow: 1px 1px 2px 1px #9b9393;
+    border: none;
+    color: #a8a8a8;
+    margin-left: 2%;
+    border-radius: 5px;
+    font-size: 12px;
+    text-align: center;
+}
+
+#tablaINDI{
+    display: block;
+    position: absolute;
+    width: 97.2%;
+    height: 85%;
+    top: 57px;
+    left: 2%;
+    overflow-y: scroll;
+    border: 1px solid transparent;
+ /*   background: #F9F9F9;*/
+    border-radius: 5px;
+    
+}
+#columnasMEs{
+    color: white;
+}
+#columnasindi{
+
+    font-size: 12px;
+}
+#tablataINDI{
+    position: relative;
+    width: 100%;
+    left: -1%;
+    font-size: 10px;
+    top: 0%;
+    border: 1px solid transparent;
+}
+
+#tablataINDImes{
+    display: block;
+    position: relative;
+    width: 150%;
+    left: 0%;
+    font-size: 10px;
+    top: 0%;
+    border: 1px solid transparent;
+    display: none;
+    background: #F9F9F9;
+}
+
+
+/*SEMAFORO */
+
+
+.seBLUE{
+    background-color:#0255F3;
+    color:white ;
+}
+.seGREEN{
+    background-color:#47CF52;
+      color:white ;
+}
+.sePINK{
+    background-color: #EFD846;
+    color: #000000;
+}
+.sePINKrojo{
+    background-color: #E5314C;
+    color:white ;
+}
+.seBlack{
+    background-color: rgb(44, 1, 1);
+    color:white ;
+}
+.seNE{
+    background-color: #c7c7c7;
+
+}
+
+
+/*///////////////////////////////////////////////////////////////////////////////////////KPIS*/
+
+
+#tablaKPIS{
+    display: block;
+    position: absolute;
+    width: 94%;
+    height: 59%;
+    top: 30%;
+    left: 5%;
+    font-size: 10px;
+    overflow-y: scroll;
+}
+#tablataKPIS{
+    position: relative;
+    width: 96.7%;
+    left: 1%;
+    font-size: 13px;
+    top: 0%;
+}
+
+#colkpisimg{
+    width:10%;
+
+}
+
+#colkpis{
+    width:10%;
+ 
+
+}
+td#kpisimg{
+    box-shadow: 1px 1px 2px 1px #c7c1c1;
+    height: 16px;
+    text-align: center;
+}
+
+td#kpis{
+   
+    box-shadow:  1px 1px 2px 1px  #c7c1c1;  
+    text-align: center;
+}
+
+.kpisimg{
+    position: relative;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    text-align: center;
+}
+
+
+
+
+
+/*///////////////////////////////EVENTOS*/
+
+#tablaEventos{
+    position: relative;
+    width: 77%;
+    height:60%;
+    top: 33%;
+    left: 20%; 
+    font-size: 10px;
+    overflow-y: scroll;
+}
+#tablatabEv{
+    position: relative;
+    width: 800%;
+    left: 0%; 
+    font-size: 10px;
+}
+
+#columnaseV{
+    background-color: #F3F4F7;
+    box-shadow:  1px 1px 2px 1px  #c7c1c1;   
+    font-size: 8px;
+    color: #00454D;
+}
+
+
+
+#id{
+    width:2%;  
+}
+#fecha{
+    width:3%;   
+}
+#tipo{
+    width:1.5%;   
+}
+#severidad{
+    width:2.5%;   
+}
+#falla{
+    width:18%;
+}
+#evento{
+    width:16%;
+}
+#servicio{
+    width:6%;   
+}
+#turno{
+    width:2%;
+}
+#trabajador{
+    width:13%; 
+}
+#observaciones{
+    width:32%;
+}
+#evaluador{
+    width:8%;
+    text-align: center;
+}
+/*//////////////*/
+#idd{
+    width:100%;
+    text-align: center;
+}
+#fechaa{
+    width:100%;
+    text-align: center;
+}
+#servicioo{
+    width:100%;
+    text-align: center;
+}
+#turnoo{
+    width:100%;
+    text-align: center;
+}
+#trabajadorr{
+    width:100%;
+    text-align: left;
+}
+#fallaa{
+    width:100%;
+}
+#eventoo{
+    width:100%;
+}
+#tipoo{
+    width:100%;
+    text-align: center;
+}
+#severidadd{
+    width:100%;
+    text-align: center;
+}
+#observacioness{
+    width:100%;
+    text-align: left;
+}
+#evaluadorr{
+    width:100%;
+    text-align: center;
+}
+
+
+/*/////////////////////////////////////////MESES*/
+
+
+#tablaMES{
+    display: block;
+    position: absolute;
+    top: 0%;
+    left: 5%;
+    width: 90%;
+    height: 83%;
+    z-index: 1;
+    font-size: 10px;
+}
+
+#grafmes {
+    display: block;
+    position: absolute;
+    bottom: 23%;
+    left: 1%;
+    width: 96%;
+    height: 75%;
+    border: 1px solid transparent;
+}
+/*MES*/
+.tabbluemes{  
+    width: 15px;
+    height: 15px;
+    border-radius: 10px;
+    background-color: #0255F3;  
+    box-shadow: 1px 1px 2px 1px #9b9393;
+}
+.tabgreenmes{  
+    width: 15px;
+    height: 15px;
+    border-radius: 10px;
+    background-color: #47CF52;  
+    box-shadow: 1px 1px 2px 1px #9b9393;
+}
+.tabyellmes{
+  
+    width: 15px;
+    height: 15px;
+    border-radius: 10px;
+    background-color: #EFD846;
+    color: transparent;
+    box-shadow: 1px 1px 2px 1px #9b9393;
+}
+.taborangemes{
+
+    width: 15px;
+    height: 15px;
+    border-radius: 10px;
+    background-color: #E5314C;  
+    color: transparent;
+    box-shadow: 1px 1px 2px 1px #9b9393;
+}
+
+.taborredmes{
+
+    width: 15px;
+    height: 15px;
+    border-radius: 10px;
+    background-color: rgb(44, 1, 1);
+    color: transparent;
+    box-shadow: 1px 1px 2px 1px #9b9393;
+}
+
+
+.tabcinemes{
+    width: 15px;
+    height: 15px;
+    border-radius: 10px;
+    background-color: #F3F4F7;
+    color: transparent;
+    box-shadow: 1px 1px 2px 1px #9b9393;
+ 
+}
+#mes1{
+    display: block;
+    position: absolute;
+    top: 70%;
+    left: 5%;
+    width: 15px;
+   
+}
+
+#mes2{
+    display: block;
+    position: absolute;
+    top: 70%;
+    left: 13%;
+    width: 15px;
+    
+}
+
+#mes3{
+    display: block;
+    position: absolute;
+    top: 70%;
+    left: 21%;
+    width: 15px;
+}
+#mes4{
+    display: block;
+    position: absolute;
+    top: 70%;
+    left: 29%;
+    width: 15px;
+  
+}
+#mes5{
+    display: block;
+    position: absolute;
+    top: 70%;
+    left: 38%;
+    width: 15px;
+ 
+}
+
+#mes6{
+    display: block;
+    position: absolute;
+    top: 70%;
+    left: 47%;
+    width: 15px;
+  
+}
+
+#mes7{
+    display: block;
+    position: absolute;
+    top: 70%;
+    left: 56%;
+    width: 15px;
+  
+}
+
+#mes8{
+    display: block;
+    position: absolute;
+    top: 70%;
+    left: 64%;
+    width: 15px;
+
+}
+
+#mes9{
+    display: block;
+    position: absolute;
+    top: 70%;
+    left: 72%;
+    width: 15px;
+ 
+}
+
+#mes10{
+    display: block;
+    position: absolute;
+    top: 70%;
+    left: 81%;
+    width: 15px;
+   
+}
+
+#mes11{
+    display: block;
+    position: absolute;
+    top: 70%;
+    left: 89%;
+    width: 15px;
+   
+}
+#mes12{
+    display: block;
+    position: absolute;
+    top: 70%;
+    left: 97.7%;
+    width: 15px;
+    
+}
+.resmes1{
+    position: absolute;
+    top: 30%;
+    left: 4%;
+    font-size:10px;
+ }
+ .resmes2{
+     position: absolute;
+     top: 30%;
+     left: 12%;
+     font-size:10px;
+  }
+  .resmes3{
+     position: absolute;
+     top: 30%;
+     left:20%;
+     font-size:10px;
+  }
+  .resmes4{
+     position: absolute;
+     top: 30%;
+     left: 28%;
+     font-size:10px;
+  }
+  .resmes5{
+     position: absolute;
+     top: 30%;
+     left: 37%;
+     font-size:10px;
+  }
+  .resmes6{
+     position: absolute;
+     top: 30%;
+     left: 46%;
+     font-size:10px;
+  }
+  .resmes7{
+     position: absolute;
+     top: 30%;
+     left: 55%;
+     font-size:10px;
+  }
+  .resmes8{
+     position: absolute;
+     top: 30%;
+     left: 62.4%;
+     font-size:10px;
+  }
+  .resmes9{
+     position: absolute;
+     top: 30%;
+     left: 70.5%;
+     font-size:10px;
+  }
+  .resmes10{
+     position: absolute;
+     top: 30%;
+     left: 79.5%;
+     font-size:10px;
+  }
+  .resmes11{
+     position: absolute;
+     top: 30%;
+     left: 87.5%;
+     font-size:10px;
+  }
+  .resmes12{
+     position: absolute;
+     top: 30%;
+     left: 96.5%;
+     font-size:10px;
+  }
+
+.nommes{
+    display: block;
+    position: absolute;
+    color: black;
+}
+#mesene{
+   
+    bottom: 0%;
+    left: 5.6%;
+ 
+}
+#mesfeb{
+  
+    bottom: 0%;
+    left: 13%;
+  
+}
+#mesmar{
+   
+    bottom: 0%;
+    left: 20.8%;
+   
+}
+#mesabr{
+   
+    bottom: 0%;
+    left: 28.5%;
+   
+}
+#mesmay{
+   
+    bottom: 0%;
+    left: 37.2%;
+    
+}
+#mesjun{
+   
+    bottom: 0%;
+    left: 45.9%;
+   
+}
+#mesjul{
+  
+    bottom: 0%;
+    left: 54.8%;
+   
+}
+#mesago{
+    display: block;
+    position: absolute;
+    bottom: 0%;
+    left: 61.8%;
+  
+}
+#messep{
+ 
+    bottom: 0%;
+    left: 70%;
+   
+}
+#mesoct{
+ 
+    bottom: 0%;
+    left: 78.5%;
+  
+}
+#mesnov{
+   
+    bottom: 0%;
+    left: 86%;
+
+}
+#mesdic{
+  
+    bottom: 0%;
+    left: 94.9%;
+   
+}
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<diseño tabla meses*/
+.ocucol{
+    background-color: transparent;
+    color: #e9ebeb !important;
+    height: 18px;
+    border-radius: 8px 8px 0px 0px;
+    border: 1px solid transparent;
+    position: absolute;
+    z-index: 11;
+    width: 98%;
+    top: 0%;
+}
+
+#tablataINDImes td{
+    box-shadow: 1px 1px 2px 1px #c7c1c1;
+}
+#columnasMEs th{
+    box-shadow:  1px 1px 2px 1px  #c7c1c1;   
+    font-size: 8px;
+    background-color: #9e9b9b !important;
+    color: #ffffff;
+    font-size: 12px;
+}
+
+/*
+#columnasMEs th{
+    box-shadow:  1px 1px 2px 1px  #c7c1c1;   
+    font-size: 8px;
+    background-color: #2646b0;
+    color: #e9ebeb;
+    font-size: 12px;
+}
+
+#tablataINDImes tr td{
+    cursor: pointer;
+}
+
+#tablataINDImes tbody tr:nth-child(even){
+    background-color: #e6e6e6;
+}
+#tablataINDImes tbody tr th:nth-child(odd){
+    background-color: #d1d1d1;
+
+}*/
+table#tablataINDImes tr:hover{
+    background: rgb(16,43,45);
+    background: linear-gradient(90deg,  #023189 59%, #0255F3 74%, #0255F3 91%, #508af5 100%);
+    color: rgb(255, 255, 255)!important;
+}
+
+.indiuser{
+    width: 8%;
+}
+.indiik{
+    width: 20%;
+}
+.longmes{
+    width: 2%;
+}
+.mesess
+{
+    
+    box-shadow:  1px 1px 2px 1px  #c7c1c1; 
+    height: 15px;  
+    text-align: center;
+    font-size: 12px;
+}
+td#indileft
+{
+
+    height: 15px;  
+    text-align: justify;
+    font-size: 12px;
+ 
+}
+.center{
+    text-align: center;
+}

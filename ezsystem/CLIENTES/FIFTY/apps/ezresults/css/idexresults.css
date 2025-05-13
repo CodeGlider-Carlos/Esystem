@@ -1,0 +1,791 @@
+body {
+  overflow: hidden;
+}
+
+/*/////////////////////////////////////////NAVEGACION LEFT*/
+
+#navleft {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  height: 100%;
+  width: 46px;
+  text-align: center;
+  z-index: 2;
+}
+
+.bakBoton {
+  width: 100%;
+  cursor: pointer;
+  text-align: center;
+  position: relative;
+  margin: auto;
+  margin-top: auto;
+  margin-top: 18%;
+  border: 0.5px solid transparent;
+}
+#bakBoton1 {
+  margin-top: 103%;
+}
+
+.lognav {
+  width: 74%;
+}
+
+#lognav7 {
+  position: absolute;
+  bottom: 1%;
+  left: 0%;
+}
+
+/*////////////////////////TEXTO NAVEGACION LEFT*/
+
+.txttx {
+  position: absolute;
+  width: 399%;
+  top: 28%;
+  border-radius: 5px;
+  left: 90%;
+
+  font-size: 13px;
+  display: none;
+}
+
+#txt7 {
+  position: absolute;
+}
+
+/*///////////////////////////////CONEXION MODS*/
+#MODS {
+  display: block;
+  position: absolute;
+  left: 46px;
+  width: 96.9%;
+  border: 1px solid rgb(206, 202, 202);
+  height: 100%;
+}
+
+#iframeSuite {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.submit {
+  position: absolute;
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  left: 0px;
+  color: transparent;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+/*//////////////////////////////////barra superior nav*/
+
+#navsup {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 46px;
+  text-align: right;
+}
+#blockMod {
+  position: absolute;
+  top: -26px;
+  left: -28px;
+  width: 103%;
+  height: 112%;
+  text-align: right;
+  z-index: 1;
+  background: white;
+  display: none;
+  border-radius: 21px 0px 0px 0px;
+}
+
+/*///////////////////////MODO SEGUIMIENTO*/
+
+#modprosp {
+  position: absolute;
+  top: 47px;
+  left: 48.3px;
+  width: 95.6vw;
+  height: 93%;
+  text-align: center;
+  background: white;
+  border-radius: 5px;
+}
+
+#modname {
+  font-size: 24px;
+  width: 19.8%;
+  border-radius: 5px;
+  z-index: 20;
+  position: absolute;
+  left: 3.1%;
+  top: 19%;
+  text-align: center;
+  height: 68%;
+  display: none;
+}
+
+.sectionmod {
+  position: absolute;
+  width: 19.3%;
+  height: 93.3%;
+}
+.sectionmodVINC {
+  background: #f6f9fa;
+  position: absolute;
+  width: 19.3%;
+  height: 21.3%;
+}
+.line1 {
+  background-color: #f3c144;
+  height: 5px;
+  width: 100%;
+}
+
+.namesect {
+  position: relative;
+  top: 0px;
+  width: 100%;
+  border-radius: 5px;
+  font-size: 1.3vw; /*OJO VERIFICAR RESPONSIVE*/
+}
+
+#Buscar {
+  background: #9aa6b7;
+  color: white;
+  width: 20%;
+  margin-left: -80%;
+  text-align: center;
+}
+
+#namesect3 {
+  font-size: 1.3vw;
+}
+
+#namesect4 {
+  background: #a58123;
+  color: white;
+}
+#namesect5 {
+  background: #4f6a7d;
+  color: white;
+}
+
+/**/
+
+.tabcpo {
+  width: 100%;
+  background: #ffffff;
+  margin-top: 2%;
+}
+
+/*///////////////////////////////////////////////////////*/
+
+#section1 {
+  display: block;
+  left: 1%;
+  width: 22.3%;
+  top: 8px;
+  height: 96.3%;
+}
+#section1a {
+  display: block;
+  left: 1%;
+  width: 19.7%;
+  top: 8px;
+  height: 96.3%;
+}
+
+#section2 {
+  display: block;
+  left: 24%;
+  width: 75.3%;
+  top: 8px;
+}
+
+#section2VINC {
+  display: block;
+  top: 8px;
+  left: 40%;
+  display: none;
+}
+
+#section3 {
+  display: block;
+  top: 8px;
+  left: 62%;
+  display: none;
+}
+/*/////////////////////////////////////////////////////////////AGREGAR*/
+
+.label {
+  margin: auto;
+  width: 98%;
+  font-size: 0.8vw;
+  text-align: left;
+  /*  color: gray;*/
+}
+.select {
+  margin: auto;
+  width: 98%;
+  text-align: center;
+  color: #164668;
+  box-shadow: 2px 1px 5px -2px #9b9393;
+}
+
+.textarea {
+  margin: auto;
+  width: 97%;
+  text-align: center;
+  resize: none;
+  border: 1px solid gray;
+  border-radius: 3px;
+  color: #164668;
+  box-shadow: 2px 3px 5px -2px #9b9393;
+}
+.input {
+  margin: auto;
+  width: 98%;
+  text-align: center;
+  border: 1px solid gray;
+  border-radius: 3px;
+  color: #164668;
+
+  background-color: #f9f9f9;
+  border: none;
+  box-shadow: 2px 3px 5px -2px #9b9393;
+  height: 25px;
+  border-radius: 5px;
+}
+.input:focus,
+.select:focus,
+.textarea:focus {
+  background-color: #ffffff;
+
+  box-shadow: inset 2px 3px 5px -2px #00a3e1;
+}
+
+#backallres {
+  position: absolute;
+  background: transparent;
+  width: 95%;
+  height: 86%;
+  top: 74px;
+  right: 0px;
+  border-radius: 22px 0px 0px 22px;
+}
+
+/*/////////////////////////////////////////////////////////////////////////////FILTROS*/
+#back_filtrar {
+  width: 23vw;
+  height: 389px;
+
+  overflow: hidden;
+  margin: auto;
+  margin-top: auto;
+  margin-top: auto;
+  margin-top: 12%;
+}
+
+.input {
+  margin: auto;
+  margin-bottom: 15px;
+  width: 98%;
+  text-align: center;
+  border: 1px solid gray;
+  border-radius: 3px;
+  color: #164668;
+  background-color: #f9f9f9;
+  border: none;
+  box-shadow: 2px 3px 5px -2px #9b9393;
+  height: 35px;
+  border-radius: 5px;
+}
+.namesect {
+  position: relative;
+  top: 0px;
+  width: 98%;
+  border-radius: 5px;
+  font-size: 1.3vw;
+  box-shadow: 2px 3px 5px -2px #9b9393;
+  background: linear-gradient(29deg, #182128 0%, #2c4457 100%);
+  background: black;
+  color: white;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+#continuar1 {
+  background-color: #131318;
+  color: white;
+  font-size: 16px;
+  padding: 9px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  width: 100%;
+}
+
+/*////////////////////////////////////////////CARRUSEL*/
+
+#back_rrusel {
+  position: relative;
+  width: 23vw;
+  height: 400px;
+  overflow: hidden;
+  margin: auto;
+  margin-top: auto;
+  margin-top: auto;
+  margin-top: 12%;
+}
+
+#backriel {
+  width: 100%;
+  max-width: 5;
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.boton_riel {
+  padding: 10px 20px;
+  margin: 0 5px;
+  border-radius: 50px;
+  background: linear-gradient(29deg, #19191A 0%, #525252 100%);
+  box-shadow: 0px 1px 3px 1px #8a8372;
+  cursor: pointer;
+  border: none;
+  color: white;
+  font-weight: bold;
+  font-family: inherit;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.boton_riel:hover {
+  transform: translateY(-2px);
+  box-shadow: 0px 3px 6px 2px #8a8372;
+}
+
+.marginleft {
+  margin-left: 35px;
+}
+#mover {
+  width: 100%;
+  height: 100%;
+  border: 1px solid transparent;
+  position: absolute;
+  display: block;
+}
+
+/*///////////////MODOS*/
+#mod_indica {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0%;
+}
+#mod_estado {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0%;
+  display: none;
+}
+#mod_estrat {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0%;
+  display: none;
+}
+#mod_flujo {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0%;
+  display: none;
+}
+#mod_prod {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0%;
+  display: none;
+}
+
+/*////////////////////////////////////////////////////////////////////////ESTADO DE RESULTADOS*/
+
+#back_estado {
+  position: absolute;
+  background: #19191a;
+  width: 40%;
+  height: 497px;
+  top: 65px;
+  left: 2%;
+  box-shadow: 1px 0px 10px 0px #000;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+#back_ingresos {
+  position: absolute;
+  width: 40%;
+  height: 556px;
+  top: 21px;
+  left: 50%;
+  box-shadow: 1px 0px 10px 0px #000;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+#back_comercial {
+  position: absolute;
+  width: 99%;
+  height: 556px;
+  top: -16px;
+  left: 0%;
+  border-radius: 12px;
+}
+
+.iframeCal3 {
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  height: 100%;
+  overflow-y: scroll;
+  border: none;
+  border-radius: 8px;
+}
+
+/*////////////////////////////////////////////////////////////////////////OBJETVOS Y PRESUPUESTO*/
+
+#backallobj {
+  position: absolute;
+  top: 5%;
+  left: 39%;
+  border-radius: 12px;
+  width: 17%;
+  border: 1px solid transparent;
+  height: 251px;
+}
+
+.circobj {
+  z-index: 1;
+  position: absolute;
+}
+.img_grafa {
+  width: 102%;
+}
+
+.img_grafa0 {
+  width: 100%;
+  position: absolute;
+}
+
+#backppto {
+  position: absolute;
+  top: 55%;
+  left: 39%;
+  border-radius: 12px;
+  width: 17%;
+  border: 1px solid transparent;
+  height: 251px;
+}
+
+.cirppto {
+  z-index: 1;
+  position: absolute;
+}
+.gra_b {
+  width: 102%;
+}
+
+/*////////////////////////////////////////////////////////////////////////////////////////////////////BARRAS*/
+#backBARRAS {
+  width: 31.8%;
+  position: absolute;
+  right: 5.4%;
+  border: 1px solid transparent;
+  top: 29%;
+}
+
+.taball {
+  width: 100%;
+}
+.colicon {
+  width: 1%;
+}
+.colbarr {
+  width: 99%;
+}
+.imaboto2 {
+  position: relative;
+  left: 1px;
+  top: 0px;
+  width: 100%;
+  top: -0.3px;
+}
+
+.backicon2 {
+  border: 1px solid transparent;
+  margin-top: 2%;
+  background: #212327;
+  margin-left: 35%;
+  width: 23px;
+  height: 23px;
+  border-radius: 10px;
+  box-shadow: 1px 0px 3px 0px #000;
+  text-align: center;
+  z-index: 1;
+  position: relative;
+  margin-top: 14%;
+  transition: 900ms;
+  cursor: pointer;
+}
+.backicon2:hover {
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+}
+.barraBack {
+  width: 100%;
+  background: #999;
+  height: 17px;
+  /* border-radius: 0px 10px 10px 0px;*/
+  border-radius: 10px;
+  margin-left: 0%;
+  margin-top: 2px;
+}
+
+.barraProg1 {
+  background: #999;
+  height: 17px;
+  /* border-radius: 0px 10px 10px 0px;*/
+  border-radius: 10px;
+  margin-left: 0%;
+  background: linear-gradient(29deg, #ff3432 0%, #ff8a4b 100%);
+  background: #19191a;
+}
+.barraProg2 {
+  background: #999;
+  height: 17px;
+  /* border-radius: 0px 10px 10px 0px;*/
+  border-radius: 10px;
+  margin-left: 0%;
+  background: linear-gradient(29deg, #ff3432 0%, #ff8a4b 100%);
+}
+.barraProg3 {
+  background: #999;
+  height: 17px;
+  /* border-radius: 0px 10px 10px 0px;*/
+  border-radius: 10px;
+  margin-left: 0%;
+  background: linear-gradient(29deg, #ffc700 0%, #d58327 100%);
+}
+.barraProg4 {
+  background: #999;
+  height: 17px;
+  /* border-radius: 0px 10px 10px 0px;*/
+  border-radius: 10px;
+  margin-left: 0%;
+  background: linear-gradient(29deg, #ffc700 0%, #d58327 100%);
+}
+/*SEMAFORO BARRAS*/
+
+.porceNE {
+  width: 0%;
+}
+
+.porce0 {
+  width: 0%;
+}
+.porce2_5 {
+  width: 2.5%;
+}
+
+.porce5 {
+  width: 5%;
+}
+
+.porce10 {
+  width: 10%;
+}
+
+.porce15 {
+  width: 15%;
+}
+
+.porce20 {
+  width: 20%;
+}
+
+.porce25 {
+  width: 25%;
+}
+
+.porce30 {
+  width: 30%;
+}
+
+.porce35 {
+  width: 35%;
+}
+
+.porce40 {
+  width: 40%;
+}
+
+.porce45 {
+  width: 45%;
+}
+
+.porce50 {
+  width: 50%;
+}
+
+.porce55 {
+  width: 55%;
+}
+
+.porce60 {
+  width: 60%;
+}
+
+.porce65 {
+  width: 65%;
+}
+
+.porce70 {
+  width: 70%;
+}
+
+.porce75 {
+  width: 75%;
+}
+
+.porce80 {
+  width: 80%;
+}
+
+.porce85 {
+  width: 85%;
+}
+
+.porce90 {
+  width: 90%;
+}
+
+.porce95 {
+  width: 95%;
+}
+
+.porce98 {
+  width: 98%;
+}
+
+.porce100 {
+  width: 100%;
+}
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////CIRCULOS*/
+
+.backCIRC {
+  display: block;
+  position: absolute;
+  border: 1px solid transparent;
+  width: 115px;
+  height: 115px;
+  border-radius: 100px;
+  background: linear-gradient(29deg, #c6bfbd 0%, #e9e9e9 100%);
+  text-align: center;
+  box-shadow: inset 1px -1px 11px -1px #9b9393;
+}
+.circUno {
+  background: linear-gradient(29deg, #ffc700 0%, #d58327 100%);
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 27px;
+  left: 23%;
+  border-radius: 100px;
+}
+.circUno2 {
+  background: linear-gradient(29deg, #ff3432 0%, #ff8a4b 100%);
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 27px;
+  left: 23%;
+  border-radius: 100px;
+}
+.circDos {
+  display: block;
+  background: #19191a;
+  width: 45px;
+  height: 45px;
+  position: absolute;
+  top: 8.5px;
+  left: 8px;
+  border-radius: 100px;
+}
+.imagdl {
+  width: 76%;
+  text-align: center;
+  margin-top: 13%;
+}
+.imagdltxt {
+  width: 48%;
+  text-align: center;
+  margin-top: 10%;
+}
+
+#backCIRC1 {
+  left: 63%;
+  top: 74%;
+}
+#backCIRC2 {
+  left: 75%;
+  top: 74%;
+}
+#backCIRC3 {
+  top: 74%;
+  left: 87%;
+}
+
+/*////////////////////////////////////////////////////////////////////MODS*/
+
+#backMOD {
+  display: block;
+  color: white;
+  position: absolute;
+  top: 19px;
+  width: 72%;
+  text-align: left;
+}
+
+#granback_comercial {
+  display: block;
+}
+
+#granback_estados {
+  display: none;
+}
+
+#granback_okrs {
+  display: none;
+}

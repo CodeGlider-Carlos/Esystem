@@ -1,0 +1,107 @@
+
+
+/* Nuevo css desarrollado por Carlos Gonzalez */
+body{
+    margin: 0 !important;
+    font-family: "Montserrat", sans-serif;
+}
+
+#login-container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #19191a;
+  }
+
+  #ezabsC{
+    width: 40% ;
+  }
+  
+  
+  .login-left {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .login-right {
+    width: 50%;
+    height: 100%;
+    position: relative;
+  }
+  
+  .login-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  #formloguin {
+    width: 100%;
+    max-width: 420px;
+    background-color: #262626;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  }
+  
+  #singin {
+    font-size: 32px;
+    color: white;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  #backuser, #backpass {
+    width: 90%;
+    position: relative;
+    margin-bottom: 15px;
+  }
+  
+  #userOk, #candado {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10px;
+    width: 20px;
+    filter: invert(1) brightness(0) grayscale(1);
+  }
+  
+  .usuario,
+  .pass {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #F9F9F9;
+    text-align: center;
+    padding-left: 35px; /* Ajustamos para no tapar el ícono */
+  }
+
+  #formloguin input:focus {
+    background-color: #D9D9D9;
+    box-shadow: inset 2px 3px 5px -2px #131318;
+  }
+  
+  .LOGIN {
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    background-color: #0c0c0c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    border: solid #968b8b 0.5px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+
+  .LOGIN:hover{
+    background-color: #968b8b;
+    color: black;
+  }

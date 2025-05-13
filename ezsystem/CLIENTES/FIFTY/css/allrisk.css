@@ -1,0 +1,655 @@
+/*01. ///GENERALES///*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+  
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ /*quita marco post link*/
+*:focus{
+    outline: none;
+}
+body #bodyrisk{
+  user-select: all;
+}
+/*/////////////////////////////////////LOAD/////////////////////////////////////////*/   
+
+#backLoad{
+    display: block;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height:100%;
+    background: #F9F9F9;
+    z-index: 5000;
+   /* display: none;*/
+}
+
+#tileLoad{
+    position: absolute;
+    width: 100%;
+    color: #181717;
+    top: 58%;
+    font-size: 3vh;
+    text-align: center;
+  
+}
+
+#contIcL{
+    position: relative;
+    width: 10%;
+    border: 1px solid transparent;
+    margin: auto;
+    top: 44%;
+}
+#icLoad{
+    border: 10px solid #131318 ;
+    border-top-color: #D9D9D9;
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    -webkit-animation: girar 1.5s linear infinite;
+    -o-animation: girar 1.5 linear infinite;
+    animation: girar 1.5 linear infinite;
+    z-index: 21;
+}
+@keyframes girar{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }   
+}
+
+
+/*////////////////////////////////////////////////////////////////////////*/
+
+#backall{
+  background: #ffffff;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 47px;
+  left: 47px;
+  border-radius: 5px 0px 0px 0px;
+}
+#backallS{
+  background: #e8e8e8e8;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 47px;
+  left: 47px;
+  border-radius: 5px 0px 0px 0px;
+}
+
+
+body{
+  background: #19191a;
+
+}
+
+
+.input:focus,
+.select:focus,
+.textarea:focus{
+    background-color: #ffffff;
+  
+    box-shadow: inset 2px 3px 5px -2px #EA4033;
+}
+/*
+#navsup {  
+    background: #19191a;
+  }
+
+  #navleft {
+  
+    background: #19191a;
+  }
+
+*/
+  #modname{  
+    background: #19191a;
+    box-shadow: 1px 0px 10px 0px #000000; 
+    color: white;
+  }
+  #backUser {
+    position: absolute;
+    right: 1.3vw;
+    top: 19%;
+    width: 24.7%;
+    height: 68%;
+    border-radius: 5px;
+    background: #19191a;
+    box-shadow: 1px 0px 10px 0px #000000; 
+    color: white;
+  }
+
+  #backESTIM{
+    position: absolute;
+    left: 0%;
+    bottom: 9px;
+    width: 73%;
+    border-radius: 5px;
+    background: #19191a;
+    box-shadow: 1px 0px 10px 0px #000000;
+    color: white;
+    font-size: 1.2vw;
+  }
+  .imagUser{
+    position: absolute;
+    height: 35px;
+    top: 0%;
+    left: 0%;
+}
+#nameuser{
+  text-align: right;
+  margin-top: 2%;
+  font-size: 16px;
+
+  font-size: 1vw; /*OJO VERIFICAR RESPONSIVE*/
+  background: #131826;
+  box-shadow: 1px 1px 3px -1px rgb(0, 0, 0);    
+  color: white;
+  
+}
+
+.useruu{
+    width: 80%;
+    border: 1px solid transparent;
+    right: 0.1px;
+    position: absolute;
+    font-size: 1vw;
+    bottom: 0.4vw;
+
+}
+
+.line1 {
+    background: #70C8D3;
+    height: 5px;
+    width: 100%;
+  }
+
+  
+.txttx{
+ 
+    background: #19191a;
+    color: white;
+ 
+  
+}
+
+#txt7{
+   
+    color: white;
+}
+
+#modprosp{
+  background: transparent;
+}
+
+/*/////////////////////////////////////////////////////////////RISK///////////////////////////////////////////////////////////*/
+  /*/////////////////////CEDULA DE REGISTRO*/
+
+  .registro {
+       
+        color: #5d5d5d;     
+        box-shadow: 2px 3px 5px -2px #9b9393 !important;       
+        background: #262842;
+        color: white;
+  }
+
+  /**filtros/////////////////////////////////////////////////*/
+
+  #namesect1 {
+    background: #9aa6b7;
+    color: white;
+    background-color: #131318;
+    box-shadow: 2px 3px 5px -2px #9b9393;
+  }
+
+  #namesect3 {
+    background: #EA4033;
+    color: white;   
+    background-color: #131318;
+    color: white;
+    box-shadow: 2px 3px 5px -2px #9b9393;
+  }
+  #namesect3coti {
+    background: #EA4033;
+    color: white;   
+    background-color: #131318;
+    box-shadow: 2px 3px 5px -2px #9b9393;
+  }
+  #backcabe {
+  
+    background: #EA4033;
+    box-shadow: 2px 3px 5px -2px #9b9393;
+    background-color: #131318;
+    box-shadow: 2px 3px 5px -2px #9b9393;
+}
+#namesect4b {
+
+  background-color: #131318;
+  color: white;
+  box-shadow: 2px 3px 5px -2px #9b9393;
+  background: #121212;
+}
+
+
+input[type="submit"]#guardar {
+    background: #131826;
+    color: white;
+   
+    box-shadow: 1px 1px 3px -1px black;
+  }
+  #backaccionesAct {
+   /*
+    background: #F3C144;
+    background: linear-gradient(29deg, #d9a41c 0%, #F3C144 100%);
+    */
+    background: #8a7b74;
+    box-shadow: 2px 3px 5px -2px #9b9393;
+    background: linear-gradient(29deg, #d9a41c 0%, #F3C144 100%);
+  }
+
+  #backacciones {
+    background-color: #131318;
+    box-shadow: 2px 3px 5px -2px #9b9393;
+    background: #ECECEC;
+    
+  }
+  #backaccionesCONCILI {
+    background-color: #131318;
+    color: white;
+    box-shadow: 2px 3px 5px -2px #9b9393;
+    background: #111111;
+    
+  }
+
+  /*boton en curso*/
+
+  .enfoqueaccH {
+   
+    background: #79716d;
+    color: white;
+  }
+
+  .line1{
+
+    background-color: #131318;
+    border-radius: 8px;
+    width: 93%;
+    margin: auto;
+}
+  .lineAC {
+    background-color: #131318;
+    border-radius: 8px;
+    width: 93%;
+    margin: auto;
+  }
+.imagmOD{
+    height: 119%;
+    position: absolute;
+    right: 101%;
+    top: -3%;
+}
+  /*semaforos*/
+
+
+
+  /*//////////////RISK*/
+
+  #backaccionesAct_r {
+    background: #2C4457;
+    background: linear-gradient(29deg, #182128 0%, #2C4457 100%);
+    box-shadow: 2px 3px 5px -2px #9b9393;
+  }
+
+  .input4 {
+    color: #fcfcfc;
+    box-shadow: 2px 3px 5px -2px #9b9393;
+    background: #1a2d3c;
+  }
+  /*consulta*/
+
+  .labelEta2 {
+   
+    color: white;
+    background: #1d1f23;
+    box-shadow: 2px 3px 5px -2px #9b9393;
+  }
+
+  #backcabe {
+    background: black;
+    color: white;
+    box-shadow: 2px 3px 5px -2px #9b9393;
+    border:none;
+  }
+
+
+#tableCed th {
+
+  color: rgb(255, 255, 255);
+
+
+  background: #968b8b;
+
+}
+
+.namecotasky0 {
+    color: white;
+    background: #1a2d3c;
+  }
+
+  .namecotasky{
+    color: white;
+    font-size: 1.3vw;
+    background: linear-gradient(90deg, rgb(143, 142, 141) 0%, rgb(218, 216, 213) 64%);
+    border-radius: 2px;
+  }
+#backAgj{
+    background: #262626;
+    box-shadow: 0px 2px 4px -1px #9b9393;
+    
+}
+
+
+  .seBLUE{
+    background-color:#B4AFA8!important;
+
+
+}
+.seGREEN{
+    background-color:#857F7F!important;
+    color:white!important;
+
+}
+.sePINK{
+    background-color: #534F4F!important;
+  
+ 
+}
+.sePINKrojo{
+    background-color: #3B3838!important;
+    color:white ;
+  
+}
+.seBlack{
+    background-color: #262626;
+    color:white!important;
+
+}
+
+
+
+
+
+.semcinco{
+    background: #B4AFA8;
+    color: rgb(33, 32, 32);
+
+}
+.semcuatro{
+    background: #857F7F;
+    color: rgb(33, 32, 32);
+
+}
+.semtres{
+    background: #534F4F;
+    color: white;;
+}
+.semdos{
+    background: #3B3838;
+    color: white;
+}
+.semuno{
+    background: #262626;
+    color: white;
+}
+
+
+/*MES*/
+
+.tabbluemes{  
+    background-color: #B4AFA8 ;  
+    box-shadow: inset 2px 3px 5px -2px #9b9393;
+    color: rgb(29, 29, 29);
+}
+.tabgreenmes{  
+    background-color: #857F7F ;  
+    box-shadow: inset 2px 3px 5px -2px #9b9393;
+    color: rgb(29, 29, 29);
+}
+.tabyellmes{
+  
+    background-color: #534F4F ;
+    color: rgb(29, 29, 29);
+    box-shadow: inset 2px 3px 5px -2px #9b9393;
+}
+.taborangemes{
+
+    background-color: #3B3838 ;  
+    box-shadow: inset 2px 3px 5px -2px #9b9393;
+    color: white;
+}
+
+.taborredmes{
+    background-color: #262626;
+    color: white;
+    box-shadow: inset 2px 3px 5px -2px #9b9393;
+}
+
+
+.tabcinemes{
+    background-color: #F3F4F7;
+    box-shadow: inset 2px 3px 5px -2px #9b9393;
+
+    color:#11181F;
+}
+
+
+
+.sombra1{
+    background: #262626;
+    color:white;
+    box-shadow: 0px 2px 7px 0px #9b9393;
+}
+.sombra2{
+    background: #3B3838;
+    color:white;
+    box-shadow: 0px 2px 7px 0px #9b9393;
+  
+}
+.sombra3{
+    background: #534F4F;
+    color:white;
+    box-shadow: 0px 2px 7px 0px #9b9393;
+} 
+.sombra4{
+    background: #857F7F;
+    color:white;
+    box-shadow: 0px 2px 7px 0px #9b9393;
+} 
+.sombra5{
+    background: #B4AFA8;
+    color:white;
+    box-shadow: 0px 2px 7px 0px #9b9393;
+} 
+
+
+
+
+.muybajo {
+    background: #2db4e1!important;
+    color: #343839;
+}
+.bajo {
+    background: #54a85a!important;
+    color: #ffffff;
+}
+.medio {
+    background: #d4ae03!important;
+    color: #f4f4f4;
+}
+.alto {
+    background: #fb6e3b!important;
+    color: #f2f2f2;
+}
+.muyalto {
+    background: #ff4949!important;
+    color: #f2f2f2;
+}
+
+/*//////////////////////////////////////////////////////////////////////////////////////////////////LEADS*/
+
+.body_ezlead{
+  overflow: hidden;
+}
+
+#namesect1{
+  background: linear-gradient(29deg, #182128 0%, #2C4457 100%);
+  color: white;
+}
+
+#namesect2{
+  background: linear-gradient(29deg, #ff3131 0%, #ff914d 100%);
+  color: white;
+}
+
+#namesect3b{
+  background: #53C0D8;
+  background: linear-gradient(29deg, #4a90a0 0%, #53C0D8 100%);
+  color: white;
+}
+
+#namesect4{
+  background: #FFA136;
+  color: white;
+}
+
+#namesect5{
+  background: linear-gradient(29deg, #FFA136 0%, #ffb662 100%);
+  color: white;
+  background: #111111;
+}
+.redcie {
+  display: block;
+  background: #111111;
+  color: white;
+  box-shadow: 1px 1px 3px -1px gray;
+  border-radius: 3px;
+}
+#MAS1 {
+  color: #ffffff;
+  background: #FFD966;
+  background: linear-gradient(29deg, #d9a41c 0%, #F3C144 100%);
+  box-shadow: 2px 3px 5px -2px #9b9393;
+}
+
+
+#idhospitalID{
+  background: linear-gradient(29deg, #182128 0%, #2C4457 100%);
+  color: white;
+}
+
+
+.tablered{
+  color: #154567;
+}
+
+.tablered td{
+  background: #968b8b;
+  color: white;
+}
+.tablered th{
+  background: #968b8b;
+  color: white;
+}
+
+
+
+
+.tableredEM{
+  color: #154567;
+}
+
+.tableredEM td{
+  background: #968b8b;
+  color: white;
+}
+.tableredEM th{
+  background: #968b8b;
+  color: white;
+}
+
+
+
+
+
+
+.tableteam{
+  color: #154567;
+}
+.tableteam td{
+  background: #968b8b;
+color: white;
+}
+.tableteam th{
+  background: #968b8b;
+  color: white;
+}
+
+
+
+
+
+.redmed{
+  background: #164668;
+  color: white;
+
+}
+.redco{
+  background: #FF9900;
+  color: white;
+  box-shadow: 0px 2px 6px -2px #8f2e0b !important;
+}
+.redpro{
+  background: #53C0D8;
+  color: white;
+
+}
+.redcie{
+  background: #2b2929;
+  color: white;
+  box-shadow: 0px 2px 6px -2px #000000 !important;
+}
+
+/*-/////////////////////////////////////////////////////////////////COTIZACIONES*/
+#backaccionesCot {
+  background: linear-gradient(29deg, #ff3131 0%, #F87F4E 100%);
+  color: white;
+  box-shadow: 2px 3px 5px -2px #9b9393;
+}
+
+#backaccionesTR {
+  background: linear-gradient(29deg, #182128 0%, #2C4457 100%);
+  box-shadow: 2px 3px 5px -2px #9b9393;
+
+  
+}
+
+#backahistorias{
+  background: #ECECEC;
+}

@@ -1,0 +1,519 @@
+/*01. ///GENERALES///*/
+
+*{
+    user-select: none;
+}
+ 
+body{
+    overflow: hidden;
+}
+
+/*/////////////////////////////////////////NAVEGACION LEFT*/
+
+#navleft{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    width: 46px;
+     text-align: center;
+     z-index: 2;
+}
+
+
+.bakBoton{
+    width: 100%;
+    cursor: pointer;
+    text-align: center;
+    position: relative;
+    margin: auto;
+      margin-top: auto;
+    margin-top: 18%;
+    border: 0.5px solid transparent;
+}
+#bakBoton1{
+    margin-top: 103%;
+}
+
+.lognav{
+    width: 74%;
+}
+
+#lognav7{
+    position: absolute;
+    bottom: 1%;
+    left: 0%;
+}
+
+/*////////////////////////TEXTO NAVEGACION LEFT*/
+
+
+
+.txttx{
+    position: absolute;
+    width: 399%;
+    top: 28%;
+    border-radius: 5px;
+    left: 90%;
+    font-size: 13px;
+ display: none;
+}
+
+#txt7{
+    position: absolute;
+}
+
+/*///////////////////////////////CONEXION MODS*/
+#MODS{
+    display: block;
+    position: absolute;
+    left: 46px;
+    width: 96.9%;
+    border: 1px solid rgb(206, 202, 202);
+    height: 100%;
+}
+
+#iframeSuite{
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+
+.submit{
+    position: absolute;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    left: 0px;
+    color: transparent;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+/*//////////////////////////////////barra superior nav*/
+
+#navsup{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 46px;
+    text-align: right;
+
+}
+#blockMod{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+    text-align: right;
+    z-index: 0;
+
+   display: none;
+}
+
+/*///////////////////////MODO SEGUIMIENTO*/
+
+#modprosp{
+    position: absolute;
+    top: 47px;
+    left: 48.3px;
+    width: 95.6vw;
+    height: 93%;
+    text-align: center;
+    border-radius: 5px;
+  
+
+    
+}
+
+#modname{
+    font-size: 24px;
+ /*   color: #154567;*/
+    color: #F4571E;
+    width: 19.8%;
+    box-shadow: 1px 1px 3px -1px gray;
+    border-radius: 5px;
+    z-index: 20;
+    position: absolute;
+    left: 3.1%;
+    top: 19%;
+    text-align: center;
+    height: 68%;
+}
+
+.sectionmod{
+    background: #F6F9FA;
+    position: absolute;
+    width: 19.9%;
+    height: 96.3%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.line1{
+    background-color:#F4571E;
+    height: 5px;
+    width: 100%;
+}
+
+.namesect{
+    position: relative;
+    top: 0px;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 1.3vw; /*OJO VERIFICAR RESPONSIVE*/
+}
+
+#Buscar{
+    background: #9aa6b7;
+    color: white;
+    width: 20%;
+    margin-left: -80%;
+    text-align: center;
+}
+
+#namesect3b{
+    margin-top: 32px;
+    height: 19px;
+    font-size: 1vw;
+}
+
+
+
+/**/
+
+
+.tabcpo{
+
+    width: 85%;
+    padding: 20px;
+    background: #d7dbddf9;
+    margin-top: 2%;
+    border-radius: 15px;
+    margin: 2% auto 0 auto;
+}
+
+/*///////////////////////////////////////////////////////*/
+
+#section1{
+    display: block;
+    top: 8px;
+    left: 1%;
+}
+
+#section2{
+    display: block;
+  left: 21%;
+  width: 78.3%;
+  top: 8px;
+
+}
+
+
+/*////////////////////////////////////AGREGAR*/
+
+.label{
+    margin: auto;
+    width: 98%;
+    font-size: 0.8vw;
+    text-align: left;
+    color: gray;
+}
+.select{
+    margin: auto;
+    margin-bottom: 15px;
+    width: 98%;
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 3px;
+    color: #164668;
+    background-color: #f9f9f9;
+    border: none;
+    box-shadow: 2px 3px 5px -2px #9b9393;
+    height: 35px;
+    border-radius: 5px;
+}
+
+.textarea{
+    margin: auto;
+    width: 97%;
+    text-align: center;
+    resize: vertical;
+    border: 1px solid transparent;
+    border-radius: 7px;
+    color: #164668;
+  box-shadow: 2px 1px 5px -2px #9b9393;
+  font-size: 0.8vw;
+}
+.input{
+    margin: auto;
+    margin-bottom: 15px;
+    width: 98%;
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 3px;
+    color: #164668;
+    background-color: #f9f9f9;
+    border: none;
+    box-shadow: 2px 3px 5px -2px #9b9393;
+    height: 35px;
+    border-radius: 5px;
+}
+
+#GUARDAR{
+    width: 50%;
+    margin-top: 3%;
+   
+    cursor: pointer;
+ 
+    display: block;
+    margin-left: 49%;
+
+}
+/*/////////////////PROSPECTOS*/
+#Buscar:focus{
+    background-color: #ffffff;
+
+    box-shadow: inset 2px 3px 5px -2px #00A3E1;
+}
+
+#backtab{
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    border: 1px solid transparent;
+    overflow-y: scroll;
+}
+#backtable{
+    width: 100%;
+    background: #ffffff;
+ 
+}
+.table{
+    width: 99%;
+}
+
+.table .title td{
+    font-size: 0.8vw;
+    text-align: center;
+    color: gray;
+}
+.table td{
+    font-size: 0.8vw;
+    text-align: center;
+ 
+}
+
+.table .fil td{
+    border:1px solid transparent;
+    border-radius: 3px;
+    box-shadow: 2px 3px 5px -2px #9b9393;
+}
+
+#valor::placeholder{
+    font-size: 10px;
+}
+
+
+input[type='submit']#editar  
+{    
+    width: 100%;
+   cursor: pointer;
+}
+
+
+
+.left{
+    text-align: left!Important;
+}
+.center{
+    text-align: center!Important;
+}
+.justify{
+    text-align: justify!Important;
+}
+
+
+.etpacolor1{
+    background: #164668;
+}
+.etpacolor2{
+    background: #F4571E;
+}
+.etpacolor3{
+    background: #53C0D8;
+}
+.etpacolor4{
+    background: #FFA136;
+}
+.etpacolor5{
+    background: #4f6a7d;
+}
+
+
+/*//////////////////regresar*/
+#backregresar{
+    position: absolute;
+    border: 1px solid transparent;
+    width: 97%;
+    height: 50px;
+    background: #DCE2EB;
+    bottom: 0%;
+    left: 47px;
+}
+
+#backbackRegre{
+    position: absolute;
+    width: 37px;
+    height: 37px;
+    border: 1px solid transparent;
+    right: 18%;
+    top: 10%;
+  
+}
+
+#subback{
+    position: absolute;
+    width: 37px;
+    height: 37px;
+    border: 1px solid transparent;
+    right: 0%;
+    top: 0%;
+    background: transparent;
+    cursor: pointer;
+    color: transparent;
+}
+
+#regresartxt{
+    position: absolute;
+  background: transparent;
+  border: none;
+  right: -559%;
+  top: 15%;
+  color: #154567;
+  font-size: 1vw;
+}
+
+#imagRegresar{
+    width: 100%;
+}
+
+.botprosp1a{
+    position: relative;
+    left: -35%;
+    margin-top: 3%;
+    font-size: 1vw;
+    cursor: pointer;
+    background: rgb(127, 118, 118);
+    border-radius: 3px;
+    border: none;
+    padding-left: 5px;
+    padding-right: 5px;
+    box-shadow: 2px 3px 5px -2px #9b9393;
+    color: white;
+}
+
+.botprosp2a{
+    position: relative;
+    right: -72%;
+    margin-top: -10%;
+    font-size: 1vw;
+    display: block;
+    cursor: pointer;
+    background: rgb(238, 238, 238);
+    border-radius: 3px;
+    border: none;
+    padding-left: 5px;
+    padding-right: 5px;
+    box-shadow: 2px 3px 5px -2px #9b9393;
+    color: rgb(0, 0, 0);
+}
+
+/* .botprosp2aa{
+    position: relative;
+    right: -72%;
+    margin-top: -7.8%;
+    display: block;
+    font-size: 1vw;
+    cursor: pointer;
+} */
+
+.botprosp1a{
+    position: relative;
+    left: -35%;
+    margin-top: 3%;
+    font-size: 1vw;
+    cursor: pointer;
+    background: rgb(127, 118, 118);
+    border-radius: 3px;
+    border: none;
+    padding-left: 5px;
+    padding-right: 5px;
+    box-shadow: 2px 3px 5px -2px #9b9393;
+    color: white;
+}
+
+.botprosp2a{
+    position: relative;
+    right: -72%;
+    margin-top: -10%;
+    font-size: 1vw;
+    display: block;
+    cursor: pointer;
+    background: rgb(238, 238, 238);
+    border-radius: 3px;
+    border: none;
+    padding-left: 5px;
+    padding-right: 5px;
+    box-shadow: 2px 3px 5px -2px #9b9393;
+    color: rgb(0, 0, 0);
+}
+
+.botprosp1b{
+    position: relative;
+    left: -38%;
+    margin-top: 3%;
+    font-size: 1vw;
+    cursor: pointer;
+}
+
+.botprosp2b{
+    position: relative;
+    right: -72%;
+    margin-top: -10%;
+    display: block;
+    font-size: 1vw;
+    cursor: pointer;
+    background: rgb(127, 118, 118);
+    border-radius: 3px;
+    border: none;
+    padding-left: 5px;
+    padding-right: 5px;
+    box-shadow: 2px 3px 5px -2px #9b9393;
+    color: white;
+}
+
+.type_container{
+    width: 80%;
+    padding: 20px;
+}
+
+.savemod {
+    background-color: #131318;
+    color: white;
+    font-size: 16px;
+    padding: 9px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+    width: 100%;
+}

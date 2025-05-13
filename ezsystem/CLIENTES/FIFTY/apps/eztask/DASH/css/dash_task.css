@@ -1,0 +1,447 @@
+#taskPerson {
+  width: 38%;
+  height: 73%;
+  border-radius: 5px;
+  margin: auto;
+  margin-top: auto;
+  margin-left: auto;
+  margin-top: auto;
+  margin-left: auto;
+  margin-top: auto;
+  margin-left: auto;
+  margin-left: auto;
+  margin-left: auto;
+  margin-left: 52.6%;
+  border: 1px solid transparent;
+  bottom: -3%;
+  display: block;
+  position: absolute;
+  /* overflow: scroll; */
+  overflow: hidden;
+}
+.nombreT {
+  width: 29%;
+  padding-left: 1%;
+}
+#backtask {
+  width: 99%;
+  height: 100%;
+  background: blue;
+  border-radius: 5px;
+  margin: auto;
+  margin-left: auto;
+  margin-left: -0.4%;
+  background: #f4f4f1;
+}
+
+#backCircle {
+  position: absolute;
+  bottom: 38%;
+  left: 13%;
+  border-radius: 12px;
+  width: 17%;
+  border: 1px solid transparent;
+  height: 251px;
+}
+.textPorce {
+  color: white;
+  position: relative;
+  font-size: 40px;
+  top: 37%;
+  text-align: center;
+}
+
+.cirpptoTask {
+  z-index: 1;
+
+  position: absolute;
+  height: 228px;
+  width: 228px;
+}
+
+.img_grafaTask {
+  width: 102%;
+  z-index: 1;
+  position: absolute;
+}
+
+#tabla_task {
+  width: 95%;
+  margin: auto;
+}
+#tabla_task td {
+  font-size: 12px;
+  color: rgb(27, 27, 27);
+  border-radius: 5px;
+  /* border: 0.5px solid rgb(51, 51, 52);*/
+
+  transition: 100ms;
+}
+
+#columnasTa th {
+  font-size: 10px;
+  height: 16px;
+  border-radius: 4px;
+  text-align: center;
+  background: black;
+  color: white;
+}
+.center {
+  text-align: center;
+}
+
+.mesbo {
+  background-color: rgb(189, 189, 191);
+  width: 57px;
+  height: 26px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+#columnasTaCon th {
+  font-size: 10px;
+  height: 16px;
+  border-radius: 4px;
+  text-align: center;
+  color: gray;
+  background: #f4f4f1;
+}
+
+#taskMeses {
+  position: absolute;
+  bottom: 20%;
+  left: 44%;
+  background: transparent;
+  overflow: scroll;
+  width: 53%;
+  height: 70%;
+  font-size: 10px;
+  overflow: hidden;
+}
+
+.tablemeses {
+  margin: auto;
+  margin-top: 3%;
+  width: 88%;
+}
+
+.altobar {
+  height: 51px;
+  background: transparent;
+  border: 1px solid transparent;
+  position: relative;
+}
+
+.barrbarr {
+  position: relative;
+  margin-top: 20px;
+  border: 1px solid transparent;
+  box-shadow: 2px 3px 5px -2px #9b9393;
+  border-radius: 3px 3px 0px 0px;
+}
+.porceSD {
+  height: 0%;
+  width: 100%;
+  display: block;
+  position: absolute;
+  bottom: 0px;
+  background: #979797;
+}
+
+.porce0 {
+  height: 0%;
+  width: 100%;
+  display: block;
+  position: absolute;
+  bottom: 0px;
+  background: #de8a8a;
+}
+.porce5 {
+  height: 5%;
+  width: 100%;
+  display: block;
+  position: absolute;
+  bottom: 0px;
+  background: #de8a8a;
+}
+.porce10 {
+  height: 10%;
+  width: 100%;
+  display: block;
+  position: absolute;
+  bottom: 0px;
+  background: #de8a8a;
+}
+.porce15 {
+  height: 15%;
+  width: 100%;
+  display: block;
+  position: absolute;
+  bottom: 0px;
+  background: #de8a8a;
+}
+.porce20 {
+  height: 20%;
+  width: 100%;
+  display: block;
+  position: absolute;
+  bottom: 0px;
+  background: #de8a8a;
+}
+.porce25 {
+  height: 25%;
+  width: 100%;
+  display: block;
+  position: absolute;
+  bottom: 0px;
+  background: #de8a8a;
+}
+.porce30 {
+  height: 30%;
+  width: 100%;
+  display: block;
+  position: absolute;
+  bottom: 0px;
+  background: #de8a8a;
+}
+.porce35 {
+  height: 35%;
+  width: 100%;
+  display: block;
+  position: absolute;
+  bottom: 0px;
+  background: #de8a8a;
+}
+.porce40 {
+  height: 40%;
+  width: 100%;
+  display: block;
+  position: absolute;
+  bottom: 0px;
+  background: #de8a8a;
+}
+.porce45 {
+  height: 45%;
+  width: 100%;
+  display: block;
+  position: absolute;
+  bottom: 0px;
+  background: #de8a8a;
+}
+.porce50 {
+  height: 50%;
+  width: 100%;
+  display: block;
+  position: absolute;
+  bottom: 0px;
+  background: #de8a8a;
+}
+
+.porce55 {
+  height: 55%;
+  width: 100%;
+  display: block;
+  position: absolute;
+  bottom: 0px;
+  background: #ff7481;
+}
+.porce60 {
+  height: 60%;
+  width: 100%;
+  display: block;
+  position: absolute;
+  bottom: 0px;
+  background: #ff7481;
+}
+.porce65 {
+  height: 65%;
+  width: 100%;
+  display: block;
+  position: absolute;
+  bottom: 0px;
+  background: #ff7481;
+}
+
+.porce70 {
+  height: 70%;
+  width: 100%;
+  display: block;
+  position: absolute;
+  bottom: 0px;
+  background: #ffb588;
+}
+.porce75 {
+  height: 75%;
+  width: 100%;
+  display: block;
+  position: absolute;
+  bottom: 0px;
+  background: #ffb588;
+}
+.porce80 {
+  height: 80%;
+  width: 100%;
+  display: block;
+  position: absolute;
+  bottom: 0px;
+  background: #f2d291;
+}
+.porce85 {
+  height: 85%;
+  width: 100%;
+  display: block;
+  position: absolute;
+  bottom: 0px;
+  background: #f2d291;
+}
+
+.porce90 {
+  height: 90%;
+  width: 100%;
+  display: block;
+  position: absolute;
+  bottom: 0px;
+  background: #52d999;
+}
+.porce95 {
+  height: 95%;
+  width: 100%;
+  display: block;
+  position: absolute;
+  bottom: 0px;
+  background: #52d999;
+}
+
+.porce98 {
+  height: 98%;
+  width: 100%;
+  display: block;
+  position: absolute;
+  bottom: 0px;
+  background: #86a4ff;
+}
+.porce100 {
+  height: 100%;
+  width: 100%;
+  display: block;
+  position: absolute;
+  bottom: 0px;
+  background: #86a4ff;
+}
+
+.colorBlack {
+  background: #de8a8a;
+}
+
+.colorRed {
+  background: #ff7481;
+}
+
+.colorYell {
+  background: #f2d291;
+}
+
+.colorGreen {
+  background: #52d999;
+}
+
+.colorBlue {
+  background: #86a4ff;
+}
+
+.linTask {
+  height: 1.5px;
+  width: 100%;
+  background: #1e2231;
+}
+
+#tipoTask {
+  position: absolute;
+  width: 40%;
+  font-size: 10px;
+  left: 1%;
+  top: 14%;
+  text-align: right;
+}
+.tableTIp {
+  width: 80%;
+  margin: auto;
+}
+
+.barrbak {
+  width: 200px;
+  background: #ffffff;
+  height: 17px;
+  border-radius: 0px 10px 10px 0px;
+  border-radius: 10px;
+  margin-left: 0%;
+  margin-top: 2px;
+}
+
+.barrapo {
+  height: 17px;
+  border-radius: 0px 10px 10px 0px;
+  border-radius: 10px;
+  margin-left: 0%;
+}
+
+#filtrosFi {
+  position: absolute;
+  top: 3%;
+  right: 5%;
+  display: flex;
+}
+#botonFIl {
+  background-color: #131318;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  height: 35px;
+  padding-inline: 10px;
+}
+
+#cliente {
+  margin: auto;
+  margin-bottom: 15px;
+  width: 98%;
+  text-align: center;
+  border: 1px solid gray;
+  border-radius: 3px;
+  color: #164668;
+  background-color: #f9f9f9;
+  border: none;
+  box-shadow: 2px 3px 5px -2px #9b9393;
+  height: 35px;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+/*////////////////////////////////////////////////////////////CONSULTAR*/
+
+#taskPersonmis {
+  width: 98%;
+  height: 95%;
+  border-radius: 5px;
+  margin: auto;
+  margin-top: auto;
+  margin-left: auto;
+  margin-top: auto;
+  margin-left: auto;
+  margin-top: auto;
+  margin-left: auto;
+  margin-top: auto;
+  margin-left: auto;
+  margin-top: auto;
+  margin-left: auto;
+  margin-left: auto;
+  margin-left: auto;
+
+  border: 1px solid transparent;
+  bottom: 13%;
+  display: block;
+
+  overflow: scroll;
+}

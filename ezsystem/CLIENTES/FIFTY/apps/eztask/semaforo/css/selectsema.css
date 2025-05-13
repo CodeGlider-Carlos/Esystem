@@ -1,0 +1,293 @@
+/*//////////////////////////////GENERALES////////////////////////////////////////////*/
+/*01. ///GENERALES///*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+    user-select: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ /*quita marco post link*/
+*:focus{
+    outline: none;
+}
+/*body de home - dash*/
+body{
+    background: #F9F9F9;
+    display: block;  
+    z-index: 110;  
+    overflow: hidden;
+}
+
+/*////////////////////////////////////////////**/
+   
+input[type='text'],
+input[type='list']  
+{
+    position: relative;
+    width: 80%;
+    height: 30px;
+    margin-top:3.5px;
+    background-color: #F9F9F9;
+    box-shadow: 1px 1px 2px 1px #D9D9D9;
+    border: none; 
+    color: #050505;
+    cursor: pointer;
+    margin-left: 10%;
+    border-radius: 5px;
+    text-align: center;
+}
+
+select{
+    position: relative;
+    width: 80%;
+    height: 30px;
+    margin-top:3.5px;
+    background-color: #F9F9F9;
+    box-shadow: 1px 1px 2px 1px #D9D9D9;
+    border: none; 
+    color: #050505;
+    cursor: pointer;
+    margin-left: 10%;
+    border-radius: 5px;
+    text-align: left;
+}
+input[type='text']:focus, 
+input[type='list']:focus, 
+select:focus
+{
+    box-shadow: inset 1px 1px 1px 1px  #0397db;
+    background-color: white;
+}
+#filtros{
+    position: relative;
+    width: 80%;
+    height: 30px;
+    margin-top: 32.5px;
+    background-color: #F9F9F9;
+    box-shadow: 1px 1px 2px 1px #D9D9D9;
+    border: none;
+    cursor: pointer;
+    margin-left: 10%;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#imputVacio{
+    position: relative;
+    width: 80%;
+    height: 30px; 
+    background-color: #F9F9F9;
+    box-shadow: 1px 1px 2px 1px #D9D9D9;
+    border: none;  
+    border-radius: 5px; 
+}
+#buscarrisk{
+    position: relative;
+    width: 100%;
+    height: 30px;
+    margin-top: 3.5px;
+
+    box-shadow: 1px 1px 2px 1px #D9D9D9;
+    border: none;
+    cursor: pointer;
+    margin-left: 0%;
+    border-radius: 5px;
+
+    background-color: #D9D9D9;
+}
+
+
+#buscarrisk:hover{
+    background: linear-gradient(90deg, rgb(2, 4, 141) 0%, rgb(45, 93, 237) 64%);
+    color: white;
+}
+
+
+
+
+#resetrisk{
+    position: relative;
+    width: 100%;
+    height: 30px;
+    margin-top: 3.5px;
+
+    box-shadow: 1px 1px 2px 1px #D9D9D9;
+    border: none;
+    cursor: pointer;
+    margin-left: 0%;
+    border-radius: 5px;
+  
+    border-radius: 5px;
+    background-color: #D9D9D9;
+}
+
+
+#reloadIcon{
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 0.1%;
+    width: 100%;
+}
+#resetrisk:hover,
+#reloadIcon:hover
+{
+    background: #151719;
+    color: white;
+}
+
+/*recarga*/
+#reload{
+    position: absolute;
+    width: 51px;  
+    top:34%;   
+    left: 69%;
+    border: 1px solid transparent;
+    text-align: center;
+}
+
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+/*//////////////////////////////////////////////////FORMULARIO//////////////////////////////////////////*/
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+#fondoformse{
+    display: block;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height:100%;
+    border: 1px solid transparent;
+}
+
+
+
+/*SLID*/
+#movslidse{
+    position: absolute;
+    top: -1px;
+    border: 1px solid transparent;
+    left: 42.6%;
+    width: 2%;
+    height: 100%;
+}
+.botmov{
+    position: relative;
+    top: 0%;
+    width: 20px;
+    height: 20px;
+    border-radius: 100px;
+    cursor: pointer;
+    border: none;
+    margin-top: 40%;
+    background: linear-gradient(181deg, rgb(143, 142, 141) 0%, rgb(218, 216, 213) 64%);
+    box-shadow: 1px 1px 2px 1px #8A8372;
+    left: 5.2%;
+}
+
+
+.tileslid{
+    position: absolute;
+    top: 1px;
+    left: -948%;
+    width: 1045%;
+    font-size: 15px;
+    text-align: center;
+    color: #151719;
+    z-index: -1;
+    background-color: #F9F9F9;
+    box-shadow: -1px 0px 3px 0px #9b9393;
+    border-radius: 100px;
+}
+
+#botmov1:hover,
+#botmov2:hover,
+#botmov3:hover,
+#botmov4:hover,
+#botmov5:hover,
+#botmov6:hover,
+#botmov7:hover,
+#botmov8:hover{
+    background: linear-gradient(90deg, rgb(122, 115, 99) 0%, rgb(217, 206, 184) 90%);
+}
+
+
+#slidTit1{
+    display: block;
+    display:none;
+}
+#slidTit2{
+    display: block;
+    display:none;
+}
+#slidTit3{
+    display: block;
+    display:none;
+}
+#slidTit4{
+    display: block;
+    display:none;
+}
+#slidTit5{
+    display: block;
+    display:none;
+}
+#slidTit6{
+    display: block;
+    display:none;
+}
+#slidTit7{
+    display: block;
+    display:none;
+}
+#slidTit8{
+    display: block;
+    display:none;
+}
+/*//////////////////////////////////////////////////////////////////////*/
+#form1{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+#form2{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+#form3{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+/*///////////IFRAMES*/
+
+.iframe{
+    display: block;
+    position:absolute;
+    top: 0%;
+    left: 0%;
+    width:100%;
+    height: 100%;
+    border: none;
+    background: transparent;
+}
+

@@ -1,0 +1,642 @@
+
+/*01. ///GENERALES///*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+    user-select: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ /*quita marco post link*/
+*:focus{
+    outline: none;
+}
+
+body{
+    background-color: #7c7b65;
+    overflow:hidden;
+}
+
+/*/////////////////////////////////////LOAD/////////////////////////////////////////*/   
+
+#backLoad{
+    display: block;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height:100%;
+    background: #F9F9F9;
+    z-index: 5000;
+   /* display: none;*/
+}
+
+#tileLoad{
+    position: absolute;
+    width: 10%;
+    color: #181717;   
+    top: 58%;
+    left: 44%;
+    font-size: 25px;
+}
+
+#contIcL{
+    position: absolute;
+    width: 10%;
+    top: 45.5%;
+    left: 44%;
+    border: 1px solid transparent;
+}
+#icLoad{
+    border: 10px solid #006AA6;
+    border-top-color: #D9D9D9;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    -webkit-animation: girar 1.5s linear infinite;
+    -o-animation: girar 1.5 linear infinite;
+    animation: girar 1.5 linear infinite;
+    z-index: 21;
+}
+@keyframes girar{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }   
+}
+
+
+#backNav{
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    
+}
+
+#bobybody{
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    background: transparent; 
+    z-index: -100;
+    background: #006AA6;
+}
+
+#backini{
+    display: block;
+    position: absolute;
+    top: -3%;
+    left: 2%;
+    width: 98%;
+    height: 99%;
+    border: 1px solid transparent;
+    z-index: 10;
+    background: #F9F9F9;
+    border-radius: 0px 0px 0px 23px;
+    z-index: 2;
+    box-shadow: inset 1px 1px 5px 1px #38393a;
+    box-shadow: inset 1px 1px 5px 1px #696969;
+    border: none;
+}
+
+
+/*//////////////////////////////////////BACK LEFT*/
+/*<<<<<<<<<<<<<<<boton 1*/
+#backBck1{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 15%;/*
+    background: rgb(160,150,130);
+    background: linear-gradient(90deg, rgb(122, 115, 99) 0%, rgba(217,206,184,1) 64%);
+   */
+   background: #D9D9D9;
+}
+#backBck1back{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 2%;
+    height: 15%;
+    /*
+    background: rgb(160,150,130);
+    background: linear-gradient(90deg, rgb(122, 115, 99) 0%, rgba(217,206,184,1) 64%);
+   */
+   background: #D9D9D9;
+}
+/*<<<<<<<<<<<<<<<boton 2*/
+#backBck2{
+    position: absolute;
+    top: 15%;
+    left: 0%;
+    width: 96%;
+    height: 15%;
+    background: rgb(160,150,130);
+    background: linear-gradient(90deg, rgb(143, 142, 141) 0%, rgb(218, 216, 213) 64%);
+}
+
+#backBck2back{
+    position: absolute;
+    top: 15%;
+    left: 0%;
+    width: 2%;
+    height: 15%;
+    background: rgb(160,150,130);
+    background: linear-gradient(90deg, rgb(143, 142, 141) 0%, rgb(218, 216, 213) 64%);
+    box-shadow: -2px 1px 5px -2px #38393a;
+    z-index: 1;
+}
+/*<<<<<<<<<<<<<<<boton 3*/
+#backBck3{
+    position: absolute;
+    top: 30%;
+    left: 0%;
+    width: 2%;
+    height: 40%;  
+    background-color: #D9D9D9;
+}
+#backBck3back{
+    position: absolute;
+    top: 30%;
+    left: 0%;
+    width: 2%;
+    height: 40%;  
+    /*
+    background: #118081;
+    background: linear-gradient(180deg, #118081 0%, #9B8F78 100%);
+    */
+    transition: 200ms;
+    background-color: #D9D9D9;
+}
+/*<<<<<<<<<<<<<<<boton 4*/
+
+#backBck4{
+    position: absolute;
+    top: 70%;
+    left: 0%;
+    width: 100%;
+    height: 15%;
+    background: rgb(160,150,130);
+    background: linear-gradient(90deg, rgb(143, 142, 141) 0%, rgb(218, 216, 213) 64%);
+    z-index: 10;
+}
+
+#backBck4back{
+    position: absolute;
+    top: 70%;
+    left: 0%;
+    width: 2%;
+    height: 15%;
+    background: rgb(160,150,130);
+    background: linear-gradient(90deg, rgb(143, 142, 141) 0%, rgb(218, 216, 213) 64%);
+    z-index: 11;
+    box-shadow: -2px 2px 5px -2px #38393a;
+}
+/*<<<<<<<<<<<<<<<boton 4*/
+#backBck5{
+    position: absolute;
+    top: 85%;
+    left: 0%;
+    width: 96%;
+    height: 15%;
+    background: #006AA6;
+  
+}
+#backBck5back{
+    position: absolute;
+    top: 85%;
+    left: 0%;
+    width: 2%;
+    height: 15%;
+    background: #006AA6;
+    z-index: 10;
+}
+
+
+/*//////////////////////////////////////BACK BAJO*/
+
+#backBck6{
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    width: 29%;
+    height: 4%;
+    background-color: #7c7b65;
+    background: #006AA6;
+}
+
+
+#backBck7{
+    position: absolute;
+    bottom: 0%;
+    left:29%;
+    width: 4%;
+    height: 4%;
+    background: #6B6458;
+    background: linear-gradient(181deg, rgb(143, 142, 141) 0%, rgb(218, 216, 213) 64%);
+    box-shadow: 0px 3px 3px 1px #38393a;
+    z-index: 1;
+}
+#backBck8{
+    position: absolute;
+    bottom: 0%;
+    left: 33%;
+    width: 37%;
+    height: 4%;
+    background: linear-gradient(90deg, rgb(143, 142, 141) 0%, rgb(218, 216, 213) 64%);
+
+}
+
+#backBck9{
+    position: absolute;
+    bottom: 0%;
+    right: 26%;
+    width: 4%;
+    height: 4%;
+    background: #6B6458;
+    background: linear-gradient(181deg, rgb(143, 142, 141) 0%, rgb(218, 216, 213) 64%);
+    box-shadow: 0px 3px 3px 1px #38393a;
+    z-index: 1;
+    
+}
+
+#backBck10{
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    width: 26%;
+    height: 5%;
+    
+}
+/*BARRA BAJA*/
+#backBck11{
+    position: absolute;
+    bottom: 0%;
+    left: 7%;
+    width: 93%;
+    height: 1%;
+    background-color:#000000;
+    display: none;
+    border-radius: 50px;
+}
+
+
+/*ANGULO DERECHO*/
+#backBck12{
+    position: absolute;
+    top: 4%;
+    right: 1.8%;
+    width: 20%;
+    height: 31px;
+    background-color: #F9F9F9;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 1px 1px 5px 1px #9b9393;
+    border: 3px solid #D9CEB8;
+}
+
+/*conector barra derecha*/
+#backBck14{
+    position: absolute;
+    width: 13px;
+    height: 13%;
+    top: 6.4%;
+    right: 2.7%;
+
+    background: rgb(160,150,130);
+    background: linear-gradient(180deg, #6B6458 0%, #D9CEB8 64%);
+    box-shadow: 1px 1px 2px 1px #38393a;
+    border: none;
+    border-radius: 5px;
+    z-index: 1;
+}
+
+/*ANGULO IZQUIERDO*/
+#backBck15{
+    position: absolute;
+    bottom: 8%;
+    left: 3.8%;
+    width: 20%;
+    height: 31px;
+    border-radius: 10px 10px 10px 10px;
+    background-color: #F9F9F9;
+    border: 3px solid #D9CEB8;
+    box-shadow: 1px 1px 5px 1px #9b9393;
+
+    font-family: 20px;
+  
+}
+#backBck13{
+    position: absolute;
+    bottom: 4%;
+    left: 0px;
+    width: 29px;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    text-align: center;
+    background: #D9D9D9;
+    box-shadow: 2px 3px 5px -2px #9b9393;
+    z-index: 10;
+}
+/*conector barra izquierdo*/
+#backBck17{
+    position: absolute;
+    width: 13px;
+    height: 12%;
+    bottom: 11%;
+    left: 4.5%;
+
+    background: rgb(160,150,130);
+    background: linear-gradient(180deg, #6B6458 0%, #D9CEB8 64%);
+    box-shadow: 1px 1px 2px 1px #38393a;
+    border: none;
+    border-radius: 5px;
+    z-index: 1;
+  }
+
+/*navegacion*/
+
+
+#backmas{
+    display: none;
+}
+
+
+.navleftce{
+    position: absolute;  
+    box-shadow: 3px 3px 5px -2px rgb(12, 12, 12);
+    width: 58px;
+    height:57px;
+    background: rgb(228,228,223);
+    background: linear-gradient(0deg, rgba(228,228,223,1) 0%, rgba(249,249,249,1) 100%);
+    overflow: hidden;
+    left: 20%;
+    border-radius: 8px;
+}
+
+.salir{
+    position: absolute;
+    width: 100%;
+    left: 1%;
+}
+
+#salir{
+    bottom: 0%;
+    background-color: transparent;
+    display: none;
+
+}
+#iconsalir{
+    cursor: pointer;
+    transition: 100ms;
+    background-color: transparent;
+    width: 74%;
+}
+
+
+#userU{
+    display: block;
+    position: absolute;
+    bottom: 23%;
+    left: 2.5%;
+    width: 93%;
+
+    font-size: 15px;
+    color: #BCB69E;
+    text-align: center;
+    z-index: 1;
+    padding-left: 5px;
+}
+
+/*////////////////////////<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</botones navegacion*/
+/*CONTENEDOR BOTONES*/
+#contnames{
+    position: absolute;
+    top: 4%;
+    left: 5.1%;
+    width: 90.7%;
+    height: 31px;
+    display: none;
+    z-index: 100;
+    box-shadow: 0px 2px 7px 0px #9b9393;
+}
+
+.botones{    
+    display: inline-block;
+
+    font-size:12px;
+    top: 20%;
+    color: #232323;
+    cursor: pointer;
+
+    height: 100%;
+    border-radius: 10px;
+    text-align:center;
+    margin-left: 8%;
+
+}
+.botones p{
+    margin-top: 5%;
+}
+
+.salir{
+    position: absolute;
+    width: 121%;
+    left: -8%;
+}
+.botones:hover{   
+    color: #006AA6;
+}
+
+#botoRegistro{
+    color: #006AA6;
+}
+
+/*/////////////////////////////////MODULOS CONEXION*/
+iframe{
+    position: absolute;
+    width: 97.5%;
+    height: 95.3%;
+    top: 2%;
+    left: 1%;
+    border-radius: 11px;
+    border: 1px solid transparent;
+}
+
+/*///////////////////////////////////////////////<<<<<<<<<<<<<<<<<<<<<<<<<</TITULOS DE MODULOS/////////////////*/
+
+.titlemod{
+    position: absolute;
+    top: 25%;
+    left: 0%;
+    width: 100%;
+    color: #272727;
+    text-align: center;
+  
+    border: 1px solid transparent;
+}
+#modInicioTit{
+    display: block;
+}
+#modConfTit{
+    display: none;
+}
+#modOneTit{
+    display: none;
+}
+#modDosTit{
+    display: none;
+}
+#modTresTit{
+    display: none;
+}
+#modFourTit{
+    display: none;
+}
+#modFiveTit{
+    display: none;
+}
+
+/*//////////////////////////////////////////////////////////////////<<<<<<<<<<<<<<<<<<<<<<<<<<<<</////MODULOS*/
+#mod{
+    position: absolute;
+    width: 95%;
+    height: 93.5%;
+    top: 0%;
+    left: 3%;
+    background-color: transparent;
+    z-index: 10;
+  
+}
+.mods{
+    position: absolute;
+    width: 100%;
+    height:100%;
+    top: 0%;
+    left: 0%;
+  /*  background: #D9D9D9;*/
+    box-shadow: 3px 3px 5px -2px #9b9393;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+#modOne{
+    display: none;
+}
+#modConf{
+   
+    display: none;
+}
+
+#modDos{
+    display: none;
+}
+#modTres{
+    display: none;
+}
+#modFour{
+    display: none;
+}
+#modFive{
+    display: none;
+}
+#seiTitle{
+    display: block;
+    position: absolute;
+    bottom: 1%;
+    left: -7.5%;
+    width: 100%;
+
+    font-size: 15px;
+    color: #BCB69E;
+    text-align: right;
+    z-index: 1;
+}
+/*////////////////////////CERRAR MODULOS*/
+#cerrarMod{
+    width: 130%;
+    height: 31px;
+    border-radius: 100px;
+    text-align: center;
+    font-size: 29px;
+    color: #9b9393;
+    position: absolute;
+    left: -5px;
+    top: -10px;
+}
+#cerrarModIcon{
+    cursor: pointer;
+    transition: 100ms;
+}
+
+.navleftce{
+    position: absolute;  
+    box-shadow: 1px 1px 5px 1px #9b9393;
+    width: 4%;
+    height:57px;
+    background: #F9F9F9;
+    overflow: hidden;
+    left: 20%;
+    border-radius: 8px;
+}
+
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<//////////////////////////////////////////////////////////////<<<<<<<<MURAL*/
+#mural{
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    border: 1px solid transparent;
+    z-index: 11;
+    background-color: #F9F9F9;
+    box-shadow: 2px 3px 5px -2px #9b9393;
+    border-radius: 5px;
+    display: none;
+}
+#backlogdeo{
+    display: block;
+    position: absolute;
+    top: 30%;
+    left: 7.6%;
+    width: 83%;
+    height: 36%;
+    border: 1px solid transparent;
+    z-index: 1;
+    text-align: center;
+  }
+
+#icsol{
+    height: 100%;
+}
+
+/*LOGO DEODE*/
+#logdeodi {
+    position: absolute;
+    width: 5%;
+    left: -9.5%;
+    z-index: 11;
+    border: 1px solid transparent;
+    top: -8%;
+    text-align: center;
+}
+#deodi {
+    width: 64%;
+}

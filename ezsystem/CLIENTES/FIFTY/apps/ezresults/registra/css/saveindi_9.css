@@ -1,0 +1,75 @@
+/*//////////////////////////////GENERALES////////////////////////////////////////////*/
+/*01. ///GENERALES///*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+    user-select: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ /*quita marco post link*/
+*:focus{
+    outline: none;
+}
+/*body de home - dash*/
+body{
+    background: #F9F9F9;
+    display: block;  
+    z-index: 110;  
+    overflow: hidden;
+}
+
+
+#reloadIcon{
+    position: absolute;
+    height: 54px;
+    top: 2.3%;
+    right: 10%;
+    border: 1px solid transparent;
+    text-align: center;
+    z-index: 1000;
+}
+/*/////////////////////////////////////////////////////////////////////////////BOTON REGRESAR*/
+
+
+#backRegresar{
+    top: 257px;
+    left: 40%;
+    position: absolute;
+    right: 67px;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #D9D9D9;
+    z-index: 11;
+    box-shadow: 2px 3px 5px -2px #9b9393;
+}
+#regresar{
+    position: absolute;
+    top: 12%;
+    left: 12%;
+    width: 78%;
+    cursor: pointer;
+    transition: 100ms;
+}
+#contdatsave{
+    display: block;
+    position: absolute;
+    background-color: #F9F9F9;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%; 
+
+}
+#datsave{
+    display: block;
+    position: absolute;
+    top: 283PX;
+    left: 44%;
+    color: black;
+    font-size: 20px;
+  
+}

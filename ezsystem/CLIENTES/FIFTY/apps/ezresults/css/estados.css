@@ -1,0 +1,936 @@
+
+
+
+
+
+
+
+
+
+
+.botonmod{
+    display: inline-block;
+    margin-left: 7%;
+    cursor: pointer;
+  }
+
+.botonmod:hover{
+    color:#ff5a31;
+}
+
+
+
+.imagcom{
+    width: 100%;
+    position: absolute;
+    top: 11px;
+  }
+
+
+  .imagcom2{
+    width: 100%;
+    position: absolute;
+    top: 0px;
+  }
+
+
+#estrategias{
+    display: block;
+    border: 7px solid black;
+    border-radius: 15px;
+    width: 27%;
+    height: 200px;
+    left: 71.5%;
+    position: absolute;
+    top: 50px;
+    overflow-y: scroll;
+}
+
+
+
+#backEstraBo {
+    position: absolute;
+    width: 90%;
+    left: 70%;
+    top: 23px;
+  }
+
+  #avances{
+    background: #ff5a31;
+}
+#nuevas{
+    background: #ffb331;
+}
+
+
+.botonesest2 {
+    display: inline-block;
+    color: white;
+    box-shadow: 2px 3px 5px -2px #9b9393;
+    border-radius: 5px;
+    width: 14%;
+    text-align: center;
+    margin-left: 2%;
+    cursor: pointer;
+  }
+
+
+.tab_estrategias{
+    width: 94%;
+    margin: auto;
+    margin-top: 2%;
+  margin-bottom: 4%;
+}
+.task{
+    color: #ff9531;
+}
+
+
+.tab_estrategias td{
+    background-color: #F9F9F9;
+    border: none;
+    box-shadow: 2px 3px 5px -2px #9b9393;
+    border-radius: 8px;
+  
+}
+
+
+
+
+
+
+
+
+
+
+#estadosR{
+    position: absolute;
+    width: 40%;
+    left: 2%;
+    top: 22px;
+}
+#ingresos{
+    background: #ff5a31;
+}
+#costos{
+    background: #ffb331;
+}
+
+#gastos{
+    background: #545353;
+
+}
+#utilidad{
+    color:black;
+}
+.botonesest{
+    display: inline-block;
+    color: white;
+    box-shadow: 2px 3px 5px -2px #9b9393;
+    border-radius: 5px;
+    width: 14%;
+    text-align: center;
+    margin-left: 2%;
+    cursor: pointer;
+}
+
+
+
+
+#contenedorVENTAS{
+    background: white;
+    width: 98%;
+    height: 98%;
+    border-radius: 10px;
+    border: 6px solid black;
+    overflow: hidden;
+    position: absolute;
+    top: 0px;
+  
+}  
+
+#contenedorCOSTOS{
+    background: white;
+    width: 98%;
+    height: 98%;
+    border-radius: 10px;
+    border: 6px solid black;
+    overflow: hidden;
+    position: absolute;
+    top: 0px;
+    display: none;
+}  
+
+#contComCostos{
+  /*  background: white;*/
+    width: 99%;
+    height: 489px;
+    border-radius: 16px;
+    border: 6px solid black;
+    overflow: hidden;
+    position: absolute;
+    top: 0px;
+    left: 0%;
+    text-align: justify;
+    cursor: pointer;
+    display: none;
+}  
+
+#contComGastos{
+    /*  background: white;*/
+      width: 99%;
+      height: 489px;
+      border-radius: 16px;
+      border: 6px solid black;
+      overflow: hidden;
+      position: absolute;
+      top: 0px;
+      left: 0%;
+      text-align: justify;
+      cursor: pointer;
+      display: none;
+  }  
+  
+
+
+
+
+#contenedorGASTOS{
+    background: white;
+    width: 98%;
+    height: 98%;
+    border-radius: 10px;
+    border: 6px solid black;
+    overflow: hidden;
+    position: absolute;
+    top: 0px;
+    display: none;
+}  
+
+
+
+#contenedorUTILIDAD{
+    background: white;
+    width: 98%;
+    height: 98%;
+    border-radius: 10px;
+    border: 6px solid black;
+    overflow: hidden;
+    position: absolute;
+    top: 0px;
+    display: none;
+}
+
+
+
+#contenedorGRAF{
+    width: 98%;
+    height: 98%;
+    border-radius: 10px;
+    border: 6px solid black;
+    overflow: hidden;
+    position: absolute;
+    top: 0px;
+  
+}  
+
+
+
+#back_grafGast{
+    width: 51%;
+    border-radius: 10px;
+    border: 6px solid transparent;
+    overflow: hidden;
+    position: absolute;
+    height: 507px;
+    top: 55px;
+    left: 47%;
+}
+
+
+
+
+.backCont{
+    display: block;
+    margin-top: 14px;
+    position: absolute;
+    width: 94%;
+    overflow-y: scroll;
+    height: 429px;
+    border: 1px solid transparent;
+    left: 3%;
+}
+
+
+
+
+.botonmes{
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    margin-left: 3%;
+    background: #ffc700;
+    border-radius: 5px;
+}
+
+.botonmes:hover{
+    text-shadow: 1px  1px 2px #ff5731;
+  }
+
+
+  #contUno{
+    border: 1px solid transparent;
+    width: 47%;
+    position: absolute;
+    z-index: 1;
+    background: white;
+}
+
+#contDos{
+    display: block;
+    position: absolute;
+    border: 1px solid transparent;
+    width: 50%;
+    margin-left: 48%;
+}
+#contDosA{
+    display: block;
+    position: absolute;
+    border: 1px solid transparent;
+    width: 50%;
+    margin-left: 48%;
+}
+
+#contDosC{
+    display: block;
+    position: absolute;
+    border: 1px solid transparent;
+    width: 50%;
+    margin-left: 48%;
+}
+#contDosD{
+    display: block;
+    position: absolute;
+    border: 1px solid transparent;
+    width: 50%;
+    margin-left: 48%;
+}
+
+.textarea1{
+    height: 26px;
+    width: 250px;
+
+    border: none;
+    border-radius: 5px;
+    background: rgb(225, 224, 224);
+}
+.textarea1 p{
+    margin-top: 5px;
+}
+
+
+.textarea2{
+    height: 26px;
+    width: 115px;
+    border-radius: 5px;
+    border: none;
+    resize: none;
+    text-align: center;
+}
+.textarea3{
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    text-align: justify;
+    padding: 19px;
+    cursor: pointer;
+}
+.colornopago{
+    background: #ffffff;
+    color: rgb(15, 15, 15) !important;
+}
+.colorCOment{
+    background: #4b8dff;
+    color: white !important;
+}
+
+
+.textarea2 p{
+    margin-top: 5px;
+}
+
+
+.colorblue{
+    color: rgb(0, 76, 255)!important;
+}
+
+.colorblack{
+    color:black;
+}
+
+
+#backBotones{
+    position: absolute;
+  bottom: 21px;
+  width: 100%;
+  text-align: left;
+  left: 1%;
+}
+
+#com1{
+    display: none;
+}
+#com2{
+    display: none;
+}
+#com3{
+    display: none;
+}
+#com4{
+    display: none;
+}
+#com5{
+    display: none;
+}
+#com6{
+    display: none;
+}
+#com7{
+    display: none;
+}
+
+#com8{
+    display: none;
+}
+
+#com9{
+    display: none;
+}
+
+#com10{
+    display: none;
+}
+
+#com11{
+    display: none;
+}
+
+#com12{
+    display: none;
+}
+
+#com13{
+    display: none;
+}
+#com14{
+    display: none;
+}
+#com15{
+    display: none;
+}
+#com16{
+    display: none;
+}
+#com17{
+    display: none;
+}
+#com18{
+    display: none;
+}
+#com19{
+    display: none;
+}
+#com20{
+    display: none;
+}
+#com21{
+    display: none;
+}
+#com22{
+    display: none;
+}
+#com23{
+    display: none;
+}
+#com24{
+    display: none;
+}
+#com25{
+    display: none;
+}
+#com26{
+    display: none;
+}
+#com27{
+    display: none;
+}
+#com28{
+    display: none;
+}
+#com29{
+    display: none;
+}
+#com30{
+    display: none;
+}
+
+#com31{ display: none;}
+#com32{ display: none;}
+#com33{ display: none;}
+#com34{ display: none;}
+#com35{ display: none;}
+#com36{ display: none;}
+#com37{ display: none;}
+#com38{ display: none;}
+#com39{ display: none;}
+#com40{ display: none;}
+#com41{ display: none;}
+#com42{ display: none;}
+#com43{ display: none;}
+#com44{ display: none;}
+#com45{ display: none;}
+#com46{ display: none;}
+#com47{ display: none;}
+#com48{ display: none;}
+#com49{ display: none;}
+#com50{ display: none;}
+#com51{ display: none;}
+#com52{ display: none;}
+#com53{ display: none;}
+#com54{ display: none;}
+#com55{ display: none;}
+#com56{ display: none;}
+#com57{ display: none;}
+#com58{ display: none;}
+#com59{ display: none;}
+#com60{ display: none;}
+#com61{ display: none;}
+#com62{ display: none;}
+#com63{ display: none;}
+#com64{ display: none;}
+#com65{ display: none;}
+#com66{ display: none;}
+#com67{ display: none;}
+#com68{ display: none;}
+#com69{ display: none;}
+#com70{ display: none;}
+#com71{ display: none;}
+#com72{ display: none;}
+#com73{ display: none;}
+#com74{ display: none;}
+#com75{ display: none;}
+#com76{ display: none;}
+#com77{ display: none;}
+#com78{ display: none;}
+#com79{ display: none;}
+#com80{ display: none;}
+
+.cobtomMas{
+    position: absolute;
+    cursor: pointer;
+  margin-left: 0%;
+  color: rgb(0, 76, 255)!important;
+  margin-top: -23px;
+}
+.cobtomCER{
+    position: absolute;
+    margin-left: 40%;
+    font-size: 24px;
+    color: rgb(0, 76, 255)!important;
+    cursor: pointer;
+}
+
+
+
+
+.colormes{
+    color: rgb(0, 76, 255)!important;
+}
+.colorblus{
+   
+   
+    cursor: pointer;
+    background:#4b8dff;
+}
+.colorAnes{
+   
+  
+    cursor: pointer;
+    background:#4bff7e;
+}
+.colorCeye{
+   
+  
+    cursor: pointer;
+    background:#4bff7e;
+}
+
+
+
+
+
+
+
+
+#backiboton{
+    position: relative;
+    margin: auto;
+      margin-top: auto;
+    width: 100%;
+    margin-top: 0%;
+
+}
+
+.backicon{
+    border: 1px solid transparent;
+    margin-top: 2%;
+    display: inline-block;
+    margin-left: 3%;
+    width: 55px;
+    height: 41px;
+    background: linear-gradient(29deg, #FF3432 0%, #FF8A4B 100%);
+    border-radius: 10px;
+    box-shadow: 1px 0px 3px 0px #191919;
+    text-align: center;
+}
+
+
+
+
+.imaboto{
+    position: relative;
+    left: 0px;
+    top: 0px;
+    width: 2.4vw;
+}
+
+.inputboton{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: -41px;
+    left: 1px;
+    background: transparent;
+    color: transparent;
+    border: none;
+    cursor: pointer;
+    z-index: 1;
+  }
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+   #tablataRESventa th{
+    background: black;
+    color: white;
+    margin: auto;
+    width: 98%;
+    text-align: center;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    border: none;
+    box-shadow: 2px 3px 5px -2px #9b9393;
+ 
+    border-radius: 5px;
+
+   }
+   
+
+   #tablataRESventa td{
+
+    margin: auto;
+    width: 98%;
+    text-align: center;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    border: none;
+    box-shadow: 2px 3px 5px -2px #9b9393;
+
+    border-radius: 5px;
+    
+   }
+   .mestab{
+    width: 80%;
+   }
+
+
+
+   #tablataRESventa2{
+    margin-bottom: 24px;
+   }
+
+   
+   #tablataRESventa2 th{
+
+    margin: auto;
+    width: 98%;
+    text-align: center;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    border: none;
+    box-shadow: 2px 3px 5px -2px #9b9393;
+    background: #ffc700;
+    border-radius: 5px;
+    background: black;
+  color: white;
+   }
+   
+
+   #tablataRESventa2 td{
+
+    margin: auto;
+    width: 98%;
+    text-align: center;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    border: none;
+    box-shadow: 2px 3px 5px -2px #9b9393;
+
+    border-radius: 5px;
+    padding-left: 15px;
+  padding-right: 15px;
+   }
+   .claseTransp{
+    color:yellow;
+   }
+   #col{
+    display: block;
+   }
+  
+
+
+
+
+
+   /*/////////////////////////////////////////////////////*/
+
+     /*SEMAFORO BARRAS*/
+
+#bacjgraf{
+    display: block;
+}
+
+  .barraING{
+    height: 100%;
+    width: 31px;
+    background: rgb(176, 174, 174);
+    box-shadow: 2px 3px 5px -2px #9b9393;
+    border-radius: 12px 12px 12px 12px;
+    position: absolute;
+  }
+  .mesgr{
+    width: 5%;
+    position: relative;
+    bottom: 62px;
+    top: 352px;
+    left: -6px;
+  }
+  .backContGRAF {
+    display: block;
+    margin-top: 14px;
+    position: absolute;
+    width: 94%;
+    height: 330px;
+    border: 1px solid transparent;
+    left: 18%;
+    margin-top: 79px;
+  }
+  .barrapor{
+    width: 31px;
+    background: linear-gradient(29deg, #ff3131 0%, #ff914d 100%);
+    display: block;
+    position: absolute;
+    bottom: -1px;
+    box-shadow: 2px 3px 5px -2px #9b9393;
+    border-radius: 12px 12px 0px 0px;
+    border: 3px solid black;
+  }
+  .barracblack{
+    background: black;
+    width: 69%;
+    height: 22px;
+    position: absolute;
+    bottom: -23px;
+    border-radius: 8px;
+    left: -1%;
+  }
+.porceNE {
+    height: 0%;
+}
+
+.porce0 {
+    height: 0%;
+ 
+}
+.porce2_5 {
+    height: 2.5%;
+ 
+}
+
+.porce5 {
+    height: 5%;
+    
+}
+
+.porce10 {
+    height: 10%;
+  
+}
+
+.porce15 {
+    height: 15%;
+   
+}
+
+.porce20 {
+    height: 20%;
+  
+}
+
+.porce25 {
+    height: 25%;
+ 
+}
+
+.porce30 {
+    height: 30%;
+    
+}
+
+.porce35 {
+    height: 35%;
+  
+}
+
+.porce40 {
+    height: 40%;
+
+}
+
+.porce45 {
+    height: 45%;
+    
+}
+
+.porce50 {
+    height: 50%;
+  
+}
+
+.porce55 {
+    height: 55%;
+ 
+}
+
+.porce60 {
+    height: 60%;
+   
+}
+
+.porce65 {
+    height: 65%;
+   
+}
+
+.porce70 {
+    height: 70%;
+   
+}
+
+.porce75 {
+    height: 75%;
+   
+}
+
+.porce80 {
+    height: 80%;
+  
+}
+
+.porce85 {
+    height: 85%;
+    
+}
+
+.porce90 {
+    height: 90%;
+  
+}
+
+.porce95 {
+    height: 95%;
+    
+}
+
+.porce98 {
+    height: 98%;
+
+}
+
+.porce100 {
+    height: 100%;
+}
+
+.ocultarcol{
+    height: 26px;
+  width: 250px;
+  border: none;
+  border-radius: 5px;
+  background: rgb(255, 255, 255)!important;
+  color: transparent!important;
+  box-shadow: 2px 3px 5px -2px transparent!important;
+}
+
+.blacky{
+    background: #f23308!important;
+    color: rgb(255, 255, 255)!important;
+    border-radius: 11px;
+    width: 89%;
+  margin: auto;
+  box-shadow: inset 2px 3px 5px -2px rgb(18, 18, 18);
+}
+/*
+.redy{
+    background: #e14c45!important;
+    color: rgb(255, 255, 255)!important;
+    border-radius: 11px;
+  width: 80%;
+  margin: auto;
+}
+
+.yelly{
+     background: #ffb94a!important;
+    color: rgb(0, 0, 0)!important;
+    border-radius: 11px;
+  width: 80%;
+  margin: auto;
+}
+  */
+.green{
+    background: #000000!important;
+
+    border-radius: 11px;
+    width: 89%;
+  margin: auto;
+  box-shadow: inset 2px 3px 5px -2px rgb(18, 18, 18);
+}
+
+.bluey{
+    background: #030303!important;
+    color: rgb(255, 255, 255)!important;
+    border-radius: 11px;
+    width: 89%;
+  margin: auto;
+   box-shadow: inset 2px 3px 5px -2px rgb(18, 18, 18);
+}

@@ -1,0 +1,44 @@
+
+
+#botonesSlid{
+    bottom: 32%;
+    margin: auto;
+      margin-bottom: auto;
+    margin-bottom: 56%;
+    right: -56%;
+    border: 1px solid transparent;
+    width: 20px;
+    position: relative;
+    bottom: 102px;
+}
+
+.botonCircle{
+    width: 20px;
+    height: 20px;
+    background: blue;
+    border-radius:100px;
+    box-shadow: 2px 3px 5px -2px #9b9393;
+    cursor: pointer;
+    margin-top: 93%;
+    background: linear-gradient(90deg, blue 0%, rgb(1, 1, 147) 100%);
+}
+
+
+#back_filtrarPrint {
+    width: 23vw;
+    height: 389px;
+   
+    margin: auto;
+      margin-top: auto;
+    margin-top: auto;
+    margin-top: auto;
+    margin-top: 12%;
+  }
+
+  #form1{
+    display: block;
+  }
+
+  #form2{
+    display: none;
+  }

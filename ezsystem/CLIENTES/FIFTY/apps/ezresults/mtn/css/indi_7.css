@@ -1,0 +1,1265 @@
+/*//////////////////////////////GENERALES////////////////////////////////////////////*/
+/*01. ///GENERALES///*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ /*quita marco post link*/
+*:focus{
+    outline: none;
+}
+/*body de home - dash*/
+body{
+    background-color: #D9D9D9;
+    display: block;  
+    z-index: 110;  
+    overflow: hidden;
+}
+
+input[type='text'],
+input[type='list'],
+input[type='date']   
+{
+    position: relative;
+    height: 30px;
+    margin-left: 1%;
+    margin-top: 3.5px;
+    background-color: #F9F9F9;
+    border: none;
+    color: #050505;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px 1px #c5c4c4;
+}
+select{
+    position: relative;
+    height: 30px;
+    margin-left: 1%;
+    margin-top: 3.5px;
+    background-color: #F9F9F9;
+    box-shadow: 1px 1px 2px 1px #c5c4c4;
+    border: none;
+    color: #050505;
+    border-radius: 5px;
+ 
+    text-align:center;
+}
+select option{
+
+    font-family:Gill Sans MT!important;
+   
+}
+
+textarea{
+    position: relative;
+    resize: none;
+    background-color: #F9F9F9;
+    box-shadow: 1px 1px 2px 1px #D9CEB8;
+    border: 1px solid #a09e7d;
+    border: none;
+    color: #050505;
+    border-radius: 5px;
+}
+input[type='text']:focus, 
+input[type='list']:focus,
+select:focus,
+textarea:focus
+{
+    box-shadow: inset 1px 1px 1px 1px  #229ccc;
+    background-color: white;
+}
+
+/*/////////////////////////////////////////////////////////////////////////////////////////BACKMOD*/
+/*/////////////////////////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////////////////////////*/
+#cabecera{
+    position: relative;
+    width: 98%;
+    margin-top: 4%;
+    left: 1%;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 2px 3px 5px -2px #9b9393;
+    text-align: center;
+    background: linear-gradient(90deg, rgb(143, 142, 141) 0%, rgb(218, 216, 213) 64%);
+    color: #27243F;
+}
+#backMod{
+    position: relative;
+    width: 97%;
+    height: 78px;
+    margin-top: 0.3%;
+    left: 1%;
+    border: none;
+    border: 1px solid transparent;
+}
+
+
+/*/////////////////////////FILTROS */
+#filtros{
+    position: relative;
+    width: 97.7%;
+    height: 30px;
+    margin-top: 1%;
+    margin-left: 1%;
+    box-shadow: 1px 1px 2px 1px #D9CEB8;
+    border: 1px solid #a09e7d;
+    border-radius: 5px;
+    text-align: center;
+    color: #2f2d29; 
+    background-color: #F9F9F9;
+}
+
+#filtros2{
+    position: relative;
+    width: 97.7%;
+    height: 30px;
+    margin-top: 1%;
+    margin-left: 1%;
+    box-shadow: 1px 1px 2px 1px #D9CEB8;
+    border: 1px solid #a09e7d;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #290E3E;
+    background: linear-gradient(70deg, #290E3E 11%, #01686F 88%);
+    color: rgba(21, 255, 173, 0.932);
+}
+#backMod{
+    position: relative;
+    width: 98%;
+    height: 78px;
+    margin-top: 0.3%;
+    left: 1%;
+    border: none;
+    border: 1px solid transparent;
+}
+
+
+#backcabe1{
+    position: absolute;
+    width: 4%;
+    height: 78px;
+    margin-top: 13px;
+    right: 10%;;
+    border: none;
+    border: 1px solid transparent;
+    z-index: 1;
+}
+#backcabe2{
+    position: absolute;
+    width: 4%;
+    height: 78px;
+    margin-top: 12px;
+    right: 1%;
+    border: none;
+    border: 1px solid transparent;
+    z-index: 1;
+}
+#backcabe3{
+    position: absolute;
+    width: 4%;
+    height: 78px;
+    margin-top: -88px;
+    right: 5%;
+    border: none;
+    border: 1px solid transparent;
+    z-index: 1;
+}
+/*///////////////////////BOTON REGRESAR */
+
+
+#backRegresar{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 16px;
+    right: 0%;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid transparent;
+
+    text-align: center;
+    background: #D9D9D9;
+    box-shadow: 2px 3px 5px -2px #9b9393;
+}
+
+#backRegresarB {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    top: 119px;
+    right: 9%;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    text-align: center;
+    background: #D9D9D9;
+    box-shadow: 2px 3px 5px -2px #9b9393;
+    z-index: 1;
+    margin: auto;
+  }
+
+#regresar {
+    position: relative;
+    border: none;
+    cursor: pointer;
+    height: 72%;
+    width: 100%;
+    margin: auto;
+    top: 15%;
+}
+
+/*recarga*/
+#backRecarga{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 16px;
+    right: 10%;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid transparent;
+
+    text-align: center;
+    background: #D9D9D9;
+    box-shadow: 2px 3px 5px -2px #9b9393;
+}
+#recargar {
+    position: relative;
+    border: none;
+    cursor: pointer;
+    height: 72%;
+    width: 100%;
+    margin: auto;
+    top: 15%;
+}
+
+
+
+/*///////////////////////////////////////guardar*/
+
+
+#backGuardar{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 23px;
+    right: 4.8%;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    text-align: center;
+
+    background: #D9D9D9;
+    box-shadow: 2px 3px 5px -2px #9b9393;
+}
+input[type="image"]#guardar {
+    position: relative;
+    border: none;
+    cursor: pointer;
+    height: 72%;
+    width: 99%;
+    margin: auto;
+    top: 17%;
+    
+}
+input[type="submit"]#submit {
+    position: absolute;
+    border: none;
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    top: 0%;
+    border: 1px solid transparent;
+    left: 0%;
+    background: transparent;
+    color: transparent;
+}
+/*AVISOS*/
+#contdatsave{
+    display: block;
+    position: absolute;
+    background-color: #F9F9F9;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%; 
+
+}
+#contdatsaveB{
+    display: block;
+    position: absolute;
+    background-color: #F9F9F9;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%; 
+
+}
+#datsave{
+    display: block;
+    position: absolute;   
+    top: 227px;
+    left: 44%; 
+    color: black;
+    font-size: 20px;
+  
+}
+
+#espacio{
+    height: 20px;
+}
+/*///////////////////////////////////////guardar*/
+
+
+
+/*<<<<<<<<<<<<<<<<<<<<<<//////////////////////////////////////////////////////////////////////////////////////<<*/
+/*<<<<<<<<<<<<<<<<<<<<<<//////////////////////////////////////////////////////////////////////////////////////<<*/
+/*<<<<<<<<<<<<<<<<<<<<<<//////////////////////////////////////////////////////////////////////////////////////<<*/
+/*<<<<<<<<<<<<<<<<<<<<<<//////////////////////////////////////////////////////////////////////////////////////<<*/
+
+
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+/*-------CONTENEDOR */
+#contForm{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    display: block;
+    z-index: 10;
+    background: transparent;
+    overflow: hidden;
+}
+
+/*CONTENEDOR GENERAL*/
+#backcont{
+    display: block;
+    position: relative;
+    top: 0%;
+    left: 0.7%;
+    width: 98%;
+    height: 69%;
+    box-shadow: 3px 3px 5px -2px #9b9393;
+    border: 1px solid transparent;
+    border-radius: 13px;
+    margin-top: 1%;
+}
+/*contenedor fondo sombras*/
+#backcontas {
+    display: block;
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+
+    overflow-y: scroll;
+  }
+  
+/**/
+#backObj{
+    display: block;
+    position: absolute;
+    top: 21%;
+    left: 0.7%;
+    width: 98%;
+    height: 74%;
+    background-color: #F9F9F9;
+    box-shadow: 3px 3px 5px -2px #9b9393;
+    border: 1px solid transparent;
+    border-radius: 13px;
+}
+
+
+#conttabobj{
+    display: block;
+    position: absolute;
+    top: 41px;
+    left: 1%;
+    width: 98%;
+    height: 84%;
+    border: 1px solid transparent;
+    overflow-y: scroll;
+}
+
+#backdatob{
+    display: block;
+    position: absolute;
+    top: 1%;
+    left: 1%;
+    width: 98%;
+    height: 48px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    z-index: 100;
+}
+
+#tablataobj{
+    margin-top: 0%;
+    width: 99.5%;
+}
+#columnasob{
+    background-color: transparent;
+  /*  box-shadow:  1px 1px 2px 1px  #9b9393;*/
+    color: transparent;
+    font-size: 11px;
+}
+
+
+/*COLUMNAS*/
+
+#col1{
+    width: 25%;
+}
+#col2{
+    width: 25%;
+}
+
+#col3{
+    width: 25%;
+}
+
+#col4{
+    width: 25%;
+}
+
+
+
+
+.divicion{
+    position: relative;
+    margin-top: 20px;
+    height: 2px;
+    background:transparent;
+    border-radius: 5px;
+}
+.divicionb{
+    position: relative;
+    margin-top: 20px;
+    height: 4px;
+    background:#038acd;
+    border-radius: 5px;
+}
+
+
+#servdep{
+    width: 30.4%;
+    margin-left: 1.3%;
+    margin-top: 0.9%;
+    text-align: center;
+    background-color: #a09e7d;
+    color: #fafbfb;
+}
+#servdepV{
+    width: 31.4%;
+    margin-left: 0.3%;
+    margin-top: 0.9%;
+    text-align: center;
+    background-color: #a09e7d;
+    background: #006AA6;
+    color: white;
+  }
+
+/*///////////////////////////////////////////////////////////////////////////////ALTA*/
+/*ID*/
+
+/*perspectiva*/
+#perspectiva{
+    width: 131.6%;
+    margin-left: 0%;
+    background: #F9F9F9;
+    user-select: none;
+    text-align: center;
+}
+/*OBJETIVO ASOC*/
+#indicavige {
+    width: 100%;
+    display: block;
+    text-align: center;
+    position: absolute;
+    margin-left: 0%;
+    background: #006AA6;
+    color: white;
+}
+/**/
+
+#indicavigeVA {
+    width: 67.5%;
+    margin-left: 32.4%;
+    margin-top: -2.2%;
+    display: block;
+    text-align: center;
+    background: #006AA6;
+    color: white;
+  }
+/*tipo*/
+#tipo{
+    width: 95%;
+    text-align: center;
+    background-color: #F9F9F9;
+    margin-left: 34%;
+}
+#dueno{
+    width: 131%;
+    text-align: center;
+    background: #F9F9F9;
+    margin-left: 0%;
+}
+
+/*accion*/
+#accion{
+    margin-left: 0%;
+    width: 132%;
+    text-align: center;
+    background: #F9F9F9;
+}
+
+/*articulo*/
+#articulo{
+    margin-left: 0%;
+    width: 132%;
+    text-align: center;
+    background: #F9F9F9;
+}
+
+/*nombre indi*/
+#mat{
+    width: 95%;
+    margin-left: 34%;
+    background: #F9F9F9;
+    text-align: center;
+}
+
+/*nombre indi*/
+#indicaname{
+    width: 269%;
+    margin-left: 134%;
+    background: #F9F9F9;
+    text-align: center;
+}
+
+/*meta*/
+#metaa{
+    width: 60%;
+    margin-left: 134%;
+    text-align: center;
+    background: #F9F9F9;
+}
+
+/*ponderacion indi*/
+#ponde{
+    width: 82%;
+    margin-left: 96%;
+    background: #F9F9F9;
+    text-align: center;
+}
+
+/*vigencias*/
+#fechatext{
+    width: 68%;
+    margin-left: 80%;
+    background: #989898;
+    color: #fafbfb;
+    text-align: center;
+    user-select: none;
+}
+/*mefechalima*/
+
+#fechlim
+{
+    position: relative;
+    width: 50%;
+    margin-top: 3.5px;
+    margin-left: 50%;
+    text-align: center;
+    background: #F9F9F9;
+    height: 30px;
+    box-shadow: 1px 1px 2px 1px #9b9393;
+    border: none;
+    color: #050505;
+    cursor: pointer;
+    border-radius: 5px;
+}
+/*...........................................*/
+#objactualP{
+    width: 98.1%;
+    margin-left: 0.9%;
+    margin-top: 0.9%;
+    display: block;
+    text-align: center;
+}
+/*perspectiva*/
+#perspectivaP{
+    width: 99%;
+    margin-left: 0%;
+    user-select: none;
+    text-align: center;
+}
+#tipoP{
+    width: 69%;
+    text-align: center;
+    margin-left: 1%;
+}
+
+/*enfoque i*/
+#enfoqueP{
+    width: 263%;
+    margin-left: -28.5%;
+    text-align: center;
+}
+/*inicio nom*/
+#indiartiP {
+    margin-left: 0%;
+    width: 132%;
+    text-align: center;
+  }
+
+#indicadorP{
+    width: 301.1%;
+    margin-left: 34%;
+    text-align: center;
+}
+
+
+#duenoP{
+    width: 132%;
+    text-align: center;
+    margin-left: 0%;
+  }
+
+#metaaP{
+width: 69%;
+margin-left: 34%;
+text-align: center;
+}
+
+#pondeP{
+    width: 87%;
+    margin-left: 5%;
+    text-align: center;
+}
+#fechatextP{
+    width: 79%;
+    margin-left: -6%;
+    text-align: center;
+    user-select: none;
+    background: #989898;
+    color: #fafbfb;
+  }
+
+  #fechlimP{
+    position: relative;
+    width: 145.2%;
+    margin-top: 3.5px;
+    margin-left: -47%;
+    text-align: center;
+    height: 30px;
+    border: none;
+ 
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+
+  .falla{
+    width: 317%;
+    margin-left: 135%;
+    text-align: left;
+    padding-left: 4%;
+}
+/*.......................ALTA DE MAS RIESGOS......................................*/
+/*nombre indi*/
+#indicadorR{
+    width: 98%;
+    margin-left: 1%;
+    background: #DFD083;
+    text-align: center;
+    margin-top: 1%;
+}
+
+#fallacatR{
+    width: 400%;
+    margin-left: 0%;
+    background-color: #a09e7d;
+    color: #fafbfb;
+    text-align: left;
+    padding-left: 2%;
+    font-size:10px;
+    transition: 200ms;
+}
+#fallacatR:focus{
+    font-size:15px;
+}
+.fallaR {
+    width: 393%;
+    margin-left: 4%;
+    text-align: left;
+    background: #DFD083 !important;
+    padding-left: 4%;
+    font-size: 10px;
+    transition: 200ms;
+}
+    .fallaR:focus{
+    font-size:15px;
+}
+#enfoques{
+    width: 98%;
+    margin-left: 1%;
+    background: #DFD083; 
+    text-align: center;
+    margin-top: 1%;
+}
+#enfoquesV{
+    width: 98%;
+    margin-left: 1%;
+    background-color: #a09e7d;
+    color: #fafbfb;
+    text-align: center;
+    margin-top: 1%;
+}
+
+#tipoinv{
+    width: 58%;
+    text-align: center;
+    background-color: #a09e7d;
+    color: #fafbfb;
+    margin-left: -67%;
+}
+/*ACTIVO*/
+#activo{
+    width: 142%;
+    margin-left: -67%;
+    background-color: #a09e7d;
+    color: #fafbfb;
+    text-align: center;
+}
+/*ARTICULO*/
+#indiarti{
+    margin-left: 0%;
+    width: 132%;
+    text-align: center;
+    background: #DFD083;
+}
+
+#indiartiinv{
+    margin-left: 0%;
+    width: 132%;
+    text-align: center;
+    background-color: #a09e7d;
+    color: #fafbfb;
+}
+/*nombre indi*/
+#indicadorr{
+    width: 266%;
+    margin-left: -67%;
+    background: #DFD083;
+    text-align: center;
+}
+
+/*nombre indi*/
+#indicadorrs{
+    width: 266%;
+    margin-left: 34%;
+    background: #DFD083;
+    text-align: center;
+}
+#indicadorrinv{
+    width: 266%;
+    margin-left: -67%;
+    background-color: #a09e7d;
+    color: #fafbfb;
+    text-align: center;
+}
+
+#indicadorr::placeholder{
+    text-align: center;
+}
+
+
+/*<<<<<<<<<<<<<<<<<<<<<<<CLIENTES*/
+
+
+/*ARTICULO*/
+#indiartiS{
+    margin-left: 0%;
+    width: 132%;
+    text-align: center;
+    background: #DFD083;
+}
+
+
+/*nombre indi*/
+#indicadorrS{
+    width: 266%;
+    margin-left: 34%;
+    background: #DFD083;
+    text-align: center;
+}
+
+/*medida*/
+#medidaaS{
+    width: 81%;
+    margin-left: 94%;
+    text-align: center;
+    background: #DFD083;
+}
+
+/*////////////////////////////////////////////////////////////////////////////////AGREGAR*/
+
+
+/*ID*/
+#ididdagr{
+    width: 21%;
+    text-align: center;
+    background: #DFD083;
+}
+/*perspectiva*/
+#perspectivaagr{
+    width: 108%;
+    margin-left: -77%;
+    background-color: #a09e7d;
+    color: #fafbfb;
+    text-align: center;
+}
+#tipoagr{
+    width: 58%;
+    text-align: center;
+    background-color: #a09e7d;
+    color: #fafbfb;
+    margin-left: -67%;
+}
+/*ACTIVO*/
+#activoagr{
+    width: 80%;
+    margin-left: -107%;
+    background-color: #a09e7d;
+    color: #fafbfb;
+    text-align: center;
+}
+/*ARTICULO*/
+#indiartiagr{
+    width: 132%;
+    text-align: center;
+    background-color: #a09e7d;
+    color: #fafbfb;
+}
+/*nombre indi*/
+#indicadorragr{
+    width: 266%;
+    margin-left: 34%;
+    background-color: #a09e7d;
+    color: #fafbfb;
+    text-align: center;
+}
+#indicadorragr::placeholder{
+    text-align: center;
+}
+/*ponderacion indi*/
+#pondeagr{
+    width: 81%;
+    margin-left: 94%;
+    text-align: center;
+    background-color: #a09e7d;
+    color: #fafbfb;
+}
+/*meta*/
+#metaaagr{
+    width: 57%;
+    margin-left: 135%;
+    text-align: center;
+    background-color: #a09e7d;
+    color: #fafbfb;
+}
+
+/*vigencias*/
+#fechatextagr{
+    width: 70%;
+    margin-left: 77%;
+    background-color: #a09e7d;
+    color: #fafbfb;
+    text-align: center;
+    user-select: none;
+}
+/*fechalim*/
+#fechlimagr{
+    width: 50%;
+    margin-left: 49%;
+    text-align: center;
+    background-color: #a09e7d;
+    color: #fafbfb;
+}
+
+/*........................................baja indicadores<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+/*ACTIVO*/
+#activ {
+    width: 81%;
+    margin-left: -107%;
+    text-align: center;
+    background: #DFD083;
+  }
+
+  #metamodA {
+    width: 57%;
+    margin-left: 135%;
+    text-align: center;
+    background-color: #a09e7d;
+    color: #fafbfb;
+  }
+  #pondemodA {
+    width: 81%;
+    margin-left: 94%;
+    text-align: center;
+    background-color: #a09e7d;
+    color: #fafbfb;
+  }
+/*//////////////////////////////////////////////////////////////////////MODIFICAR*/
+
+
+/*ID*/
+#ididdmod{
+    width: 21%;
+    text-align: center;
+    background-color: #a09e7d;
+    color: #fafbfb;
+}
+/*perspectiva*/
+#perspAj{
+    width: 108%;
+    margin-left: -77%;
+    background-color: #a09e7d;
+    color: #fafbfb;
+    text-align: center;
+}
+/*ACTIVO*/
+#activomod{
+    width: 83%;
+    margin-left: -108%;
+    background-color: #a09e7d;
+    color: #fafbfb;
+    text-align: center;
+}
+/*ARTICULO*/
+#indiartimod{
+    width: 191%;
+    text-align: center;
+    background: #DFD083;
+    left: 0%;
+}
+#indiartifx{
+    width: 191%;
+    text-align: center;
+    background: #DFD083!important;
+    left: 0%;
+}
+textarea ::placeholder{
+    padding-top: 50%
+ 
+}
+/*nombre indi*/
+#indicadorrmod{
+    width: 208%;
+    text-align: center;
+    background: #DFD083;
+    left: 92%;
+}
+#indicadorrmod::placeholder{
+    text-align: center;
+}
+/*meta*/
+#metamod{
+    width: 57%;
+    margin-left: 135%;
+    text-align: center;
+    background: #DFD083;
+}
+/*ponderacion indi*/
+#pondemod{
+    width: 81%;
+    margin-left: 94%;
+    text-align: center;
+    background: #DFD083;
+}
+
+/*vigencias*/
+#fechatextmod{
+    width: 70%;
+    margin-left: 77%;
+    background-color: #a09e7d;
+    color: #fafbfb;
+    text-align: center;
+    user-select: none;
+}
+/*fechalim*/
+#fechlimmod{
+    width: 50%;
+    margin-left: 49%;
+    text-align: center;
+    background-color: #a09e7d;
+    color: #fafbfb;
+}
+/*<<<<<<<<<<<<<<CLIENTES*/
+
+/*tipo*/
+#proveedormod{
+    width: 206%;
+    text-align: center;
+    background-color: #a09e7d;
+    color: #fafbfb;
+    margin-left: -107%;
+}
+
+#textmetamod{
+    background: transparent;
+    border: none;
+    box-shadow: 0px 0px 0px 0px;
+    margin-left: 55%;
+    height: 10px;
+}
+#textpondmod{
+    background: transparent;
+    border: none;
+    box-shadow: 0px 0px 0px 0px;
+    margin-left: 15%;
+    height: 10px;
+}
+
+#pondepa{
+    width: 30.4%;
+    margin-left: 1.3%;
+    margin-top: 0.9%;
+    text-align: center;
+}
+#pondepb{
+    width: 35.4%;
+    margin-left: 1.3%;
+    margin-top: 0.9%;
+    text-align: center;
+    background-color: #a09e7d;
+    color: #fafbfb;
+}
+
+/*////////////////////////////////////////////////////////////////////////////BAJA*/
+/*ID*/
+#ididdbaj{
+    width: 21%;
+    text-align: center;
+    background-color: #a09e7d;
+    color: #fafbfb;
+}
+/*perspectiva*/
+#perspectivabaj{
+    width: 108%;
+    margin-left: -77%;
+    background-color: #a09e7d;
+    color: #fafbfb;
+    text-align: center;
+}
+/*enfoque indi*/
+#enfoque{
+    width: 206%;
+    margin-left: -107.5%;
+    background-color: #a09e7d;
+    color: #fafbfb;
+    text-align: center;
+}
+/*ACTIVO*/
+#activobaj{
+    width: 131%;
+    margin-left: 0%;
+    background: #DFD083;
+    text-align: center;
+}
+/*ARTICULO*/
+#indiartibaj{
+    width: 132%;
+    text-align: center;
+    background-color: #a09e7d;
+    color: #fafbfb;
+}
+/*nombre indi*/
+#indicadorrbaj{
+    width: 266%;
+    margin-left: 34%;
+    background-color: #a09e7d;
+    color: #fafbfb;
+    text-align:center;
+}
+#indicadorrbaj::placeholder{
+    text-align: center;
+}
+/*meta*/
+#metaabaj{
+    width: 57%;
+    margin-left: 135%;
+    text-align: center;
+    background-color: #a09e7d;
+    color: #fafbfb;
+}
+
+
+/*vigencias*/
+#fechatextbaj{
+    width: 70%;
+    margin-left: 77%;
+    background-color: #a09e7d;
+    color: #fafbfb;
+    text-align: center;
+    user-select: none;
+}
+/*mefechalima*/
+#fechlimbaj{
+    width: 50%;
+    margin-left: 49%;
+    text-align: center;
+    background-color: #a09e7d;
+    color: #fafbfb;
+}
+/*procesos<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+/*ACTIVO*/
+#activobajpro{
+    width: 132%;
+    margin-left: 0%;
+    background: #DFD083;
+    text-align: center;
+}
+/*/////////////////////////////////////////////////////////////////*/
+
+
+/*nombre indi*/
+#indicadorrmodp{
+    width: 266%;
+    margin-left: 34%;
+    background-color: #a09e7d;
+    color: #fafbfb;
+    text-align: justify;
+    transition: 200ms;
+    font-size: 10px;
+}
+/*<<<<<<<<<<<<<<<<<MODIFICAR*/
+.fallamod{
+    width: 267%;
+    margin-left: 135%;
+    text-align: left;
+    background-color: #a09e7d;
+    color: #fafbfb;
+}
+.fallamod:focus{
+    color: black;
+}
+.optionfall{
+    color: black;
+
+}
+/*nombre indicador*/
+#indicadorrmodp:focus{
+    font-size: 15px;
+}
+/*tipo*/
+#tipopromod{
+    width: 58%;
+    text-align: center;
+    background-color: #a09e7d;
+    color: #fafbfb;
+    margin-left: -67%;
+}
+/*articulo*/
+#indiartipromod{
+    width: 132%;
+    text-align: center;
+    background-color: #a09e7d;
+    color: #fafbfb;
+    margin-left: 0%;
+}
+/*meta*/
+#metaapromod{
+    width: 57%;
+    margin-left: 135%;
+    text-align: center;
+    background-color: #a09e7d;
+    color: #fafbfb;
+}
+/*ponderacion indi*/
+#pondepromod{
+    width: 81%;
+    margin-left: 94%;
+    text-align: center;
+    background-color: #a09e7d;
+    color: #fafbfb;
+}
+/*perspectiva*/
+#perspromod{
+    width: 108%;
+    margin-left: -77%;
+    background-color: #a09e7d;
+    color: #fafbfb;
+    text-align: center;
+}
+#fechlimpromod{
+    width: 50%;
+    margin-left: 49%;
+    text-align: center;
+    background-color: #a09e7d;
+    color: #fafbfb;
+}
+
+/*ESTATUS DE FALLAS*/
+
+/*articulo*/
+#ididdfa{
+    width: 132%;
+    text-align: center;
+    background-color: #a09e7d;
+    color: #fafbfb;
+    margin-left: 0%;
+}
+/*enfoque indi*/
+#enfoquefa{
+    width: 206%;
+    margin-left: -107.5%;
+    background-color: #a09e7d;
+    color: #fafbfb;
+    text-align: center;
+}
+/**/
+#fallacat{
+    width: 402%;
+    margin-left: 0%;
+    background-color: #a09e7d;
+    color: #fafbfb;
+    text-align: justify;
+}
+#idobjtfa{
+    width: 132%;
+    text-align: center;
+    background-color: #a09e7d;
+    color: #fafbfb;
+    margin-left: 34%;
+}
+
+/*ACTIVO*/
+#estatusfa{
+    width: 132%;
+    margin-left: 0%;
+    background: #DFD083;
+    text-align: center;
+}
+/*//////////////////////////////////////////////////////ASOCIAR RIESGOS*/
+#idobjtfamas{
+    width: 133%;
+    text-align: center;
+    background-color: #a09e7d;
+    margin-left: 0%;
+
+    
+}
+

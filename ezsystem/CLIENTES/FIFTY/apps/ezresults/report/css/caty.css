@@ -1,0 +1,132 @@
+/*01. ///GENERALES///*/
+
+*{
+   
+    text-decoration: none;
+    list-style: none;
+    /*user-select: none;*/
+}
+body{  
+ 
+    background-color: rgb(255, 255, 255); 
+    
+}
+/*CABECERA*/
+
+
+#cbecera{
+    display: block;
+    border: 1px solid transparent;
+    position: relative;
+    width: 99.6%;
+    height:10%;
+    top: 0%;
+    left: 0.12%; 
+    font-family: erasdemi;
+}
+
+
+/**/
+#printIcon{
+    display: block;
+    position: absolute;
+    height: 42%;
+    top:20%;   
+    left: 1%;
+   
+}
+#oculPrint{
+    position: absolute;
+    display: block;
+    top:0%;   
+    left: -37.2%;
+    width: 500px;
+    height: 72%;
+    background-color: rgb(255, 255, 255); 
+    z-index: 1;  
+    border: 1px solid transparent;
+}
+
+#nombreformprint{
+    position: relative;
+    top:5%;
+    left:0%;   
+    font-size: 15px;   
+    text-align: center;
+    width: 100%;
+    border: 1px solid transparent;
+    z-index: 1000;
+}
+
+
+#totalfallas,
+#totalop,
+#sufientexmuestra,
+#porcentajeresult{   
+  
+    font-size: 10px;
+    margin-left:0.1%;
+    text-align: left;
+    color: rgb(92, 92, 92);
+  
+}
+#seicapp,
+#fechacorte
+{   
+  
+    font-size: 10px;
+    margin-left:1%;
+    text-align: left;
+    color: rgb(92, 92, 92);
+  
+}
+#logcliente{
+    width: 3%;
+    margin-top: 0.1%;
+    margin-left: 94.6%;
+}
+#filtrodat{
+    font-family: erasdemi;
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+}
+/**/
+#conttab{
+    position: relative;
+    width: 100%;
+    height:60%;
+    top: 33%;
+    left: 0%; 
+    font-size: 10px;    
+    font-family: erasdemi;
+}
+#tablatab{
+    position: relative;
+    width: 100%;
+    left: 0%; 
+    font-size: 10px;
+}
+
+#columnas{
+    background-color: #151719;
+    text-align: center;
+    font-size: 12px;
+    color: #ffffff;
+}
+td{
+   
+   
+    font-family: erasdemi;
+    border: 1.5px solid #151719;
+    font-size: 10px;
+   
+}
+/*<<<<<<<<<<<<<<<<<<<<<ANCHO DE COLUMNAS*/
+/*CATALOGOS*/
+.center{
+    text-align: center;
+}
+.leftt{
+    text-align: left;
+}

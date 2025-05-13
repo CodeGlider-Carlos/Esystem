@@ -1,0 +1,1144 @@
+/*///////////////////////////////////////////////////////////////////////RESULTADO GLOBAL*/
+
+#resultadoGENERAL {
+  position: absolute;
+  top: 320px;
+  left: 18%;
+  width: 79%;
+  height: 22px;
+  box-shadow: inset 2px 3px 12px -2px #9b9393;
+  user-select: none;
+  border-radius: 9px;
+  border: 4px solid white;
+}
+
+#backAgj {
+  display: block;
+  position: absolute;
+  top: 0%;
+  width: 100%;
+  height: 100%;
+  border-radius: 9px;
+}
+.destotal {
+  position: absolute;
+  top: -175%;
+  left: -45%;
+  width: 100%;
+  font-size: 1.3vw;
+  text-align: center;
+}
+
+#backAguja {
+  display: block;
+  position: relative;
+  top: 36%;
+  width: 100%;
+  height: 92%;
+  border: 1px solid transparent;
+}
+#aguja {
+  position: absolute;
+  height: 164%;
+  margin-top: 10px;
+}
+
+/*0 A 15*/
+
+.aguj015 {
+  position: relative;
+  left: 5%;
+}
+/*15 A 25*/
+.aguj1525 {
+  position: relative;
+  left: 10%;
+}
+/*25 A 35*/
+.aguj2535 {
+  position: relative;
+  left: 20%;
+}
+/*35 A 45*/
+.aguj3545 {
+  position: relative;
+  left: 30%;
+}
+
+/*50%
+45 55
+*/
+.aguj4555 {
+  position: relative;
+  left: 47%;
+}
+
+/*55 A 65*/
+
+.aguj5565 {
+  position: relative;
+  left: 50%;
+}
+/*65 A 75*/
+
+.aguj6575 {
+  position: relative;
+  left: 55%;
+}
+
+/*75 A 85*/
+
+.aguj7585 {
+  position: relative;
+  left: 65%;
+}
+/*85A95*/
+.aguj8595 {
+  position: relative;
+  left: 75%;
+}
+/*95 A 100*/
+.aguj95100 {
+  position: relative;
+  left: 85%;
+}
+
+/*////////////////////////////////////////////////////////////NORMAS Y ESTANDARES*/
+
+#NMXyESTANDARES {
+  position: absolute;
+  top: 42px;
+  left: 2%;
+  width: 14%;
+  box-shadow: 0px 2px 4px -1px #9b9393;
+  overflow: hidden;
+  border-radius: 5px;
+  background: #f9f9f9;
+}
+.tabres1 {
+  font-size: 10px;
+  text-align: center;
+  color: #727272;
+}
+.tabres1 td {
+  border: 1px solid transparent;
+}
+
+#nmxssa {
+  position: relative;
+  top: 6px;
+  left: 3%;
+}
+
+#nmxstps {
+  position: relative;
+  top: -26px;
+  left: 37%;
+}
+#nmxotras {
+  position: relative;
+  top: -56px;
+  left: 70%;
+}
+/*TITULO ESTANDARES*/
+#titleestan {
+  margin-top: -37px;
+}
+
+#contestan {
+  position: absolute;
+  top: 145px;
+  left: 0%;
+  width: 22%;
+  height: 61%;
+  box-shadow: 2px 3px 5px -2px #9b9393;
+  background: #d9d9d9;
+}
+#nmxestandares1 {
+  position: relative;
+  width: 20%;
+  border: 1px solid transparent;
+  height: 61%;
+  margin: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-top: auto;
+  margin-top: 15%;
+  margin-bottom: 13%;
+}
+#nmxestandares2 {
+  position: absolute;
+  top: 113px;
+  right: 6%;
+  width: 20%;
+  border: 1px solid transparent;
+  height: 61%;
+}
+.porceEst {
+  width: 70px;
+  text-align: center;
+  font-size: 1vw;
+  border-radius: 5px;
+  box-shadow: inset 2px 3px 5px -2px #9b9393;
+}
+
+/*////////////////////////////////////////////////////////////////////////////////////////MESES*/
+
+#MESES {
+  position: absolute;
+  top: 397px;
+  left: 18%;
+  width: 79%;
+  height: 91px;
+  box-shadow: 2px 3px 5px -2px #9b9393;
+  background: #f9f9f9;
+  border-radius: 5px;
+  overflow: hidden;
+}
+#simPorcent {
+  position: relative;
+  top: 14%;
+  left: -46%;
+  color: #afabab;
+  font-size: 32px;
+}
+
+#tablaMES {
+  display: block;
+  position: absolute;
+  top: 40%;
+  left: 0%;
+  width: 100%;
+  height: 7%;
+
+  font-size: 10px;
+  border: 1px solid transparent;
+}
+
+#grafmes {
+  display: block;
+  position: absolute;
+  bottom: 23%;
+  left: -6%;
+  width: 107%;
+  height: 75%;
+  border: 1px solid transparent;
+}
+/*MES*/
+
+.tabbluemes {
+  width: 3%;
+  height: 26px;
+  border-radius: 4px;
+}
+.tabgreenmes {
+  width: 3%;
+  height: 26px;
+  border-radius: 4px;
+}
+.tabyellmes {
+  width: 3%;
+  height: 26px;
+  border-radius: 4px;
+}
+.taborangemes {
+  width: 3%;
+  height: 26px;
+  border-radius: 4px;
+}
+
+.taborredmes {
+  width: 3%;
+  height: 26px;
+  border-radius: 4px;
+}
+
+.tabcinemes {
+  width: 3%;
+  height: 26px;
+  border-radius: 4px;
+  margin-left: 3%;
+}
+#mes1 {
+  display: inline-block;
+  position: relative;
+  top: 70%;
+}
+
+#mes2 {
+  display: inline-block;
+  position: relative;
+  top: 70%;
+}
+
+#mes3 {
+  display: inline-block;
+  position: relative;
+  top: 70%;
+}
+#mes4 {
+  display: inline-block;
+  position: relative;
+  top: 70%;
+}
+#mes5 {
+  display: inline-block;
+  position: relative;
+  top: 70%;
+}
+
+#mes6 {
+  display: inline-block;
+  position: relative;
+  top: 70%;
+}
+
+#mes7 {
+  display: inline-block;
+  position: relative;
+  top: 70%;
+}
+
+#mes8 {
+  display: inline-block;
+  position: relative;
+  top: 70%;
+}
+
+#mes9 {
+  display: inline-block;
+  position: relative;
+  top: 70%;
+}
+
+#mes10 {
+  display: inline-block;
+  position: relative;
+  top: 70%;
+}
+
+#mes11 {
+  display: inline-block;
+  position: relative;
+  top: 70%;
+}
+#mes12 {
+  display: inline-block;
+  position: relative;
+  top: 70%;
+}
+.margin {
+  margin-left: 3.4%;
+}
+.resmes1 {
+  position: absolute;
+  bottom: -14px;
+  left: 0px;
+  font-size: 10px;
+
+  border-radius: 5px;
+  color: black;
+}
+.resmes2 {
+  position: absolute;
+  bottom: -14px;
+  left: 0px;
+  font-size: 10px;
+
+  border-radius: 5px;
+  color: black;
+}
+.resmes3 {
+  position: absolute;
+  bottom: -14px;
+  left: 0px;
+  font-size: 10px;
+
+  border-radius: 5px;
+  color: black;
+}
+.resmes4 {
+  position: absolute;
+  bottom: -14px;
+  left: 0px;
+  font-size: 10px;
+
+  border-radius: 5px;
+  color: black;
+}
+.resmes5 {
+  position: absolute;
+  bottom: -14px;
+  left: 0px;
+  font-size: 10px;
+
+  border-radius: 5px;
+  color: black;
+}
+.resmes6 {
+  position: absolute;
+  bottom: -14px;
+  left: 0px;
+  font-size: 10px;
+
+  border-radius: 5px;
+  color: black;
+}
+.resmes7 {
+  position: absolute;
+  bottom: -14px;
+  left: 0px;
+  font-size: 10px;
+
+  border-radius: 5px;
+  color: black;
+}
+.resmes8 {
+  position: absolute;
+  bottom: -14px;
+  left: 0px;
+  font-size: 10px;
+
+  border-radius: 5px;
+  color: black;
+}
+.resmes9 {
+  position: absolute;
+  bottom: -14px;
+  left: 0px;
+  font-size: 10px;
+
+  border-radius: 5px;
+  color: black;
+}
+.resmes10 {
+  position: absolute;
+  bottom: -14px;
+  left: 0px;
+  font-size: 10px;
+
+  border-radius: 5px;
+  color: black;
+}
+.resmes11 {
+  position: absolute;
+  bottom: -14px;
+  left: 0px;
+  font-size: 10px;
+
+  border-radius: 5px;
+  color: black;
+}
+.resmes12 {
+  position: absolute;
+  bottom: -14px;
+  left: 0px;
+  font-size: 10px;
+
+  border-radius: 5px;
+  color: black;
+}
+
+.nommes {
+  display: block;
+  position: absolute;
+  color: black;
+}
+#mesene {
+  bottom: 0%;
+  left: 5.6%;
+}
+#mesfeb {
+  bottom: 0%;
+  left: 13%;
+}
+#mesmar {
+  bottom: 0%;
+  left: 20.8%;
+}
+#mesabr {
+  bottom: 0%;
+  left: 28.5%;
+}
+#mesmay {
+  bottom: 0%;
+  left: 37.2%;
+}
+#mesjun {
+  bottom: 0%;
+  left: 45.9%;
+}
+#mesjul {
+  bottom: 0%;
+  left: 54.8%;
+}
+#mesago {
+  bottom: 0%;
+  left: 61.8%;
+}
+#messep {
+  bottom: 0%;
+  left: 70%;
+}
+#mesoct {
+  bottom: 0%;
+  left: 78.5%;
+}
+#mesnov {
+  bottom: 0%;
+  left: 86%;
+}
+#mesdic {
+  bottom: 0%;
+  left: 94.9%;
+}
+
+/*////////////////////////////////////////////////////////////SEMAFOROS POR PROCESOS Y MACROS*/
+/*BACK X TIPO DE PROCESOS Y MACROS*/
+
+#back2 {
+  top: 38px;
+  left: 25%;
+  width: 72.9%;
+  height: 199px;
+  box-shadow: 2px 3px 5px -2px #9b9393;
+  overflow: hidden;
+  transition: 300ms;
+  user-select: none;
+  background: #f9f9f9;
+  border-radius: 27px;
+}
+
+#TIPOPROCESOS {
+  position: absolute;
+  top: 42px;
+  left: 18%;
+  width: 78.9%;
+  height: 240px;
+  box-shadow: 2px 3px 5px -2px #9b9393;
+  overflow: hidden;
+  transition: 300ms;
+  user-select: none;
+  background: #f9f9f9;
+  border-radius: 15px;
+}
+
+.backpro {
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  user-select: none;
+  background: #d6d6d6;
+  border: 1px solid transparent;
+  background: #f9f9f9;
+}
+
+#backpro1 {
+  position: absolute;
+}
+#backpro2 {
+  position: absolute;
+  left: 39%;
+}
+#backpro3 {
+  position: absolute;
+  left: 75%;
+}
+
+/*///////////////////////////////////////////SEMAFORO GLOBAL*/
+
+/*CUADRO DE FONDO BLAMCP*/
+.backmod {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  top: 15%;
+
+  z-index: 10;
+  border-radius: 5px;
+  box-shadow: 1px 2px 8px -2px #9b9393;
+  border: 1px solid transparent;
+}
+.backconfig {
+  position: absolute;
+  width: 150px;
+  height: 14px;
+  top: 15%;
+  left: 9.5%;
+  z-index: 10;
+  box-shadow: 1px 2px 8px -2px transparent;
+  border: 1px solid transparent;
+}
+/*POSICIONES*/
+.loggclic {
+  width: 87%;
+  cursor: pointer;
+}
+#backmod1 {
+  position: relative;
+  top: 8%;
+  margin: auto;
+}
+#backmod2 {
+  position: relative;
+  margin: auto;
+  top: 8%;
+}
+#backmod3 {
+  position: relative;
+  top: 8%;
+  margin: auto;
+}
+#backmod4 {
+  position: relative;
+  margin: auto;
+  top: 8%;
+}
+#backmod5 {
+  position: relative;
+  top: 8%;
+  margin: auto;
+}
+#backmod6 {
+  position: relative;
+  margin: auto;
+  top: 33%;
+}
+.namemod {
+  position: relative;
+  font-size: 10px;
+  width: 100%;
+  text-align: center;
+}
+.namemod4 {
+  position: absolute;
+  font-size: 10px;
+  text-align: center;
+  width: 100%;
+  top: 104%;
+}
+
+#TitClave {
+  position: absolute;
+}
+#TitClave {
+  position: absolute;
+}
+
+.semcinco {
+  height: 100%;
+}
+.semcuatro {
+  height: 100%;
+}
+.semtres {
+  height: 100%;
+}
+.semdos {
+  height: 100%;
+}
+.semuno {
+  height: 100%;
+}
+
+/*//////////////////////////////////////////////////////////////////////////////GRAFICOS UNIDADES DE NEGOCIO*/
+#backClave {
+  top: 3%;
+  left: 0%;
+  width: 100%;
+  height: 92%;
+  box-shadow: 2px 3px 5px -2px #9b9393;
+  overflow: hidden;
+  transition: 300ms;
+  z-index: 11;
+  cursor: pointer;
+  display: none;
+  z-index: 20;
+}
+#backMetas {
+  top: 3%;
+  left: 0%;
+  width: 100%;
+  height: 92%;
+  box-shadow: 2px 3px 5px -2px #9b9393;
+  overflow: hidden;
+  transition: 300ms;
+  z-index: 11;
+  cursor: pointer;
+  display: none;
+  z-index: 20;
+}
+#backCrit {
+  top: 3%;
+  left: 0%;
+  width: 100%;
+  height: 92%;
+  box-shadow: 2px 3px 5px -2px #9b9393;
+  overflow: hidden;
+  transition: 300ms;
+  z-index: 11;
+  cursor: pointer;
+  display: none;
+  z-index: 20;
+}
+#backSop {
+  top: 3%;
+  left: 0%;
+  width: 100%;
+  height: 92%;
+  box-shadow: 2px 3px 5px -2px #9b9393;
+  overflow: hidden;
+  transition: 300ms;
+  z-index: 11;
+  cursor: pointer;
+  display: none;
+  z-index: 20;
+}
+#backGestion {
+  top: 3%;
+  left: 0%;
+  width: 100%;
+  height: 92%;
+  box-shadow: 2px 3px 5px -2px #9b9393;
+  overflow: hidden;
+  transition: 300ms;
+  z-index: 11;
+  cursor: pointer;
+  display: none;
+  z-index: 20;
+}
+#backCalid {
+  top: 3%;
+  left: 0%;
+  width: 100%;
+  height: 92%;
+  box-shadow: 2px 3px 5px -2px #9b9393;
+  overflow: hidden;
+  transition: 300ms;
+  z-index: 11;
+  cursor: pointer;
+  display: none;
+  z-index: 20;
+}
+/*/CONTENEDOR*/
+#grafMisionales {
+  position: absolute;
+  border: 1px solid transparent;
+  width: 99.8%;
+  height: 99.6%;
+  left: 0%;
+  top: 0%;
+  border-radius: 5px;
+  background: #f3c144;
+  z-index: 1;
+  background: #f9f9f9;
+}
+
+#conttabla {
+  position: absolute;
+  top: 29px;
+  left: 1%;
+  width: 98%;
+  height: 92%;
+  border: 1px solid transparent;
+  overflow-y: scroll;
+  z-index: 1000;
+}
+/*TABLA*/
+
+#servbarras {
+  position: relative;
+
+  width: 96%;
+  border: 1px solid transparent;
+  margin: auto;
+  margin-top: auto;
+  margin-top: -0.4%;
+}
+#servbarras2 {
+  position: relative;
+  top: 0px;
+  left: 0%;
+  width: 100%;
+  border: 1px solid transparent;
+}
+#servbarras tbody tr td {
+  border: 1px solid rgb(173, 171, 171);
+  height: 30px;
+  font-size: 10px;
+  /* text-align: center;*/
+  box-shadow: 2px 3px 5px -2px #9b9393;
+  border-radius: 5px;
+}
+#longbarr {
+  width: 80%;
+}
+
+/*BARRAS DASH*/
+#servbarrasDash {
+  position: relative;
+  width: 96%;
+  border: 1px solid transparent;
+  margin: auto;
+  margin-top: auto;
+  margin-top: auto;
+  margin-top: 0.6%;
+}
+#servbarrasDash tbody tr td {
+  height: 30px;
+  font-size: 12px;
+  text-align: center;
+  box-shadow: 5px 4px 12px -4px #9b9393;
+  border-radius: 18px;
+}
+
+#servbarrasDash th {
+  font-size: 0.6vw;
+
+  color: #08476b;
+}
+
+.namecotasky0 {
+  background: #969594;
+  color: white;
+  font-size: 1.1vw;
+  background: #e8ad19;
+}
+.namecotasky {
+  background: #969594;
+  color: white;
+  font-size: 1.1vw;
+  background: black;
+}
+
+.colmacro {
+  width: 1%;
+}
+.colenfoq {
+  width: 1%;
+}
+.colporce {
+  width: 1%;
+}
+/*CLASE PARA DEFINIR ANCHO Y POSICION DE BARRAS DE DESEMPEÑO*/
+.varGuno {
+  position: relative;
+  width: 2.5%;
+  border: 1px solid transparent;
+  cursor: pointer;
+  box-shadow: 1px 2px 8px -2px #9b9393;
+  border-radius: 0px 21px 21px 0px;
+  height: 90%;
+  top: 4%;
+  background-color: #262626 !important;
+}
+
+/*NE*/
+
+.agune {
+  width: 0% !important;
+}
+/*0 1*/
+
+.aguj0s {
+  width: 0% !important;
+}
+/*1 A 5*/
+
+.aguj3s {
+  width: 3.5% !important;
+}
+/*5 A 15*/
+
+.aguj10s {
+  width: 10% !important;
+}
+/*15 A 25*/
+.aguj20s {
+  width: 20% !important;
+}
+/*25 A 35*/
+.aguj30s {
+  width: 30% !important;
+}
+/*35 A 45*/
+.aguj40s {
+  width: 40% !important;
+}
+
+/*50%
+45 55
+*/
+.aguj50s {
+  width: 50% !important;
+}
+/*
+55 A 65
+*/
+.aguj60s {
+  width: 60% !important;
+}
+
+/*65 A 75*/
+
+.aguj70s {
+  width: 70% !important;
+}
+
+/*75 A 85*/
+
+.aguj80s {
+  width: 80% !important;
+}
+/*85A95*/
+.aguj90s {
+  width: 90% !important;
+}
+/*95 A 98*/
+.aguj97s {
+  width: 97% !important;
+}
+/*98 A 100*/
+.aguj98s {
+  width: 100% !important;
+}
+.sombra {
+  border-radius: 5px;
+  box-shadow: 0px 2px 7px 0px #9b9393;
+  text-align: justify !important;
+}
+
+.sombra1 {
+  color: white;
+  border-radius: 5px;
+  text-align: justify !important;
+}
+.sombra2 {
+  border-radius: 5px;
+  text-align: justify !important;
+}
+.sombra3 {
+  border-radius: 5px;
+  text-align: justify !important;
+}
+.sombra4 {
+  border-radius: 5px;
+  text-align: justify !important;
+}
+.sombra5 {
+  border-radius: 5px;
+  text-align: justify !important;
+}
+/*////BARRA DE FALLAS*/
+#bgfallas1 {
+  bottom: 0%;
+  left: 40%;
+}
+#bgfallas2 {
+  bottom: 0%;
+  left: 40%;
+}
+#bgfallas3 {
+  bottom: 0%;
+  left: 40%;
+}
+#bgfallas4 {
+  bottom: 0%;
+  left: 40%;
+}
+#bgfallas5 {
+  bottom: 0%;
+  left: 40%;
+}
+#bgfallas6 {
+  bottom: 0%;
+  left: 40%;
+}
+#bgfallas7 {
+  bottom: 0%;
+  left: 40%;
+}
+#bgfallas8 {
+  bottom: 0%;
+  left: 40%;
+}
+#bgfallas9 {
+  bottom: 0%;
+  left: 40%;
+}
+#bgfallas10 {
+  bottom: 0%;
+  left: 40%;
+}
+#bgfallas11 {
+  bottom: 0%;
+  left: 40%;
+}
+#bgfallas12 {
+  bottom: 0%;
+  left: 40%;
+}
+#bgfallas13 {
+  bottom: 0%;
+  left: 40%;
+}
+#bgfallas14 {
+  bottom: 0%;
+  left: 40%;
+}
+#bgfallas15 {
+  bottom: 0%;
+  left: 40%;
+}
+#bgfallas16 {
+  bottom: 0%;
+  left: 40%;
+}
+#bgfallas17 {
+  bottom: 0%;
+  left: 40%;
+}
+#bgfallas18 {
+  bottom: 0%;
+  left: 40%;
+}
+#bgfallas19 {
+  bottom: 0%;
+  left: 40%;
+}
+
+#servbarras th {
+  font-size: 0.6vw;
+  color: #08476b;
+}
+.colclic {
+  width: 1%;
+}
+.colname {
+  width: 1%;
+}
+.colbarr {
+  width: 16%;
+}
+.colallop {
+  width: 1%;
+}
+.colno {
+  width: 1%;
+}
+/*//////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+#back5 {
+  top: 3%;
+  left: 1%;
+  width: 98.2%;
+  height: 92%;
+  box-shadow: 2px 3px 5px -2px #9b9393;
+  overflow: hidden;
+  transition: 300ms;
+  z-index: 11;
+  cursor: pointer;
+  display: none;
+  z-index: 20;
+}
+
+#back6 {
+  top: 3%;
+  left: 1%;
+  width: 98.2%;
+  height: 92%;
+  box-shadow: 2px 3px 5px -2px #9b9393;
+  overflow: hidden;
+  transition: 300ms;
+  z-index: 11;
+  cursor: pointer;
+  display: none;
+  z-index: 20;
+}
+#back9 {
+  top: 3%;
+  left: 1%;
+  width: 98.2%;
+  height: 92%;
+  box-shadow: 2px 3px 5px -2px #9b9393;
+  overflow: hidden;
+  transition: 300ms;
+  z-index: 11;
+  cursor: pointer;
+  display: none;
+  z-index: 20;
+}
+#back10 {
+  top: 3%;
+  left: 1%;
+  width: 98.2%;
+  height: 92%;
+  box-shadow: 2px 3px 5px -2px #9b9393;
+  overflow: hidden;
+  transition: 300ms;
+  z-index: 11;
+  cursor: pointer;
+  display: none;
+  z-index: 20;
+}
+
+/*///////////////////////////////////////////////////////////////////DISEÑO DE TABLA*/
+#tablata {
+  width: 100%;
+}
+.center {
+  text-align: center !important;
+}
+.ocucol {
+  background-color: transparent;
+  color: #e9ebeb !important;
+  height: 18px;
+  border-radius: 8px 8px 0px 0px;
+  border: 1px solid transparent;
+  position: absolute;
+  z-index: 11;
+  width: 100%;
+  top: 0%;
+}
+#columnas th {
+  /*  background-color: #F9F9F9;*/
+  box-shadow: 1px 1px 2px 1px #c7c1c1;
+  font-size: 8px;
+  color: white;
+  font-size: 13px;
+  background: #1a57ff;
+  height: 16px;
+  border-radius: 4px;
+}
+#tablata tr td {
+  cursor: pointer;
+  font-size: 12px;
+}
+#tablata tbody tr:nth-child(even) {
+  background-color: #ebead9;
+}
+#tablata tbody tr th:nth-child(odd) {
+  background-color: #060037;
+  color: white;
+}
+#tablata tr:hover {
+  background: rgb(21, 23, 25);
+  background: linear-gradient(
+    90deg,
+    rgba(21, 23, 25, 1) 0%,
+    rgba(0, 31, 62, 1) 20%,
+    #006aa6 54%,
+    #00a3e1 100%
+  );
+  color: rgb(255, 255, 255) !important;
+}
+
+#filtrosbajo {
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  text-align: right;
+  font-size: 1vw;
+}

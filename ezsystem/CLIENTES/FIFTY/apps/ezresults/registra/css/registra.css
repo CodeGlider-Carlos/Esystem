@@ -1,0 +1,170 @@
+#plnCOm{
+    width: 80%;
+    margin: auto;
+    position: relative;
+    overflow-y: scroll;
+    height: 95%;
+    margin-top: 1.5%;
+}
+#tablataobj{
+    width: 97%;
+    margin: auto;
+      margin-bottom: auto;
+    margin-bottom: 4%;
+}
+.selectREg {
+    margin: auto;
+    width: 98%;
+    text-align: center;
+    box-shadow: 2px 1px 5px -2px #9b9393;
+    border: none;
+
+    margin: auto;
+  text-align: center;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  background-color: #F9F9F9;
+  border: none;
+  box-shadow: 2px 3px 5px -2px #9b9393;
+  height: 34px;
+  border-radius: 5px;
+  resize: vertical;
+  font-size: 0.9vw;
+  }
+
+  .col1{
+    width: 12%;
+  }
+  .col2{
+    width: 16%;
+  }
+  .col3{
+    width: 32%;
+  }
+  .col4{
+    width: 10%;
+  }
+
+  #submit{
+    width: 201%;
+    margin-left: -110%;
+    cursor: pointer;
+    box-shadow: 2px 3px 5px -2px #9b9393;
+    background: black;
+    border-radius: 6px;
+    border: none;
+    color: white;
+    height: 20px;
+    margin-top: 7%;
+  }
+  #submitEstados {
+    width: 100%;
+    cursor: pointer;
+    box-shadow: 2px 3px 5px -2px #9b9393;
+    background: black;
+    border-radius: 6px;
+    border: none;
+    color: white;
+    height: 20px;
+    margin-top: 7%;
+  }
+  .col1ES{
+    width: 12%;
+  }
+  .col2ES{
+    width: 16%;
+  }
+  .col3ES{
+    width: 19%;
+  }
+  .col4ES{
+    width: 13%;
+  }
+
+.center{
+  text-align: center;
+}
+
+
+  .marginleft{
+
+    text-align: left;
+    padding-left: 2px;
+  }
+
+  .focus:hover{
+    box-shadow: inset 1px 1px 5px 1px rgb(253, 112, 31)!important;
+  }
+
+  placeholder{
+    color:black;
+  }
+
+.justify{
+  text-align: justify;
+}
+
+  .nameReg{
+    background: linear-gradient(29deg, #ff3131 0%, #ff914d 100%);
+    color: white;
+    box-shadow: 2px 3px 5px -2px #9b9393;
+    border-radius: 5px;
+  }
+/*//////////////////regresar*/
+#backregresar{
+  position: absolute;
+  border: 1px solid transparent;
+  width: 40px;
+  height: 49px;
+  background: #DCE2EB;
+  bottom: 0%;
+  right: 16.9%;
+}
+#backkk{
+  text-align: center;
+  background: white;
+  border-radius: 5px;
+  position: absolute;
+  border: 1px solid transparent;
+  width: 96.8%;
+  height: 49px;
+  background: #DCE2EB;
+  bottom: 0%;
+  left: 3.1%;
+}
+#backbackRegre{
+  position: absolute;
+  width: 37px;
+  height: 37px;
+  border: 1px solid transparent;
+  right: 18%;
+  top: 10%;
+
+}
+#subback{
+  position: absolute;
+  width: 37px;
+  height: 37px;
+  border: 1px solid transparent;
+  right: 0%;
+  top: 0%;
+  background: transparent;
+  cursor: pointer;
+  color: transparent;
+}
+#regresartxt{
+  position: absolute;
+background: transparent;
+border: none;
+right: -559%;
+top: 15%;
+color: #154567;
+font-size: 1vw;
+}
+
+
+#imagRegresar{
+  width: 45px;
+  position: absolute;
+  right: 5%;
+}

@@ -1,0 +1,57 @@
+/*/////////////////////////////////////////////////////////////////////////////////PROCEDIMIENTOS*/
+  /*CAMBIAR TEXTO DE BASE DE DATOS A AMYUSCULA*/
+  .activi{
+    text-transform: lowercase;
+  }
+  
+  
+  /*CAMBIAR PRIMERA LETRA A MAYUSCULA*/
+  .activi p::first-letter {
+    text-transform: uppercase!important;
+  }
+  
+  
+  .activiMAY{
+    text-transform: uppercase;
+  }
+  
+  
+  .colprocedi{
+    margin-top: auto;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    background-color: #F9F9F9;
+    border: none;
+    box-shadow: 2px 3px 5px -2px #9b9393;
+    height: 33px;
+    border-radius: 5px;
+    margin-top: 8px;
+    background: linear-gradient(29deg, #ff3131 0%, #ff914d 100%);
+    background: #69699b;
+    font-size: 13px;
+    color: white;
+  }
+  
+  .colproc1{
+    width: 1%;
+  }
+  .colproc2{
+    width: 22%;
+  }
+  .colproc3{
+    width: 10%;
+  }
+
+  .colproc4{
+    width: 5%;
+  }
+
+  .center{
+    text-align: center;
+  }
+
+  .textDoc2{
+    font-size: 12px;
+    padding-right: 10px;
+    text-align: justify;
+  }

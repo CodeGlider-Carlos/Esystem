@@ -1,0 +1,160 @@
+
+.INPUTASKb{
+  margin: auto;
+  margin-top: auto;
+margin-top: auto;
+margin-top: auto;
+margin-top: auto;
+margin-top: auto;
+margin-top: auto;
+width: 92%;
+text-align: left;
+border: 1px solid transparent;
+border-radius: 3px;
+background-color: #F9F9F9;
+border: none;
+height: 41px;
+border-radius: 5px;
+padding-left: 9px;
+color: #ffffff;
+background: #ff7481;
+font-size: 14px;
+resize: vertical;
+}
+.INPUTASKyab{
+    margin: auto;
+    margin-top: auto;
+  margin-top: auto;
+  margin-top: auto;
+  margin-top: auto;
+  margin-top: auto;
+  margin-top: auto;
+  width: 92%;
+  text-align: left;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  background-color: #F9F9F9;
+  border: none;
+  height: 41px;
+  border-radius: 5px;
+  padding-left: 9px;
+  color: #6c6c6c;
+  background: #f4f4f1;
+  font-size: 14px;
+  resize: vertical;
+}
+
+.inputBb {
+  background: #f4f4f1;
+  border: none;
+  color: #6c6c6c;
+  height: 33px;
+  border-radius: 5px;
+  text-align: center;
+  height: 41px;
+  display: block;
+  font-size: 32px;
+  width: 80%;
+  margin-top: 2px;
+  }
+  #bloq1{
+    color: #6c6c6c;
+    font-size: 10PX;
+  }
+
+
+  .inputT {
+    margin: auto;
+    margin-top: auto;
+  margin-top: auto;
+  margin-top: auto;
+  margin-top: auto;
+  margin-top: auto;
+  width: 82%;
+  text-align: center;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  background-color: #f4f4f1;
+  border: none;
+  height: 42px;
+  border-radius: 5px;
+  color: #6c6c6c;
+  }
+
+  .inputOBS {
+    margin: auto;
+      margin-top: auto;
+    margin-top: auto;
+    margin-top: auto;
+    margin-top: auto;
+    margin-top: auto;
+    width: 99.9%;
+    text-align: left;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    background-color: #f4f4f1;
+    border: none;
+    resize: vertical;
+    height: 41px;
+    border-radius: 5px;
+    margin-top: 8px;
+    font-size: 14px;
+  }
+
+  
+  .inputTY {
+    margin: auto;
+    margin-top: auto;
+  margin-top: auto;
+  margin-top: auto;
+  margin-top: auto;
+  margin-top: auto;
+  margin-top: auto;
+  width: 48.5%;
+  text-align: left;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  background-color: #f4f4f1;
+  border: none;
+  border-radius: 5px;
+  margin-top: 0px;
+  display: block;
+  text-align: center;
+  color: #6c6c6c;
+  position: absolute;
+
+  }
+
+
+  .inputest {
+    width: 12.7%;
+    background-color: rgb(83, 83, 83);
+    border: none;
+    box-shadow: 2px 3px 5px -2px #9b9393;
+    color: white;
+    border-radius: 5px;
+    margin-top: 9px;
+    padding-left: 5px;
+    background: blue;
+    height: 41px;
+    display: block;
+  
+    position: absolute;
+  }
+
+
+  .inputEVALobst {
+    width: 100%;
+    text-align: left;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    background-color: #f4f4f1;
+    border: none;
+    height: 41px;
+    border-radius: 5px;
+    margin-top: 6px;
+    display: block;
+    font-size: 14px;
+    background: blue;
+  color: white;
+  }

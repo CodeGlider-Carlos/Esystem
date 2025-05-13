@@ -1,0 +1,589 @@
+@media print {
+
+  body {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+  }
+
+  #taskPerson, #taskPersonmis {
+    width: 100% !important;
+    border-radius: 0 !important;
+    margin: 0 !important;
+    border: none !important;
+    background: white !important;
+    overflow: visible !important;
+    height: auto !important;
+  }
+
+  .nombreT {
+    width: 29%;
+    padding-left: 1%;
+  }
+
+  #backtask, #backtaskPrint {
+    width: 100% !important;
+    height: auto !important;
+    background: #f4f4f1 !important;
+    border: none !important;
+    margin: 0 !important;
+  }
+
+  #backCircle {
+    margin-top: 8%;
+    left: 0;
+    width: 30%;
+    height: 251px;
+    border-radius: 12px;
+    border: 1px solid transparent;
+  }
+
+  .textPorce {
+    color: #000000 !important;
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .img_grafaTask {
+    width: 100% !important;
+  }
+
+  #tabla_task, .tablemeses {
+    width: 100% !important;
+    margin: 0 auto;
+    border-collapse: collapse;
+  }
+
+  #tabla_task td, #columnasTa th, #columnasTaCon th {
+    font-size: 12px;
+    color: #000000;
+    border: 1px solid #000000;
+    padding: 4px;
+  }
+
+  .mesbo {
+    background-color: #bdbdbf;
+    width: 57px;
+    height: 26px;
+    text-align: center;
+  }
+
+  .altobar {
+    height: 51px;
+    background: transparent;
+    border: none;
+  }
+
+  .barrbarr {
+    margin-top: 20px;
+    border: 1px solid #000000;
+    box-shadow: none;
+  }
+
+  .porceSD, .porce0, .porce5, .porce10, .porce15, .porce20, .porce25, .porce30, .porce35, .porce40, .porce45, .porce50, .porce55, .porce60, .porce65, .porce70, .porce75, .porce80, .porce85, .porce90, .porce95, .porce98, .porce100 {
+    position: relative;
+    background-color: #86a4ff;
+  }
+
+  .linTask {
+    height: 1.5px;
+    width: 100%;
+    background: #000000;
+  }
+
+  #tipoTask {
+    position: relative;
+    width: 100%;
+    text-align: left;
+    font-size: 10px;
+    top: 0;
+  }
+
+  .barrbak, .barrapo {
+    background-color: #ffffff;
+    height: 17px;
+    border-radius: 0px;
+    margin: 0;
+  }
+
+  .ejecuName {
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .colorBlack { background: #de8a8a !important; }
+  .colorRed { background: #ff7481 !important; }
+  .colorYell { background: #f2d291 !important; }
+  .colorGreen { background: #52d999 !important; }
+  .colorBlue { background: #86a4ff !important; }
+}
+
+#taskPerson {
+  width: 96%;
+  border-radius: 5px;
+  margin: auto;
+  margin-top: auto;
+  margin-left: auto;
+  margin-top: auto;
+  margin-left: auto;
+  margin-top: auto;
+  margin-left: auto;
+  margin-top: auto;
+  margin-left: auto;
+  margin-top: auto;
+  margin-left: auto;
+  margin-top: auto;
+  margin-left: auto;
+  margin-left: auto;
+  margin-left: auto;
+  border: 1px solid transparent;
+  top: 5%;
+  display: block;
+  position: relative;
+  overflow: scroll;
+  border-radius: 7px;
+  background: white;
+}
+.nombreT {
+  width: 29%;
+  padding-left: 1%;
+}
+#backtask {
+  width: 99%;
+  height: 100%;
+  background: blue;
+  border-radius: 5px;
+  margin: auto;
+  margin-left: auto;
+  margin-left: -0.4%;
+  background: #f4f4f1;
+}
+
+#backCircle {
+  position: relative;
+  margin-top: 8%;
+  left: 8%;
+  border-radius: 12px;
+  width: 30%;
+  border: 1px solid transparent;
+  height: 251px;
+}
+.textPorce {
+  color: white;
+  position: relative;
+  font-size: 40px;
+  top: 37%;
+  text-align: center;
+}
+
+.cirpptoTask {
+  z-index: 1;
+
+  position: absolute;
+  height: 228px;
+  width: 228px;
+}
+
+.img_grafaTask {
+  width: 102%;
+  z-index: 1;
+  position: absolute;
+}
+
+#tabla_task {
+  width: 95%;
+  margin: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+#tabla_task td {
+  font-size: 12px;
+  color: rgb(27, 27, 27);
+  border-radius: 5px;
+  /* border: 0.5px solid rgb(51, 51, 52);*/
+
+  transition: 100ms;
+}
+
+#columnasTa th {
+  font-size: 10px;
+  height: 16px;
+  border-radius: 4px;
+  text-align: center;
+  background: black;
+  color: white;
+}
+.center {
+  text-align: center;
+}
+
+.mesbo {
+  background-color: rgb(189, 189, 191);
+  width: 57px;
+  height: 26px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+#columnasTaCon th {
+  font-size: 10px;
+  height: 16px;
+  border-radius: 4px;
+  text-align: center;
+  color: gray;
+  background: #f4f4f1;
+}
+
+#taskMeses {
+  position: relative;
+  top: 2%;
+  background: transparent;
+  overflow: scroll;
+  width: 96%;
+  font-size: 10px;
+  margin: auto;
+  background: white;
+  border-radius: 7px;
+}
+
+.tablemeses {
+  margin: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-top: 3%;
+  width: 88%;
+  margin-bottom: 2%;
+}
+
+.altobar {
+  height: 51px;
+  background: transparent;
+  border: 1px solid transparent;
+  position: relative;
+}
+
+.barrbarr {
+  position: relative;
+  margin-top: 20px;
+  border: 1px solid transparent;
+  box-shadow: 2px 3px 5px -2px #9b9393;
+  border-radius: 3px 3px 0px 0px;
+}
+.porceSD {
+  height: 0%;
+  width: 100%;
+  display: block;
+  position: absolute;
+  bottom: 0px;
+  background: #979797;
+}
+
+.porce0 {
+  height: 0%;
+  width: 100%;
+  display: block;
+  position: absolute;
+  bottom: 0px;
+  background: #de8a8a;
+}
+.porce5 {
+  height: 5%;
+  width: 100%;
+  display: block;
+  position: absolute;
+  bottom: 0px;
+  background: #de8a8a;
+}
+.porce10 {
+  height: 10%;
+  width: 100%;
+  display: block;
+  position: absolute;
+  bottom: 0px;
+  background: #de8a8a;
+}
+.porce15 {
+  height: 15%;
+  width: 100%;
+  display: block;
+  position: absolute;
+  bottom: 0px;
+  background: #de8a8a;
+}
+.porce20 {
+  height: 20%;
+  width: 100%;
+  display: block;
+  position: absolute;
+  bottom: 0px;
+  background: #de8a8a;
+}
+.porce25 {
+  height: 25%;
+  width: 100%;
+  display: block;
+  position: absolute;
+  bottom: 0px;
+  background: #de8a8a;
+}
+.porce30 {
+  height: 30%;
+  width: 100%;
+  display: block;
+  position: absolute;
+  bottom: 0px;
+  background: #de8a8a;
+}
+.porce35 {
+  height: 35%;
+  width: 100%;
+  display: block;
+  position: absolute;
+  bottom: 0px;
+  background: #de8a8a;
+}
+.porce40 {
+  height: 40%;
+  width: 100%;
+  display: block;
+  position: absolute;
+  bottom: 0px;
+  background: #de8a8a;
+}
+.porce45 {
+  height: 45%;
+  width: 100%;
+  display: block;
+  position: absolute;
+  bottom: 0px;
+  background: #de8a8a;
+}
+.porce50 {
+  height: 50%;
+  width: 100%;
+  display: block;
+  position: absolute;
+  bottom: 0px;
+  background: #de8a8a;
+}
+
+.porce55 {
+  height: 55%;
+  width: 100%;
+  display: block;
+  position: absolute;
+  bottom: 0px;
+  background: #ff7481;
+}
+.porce60 {
+  height: 60%;
+  width: 100%;
+  display: block;
+  position: absolute;
+  bottom: 0px;
+  background: #ff7481;
+}
+.porce65 {
+  height: 65%;
+  width: 100%;
+  display: block;
+  position: absolute;
+  bottom: 0px;
+  background: #ff7481;
+}
+
+.porce70 {
+  height: 70%;
+  width: 100%;
+  display: block;
+  position: absolute;
+  bottom: 0px;
+  background: #ffb588;
+}
+.porce75 {
+  height: 75%;
+  width: 100%;
+  display: block;
+  position: absolute;
+  bottom: 0px;
+  background: #ffb588;
+}
+.porce80 {
+  height: 80%;
+  width: 100%;
+  display: block;
+  position: absolute;
+  bottom: 0px;
+  background: #f2d291;
+}
+.porce85 {
+  height: 85%;
+  width: 100%;
+  display: block;
+  position: absolute;
+  bottom: 0px;
+  background: #f2d291;
+}
+
+.porce90 {
+  height: 90%;
+  width: 100%;
+  display: block;
+  position: absolute;
+  bottom: 0px;
+  background: #52d999;
+}
+.porce95 {
+  height: 95%;
+  width: 100%;
+  display: block;
+  position: absolute;
+  bottom: 0px;
+  background: #52d999;
+}
+
+.porce98 {
+  height: 98%;
+  width: 100%;
+  display: block;
+  position: absolute;
+  bottom: 0px;
+  background: #86a4ff;
+}
+.porce100 {
+  height: 100%;
+  width: 100%;
+  display: block;
+  position: absolute;
+  bottom: 0px;
+  background: #86a4ff;
+}
+
+.colorBlack {
+  background: #de8a8a;
+}
+
+.colorRed {
+  background: #ff7481;
+}
+
+.colorYell {
+  background: #f2d291;
+}
+
+.colorGreen {
+  background: #52d999;
+}
+
+.colorBlue {
+  background: #86a4ff;
+}
+
+.linTask {
+  height: 1.5px;
+  width: 100%;
+  background: #1e2231;
+}
+
+#tipoTask {
+  position: absolute;
+  width: 45%;
+  font-size: 10px;
+  left: 48%;
+  top: 18%;
+  text-align: right;
+}
+.tableTIp {
+  width: 98%;
+  margin: auto;
+}
+
+.barrbak {
+  width: 279px;
+  background: #ffffff;
+  height: 17px;
+  border-radius: 0px 10px 10px 0px;
+  border-radius: 10px;
+  margin-left: 0%;
+  margin-top: 2px;
+}
+
+.barrapo {
+  height: 17px;
+  border-radius: 0px 10px 10px 0px;
+  border-radius: 10px;
+  margin-left: 0%;
+}
+
+#filtrosFi {
+  position: absolute;
+  bottom: 3%;
+  right: 5%;
+}
+#botonFIl {
+  cursor: pointer;
+}
+
+/*////////////////////////////////////////////////////////////CONSULTAR*/
+
+
+  #taskPersonmis {
+    width: 98%;
+    height: 95%;
+    border-radius: 5px;
+    margin: auto;
+      margin-top: auto;
+      margin-left: auto;
+    margin-top: auto;
+    margin-left: auto;
+    margin-top: auto;
+    margin-left: auto;
+    margin-top: auto;
+    margin-left: auto;
+    margin-top: auto;
+    margin-left: auto;
+    margin-left: auto;
+    margin-left: auto;
+
+    border: 1px solid transparent;
+    bottom: 13%;
+    display: block;
+
+    overflow: scroll;
+  }
+
+
+  /**/
+
+#bodydash {
+  background: #ffffff;
+  overflow-y: scroll;
+}
+
+#backtaskPrint {
+  background: #f4f4f1;
+  width: 769px;
+  border: 1px solid transparent;
+
+  height: 985px;
+  margin: auto;
+  margin-top: auto;
+  position: relative;
+  margin-top: 2%;
+}
+
+.ejecuName {
+  width: 100%;
+  margin: auto;
+  position: relative;
+  background: black;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+.prontFIl {
+  position: relative;
+}

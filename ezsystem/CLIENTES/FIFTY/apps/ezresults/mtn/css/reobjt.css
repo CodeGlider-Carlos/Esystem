@@ -1,0 +1,831 @@
+/*//////////////////////////////GENERALES////////////////////////////////////////////*/
+/*01. ///GENERALES///*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ /*quita marco post link*/
+*:focus{
+    outline: none;
+}
+/*body de home - dash*/
+body{
+    background-color: #D9D9D9;
+    display: block;  
+    z-index: 110;  
+    overflow: hidden;
+}
+
+
+input[type='text'],
+input[type='list'],
+input[type='date']   
+{
+    position: relative;
+    height: 30px;
+    margin-left: 1%;
+    margin-top: 3.5px;
+    background-color: #F9F9F9;
+    border: none;
+    color: #050505;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px 1px #c5c4c4;
+}
+select{
+    position: relative;
+    height: 30px;
+    margin-left: 1%;
+    margin-top: 3.5px;
+    background-color: #F9F9F9;
+    box-shadow: 1px 1px 2px 1px #c5c4c4;
+    border: none;
+    color: #050505;
+    border-radius: 5px;
+ 
+    text-align:center;
+}
+select option{
+
+    font-family:Gill Sans MT!important;
+   
+}
+
+textarea{
+    position: relative;
+    resize: none;
+    background-color: #F9F9F9;
+    box-shadow: 1px 1px 2px 1px #c5c4c4;
+    border: 1px solid #a09e7d;
+    border: none;
+    color: #050505;
+    border-radius: 5px;
+}
+input[type='text']:focus, 
+input[type='list']:focus,
+select:focus,
+textarea:focus
+{
+    box-shadow: inset 1px 1px 1px 1px  #229ccc;
+    background-color: white;
+}
+
+
+/*/////////////////////////////////////////////////////////////////////////////////////////BACKMOD*/
+/*/////////////////////////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////////////////////////*/
+#cabecera{
+    position: relative;
+    width: 98%;
+    margin-top: 4%;
+    left: 1%;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 2px 3px 5px -2px #9b9393;
+    text-align: center;
+    background: linear-gradient(90deg, rgb(143, 142, 141) 0%, rgb(218, 216, 213) 64%);
+    color: #27243F;
+}
+#backMod{
+    position: relative;
+    width: 97%;
+    height: 78px;
+    margin-top: 0.3%;
+    left: 1%;
+    border: none;
+    border: 1px solid transparent;
+}
+
+
+/*/////////////////////////FILTROS */
+#filtros{
+    position: relative;
+    width: 97.7%;
+    height: 30px;
+    margin-top: 1%;
+    margin-left: 1%;
+    box-shadow: 1px 1px 2px 1px #229ccc;
+    border: 1px solid #a09e7d;
+    border-radius: 5px;
+    text-align: center;
+    color: #2f2d29; 
+    background-color: #F9F9F9;
+}
+
+#filtros2{
+    position: relative;
+    width: 97.7%;
+    height: 30px;
+    margin-top: 1%;
+    margin-left: 1%;
+    box-shadow: 1px 1px 2px 1px #D9CEB8;
+    border: 1px solid #a09e7d;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #290E3E;
+    background: linear-gradient(70deg, #290E3E 11%, #01686F 88%);
+    color: rgba(21, 255, 173, 0.932);
+}
+#backMod{
+    position: relative;
+    width: 98%;
+    height: 78px;
+    margin-top: 0.3%;
+    left: 1%;
+    border: none;
+    border: 1px solid transparent;
+}
+
+
+#backcabe1{
+    position: absolute;
+    width: 4%;
+    height: 78px;
+    margin-top: 13px;
+    right: 10%;;
+    border: none;
+    border: 1px solid transparent;
+    z-index: 1;
+}
+#backcabe2{
+    position: absolute;
+    width: 4%;
+    height: 78px;
+    margin-top: 12px;
+    right: 1%;
+    border: none;
+    border: 1px solid transparent;
+    z-index: 1;
+}
+#backcabe3{
+    position: absolute;
+    width: 4%;
+    height: 78px;
+    margin-top: -88px;
+    right: 5%;
+    border: none;
+    border: 1px solid transparent;
+    z-index: 1;
+}
+/*///////////////////////BOTON REGRESAR */
+
+
+#backRegresar{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 16px;
+    right: 0%;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid transparent;
+
+    text-align: center;
+    background: #D9D9D9;
+    box-shadow: 2px 3px 5px -2px #9b9393;
+}
+#regresar {
+    position: relative;
+    border: none;
+    cursor: pointer;
+    height: 72%;
+    width: 100%;
+    margin: auto;
+    top: 15%;
+}
+
+/*recarga*/
+#backRecarga{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 16px;
+    right: 10%;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid transparent;
+
+    text-align: center;
+    background: #D9D9D9;
+    box-shadow: 2px 3px 5px -2px #9b9393;
+}
+#recargar {
+    position: relative;
+    border: none;
+    cursor: pointer;
+    height: 72%;
+    width: 100%;
+    margin: auto;
+    top: 15%;
+}
+
+
+
+/*///////////////////////////////////////guardar*/
+
+
+#backGuardar{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 23px;
+    right: 4.8%;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    text-align: center;
+
+    background: #D9D9D9;
+    box-shadow: 2px 3px 5px -2px #9b9393;
+}
+input[type="image"]#guardar {
+    position: relative;
+    border: none;
+    cursor: pointer;
+    height: 72%;
+    width: 99%;
+    margin: auto;
+    top: 17%;
+    
+}
+
+input[type="submit"]#submit {
+    position: absolute;
+    border: none;
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    top: 0%;
+    border: 1px solid transparent;
+    left: 0%;
+    background: transparent;
+    color: transparent;
+}
+/*<<<<<<<<<<<<<<<<<<<<<<//////////////////////////////////////////////////////////////////////////////////////<<*/
+/*<<<<<<<<<<<<<<<<<<<<<<//////////////////////////////////////////////////////////////////////////////////////<<*/
+/*<<<<<<<<<<<<<<<<<<<<<<//////////////////////////////////////////////////////////////////////////////////////<<*/
+/*<<<<<<<<<<<<<<<<<<<<<<//////////////////////////////////////////////////////////////////////////////////////<<*/
+
+
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+/*-------CONTENEDOR */
+#contForm{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    display: block;
+    z-index: 10;
+    background: transparent;
+    overflow: hidden;
+}
+
+/*CONTENEDOR GENERAL*/
+#backcont{
+    display: block;
+    position: relative;
+    top: 0%;
+    left: 0%;
+    width: 99%;
+    height: 66%;
+    box-shadow: 3px 3px 5px -2px #9b9393;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    margin-top: 1%;
+}
+/*contenedor fondo sombras*/
+#backcontas {
+    display: block;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 97.9%;
+    background-color: #D9D9D9;
+    box-shadow:  1px 1px 2px 1px transparent;
+    border: 1px solid transparent;
+    overflow-y: scroll;
+  }
+  
+/**/
+#backObj{
+    display: block;
+    position: absolute;
+    top: 21%;
+    left: 0.7%;
+    width: 98%;
+    height: 74%;
+    background-color: #F9F9F9;
+    box-shadow: 3px 3px 5px -2px #9b9393;
+    border: 1px solid transparent;
+    border-radius: 13px;
+}
+
+
+#backdatob{
+    display: block;
+    position: absolute;
+    top: 6%;
+    left: 1%;
+    width: 98%;
+    height: 48px;
+    background-color: #F9F9F9;
+    box-shadow: inset 3px 3px 5px -2px #9b9393;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    z-index: 100;
+}
+
+#conttabobj{
+    display: block;
+    position: absolute;
+    top: 5%;
+    left: 0.7%;
+    width: 98.7%;
+    height: 91%;
+    border: 1px solid transparent;
+}
+
+#tablataobj{
+    margin-top: 0%;
+    width: 99%;
+}
+#columnasob{
+    background-color: transparent;
+  /*  box-shadow:  1px 1px 2px 1px  #9b9393;*/
+    color: transparent;
+    font-size: 11px;
+}
+
+
+/*COLUMNAS*/
+
+#col1{
+    width: 25%;
+}
+#col2{
+    width: 25%;
+}
+
+#col3{
+    width: 25%;
+}
+
+#col4{
+    width: 25%;
+}
+
+
+
+
+.divicion{
+    position: relative;
+    margin-top: 20px;
+    height: 2px;
+    background:transparent;
+    border-radius: 5px;
+}
+.divicionb{
+    position: relative;
+    margin-top: 20px;
+    height: 4px;
+    background:#038acd;
+    border-radius: 5px;
+}
+
+#objvigentes{
+    width: 78.1%;
+    margin-left: 7.4%;
+    margin-top: 2.1%;
+    display: block;
+    text-align: center;
+    background-color: #a09e7d;
+    color: #fafbfb;
+}
+#servdep{
+    width: 30.4%;
+    margin-left: 1.3%;
+    margin-top: 0.9%;
+    text-align: center;
+    background-color: #a09e7d;
+    color: #fafbfb;
+}
+#dueno{
+    width: 31.5%;
+    margin-left: 1.3%;
+    margin-top: 0%;
+    text-align: center;
+    background-color: #a09e7d;
+    color: #fafbfb;
+}
+#unidadreg{
+    width: 31.8%;
+    margin-left: 0.6%;
+    margin-top: 2%;
+    text-align: center;
+    background-color: #F9F9F9;
+
+}
+/*////////////////..........................................///////////////////////////ESTRATEGICOS*/
+/*////////////////////////////////////////////ALTA*/
+/*ID*/
+#ididd{
+    width: 21%;
+    text-align: center;
+    background-color: #038acd;
+    color: #fafbfb;
+}
+/*perspectiva*/
+#perspectiva{
+    width: 108%;
+    margin-left: -77%;
+    background-color: #a09e7d;
+    color: #fafbfb;
+    text-align: center;
+}
+/*servdepcom*/
+#servdepcom{
+    width: 140%;
+    margin-left: -67.8%;
+    text-align: center;
+    background: #F9F9F9;
+}
+/*ACTIVO*/
+#activo{
+    width: 142%;
+    margin-left: -67%;
+    background: #F9F9F9;
+    color: #fafbfb;
+    text-align: center;
+}
+/*ACCION*/
+#indiarti{
+    width: 132%;
+    text-align: center;
+    background: #F9F9F9;
+}
+/*ARTICULO*/
+#articulo{
+    width: 44%;
+    text-align: center;
+    background: #F9F9F9;
+    margin-left: 34%;
+}
+
+/*nombre indi*/
+#indicadorr{
+    width: 216%;
+    margin-left: -20%;
+    background: #F9F9F9;
+    user-select: auto;
+    padding-left: 3%;
+}
+#indicadorr::placeholder{
+    text-align: center;
+}
+/*meta*/
+#metaa{
+    width: 93.6%;
+    margin-left: 81%;
+    text-align: center;
+    background: #F9F9F9;
+    user-select: auto;
+}
+/*ponderacion indi*/
+#ponde{
+    width: 93%;
+    margin-left: 182%;
+    background: #F9F9F9;
+    text-align: center;
+}
+/*medida*/
+#medidaa{
+    width: 177.5%;
+    margin-left: 1.2%;
+    text-align: center;
+    background: #F9F9F9;
+}
+
+/*vigencias*/
+#fechatext{
+    width: 70%;
+    margin-left: 76%;
+    background: #989898;
+    color: #fafbfb;
+    text-align: center;
+    user-select: none;
+}
+/*mefechalima*/
+#fechini{
+    width: 50%;
+    margin-left: 48%;
+    text-align: center;
+    background: #F9F9F9;
+}
+
+/*vigencias*/
+#fechatexB{
+    width: 70%;
+    margin-left: 177%;
+    background: #989898;
+    color: #fafbfb;
+    text-align: center;
+    user-select: none;
+}
+/*mefechalima*/
+#fechlimB{
+    width: 50%;
+    margin-left: 149%;
+    text-align: center;
+    background: #F9F9F9;
+}
+
+#articulo:focus,
+#indiarti:focus,
+#indicadorr:focus,
+#metaa:focus,
+#ponde:focus,
+#medidaa:focus,
+#fechlimB:focus,
+#fechini:focus,
+#servdepcom:focus,
+#unidadreg:focus
+{
+    box-shadow: inset 1px 1px 1px 1px  #229ccc;
+    background-color: white!important;
+}
+/*/////////////////////////////////////MODIFICAR*/
+#servdepMOD{
+    width: 31%;
+    margin-left: 1.3%;
+    margin-top: 0.9%;
+    text-align: center;
+    background-color: #a09e7d;
+    color: #fafbfb;
+}
+#nombreob{
+    width: 65.4%;
+    margin-left: 0.3%;
+    margin-top: -12.1%;
+    text-align: center;
+    background-color: #F9F9F9;
+    color: #fafbfb;
+}
+/*ID*/
+#ididdmod{
+    width: 21%;
+    text-align: center;
+    background-color: #F9F9F9;
+    color: #fafbfb;
+}
+/*perspectiva*/
+#perspectivamod{
+    width: 108%;
+    margin-left: -77%;
+    background-color: #F9F9F9;
+    color: #fafbfb;
+    text-align: center;
+}
+/*ACTIVO*/
+#activomod{
+    width: 137%;
+    margin-left: -67%;
+    background: #F9F9F9;
+    text-align: center;
+}
+/*ARTICULO*/
+#indiartimod{
+    width: 132%;
+    text-align: center;
+    background-color: #F9F9F9;
+    color: #fafbfb;
+}
+/*nombre indi*/
+#indicadorrmod{
+    width: 271%;
+    margin-left: 0%;
+    background: #F9F9F9;
+    user-select: auto;
+    text-align: center;
+    
+}
+#indicadorrmod::placeholder{
+    text-align: center;
+}
+/*meta*/
+#metamod{
+    width: 51.6%;
+    margin-left: 136%;
+    text-align: center;
+    background: #F9F9F9;
+    user-select: auto;
+}
+/*ponde*/
+#pondemod{
+    width: 80%;
+    margin-left: 90%;
+    text-align: center;
+    background: #F9F9F9;
+    user-select: auto;
+}
+
+/*medida*/
+#medidaamod{
+    width: 75.8%;
+    margin-left: 0.4%;
+    text-align: center;
+    background-color: #F9F9F9;
+    color: #fafbfb;
+}
+
+/*vigencias*/
+#fechatextmod{
+    width: 70%;
+    margin-left: 173%;
+    background-color: #F9F9F9;
+    color: #fafbfb;
+    text-align: center;
+    user-select: none;    
+}
+/*mefechalima*/
+#fechinigrmod{
+    width: 56%;
+    margin-left: 145%;
+    text-align: center;
+    background-color: #F9F9F9;
+    color: #fafbfb;
+}
+/*vigencias*/
+#fechatexBmod{
+    width: 70%;
+    margin-left: 72%;
+    background-color: #F9F9F9;
+    color: #fafbfb;
+    text-align: center;
+    user-select: none;
+}
+/*mefechalima*/
+#fechlimagrmod{
+    width: 57%;
+    margin-left: 44%;
+    text-align: center;
+    background-color: #F9F9F9;
+    color: #fafbfb;
+}
+
+#indicadorrmod:focus,
+#metamod:focus,
+#pondemod:focus
+{
+    box-shadow: inset 1px 1px 1px 1px  #1395dc;
+    background-color: white!important;
+}
+
+/*////////////////////////////////////////////BAJA*/
+/*ID*/
+#ididdbaj{
+    width: 21%;
+    text-align: center;
+    background-color: #a09e7d;
+    color: #fafbfb;
+}
+/*perspectiva*/
+#perspectivabaj{
+    width: 108%;
+    margin-left: -77%;
+    background-color: #a09e7d;
+    color: #fafbfb;
+    text-align: center;
+}
+/*ACTIVO*/
+#activobaj{
+    width: 127%;
+    margin-left: -28%;
+    background: #DFD083;
+    text-align: center;
+}
+/*ARTICULO*/
+#indiartibaj{
+    width: 132%;
+    text-align: center;
+    background-color: #a09e7d;
+    color: #fafbfb;
+}
+/*nombre indi*/
+
+#indicadorbj{
+    width: 271%;
+    margin-left: 0%;
+    background-color: #a09e7d;
+    color: #fafbfb;
+    text-align: center;
+    
+}
+#indicadorrbaj::placeholder{
+    text-align: center;
+}
+/*meta*/
+
+#metaabaj{
+    width: 135.6%;
+    margin-left: 135%;
+    text-align: center;
+    background-color: #a09e7d;
+    color: #fafbfb;
+}
+/*medida*/
+#medidaabaj{
+    width: 81%;
+    margin-left: 94%;
+    text-align: center;
+    background-color: #a09e7d;
+    color: #fafbfb;
+}
+
+/*vigencias*/
+#fechatextbj{
+    width: 70%;
+    margin-left: 173.5%;
+    background-color: #a09e7d;
+    color: #fafbfb;
+    text-align: center;
+    user-select: none;
+}
+/*mefechalima*/
+#fechinibj{
+    width: 53%;
+    margin-left: 146%;
+    text-align: center;
+    background-color: #a09e7d;
+    color: #fafbfb;
+}
+
+/*vigencias*/
+#fechatexBbj{
+    width: 70%;
+    margin-left: 173.7%;
+    background-color: #a09e7d;
+    color: #fafbfb;
+    text-align: center;
+    user-select: none;
+}
+/*mefechalima*/
+#fechlimBbj{
+    width: 53%;
+    margin-left: 146%;
+    text-align: center;
+    background-color: #a09e7d;
+    color: #fafbfb;
+}
+
+#activobaj:focus
+{
+    box-shadow: inset 1px 1px 1px 1px  #DFD083;
+    background-color: white!important;
+}
+
+
+/*////////////////..........................................///////////////////////////FUNCIONALES*/
+
+/*............ALTA*/
+#catjfun{
+    width: 78.4%;
+    margin-left: -7.7%;
+    margin-top: 1.9%;
+    text-align: center;
+    background-color: #a09e7d;
+    color: #fafbfb;
+}
+#objvigentesf{
+    width: 64.7%;
+    margin-left: 32.4%;
+    margin-top: -3.1%;
+    display: block;
+    text-align: center;
+    background: #DFD083;
+}
+input[type='text']:focus, 
+input[type='list']:focus,
+select:focus,
+textarea:focus
+{
+    box-shadow: inset 1px 1px 1px 1px  #DFD083;
+    background-color: white;
+}
+#objvigentesf:focus
+{
+    box-shadow: inset 1px 1px 1px 1px  #DFD083;
+    background-color: white!important;
+}
+
+
+
+

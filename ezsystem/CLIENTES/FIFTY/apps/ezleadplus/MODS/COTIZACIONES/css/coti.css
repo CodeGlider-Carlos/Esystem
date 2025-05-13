@@ -1,0 +1,1341 @@
+/*01. ///GENERALES///*/
+
+* {
+  user-select: none;
+}
+
+body {
+  overflow: hidden;
+}
+
+/*/////////////////////////////////////////NAVEGACION LEFT*/
+
+#navleft {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  height: 100%;
+  width: 46px;
+  text-align: center;
+  z-index: 2;
+}
+
+.bakBoton {
+  width: 100%;
+  cursor: pointer;
+  text-align: center;
+  position: relative;
+  margin: auto;
+  margin-top: auto;
+  margin-top: 18%;
+  border: 0.5px solid transparent;
+}
+#bakBoton1 {
+  margin-top: 103%;
+}
+
+.lognav {
+  width: 74%;
+}
+
+#lognav7 {
+  position: absolute;
+  bottom: 1%;
+  left: 0%;
+}
+
+/*////////////////////////TEXTO NAVEGACION LEFT*/
+
+.txttx {
+  position: absolute;
+  width: 399%;
+  top: 28%;
+  border-radius: 5px;
+  left: 90%;
+  font-size: 13px;
+  display: none;
+}
+
+#txt7 {
+  position: absolute;
+}
+
+/*///////////////////////////////CONEXION MODS*/
+#MODS {
+  display: block;
+  position: absolute;
+  left: 46px;
+  width: 96.9%;
+  border: 1px solid rgb(206, 202, 202);
+  height: 100%;
+}
+
+#iframeSuite {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.submit {
+  position: absolute;
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  left: 0px;
+  color: transparent;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+/*//////////////////////////////////barra superior nav*/
+
+#navsup {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 46px;
+  text-align: right;
+}
+#blockMod {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background: #ffffff;
+  text-align: right;
+  z-index: 0;
+  border-radius: 21px 0px 0px 0px;
+  display: none;
+}
+
+/*///////////////////////MODO SEGUIMIENTO*/
+
+#modprosp {
+  position: absolute;
+  top: 47px;
+  left: 48.3px;
+  width: 95.6vw;
+  height: 93%;
+  text-align: center;
+  border-radius: 5px;
+}
+
+#modname {
+  font-size: 24px;
+  /*   color: #154567;*/
+  color: #f4571e;
+  width: 19.8%;
+  box-shadow: 1px 1px 3px -1px gray;
+  border-radius: 5px;
+  z-index: 20;
+  position: absolute;
+  left: 3.1%;
+  top: 19%;
+  text-align: center;
+  height: 68%;
+}
+
+.sectionmod {
+  position: absolute;
+  width: 19.3%;
+  height: 93.3%;
+}
+.sectionmodVINC {
+  background: #f6f9fa;
+  position: absolute;
+  width: 19.3%;
+  height: 21.3%;
+}
+.line1 {
+  background-color: #164668;
+  height: 5px;
+  width: 100%;
+}
+
+.namesect {
+  position: relative;
+  top: 0px;
+  width: 100%;
+  border-radius: 5px;
+  font-size: 1.3vw; /*OJO VERIFICAR RESPONSIVE*/
+}
+
+#Buscar {
+  background: #9aa6b7;
+  color: white;
+  width: 20%;
+  margin-left: -80%;
+  text-align: center;
+}
+
+#namesect3 {
+  background: linear-gradient(29deg, #ff3131 0%, #ff914d 100%);
+  font-size: 1.3vw;
+}
+
+/**/
+
+.tabcpo {
+  width: 92%;
+
+  margin-top: 2%;
+  margin: auto;
+  margin-top: auto;
+  margin-top: 2%;
+}
+.tabcpo2 {
+  width: 92%;
+  background: #ffffff;
+  margin-top: 2%;
+  margin: auto;
+  margin-top: auto;
+  margin-top: 2%;
+}
+
+/*///////////////////////////////////////////////////////*/
+
+#section1 {
+  display: block;
+  left: 1%;
+  width: 22.3%;
+  top: 8px;
+  height: 96.3%;
+  overflow-y: scroll;
+  background: #d9d9d9;
+  border-radius: 6px;
+  margin-top: 0.1%;
+  box-shadow: 2px 3px 5px -2px #9b9393;
+}
+#section1a {
+  display: block;
+  left: 1%;
+  width: 19.7%;
+  top: 8px;
+  height: 96.3%;
+}
+
+#section2 {
+  display: block;
+  left: 24%;
+  width: 75.3%;
+  top: 8px;
+}
+
+#section2VINC {
+  display: block;
+  top: 8px;
+  left: 40%;
+  display: none;
+}
+
+#section3 {
+  display: block;
+  top: 8px;
+  left: 62%;
+  display: none;
+}
+/*////////////////////////////////////AGREGAR*/
+
+.label {
+  margin: auto;
+  width: 98%;
+  font-size: 0.8vw;
+  text-align: left;
+  /*  color: gray;*/
+}
+.select {
+  margin: auto;
+  margin-bottom: 15px;
+  width: 98%;
+  text-align: center;
+  border: 1px solid gray;
+  border-radius: 3px;
+  color: #164668;
+  background-color: #f9f9f9;
+  border: none;
+  box-shadow: 2px 3px 5px -2px #9b9393;
+  height: 35px;
+  border-radius: 5px;
+}
+
+.textarea {
+  margin: auto;
+  width: 97%;
+  text-align: center;
+  resize: none;
+  border: 1px solid transparent;
+  border-radius: 3px;
+
+  box-shadow: 2px 3px 5px -2px #9b9393;
+}
+.input {
+  margin: auto;
+  width: 98%;
+  text-align: center;
+  border: 1px solid transparent;
+  border-radius: 3px;
+
+  background-color: #f9f9f9;
+  border: none;
+  box-shadow: 2px 3px 5px -2px #9b9393;
+  height: 25px;
+  border-radius: 5px;
+}
+
+#GUARDAR {
+  width: 50%;
+  margin-top: 3%;
+
+  cursor: pointer;
+
+  display: block;
+  margin-left: 49%;
+}
+/*/////////////////PROSPECTOS*/
+#Buscar:focus {
+  background-color: #ffffff;
+
+  box-shadow: inset 2px 3px 5px -2px #00a3e1;
+}
+#backtable {
+  width: 100%;
+  background: #ffffff;
+}
+.table {
+  width: 100%;
+}
+
+.table .title td {
+  font-size: 0.8vw;
+  text-align: center;
+  color: gray;
+}
+.table td {
+  font-size: 0.8vw;
+  text-align: center;
+}
+
+.table .fil td {
+  border: 1px solid transparent;
+  border-radius: 3px;
+}
+
+input[type="submit"]#editar {
+  width: 98%;
+  cursor: pointer;
+  height: 22px;
+}
+
+.left {
+  text-align: left !important;
+}
+.center {
+  text-align: center !important;
+}
+.justify {
+  text-align: justify !important;
+}
+
+.etpacolor1 {
+  background: #164668;
+}
+.etpacolor2 {
+  background: #f4571e;
+}
+.etpacolor3 {
+  background: #53c0d8;
+}
+.etpacolor4 {
+  background: #ffa136;
+}
+.etpacolor5 {
+  background: #4f6a7d;
+}
+
+/*///////////////////////////////////////////////////TARJETA*/
+
+/*//////////////////FOTO YNOMBRE*/
+
+.labelTarj {
+  position: absolute;
+}
+.txtarj {
+  position: absolute;
+}
+
+#backfotoname {
+  position: absolute;
+  top: 23px;
+  left: 1%;
+  width: 59%;
+  height: 288px;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  box-shadow: 1px 1px 3px -1px gray;
+}
+#backfotoALL {
+  position: absolute;
+  top: 15%;
+  left: 0%;
+  width: 100%;
+  height: 152px;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  color: #154567;
+}
+.backfoto {
+  position: absolute;
+  top: 13%;
+  left: 6%;
+  border: 1px solid transparent;
+  width: 7vw;
+  height: 7vw;
+  border-radius: 7vw;
+  box-shadow: 1px 1px 3px -1px gray;
+  overflow: hidden;
+}
+
+#imgPERSO {
+  width: 200%;
+  position: absolute;
+  left: -68%;
+}
+
+#nombreTXT {
+  position: absolute;
+  top: 19%;
+  left: 44%;
+  font-size: 1vw;
+  width: 56%;
+  border: 1px solid transparent;
+  text-align: left;
+}
+#nombreNAME {
+  position: absolute;
+  top: 32%;
+
+  left: 44%;
+  font-size: 1vw;
+  width: 56%;
+  border: 1px solid transparent;
+  text-align: left;
+}
+
+#especialidadTXT {
+  position: absolute;
+  top: 52%;
+
+  left: 44%;
+  font-size: 1vw;
+  width: 56%;
+  border: 1px solid transparent;
+  text-align: left;
+}
+#especialidadNAME {
+  position: absolute;
+  top: 65%;
+
+  left: 44%;
+  font-size: 1vw;
+  width: 56%;
+  border: 1px solid transparent;
+  text-align: left;
+}
+
+#idhospitalTXT {
+  position: absolute;
+  right: 0px;
+  bottom: 31px;
+}
+#idhospitalID {
+  position: absolute;
+  left: 23px;
+  top: 49px;
+  color: white;
+  border-radius: 4px;
+  font-size: 1vw;
+  width: 20.9%;
+}
+/*//////////NIVEL*/
+.backNivel {
+  position: absolute;
+  bottom: 22%;
+  left: -4%;
+  border: 1px solid transparent;
+  height: 1.5vw;
+  width: 100%;
+}
+.nivel {
+  display: inline-block;
+  height: 100%;
+}
+#nivel {
+  position: absolute;
+  color: #859aa8;
+  top: 11%;
+  left: 8%;
+  border: 1px solid transparent;
+  height: 100%;
+  font-size: 1.5vw;
+}
+/*//////////////////VALOR*/
+
+#backValorPerson {
+  position: absolute;
+  top: 23px;
+  left: 63%;
+  border: 1px solid transparent;
+  width: 36%;
+  height: 412px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px -1px gray;
+  background: #e9e9ed;
+}
+
+#estatusTXT {
+  position: absolute;
+  left: 1%;
+}
+#teamESTATUS {
+  position: absolute;
+  left: 4%;
+  top: 15%;
+}
+
+#totCXTXT {
+  position: absolute;
+  left: 84%;
+}
+#totCX {
+  position: absolute;
+  left: 89%;
+  top: 15%;
+}
+
+.labelEta {
+  position: relative;
+  top: 0px;
+  width: 99%;
+  border-radius: 5px;
+  font-size: 1.3vw;
+  background: #9aa6b7;
+  color: white;
+  background: #164668;
+  margin-bottom: 2%;
+}
+#savemod {
+  background-color: #131318;
+  color: white;
+  font-size: 16px;
+  padding: 9px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  width: 100%;
+}
+/*/////////////////////RED*/
+
+#backred {
+  position: absolute;
+  top: 321px;
+  left: 1%;
+  width: 59%;
+  height: 114px;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  box-shadow: 1px 1px 3px -1px gray;
+}
+/*//////////////////TEAM*/
+#backteam {
+  position: relative;
+  top: 0%;
+  left: 33%;
+  width: 27%;
+  height: 19%;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  box-shadow: 1px 1px 3px -1px gray;
+}
+#teamTXT {
+  top: 74%;
+  left: 33%;
+  font-size: 25px;
+}
+#teamback {
+  position: absolute;
+  bottom: 2px;
+  left: 34%;
+  border: 1px solid blueviolet;
+  width: 30%;
+  height: 34px;
+}
+
+.checkw {
+  width: 45%;
+}
+
+.tablered {
+  width: 50%;
+  font-size: 0.8vw;
+  color: #154567;
+  position: absolute;
+  top: 4px;
+}
+.tablered td {
+  border: 1px solid transparent;
+  border-radius: 3px;
+  background: #ffa136;
+  color: white;
+}
+.tablered th {
+  border: 1px solid transparent;
+  border-radius: 3px;
+  background: #ffa136;
+  color: white;
+}
+
+.tableteam {
+  width: 50%;
+  margin-left: 51%;
+  font-size: 0.8vw;
+  color: #154567;
+  top: 4px;
+  position: absolute;
+}
+.tableteam td {
+  border: 1px solid transparent;
+  border-radius: 3px;
+  background: #f4571e;
+  color: white;
+}
+.tableteam th {
+  border: 1px solid transparent;
+  border-radius: 3px;
+  background: #f4571e;
+  color: white;
+}
+
+.colcheck {
+  width: 20%;
+}
+.colcheck2 {
+  width: 20%;
+}
+/*//////////////SATISFACCION*/
+
+.backSatsfacc {
+  position: absolute;
+  bottom: 7%;
+  left: -4%;
+  border: 1px solid transparent;
+  height: 1.5vw;
+  width: 100%;
+}
+.nivel {
+  display: inline-block;
+  height: 100%;
+  margin-left: 6%;
+}
+#satsfa {
+  position: absolute;
+  color: #859aa8;
+  top: 11%;
+  left: 8%;
+  border: 1px solid transparent;
+  height: 100%;
+  font-size: 1.5vw;
+}
+
+/*////////////////////////////////////////////////////////////////ABRIRMAS1*/
+
+.imgmas {
+  width: 80%;
+}
+#MAS1 {
+  position: absolute;
+  top: 8px;
+  left: 40%;
+  font-size: 1.2vw;
+  cursor: pointer;
+  color: #164668;
+  background: #ffd966;
+  width: 19.3%;
+  border-radius: 5px;
+}
+
+#MAS2 {
+  position: absolute;
+  top: 0px;
+  left: 60%;
+  font-size: 2vw;
+  cursor: pointer;
+  color: #164668;
+  display: none;
+}
+
+#MENOS2 {
+  position: absolute;
+  top: 16px;
+  left: 60.1%;
+  font-size: 3vw;
+  cursor: pointer;
+  color: #164668;
+  display: none;
+}
+
+/*///////////////////////////////////////////////////////////////ACCIONES*/
+
+#backbotcomen {
+  border: 1px solid transparent;
+  display: block;
+  width: 35px;
+  position: absolute;
+  top: 29px;
+  right: 1%;
+  cursor: pointer;
+}
+.botcomen {
+  display: block;
+  width: 35px;
+  position: absolute;
+  top: 0px;
+  right: 1%;
+  cursor: pointer;
+}
+#backbottask {
+  border: 1px solid transparent;
+  display: block;
+  width: 35px;
+  position: absolute;
+  top: 29px;
+  right: 6%;
+  cursor: pointer;
+}
+.bottask {
+  display: block;
+  width: 35px;
+  position: absolute;
+  top: 0px;
+  right: 6%;
+  cursor: pointer;
+}
+
+.namecotasky {
+  font-size: 1.3vw;
+  border-radius: 4px;
+}
+.namecotasky p {
+  margin-left: 2px;
+}
+
+/*////////////////////////////////////////////////////MODULOS ACCIONES*/
+
+#backtasky {
+  display: none;
+  margin-top: 3%;
+  width: 100%;
+  height: 80%;
+  border: 1px solid transparent;
+}
+
+#backVIDEO {
+  display: none;
+  margin-top: 3%;
+  width: 100%;
+  height: 80%;
+  border: 1px solid transparent;
+}
+#backwhats {
+  display: none;
+  margin-top: 3%;
+  width: 100%;
+  height: 80%;
+  border: 1px solid transparent;
+}
+#backllamada {
+  display: none;
+  margin-top: 3%;
+  width: 100%;
+  height: 80%;
+  border: 1px solid transparent;
+}
+#backdelcliente {
+  display: none;
+  margin-top: 3%;
+  width: 100%;
+  height: 80%;
+  border: 1px solid transparent;
+}
+
+#backALcliente {
+  display: none;
+  margin-top: 3%;
+  width: 100%;
+  height: 80%;
+  border: 1px solid transparent;
+}
+#backotros {
+  display: none;
+  margin-top: 3%;
+  width: 100%;
+  height: 80%;
+  border: 1px solid transparent;
+}
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+#backcommen {
+  display: none;
+}
+
+.lineAC {
+  background-color: #f4571e;
+  height: 28px;
+  width: 5px;
+  position: absolute;
+  border-radius: 5px;
+  right: 109%;
+  top: 4px;
+  display: block;
+}
+
+#lineAC1 {
+  display: none;
+}
+#lineAC2 {
+  display: none;
+}
+#lineAC3 {
+  display: none;
+}
+#lineAC4 {
+  display: none;
+}
+#lineAC5 {
+  display: none;
+}
+#lineAC6 {
+  display: none;
+}
+#lineAC7 {
+  display: none;
+}
+#lineAC8 {
+  display: none;
+}
+/*///////////////////////////////////////////////////////ACTIVIDADES*/
+
+#backaccionesTR {
+  position: relative;
+  border: 1px solid transparent;
+  width: 100%;
+  height: 126px;
+
+  border-radius: 5px;
+}
+
+.colstav1 {
+  width: 17%;
+  text-align: center;
+}
+.colstav2 {
+  width: 44%;
+  text-align: center;
+  color: white;
+}
+
+.colstav3 {
+  width: 15%;
+  text-align: center;
+  color: white;
+}
+
+.colstav4 {
+  width: 14%;
+  text-align: center;
+  color: white;
+}
+.tableTASK {
+  width: 99%;
+}
+.testareaobs {
+  margin: auto;
+  width: 98%;
+  text-align: center;
+  border: none;
+  border-radius: 3px;
+
+  resize: vertical;
+  height: 22px;
+  font-size: 0.9vw;
+  box-shadow: 2px 3px 5px -2px #171717;
+  /*
+     box-shadow: 2px 3px 5px -2px #9b9393;
+     */
+  border-radius: 5px;
+  border: none;
+}
+
+.enfoqueacc {
+  margin: auto;
+  width: 98%;
+  text-align: center;
+
+  height: 22px;
+  font-size: 0.9vw;
+}
+.date {
+  margin: auto;
+  width: 98%;
+  text-align: center;
+
+  height: 22px;
+  font-size: 0.9vw;
+  border-radius: 5px;
+  border: none;
+  border: 0.5px solid gray;
+  box-shadow: 2px 3px 5px -2px #121212;
+}
+
+.testareaobs:focus {
+  background-color: #ffffff;
+
+  box-shadow: inset 2px 3px 5px -2px #00a3e1;
+}
+
+/*//////////////////////////////////////////////////////////////////PRINT TASK*/
+
+#backahistorias {
+  position: absolute;
+  border: 1px solid transparent;
+  width: 100%;
+  height: 70%;
+  margin-top: 1%;
+  border-radius: 5px;
+  height: 61%;
+  overflow-y: scroll;
+  background: transparent;
+}
+
+#formHist {
+  width: 100%;
+  background: white;
+}
+.tableHIST {
+  width: 100%;
+  margin-top: 2%;
+  font-size: 0.8vw;
+}
+.tableHIST td {
+  border: 1px solid transparent;
+  color: #164668;
+}
+.printask {
+  background: #dce2eb;
+  border-radius: 5px;
+  color: #164668;
+  text-align: left;
+  background: #d9d9d9 !important;
+
+  border: none;
+  width: 100%;
+  height: 25px;
+  border-radius: 5px;
+}
+
+.testareaobsHIST {
+  margin: auto;
+  width: 100%;
+  text-align: center;
+  border: 1px solid gray;
+  border-radius: 5px;
+  color: #164668;
+  resize: vertical;
+  height: 72px;
+  font-size: 0.9vw;
+  box-shadow: 2px 3px 5px -2px #9b9393;
+}
+.colstavh1 {
+  width: 1%;
+  text-align: center;
+}
+.colstavh2 {
+  width: 14%;
+  text-align: center;
+}
+
+.colstavh2b {
+  width: 8%;
+  text-align: center;
+}
+.colstavh3 {
+  width: 12%;
+}
+.colstavh4 {
+  width: 10%;
+}
+.colstavh5 {
+  width: 20%;
+}
+.colstavh6 {
+  width: 10%;
+}
+.colstavh7 {
+  width: 10%;
+}
+.dateH {
+  margin: auto;
+  width: 98%;
+  text-align: center;
+  color: #164668;
+  height: 22px;
+  font-size: 0.9vw;
+  border-radius: 3px;
+  border: none;
+  border: 0.5px solid gray;
+}
+
+.enfoqueaccH {
+  margin: auto;
+  font-size: 0.9vw;
+  width: 100%;
+  color: white;
+  text-align: center;
+  border: none;
+  box-shadow: 2px 3px 5px -2px #9b9393;
+  height: 25px;
+  border-radius: 5px;
+}
+
+.printaskH {
+  margin-top: 1px;
+}
+
+.liendiv {
+  height: 10px;
+  width: 98%;
+  border: 0.5px solid transparent;
+}
+
+.textareaH {
+  width: 100%;
+  border-radius: 4px;
+  height: 18px;
+  resize: vertical;
+  border: 0.5px solid gray;
+  background-color: #f9f9f9;
+  border: none;
+  height: 46px;
+  border-radius: 5px;
+  text-align: justify;
+  margin-bottom: 1%;
+  font-size: 0.8vw;
+  color: gray;
+}
+.activ {
+  background-color: #f9f9f9;
+  border: none;
+  height: 25px;
+  border-radius: 5px;
+  text-align: center;
+  width: 100%;
+}
+/*/////////////////////////////////////////////////COMENTARIOS*/
+
+.tableComent {
+  width: 99%;
+}
+.testareaobsC {
+  margin: auto;
+  width: 100%;
+  text-align: center;
+  border: 1px solid gray;
+  border-radius: 5px;
+  color: #164668;
+  resize: vertical;
+  height: 22px;
+  font-size: 0.9vw;
+
+  box-shadow: 2px 3px 5px -2px #080808;
+}
+
+.colstav1C {
+  width: 17%;
+  text-align: center;
+  color: white;
+}
+.colstav2C {
+  width: 44%;
+  text-align: center;
+  color: white;
+}
+
+.colstav3C {
+  width: 10.7%;
+  text-align: center;
+  color: white;
+}
+
+.textareaC {
+  background: #dce2eb;
+  width: 100%;
+  border-radius: 4px;
+  height: 18px;
+  resize: vertical;
+  border: 0.5px solid gray;
+}
+
+/*//////////////////regresar*/
+#backregresar {
+  position: absolute;
+
+  border: 1px solid transparent;
+  width: 102%;
+  height: 50px;
+  background: #dce2eb;
+  bottom: 0%;
+}
+#backbackRegre {
+  position: absolute;
+  width: 37px;
+  height: 37px;
+  border: 1px solid transparent;
+  right: 18%;
+  top: 10%;
+}
+#subback {
+  position: absolute;
+  width: 37px;
+  height: 37px;
+  border: 1px solid transparent;
+  right: 0%;
+  top: 0%;
+  background: transparent;
+  cursor: pointer;
+  color: transparent;
+}
+#regresartxt {
+  position: absolute;
+  background: transparent;
+  border: none;
+  right: -559%;
+  top: 15%;
+  color: #154567;
+  font-size: 1vw;
+}
+
+#imagRegresar {
+  width: 100%;
+}
+
+/*////////////////////////////////////////NUEVAS ACCIONES*/
+#backnavboton {
+  width: 100%;
+  position: relative;
+  border: 1px solid transparent;
+  height: 31px;
+  background: #d9d9d9;
+  border-radius: 6px;
+  margin-top: 1.7%;
+  box-shadow: 2px 3px 5px -2px #9b9393;
+}
+#accname {
+  width: 10%;
+  position: relative;
+  border: 1px solid transparent;
+  cursor: pointer;
+  background: #000000;
+  border-radius: 6px;
+  margin-top: 0.5%;
+  box-shadow: 2px 3px 5px -2px #9b9393;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 1%;
+}
+#backnavbot {
+  width: 496px;
+  position: absolute;
+  border: 1px solid transparent;
+  height: 31px;
+  border-radius: 6px;
+  right: -25px;
+  top: -9%;
+}
+.backbo {
+  display: inline-block;
+  height: 100%;
+  border: 1px solid transparent;
+  margin-left: 3%;
+  position: relative;
+}
+
+.botco {
+  display: block;
+  width: 35px;
+  top: 0px;
+  right: 17%;
+  cursor: pointer;
+}
+
+#namesectnew {
+  background: linear-gradient(29deg, #182128 0%, #2c4457 100%);
+  color: white;
+  width: 93%;
+  margin: auto;
+  margin-top: 5%;
+}
+
+.txtbo {
+  position: absolute;
+  display: none;
+  font-size: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  background: gray;
+  color: white;
+  border-radius: 5px;
+  right: 1%;
+  width: 111px;
+}
+
+.file {
+  color: white;
+  border: 1px solid white;
+  width: 98%;
+  border-radius: 3px;
+  font-size: 10px;
+  height: 20px;
+  background: transparent;
+}
+
+.input:focus,
+.select:focus,
+.textarea:focus,
+.focus:focus {
+  background-color: #ffffff;
+
+  box-shadow: inset 2px 3px 5px -2px #f18b54;
+}
+
+#backtab {
+  width: 99%;
+}
+
+.espacioFin {
+  margin-top: 21px;
+  display: block;
+  position: relative;
+}
+
+.namecotask2y {
+  font-size: 1.3vw;
+  margin-top: 1%;
+  border-radius: 2px;
+  background: #d3d2d2;
+  border: 2px solid black;
+  border-radius: 4px;
+}
+
+#embed {
+  width: 26%;
+}
+
+#verdoc {
+  display: block;
+  position: relative;
+  font-size: 35px;
+  color: black;
+}
+
+/*////////////////////////////////////////////////////////////SIMULACION*/
+#simcoti {
+  display: none;
+}
+#simul {
+  width: 100%;
+  position: relative;
+  border: 1px solid transparent;
+  height: 71px;
+  background: #d9d9d9;
+  border-radius: 6px;
+  margin-top: 1.7%;
+  box-shadow: 2px 3px 5px -2px #9b9393;
+}
+#vercoti {
+  width: 30%;
+  position: relative;
+  border: 1px solid transparent;
+
+  background: #d9d9d9;
+  border-radius: 6px;
+  margin-top: 1.7%;
+  box-shadow: 2px 3px 5px -2px #9b9393;
+  right: -70%;
+}
+.inputfin {
+  margin-bottom: 5%;
+}
+
+/*//////////////////////////////ALL COMMENT*/
+
+#allcoment {
+  margin-top: 3%;
+  width: 100%;
+  height: 80%;
+  border: 1px solid transparent;
+}
+
+.com1 {
+  width: 2%;
+  text-align: center;
+}
+.com2 {
+  width: 5%;
+  text-align: center;
+}
+.com3 {
+  width: 13%;
+  text-align: center;
+}
+
+.activ2 {
+  background-color: #f9f9f9;
+  border: none;
+  height: 25px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.circom1 {
+  width: 10px;
+  height: 10px;
+  border-radius: 100px;
+  background: linear-gradient(29deg, #ff3131 0%, #ff914d 100%);
+  margin-left: 44%;
+  margin-top: 20px;
+}
+.circom2 {
+  width: 10px;
+  height: 10px;
+  border-radius: 100px;
+  background: linear-gradient(29deg, #ff3131 0%, #ff914d 100%);
+  margin-left: 44%;
+  margin-top: 1px;
+}
+
+#backahistoriasComAll {
+  position: absolute;
+  border: 1px solid transparent;
+  width: 100%;
+  height: 70%;
+  margin-top: 1%;
+  border-radius: 5px;
+  height: 83%;
+  overflow-y: scroll;
+}

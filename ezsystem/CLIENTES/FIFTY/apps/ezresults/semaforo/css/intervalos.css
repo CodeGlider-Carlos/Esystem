@@ -1,0 +1,436 @@
+/*//////////////////////////////GENERALES////////////////////////////////////////////*/
+/*01. ///GENERALES///*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+    user-select: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ /*quita marco post link*/
+*:focus{
+    outline: none;
+}
+/*body de home - dash*/
+body{
+    background: transparent;
+    display: block;  
+    z-index: 110;  
+    overflow: hidden;
+}
+
+/*////////////////////////////////////////////**/
+   
+input[type='text'],
+input[type='list'], 
+input[type='button'] 
+{
+    position: relative;
+    width: 80%;
+    height: 30px;
+    margin-top:3.5px;
+    background-color: #F9F9F9;
+    box-shadow: 1px 1px 2px 1px #D9D9D9;
+    border: none; 
+    color: #050505;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+select{
+    position: relative;
+    width: 90%;
+    height: 30px;
+    margin-top: 3.5px;
+    background-color: #F9F9F9;
+    box-shadow: 1px 1px 2px 1px #D9D9D9;
+    border: none;
+    color: #050505;
+    cursor: pointer;
+   /* margin-left: 5%;*/
+    border-radius: 5px;
+    text-align: left;
+}
+/*FONDO OPTION SELECT*/
+
+select option{
+  
+    font-family:Gill Sans MT!important;
+}
+
+input[type='text']:focus, 
+input[type='list']:focus, 
+select:focus
+{
+    box-shadow: inset 1px 1px 1px 1px  rgb(22, 55, 117);
+    background-color: white;
+}
+#filtros{
+    position: relative;
+    width: 100%;
+    height: 30px;
+    margin-top: 0%;
+    box-shadow: 1px 1px 2px 1px #D9D9D9;
+    border: 1px solid #D9D9D9;
+    margin-left: 0%;
+    border-radius: 5px;
+    text-align: center;
+    color: #2f2d29;
+    padding-left: 0%;
+    background-color: #F9F9F9;
+    
+}
+#imputVacio{
+    position: relative;
+    width: 100%;
+    height: 30px;
+    margin-top: 3.5px;
+    background-color: #F9F9F9;
+    box-shadow: 1px 1px 2px 1px #D9D9D9;
+    border: none;
+    margin-left: 0%;
+    border-radius: 5px;
+    color: #2f2d29;
+}
+
+#buscarrisk{
+    position: absolute;
+    width: 100%;
+    height: 30px;
+    margin-top: 3.5px;
+
+    box-shadow: 1px 1px 2px 1px #D9D9D9;
+    border: none;
+    cursor: pointer;
+    margin-left: 0%;
+    border-radius: 5px;
+
+    background-color: #D9D9D9;
+}
+
+
+#buscarrisk:hover{
+    background: linear-gradient(90deg, rgb(2, 4, 141) 0%, rgb(45, 93, 237) 64%);
+    color: white;
+}
+
+
+
+#resetrisk{
+    position: absolute;
+    width: 49%;
+    height: 30px;
+    top: 348.5px;
+    box-shadow: 1px 1px 2px 1px #D9D9D9;
+    border: none;
+    cursor: pointer;
+    margin-left: 0%;
+    border-radius: 5px;
+    border-radius: 5px;
+    background-color: #D9D9D9;
+}
+
+
+#reloadIcon{
+    position: absolute;
+    width: 50%;
+    height: 30px;
+    top: 345.5px;
+    box-shadow: 1px 1px 2px 1px #D9D9D9;
+    border: none;
+    cursor: pointer;
+    left: 50%;
+    border-radius: 5px;
+    border-radius: 5px;
+    background-color: #D9D9D9;
+  }
+#resetrisk:hover,
+#reloadIcon:hover
+{
+    background: #151719;
+    color: white;
+}
+
+#cliente{
+    width: 100.3%;
+    left: 0%;
+}
+#year{
+    width: 100.3%;
+    left: 0%;
+}
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+/*//////////////////////////////////////////////////FORMULARIO//////////////////////////////////////////*/
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<SEMAFORO*/
+#calctab{
+    display: block;
+    position: absolute;
+    top: 5px;
+    left: 44.7%;
+    width: 32%;
+    height:90%;
+    border: 1px solid transparent;
+}
+
+/*FONDO*/
+#backsem{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 99%;
+    height: 100%;
+    border-radius: 7px;
+    border: 1px solid transparent;
+}
+/*fomas*/
+
+.backvig{
+    position: relative;
+    left: 0%;
+    width: 100%;
+    height: 48px;
+    background-color: #F9F9F9;
+    box-shadow: 1px 1px 2px 1px #D9D9D9;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    margin-top: 3.5px;
+}
+
+.backforma{
+    position: relative;
+    left: 0%;
+    width: 100%;
+    height: 48px;
+    background-color: #F9F9F9;
+    box-shadow: 1px 1px 2px 1px #D9D9D9;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    margin-top: 3.5px;
+}
+/*FORMA SEMAFORO*/
+
+.contsem{
+    position: absolute;
+    bottom: 10%;
+    height: 34px;
+    background-color: #F9F9F9;
+    box-shadow: 1px 1px 2px 1px #D9D9D9;
+    border-radius: 7px;
+    border: 1px solid transparent;
+    
+    width: 96%;
+    left: 2%;
+   /* background: linear-gradient(-65deg, #6B6458 -2%, #CDC2AE 64%);*/
+}
+.contsemvi{
+    position: absolute;
+    bottom: 10%;
+    height: 34px;
+    background-color: #F9F9F9;
+    box-shadow: 1px 1px 2px 1px #D9D9D9;
+    border-radius: 7px;
+    border: 1px solid transparent;
+    width: 96%;
+    left: 2%;
+    /*
+    background: linear-gradient(-65deg, #6B6458 -2%, #CDC2AE 64%);
+    */
+}
+/*semaforos*/
+.circlese{
+    position: relative;
+    width: 20px;
+    height: 20px;
+    border-radius: 100px;
+    left: -9%;
+    top: 33%;
+    box-shadow: inset 3px 3px 5px -2px #1a1a1a;
+    display: inline-block;
+    margin-left: 10.2%;
+}
+
+.blue{  
+  
+    background-color: #70ECCE;  
+    
+}
+.green{  
+  
+    background-color: #21E1B2;  
+   
+}
+.yell{
+  
+    background-color: #FEE699;
+  
+}
+.orange{
+
+    
+    background-color: #FFA178;  
+   
+}
+
+.red{
+
+   
+    background-color: #FF5050;
+}
+/*TEXTO DE PORCENTAJE*/
+
+.textsem{
+    position: absolute;
+    top: 15%;
+    height: 21px;
+    background-color: transparent;
+    border-radius: 7px;
+    border: 1px solid transparent;
+    width: 68%;
+    left: 2%;
+    font-size: 0.9vw;
+    color: #4a4324;
+    z-index: 8;
+}
+.porcj{
+    position: absolute;
+    top: 0%;
+}
+.porc1{
+   left: 9%;
+}
+.porc2{
+    left: 31%;
+ }
+ .porc3{
+    left: 54%;
+ }
+ .porc4{
+    left: 76%;
+ }
+ .porc5{
+    left: 98.8%;
+ }
+
+/*SEMAFORO TEXTO VIGENTE*/
+#vigentext{
+    width: 19%;
+    height: 14px;
+    border-radius: 5px;
+    background-color: #e9e9e5;
+    border: 2px solid rgba(0,0,0,0.2);
+    position: absolute;
+    left: 78%;
+    top: 31%;
+    box-shadow: inset 3px 3px 5px -2px #1a1a1a;
+    font-size: 14px;
+    text-align: center;
+    color: #373734;
+}
+
+/*///////////////////////////////////////////////////////////////////////////////BOTONES RADIO*/
+
+/*////OCULTAR DISEÑO ORIGINAL DE CHECK BOTON*/
+	
+.content-input input{
+	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+}
+ 
+.content-input input{
+	visibility: hidden;
+	position: absolute;
+	right: 0;
+}
+
+
+
+ /* BACK DE BOTON y tamaño de boton*/
+ .content-input input[type=radio ] + i{
+    width: 19%;
+    height: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+ }
+ 
+ /* FONDO DE CHECK Y POSICION GENERAL*/
+
+ 
+ .content-input input + i{
+    background-color: #F9F9F9;
+    border: 2px solid rgba(0,0,0,0.2);
+    position: absolute;
+    left: 78%;
+    top: 35%;
+    box-shadow: inset 3px 3px 5px -2px #1a1a1a;
+ }
+  
+ 
+
+     
+ /*BOTON CIRCULAR*/
+ .content-input input[type=radio] + i:before{
+    content: '';
+    width: 24px;
+    height: 24px;
+    background: linear-gradient(181deg, #6B6458 -2%, #CDC2AE 64%);
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1;
+    left: -3px;
+    top: -6px;
+    box-shadow: 3px 3px 5px -2px #1a1a1a;
+ }
+ 
+ /*POSCIION AL DAR CLICK EN BOTON*/
+ .content-input input[type=radio]:checked + i:before{
+    left: 78%;
+ }
+  /*FONDO AL SELECCIONAR RADIO BOTON*/
+ .content-input input[type=radio]:checked + i{
+    background: #a09e7d;
+    box-shadow: inset  1px 1px 2px 1px  #023b1a;
+ 
+ }
+ 
+ /*TEXTO CUADNO SE SELECCIONA */
+ .content-input input[type=radio] + i:after{
+     content: 'NUEVO';
+     position: absolute;
+     font-size: 10px;
+     color: white;
+     top: 12%;
+     left: 4px;
+     opacity: 0 /* Ocultamos este elemento */;
+     transition: all 0.25s ease 0.25s;
+     
+ }
+  
+ /* Cuando esté checkeado cambiamos la opacidad a 1 y lo mostramos */
+ .content-input input[type=radio]:checked + i:after{
+  opacity: 1;
+ }
+
+
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<GUARDAR*/
+#savecon{
+    position: absolute;
+    top: 46%;
+    left: 74%;
+    width: 24%;
+    height: 49%;
+    overflow: hidden;
+    background-color: #F9F9F9;
+    box-shadow: 3px 3px 5px -2px #D9D9D9;
+    border-radius: 7px;
+    border: 1px solid transparent;
+    display: none;
+}

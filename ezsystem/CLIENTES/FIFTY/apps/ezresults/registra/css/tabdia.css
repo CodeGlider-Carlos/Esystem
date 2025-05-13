@@ -1,0 +1,559 @@
+/*//////////////////////////////GENERALES////////////////////////////////////////////*/
+/*01. ///GENERALES///*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ /*quita marco post link*/
+*:focus{
+    outline: none;
+}
+/*body de home - dash*/
+body{
+    background-color: #D9D9D9;
+    display: block;  
+    z-index: 110;  
+    overflow: hidden;
+}
+
+
+   
+input[type='text'],
+input[type='list'],
+input[type='number']
+{
+    background-color: #F9F9F9;
+    border-radius: 0px;
+    box-shadow: inset 2px 3px 5px -2px #9b9393;
+    border: 1px solid transparent;
+    padding: 2px;
+    resize: none;
+    width: 100%;
+    border-radius: 6px;
+    margin-top: 3px;
+    font-size: 16px;
+}
+
+
+#fechlim
+{
+    position: relative;
+  
+    height: 30px;
+    margin-top:3.5px;
+    background-color: #F9F9F9;
+    box-shadow: 1px 1px 2px 1px #c5c4c4;
+    border: none; 
+    color: #050505;
+    cursor: pointer;
+ 
+    border-radius: 5px;
+}
+select{
+    position: relative;
+ 
+    height: 30px;
+    margin-top:3.5px;
+    background-color: #F9F9F9;
+    box-shadow: 1px 1px 2px 1px #c5c4c4;
+    border: none; 
+    color: #050505;
+    cursor: pointer;
+    margin-left: 5%;
+    border-radius: 5px;
+}
+textarea  
+{
+    position: relative;
+ 
+    height: 30px;
+    margin-top:3.5px;
+    background-color: #F9F9F9;
+    box-shadow: 1px 1px 2px 1px #c5c4c4;
+    border: none; 
+    color: #050505;
+    cursor: pointer;
+   
+    border-radius: 5px;
+    resize: vertical;
+    font-size: 14px;
+}
+input[type='text']:focus, 
+input[type='list']:focus,
+select:focus,
+textarea:focus
+{
+    box-shadow: inset 1px 1px 1px 1px  #038acd;
+    background-color: rgb(255, 255, 255);
+}
+input[type="submit"] {
+    position: absolute;
+    background: url('../../img/guardar.svg');
+        background-repeat: repeat;
+    border: none;
+    color: transparent;
+    cursor: pointer;
+    width: 50px;
+    font-size: 55px;
+    top: 4.7%;
+    right: 3.1%;
+    background-repeat: no-repeat;
+    z-index: 100;
+}
+
+/*/////////////////////////////////////LOAD/////////////////////////////////////////*/   
+
+#backLoad{
+    display: block;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height:100%;
+    background: #F9F9F9;
+    z-index: 5000;
+   /* display: none;*/
+}
+
+#tileLoad{
+    position: absolute;
+    width: 10%;
+    color: #181717;   
+    top: 58%;
+    left: 44%;
+    font-size: 25px;
+}
+
+#contIcL{
+    position: absolute;
+    width: 10%;
+    top: 45.5%;
+    left: 44%;
+    border: 1px solid transparent;
+}
+#icLoad{
+    border: 10px solid #006AA6;
+    border-top-color: #D9D9D9;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    -webkit-animation: girar 1.5s linear infinite;
+    -o-animation: girar 1.5 linear infinite;
+    animation: girar 1.5 linear infinite;
+    z-index: 21;
+}
+@keyframes girar{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }   
+}
+
+/*//////////////////////////*/
+
+#reload{
+    left: 17%;
+    display: block;
+    height: 58px;
+    position: absolute;
+    width: 58px;
+    top: 15%;
+    right: 0%;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    text-align: center;
+    background: #D9D9D9;
+    box-shadow: 2px 3px 5px -2px #9b9393;
+
+}
+#reloadIcon{
+    height: 42px;
+    position: relative;
+    top: 2vh;
+    z-index: 1000;
+}
+/*/////////////////////////////////////////////////////////////////////////////////////////BACKMOD*/
+/*/////////////////////////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////////////////////////*/
+#cabecera{
+    position: relative;
+    width: 98%;
+    margin-top: 4%;
+    left: 1%;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 2px 3px 5px -2px #9b9393;
+    text-align: center;
+    background: linear-gradient(90deg, rgb(143, 142, 141) 0%, rgb(218, 216, 213) 64%);
+    color: #27243F;
+}
+#backMod{
+    position: relative;
+    width: 97%;
+    height: 78px;
+    margin-top: 0.3%;
+    left: 1%;
+    border: none;
+    border: 1px solid transparent;
+}
+
+
+
+#backcabe1{
+    position: absolute;
+    width: 4%;
+    height: 78px;
+    margin-top: 13px;
+    right: 10%;;
+    border: none;
+    border: 1px solid transparent;
+    z-index: 1;
+}
+#backcabe2{
+    position: absolute;
+    width: 4%;
+    height: 78px;
+    margin-top: 12px;
+    right: 1%;
+    border: none;
+    border: 1px solid transparent;
+    z-index: 1;
+}
+#backcabe3{
+    position: absolute;
+    width: 4%;
+    height: 78px;
+    margin-top: -88px;
+    right: 7.3%;
+    border: none;
+    border: 1px solid transparent;
+    z-index: 1;
+}
+/*///////////////////////BOTON REGRESAR */
+
+
+#backRegresar{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 52px;
+    right: 6%;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid transparent;
+
+    text-align: center;
+    background: #D9D9D9;
+    box-shadow: 2px 3px 5px -2px #9b9393;
+}
+
+#backRegresarB{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 16px;
+    right: 0%;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid transparent;
+
+    text-align: center;
+    background: #D9D9D9;
+    box-shadow: 2px 3px 5px -2px #9b9393;
+}
+#regresar {
+    position: relative;
+    border: none;
+    cursor: pointer;
+    height: 72%;
+    width: 100%;
+    margin: auto;
+    top: 15%;
+}
+
+/*recarga*/
+#backRecarga{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 16px;
+    right: 10%;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid transparent;
+
+    text-align: center;
+    background: #D9D9D9;
+    box-shadow: 2px 3px 5px -2px #9b9393;
+}
+#recargar {
+    position: relative;
+    border: none;
+    cursor: pointer;
+    height: 72%;
+    width: 100%;
+    margin: auto;
+    top: 15%;
+}
+
+
+
+/*///////////////////////////////////////guardar*/
+
+
+#backGuardar{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 50px;
+    right: 1%;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    text-align: center;
+    background: #D9D9D9;
+    box-shadow: 2px 3px 5px -2px #9b9393;
+}
+input[type="image"]#guardar {
+    position: relative;
+    border: none;
+    cursor: pointer;
+    height: 72%;
+    width: 99%;
+    margin: auto;
+    top: 17%;
+    
+}
+input[type="submit"]#submit {
+    position: absolute;
+    border: none;
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    top: 0%;
+    border: 1px solid transparent;
+    left: 0%;
+    background: transparent;
+    color: transparent;
+}
+/*AVISOS*/
+#contdatsave{
+    display: block;
+    position: absolute;
+    background-color: #F9F9F9;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%; 
+
+}
+#contdatsaveB{
+    display: block;
+    position: absolute;
+    background-color: #F9F9F9;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%; 
+
+}
+#datsave{
+    display: block;
+    position: absolute;   
+    top:25%;
+    left: 44%; 
+    color: black;
+    font-size: 20px;
+  
+}
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+#backObj{
+    display: block;
+    position: absolute;
+    top: 21%;
+    left: 0.7%;
+    width: 98%;
+    height: 74%;
+    background-color: #F9F9F9;
+    box-shadow: 3px 3px 5px -2px #9b9393;
+    border: 1px solid transparent;
+    border-radius: 13px;
+}
+/*CONTENEDOR GENERAL*/
+#backcont{
+    display: block;
+
+    width: 98%;
+    height: 60%;
+    box-shadow: 3px 3px 5px -2px #9b9393;
+    border: 1px solid transparent;
+    border-radius: 13px;
+    margin-top: 1%;
+}
+#backcontas {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+  }
+
+
+#conttabobj{
+    width: 98%;
+    height: 26%;
+    border: 1px solid transparent;
+    overflow-y: scroll;
+    margin-top: 98px;
+    margin: auto;
+      margin-top: auto;
+    margin-top: auto;
+    margin-top: 120px;
+    background: white;
+    box-shadow: 2px 3px 5px -2px #9b9393;
+    border-radius: 5px;
+}
+.ttile{
+    position: absolute;
+    width: 98%;
+    top: 21px;
+    left: 1%;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 2px 3px 5px -2px #9b9393;
+    text-align: center;
+    background: linear-gradient(90deg, rgb(143, 142, 141) 0%, rgb(218, 216, 213) 64%);
+    background: linear-gradient(90deg, rgb(2, 4, 141) 0%, rgb(45, 93, 237) 64%);
+    color: #ffffff;
+  }
+#tabladia{
+    width: 99%;
+    margin: auto;
+      margin-top: auto;
+      margin-bottom: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-top: 0%;
+    margin-bottom: 4%;
+}
+#tablaMES{
+    width: 113%;
+    margin: auto;
+      margin-top: auto;
+      margin-bottom: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-top: 0%;
+    margin-bottom: 4%;
+}
+#columnasob{
+    font-size: 12px;
+}
+
+#columnasob th{
+    font-size: 14px;
+    background: rgb(131, 131, 131);
+    box-shadow: 2px 3px 5px -2px #9b9393;
+    border-radius: 3px;
+    color: white;
+}
+/*COLUMNAS*/
+.barrr{
+    background: #006AA6!important;
+}
+#col1{
+    width: 3%;
+}
+#col1b{
+    width: 4%;
+}
+#col2{
+    width: 9%;
+}
+
+#col2MES{
+    width: 15%;
+}
+
+
+
+#col3{
+    width: 8%;
+}
+#col3MES{
+    width: 6%;
+}
+#col3b{
+    width: 1%;
+    background: #006AA6!important;
+}
+#col4{
+    width: 2%;
+}
+.center{
+    text-align: center;
+}
+
+
+
+
+/*///////////////////////////////////////////////////////////////////////////////ALTA*/
+/*ID*/
+
+
+
+#nombre{
+    width: 100%;
+    background: #006AA6 !important;
+  color: white;
+    text-align: left;
+    padding-left: 2%;
+}
+/*tipo*/
+#meta{
+    width: 100%;
+    text-align: center;
+    background-color: #a09e7d;
+    color: #fafbfb;
+  
+}
+#mes{
+    width: 100%;
+    
+    text-align: center;
+    background: #006AA6 !important;
+    color: white;
+}
+
+/*ponderacion indi*/
+#resultado{
+    width: 100%;
+  
+    background: #F9F9F9;
+    text-align: center;
+    font-size: 15px;
+}
+
+
+#indic
+#indicadorr::placeholder{
+    text-align: center;
+}
+/*////////////////////////////////////PROCESOS*/
+
+
+/*COLUMNAS*/
+

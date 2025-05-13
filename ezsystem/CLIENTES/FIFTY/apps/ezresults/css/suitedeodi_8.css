@@ -1,0 +1,1095 @@
+
+/*01. ///GENERALES///*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+    user-select: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ /*quita marco post link*/
+*:focus{
+    outline: none;
+}
+
+body{
+    background: #F5F5F5;
+    overflow: hidden;
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+/*////////////////////////////////////////////**/
+   
+input[type='text'],
+input[type='list'], 
+input[type='button'] 
+{
+    position: relative;
+  
+    margin-top: 3.5px;/*
+    background-color: #F9F9F9;*/
+    border: none;
+    color: #050505;
+    margin-left: 0%;/*
+    box-shadow: 1px 1px 2px 1px #D9D9D9;*/
+    height: 19px;
+}
+
+select{
+    position: relative;
+   
+    background-color: #F9F9F9;
+    box-shadow: 1px 1px 2px 1px #D9D9D9;
+    border: none;
+    color: #2f2d29;
+    height: 27px;
+    font-size: 15px;
+    margin: auto;
+      margin-top: auto;
+    margin-top: 2%;
+}
+select option{
+
+    font-family:Gill Sans MT!important;
+}
+input[type='text']:focus, 
+input[type='list']:focus, 
+select:focus
+{
+    box-shadow: inset 1px 1px 1px 1px  #008DCF;
+}
+
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+/*//////////////////////////////////////////////////FORMULARIO//////////////////////////////////////////*/
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+
+#year{
+    width: 48%;
+}
+#periodo{
+    width: 50%;
+}
+#macro{
+    width: 100%;
+}
+/*/////////////////////////////////////LOAD/////////////////////////////////////////*/   
+
+#backLoad{
+    display: block;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height:100%;
+    background: #F9F9F9;
+    z-index: 5000;
+   /* display: none;*/
+}
+
+#tileLoad{
+    position: absolute;
+    width: 100%;
+    color: #181717;
+    top: 58%;
+    font-size: 3vh;
+    text-align: center;
+  
+}
+
+#contIcL{
+    position: relative;
+    width: 10%;
+    border: 1px solid transparent;
+    margin: auto;
+    top: 44%;
+}
+#icLoad{
+    border: 10px solid #0000D0 ;
+    border-top-color: #D9D9D9;
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    -webkit-animation: girar 1.5s linear infinite;
+    -o-animation: girar 1.5 linear infinite;
+    animation: girar 1.5 linear infinite;
+    z-index: 21;
+}
+@keyframes girar{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }   
+}
+
+
+#backNav{
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    
+}
+
+#bobybody{
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 80px;
+    left: 0%;
+    background: #F5F5F5;
+    z-index: -100;
+   overflow: hidden;
+}
+
+#smartybot{
+    position: absolute!important;
+    left: 6%;
+    top: -3px;
+}
+#riskbot{
+    position: absolute!important;
+    left: 11%;
+  top: -2px;
+}
+#salirDeo{
+    position: absolute!important;
+    right: 2.7%;
+    top: -2px;
+}
+#backNavBarra{
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 80px;
+    top: 0%;
+    left: 0%;
+    background: #0057E2;
+    z-index: 10;
+    overflow: hidden;
+}
+
+#backimgBarraNAv{
+    width: 120.6%;
+    margin-top: -12%;
+    margin-left: 0%;
+    z-index: -5;
+    position: absolute;
+}
+#backdegra{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+
+    background: linear-gradient(90deg, #0000D0 0%, #002D85 64%);
+    z-index: -1;
+    height: 100%;
+    border: none;
+    opacity: 0.86;
+}
+
+#logseica{
+    position: absolute;
+    height: 37%;
+    top: 7px;
+    left: 1%;
+}
+#barranav{
+    display: block;
+    position: absolute;
+    width: 98%;
+    height: 29px;
+    top: 53%;
+    left: 1%;
+    background: #2068E4;
+    z-index: 11;
+    border-radius: 5px;
+}
+
+#nameFiltros{
+    color: white;
+    position: absolute;
+    left: 7%;
+    top: 0%;
+    font-size: 20px;
+    cursor: pointer;
+    width: 20%;
+    text-align: center;
+    height: 29px;
+    border: 1px solid red;
+    z-index: 100;
+}
+#botonFiltro{
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0%;
+    top: 0%;
+
+}
+#userUnid{
+    color:white;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    text-align: center;
+    font-size: 28px;
+    background: linear-gradient(90deg, #0000D0 0%, #002D85 64%);
+}
+/*/////////////////botones*/
+
+
+
+.imgmod{
+    display: block;
+    height: 124%;
+    margin-top: -8%;
+  
+}
+
+.imgmod2{
+    display: block;
+    height: 34px;
+}
+
+#salirDeo{
+    cursor: pointer;
+    background-color: transparent;
+    position: absolute;
+    height: 100%;
+    z-index: 100;
+}
+
+#line1{
+    display: block;
+    position: absolute;
+    width: 1.5px;
+    height: 100%;
+    top: 0%;
+    left: -479%;
+    background: #8989EC;
+
+}
+
+
+
+
+
+/*useuario*/
+#backUser{
+    display: block;
+    position: absolute;
+    width: 21%;
+    height: 29px;
+    top: 9%;
+    right: 1%;
+    border: 1px solid transparent;
+}
+#userU{
+    display: block;
+    position: absolute;
+    bottom: 23%;
+    right: 20.5%;
+    font-size: 11px;
+    color: white;
+    text-align: center;
+    z-index: 1;
+    width: 50%;
+}
+
+#userLogo{
+    height: 87%;
+    right: 10%;
+    position: absolute;
+}
+#line2{
+    display: block;
+    position: absolute;
+    width: 1.5px;
+    height: 100%;
+    top: 0%;
+    right: 73%;
+    background: #8989EC;
+
+}
+
+
+
+
+#line3{
+    display: block;
+    position: absolute;
+    width: 98%;
+    height: 1.5px;
+    bottom: 6%;
+    left: 1%;
+    background: #8989EC;
+}
+
+
+
+/*/////////////////////////////DASHBOARD*/
+#cabecera{
+    position: relative;
+    width: 97%;
+    margin-top: 1%;
+    left: 1%;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 2px 3px 5px -2px #9b9393;
+    text-align: center;
+    /*
+    background: linear-gradient(90deg, rgb(143, 142, 141) 0%, rgb(218, 216, 213) 64%);
+*/
+    background: linear-gradient(90deg, rgb(2, 4, 141) 0%, rgb(45, 93, 237) 64%);
+    color: #ffffff;
+}
+/*TITULOS SECCIONES*/
+
+.titleSection2
+{
+    position: relative;
+    width: 90%;
+    border: none;
+    text-align: left;
+    z-index: 1;
+    margin: auto;
+      margin-top: auto;
+      margin-left: auto;
+    border-radius: 5px;
+    color: #0797FF;
+    margin-top: 1%;
+}
+#entrar{
+    position: absolute;
+    height: 113%;
+    top: -8%;
+    right: 1%;
+    cursor: pointer;
+}
+#tablata{
+    display: block;
+    width: 93%;
+    border: 1px solid transparent;
+    margin: auto;
+}
+#tablata th{
+    font-size: 12px;
+}
+
+.center{
+    text-align: center;
+}
+.left{
+    text-align: left;
+}
+.justi{
+    text-align: justify;
+}
+
+
+
+/*/////////////////////////////////////DESEMPEÑO ALL*/
+
+
+
+
+
+
+
+.namemodS{
+    height: 3vw;
+    text-align: left;
+    border: 1px solid transparent;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+}
+
+#backini{
+    display: block;
+    position: absolute;
+    top: -3%;
+    left: 2%;
+    width: 98%;
+    height: 99%;
+    border: 1px solid transparent;
+    z-index: 10;
+    background: #F9F9F9;
+    border-radius: 0px 0px 0px 23px;
+    z-index: 2;
+    box-shadow: inset 1px 1px 5px 1px #38393a;
+    box-shadow: inset 1px 1px 5px 1px #696969;
+    border: none;
+}
+
+#iframeIntegrarPaq {
+    display: block;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    border: 1px solid transparent;
+    background: #D9D9D9;
+    box-shadow: 2px 3px 5px -2px #9b9393;
+    overflow: hidden;
+  }
+
+
+.navleftce{
+    position: absolute;  
+    box-shadow: 3px 3px 5px -2px rgb(12, 12, 12);
+    width: 58px;
+    height:57px;
+    background: rgb(228,228,223);
+    background: linear-gradient(0deg, rgba(228,228,223,1) 0%, rgba(249,249,249,1) 100%);
+    overflow: hidden;
+    left: 20%;
+    border-radius: 8px;
+}
+
+
+/*////////////////////////<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<</botones navegacion*/
+/*CONTENEDOR BOTONES*/
+#contnames{
+    position: absolute;
+    top: 4%;
+    left: 5.1%;
+    width: 89.7%;
+    height: 31px;
+    display: none;
+    z-index: 100;
+
+    box-shadow: 0px 2px 7px 0px #9b9393;
+}
+
+.botones{    
+    display: inline-block;
+
+    font-size:12px;
+    top: 20%;
+    color: #232323;
+    cursor: pointer;
+
+    height: 100%;
+    border-radius: 10px;
+    text-align:center;
+    margin-left: 9%;
+
+}
+.botones p{
+    margin-top: 5%;
+}
+
+.salir{
+    position: absolute;
+    width: 121%;
+    left: -8%;
+}
+.botones:hover{   
+    color: #006AA6;
+}
+
+
+
+
+
+/*///////////////////////////////////////////////<<<<<<<<<<<<<<<<<<<<<<<<<</TITULOS DE MODULOS/////////////////*/
+
+.titlemod{
+    position: absolute;
+    top: 25%;
+    left: 0%;
+    width: 100%;
+    color: #272727;
+    text-align: center;
+  
+    border: 1px solid transparent;
+}
+#modInicioTit{
+    display: block;
+}
+#modConfTit{
+    display: none;
+}
+#modOneTit{
+    display: none;
+}
+#modDosTit{
+    display: none;
+}
+#modTresTit{
+    display: none;
+}
+#modFourTit{
+    display: none;
+}
+#modFiveTit{
+    display: none;
+}
+
+/*//////////////////////////////////////////////////////////////////<<<<<<<<<<<<<<<<<<<<<<<<<<<<</////MODULOS*/
+#mod{
+    position: absolute;
+    width: 100%;
+    height: 200%;
+    top: 0px;
+    left: 0%;
+    background-color: transparent;
+  
+}
+.mods{
+    position: absolute;
+    width: 100%;
+    height:100%;
+    top: 0%;
+    left: 0%;
+  /*  background: #D9D9D9;*/
+    box-shadow: 3px 3px 5px -2px #9b9393;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+#modOne{
+    display: none;
+}
+#modConf{
+   
+    display: none;
+}
+
+#modDos{
+    display: none;
+}
+#modTres{
+    display: none;
+}
+#modFour{
+    display: none;
+}
+#modFive{
+    display: none;
+}
+#seiTitle{
+    display: block;
+    position: absolute;
+    bottom: 1%;
+    left: -7.5%;
+    width: 100%;
+
+    font-size: 15px;
+    color: #BCB69E;
+    text-align: right;
+    z-index: 1;
+}
+/*////////////////////////CERRAR MODULOS*/
+#cerrarMod{
+    width: 130%;
+    height: 31px;
+    border-radius: 100px;
+    text-align: center;
+    font-size: 29px;
+    color: #9b9393;
+    position: absolute;
+    left: -5px;
+    top: -10px;
+}
+#cerrarModIcon{
+    cursor: pointer;
+    transition: 100ms;
+}
+
+.navleftce{
+    position: absolute;  
+    box-shadow: 1px 1px 5px 1px #9b9393;
+    width: 4%;
+    height:57px;
+    background: #F9F9F9;
+    overflow: hidden;
+    left: 20%;
+    border-radius: 8px;
+}
+/*LOGO SEICAPP BLANCO DE FONDO*/
+#sokbl{
+    position: absolute;
+    top: -59%;
+    left: -37%;
+    width: 161%;
+
+}
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<//////////////////////////////////////////////////////////////<<<<<<<<MURAL*/
+#mural{
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 1384px;
+    top: 0%;
+    left: 0%;
+    border: 1px solid transparent;
+    z-index: 11;
+    box-shadow: 0px 1px 5px 2px #e8e8e8;
+ 
+    background: linear-gradient(90deg, #0000D0 0%, #002D85 64%);
+    overflow: hidden;
+}
+#backlogdeo{
+    display: block;
+    position: absolute;
+    top: 30%;
+    left: 7.6%;
+    width: 83%;
+    height: 36%;
+    border: 1px solid transparent;
+    z-index: 1;
+    text-align: center;
+  }
+
+#icsol{
+    height: 100%;
+}
+.log550dw{
+    display: block;
+    position: absolute;
+    width: 58%;
+    left: 50%;
+    top: 1%;
+}
+
+
+#backlogdeo50{
+    position: absolute;
+    top: 17%;
+    width: 100%;
+    height: 9%;
+    border: 1px solid transparent;
+    text-align: center;
+
+}
+
+#logdeo50{
+    height: 100%;
+}
+/*////////////////////////////////////////////////////////////////////*/
+#backtab{
+    position: relative;
+    width: 89%;
+    height: 75%;
+    top: 13%;
+    border: 1px solid transparent;
+    z-index: 11;
+    background-color: #F9F9F9;
+    box-shadow: 0px 1px 5px 2px #9b9393;
+    border-radius: 5px;
+    margin: auto;
+    overflow-y: scroll;
+}
+.cx{
+    position: absolute;
+    width: 244px;
+    height: 93px;
+    background: #D9D9D9;
+    box-shadow: 1px -1px 11px -1px #9b9393;
+    margin: auto;
+    top: 10px;
+    text-align: center;
+}
+
+.cx2{
+    position: absolute;
+    width: 244px;
+    height: 93px;
+    border: 1px solid transparent;
+    top: 120px;
+    text-align: center;
+}
+.contcx{
+    position: relative;
+    width: 99%;
+    height: 84%;
+    background: #D9D9D9;
+    box-shadow: 1px -1px 11px -1px #9b9393;
+    margin: auto;
+}
+.titlesec{
+    position: relative;
+    width: 99.5%;
+    margin-top: 9px;
+    border: none;
+    box-shadow: 2px 3px 5px -2px #9b9393;
+    text-align: center;
+    background: linear-gradient(90deg, rgb(143, 142, 141) 0%, rgb(218, 216, 213) 64%);
+    color: #27243F;
+    z-index: 1;
+    margin: auto;
+}
+
+
+
+/*BOTONES*/
+.namemod{
+    display: inline-block;
+    margin-left: 4%;
+}
+
+/*RESULTADOS DE PRODUCTIVIDAD*/
+
+.allprod{
+    color: #086BA3;
+    font-size: 62px;
+}
+
+/*///////////////////////////////////////////////////////*/
+
+#backmenu{
+    position: absolute;
+    width: 9%;
+    height: 26%;
+    top: 25px;
+    border: 1px solid transparent;
+    z-index: 11;
+    background-color: #F9F9F9;
+    box-shadow: 0px 1px 5px 2px #9b9393;
+    border-radius: 5px;
+    margin: auto;
+    left: 2%;
+    font-size: 4vw;
+    text-align: center;
+    color: #086BA3;
+}
+#backYear p{
+    margin-top: 3vw;
+}
+#backMenu2{
+    position: absolute;
+    width: 100%;
+    height: 30px;
+    border: 1px solid transparent;
+    z-index: 100;
+    left: 0%;
+    background: #0057E2;
+    display: none;
+}
+#modulosMenu {
+    display: inline-block;
+    width: 83%;
+    background: rgb(53, 53, 233);
+    color: white;
+    overflow: hidden;
+    height: 100%;
+  }
+  input[type='submit'].posiBotonM
+{
+    color: white;
+    font-size: 15px;
+    background: transparent;
+    width: 100%;
+    height: 100%;
+    border: none;
+    cursor: pointer;
+}
+.nameBot{
+    position: absolute;
+}
+.modulosMenu1{
+    font-size: 15px;
+    display: inline-block;
+    margin-left: 7%;
+    cursor: pointer;
+    background: transparent;
+    height: 100%;
+    text-align: center;
+    margin-top: 0px;
+    position: relative;
+    border: 1px solid transparent;
+}
+.modulosMenu1:hover{
+    background: #0797FF;
+}
+.modulosMenu2{
+    font-size: 15px;
+  display: inline-block;
+  margin-left: 5%;
+  cursor: pointer;
+    background: transparent;
+    height: 100%;
+    text-align: center;
+    margin-top: 0px;
+    position: relative;
+    border: 1px solid transparent;
+}
+
+.modulosMenu2:hover{
+    background: #0797FF;
+}
+.modulosMenu3{
+    font-size: 15px;
+    display: inline-block;
+    margin-left: 5%;
+    cursor: pointer;
+      background: transparent;
+      height: 100%;
+      text-align: center;
+      margin-top: 0px;
+      position: relative;
+      border: 1px solid transparent;
+}
+.modulosMenu3:hover{
+    background: #0797FF;
+}
+.posiBotonM{
+    margin-top: 2%;
+}
+.modulosMenu4{
+    font-size: 15px;
+  display: inline-block;
+  margin-left: 5%;
+  cursor: pointer;
+    background: transparent;
+    height: 100%;
+    text-align: center;
+    margin-top: 0px;
+    position: relative;
+    border: 1px solid transparent;
+}
+.modulosMenu4:hover{
+    background: #0797FF;
+}
+.modulosMenu5{
+    font-size: 15px;
+  display: inline-block;
+  margin-left: 5%;
+  cursor: pointer;
+    background: transparent;
+    height: 100%;
+    text-align: center;
+    margin-top: 0px;
+    position: relative;
+    border: 1px solid transparent;
+}
+.modulosMenu5:hover{
+    background: #0797FF;
+}
+.modulosMenu6{
+    font-size: 15px;
+  display: inline-block;
+  margin-left: 5%;
+  cursor: pointer;
+    background: transparent;
+    height: 100%;
+    text-align: center;
+    margin-top: 0px;
+    position: relative;
+    border: 1px solid transparent;
+}
+.modulosMenu6:hover{
+    background: #0797FF;
+}
+.modulosMenu7{
+    font-size: 15px;
+  display: inline-block;
+  margin-left: 5%;
+  cursor: pointer;
+    background: transparent;
+    height: 100%;
+    text-align: center;
+    margin-top: 0px;
+    position: relative;
+    border: 1px solid transparent;
+}
+.modulosMenu7:hover{
+    background: #0797FF;
+}
+#abrimenu{
+    position: absolute;
+    width: 40px;
+    height: 21px;
+    top: 5px;
+    left: 0.7%;
+
+    z-index: 1000;
+    cursor: pointer;
+}
+#abrimenu2{
+    position: absolute;
+    width: 40px;
+    height: 21px;
+    top: -1%;
+    left: 1%;
+    background: #0255F3;
+    z-index: 1000;
+    cursor: pointer;
+    display: none;
+}
+.abrirmenuLine{
+
+    width: 100%;
+    height: 2px;
+    background: white;
+    margin-top: 4px;
+}
+#backDesm{
+    position: absolute;
+    width: 18%;
+    height: 89%;
+    top: 25px;
+    border: 1px solid transparent;
+    z-index: 11;
+    border-radius: 5px;
+    margin: auto;
+    left: 4%;
+    display: block;
+    overflow-y: scroll;
+}
+
+/*LOGO 50D*/
+#logdeodi {
+    position: relative;
+    width: 86%;
+    left: -41%;
+    z-index: 11;
+    border: 1px solid transparent;
+    top: 0%;
+    text-align: center;
+    background-color: #F9F9F9;
+    box-shadow: 0px 1px 5px 2px #9b9393;
+    border-radius: 5px;
+    height: 17%;
+}
+#deodi {
+    height: 100%;
+}
+
+/*//////////////////////////////////////////////////////////////////MODULOS*/
+
+
+#iframeSuitedirgen {
+    display: block;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    border: 1px solid transparent;
+    background: #D9D9D9;
+    box-shadow: 2px 3px 5px -2px #9b9393;
+    overflow: hidden;
+    display: none;
+  }
+  #iframedashOkr {
+    display: block;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    border: 1px solid transparent;
+    background: #D9D9D9;
+    box-shadow: 2px 3px 5px -2px #9b9393;
+    overflow: hidden;
+    display: none;
+  }
+  #iframedashProcesos {
+    display: block;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    border: 1px solid transparent;
+    background: #D9D9D9;
+    box-shadow: 2px 3px 5px -2px #9b9393;
+    overflow: hidden;
+    display: none;
+  }
+  #iframeTask {
+    display: block;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    border: 1px solid transparent;
+    background: #D9D9D9;
+    box-shadow: 2px 3px 5px -2px #9b9393;
+    overflow: hidden;
+    display: none;
+  }
+  #iframeProy {
+    display: block;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    border: 1px solid transparent;
+    background: #D9D9D9;
+    box-shadow: 2px 3px 5px -2px #9b9393;
+    overflow: hidden;
+    display: none;
+  }
+  #iframeReg {
+    display: block;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    border: 1px solid transparent;
+    background: #D9D9D9;
+    box-shadow: 2px 3px 5px -2px #9b9393;
+    overflow: hidden;
+    display: none;
+  }
+  #iframePrint {
+    display: block;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    border: 1px solid transparent;
+    background: #D9D9D9;
+    box-shadow: 2px 3px 5px -2px #9b9393;
+    overflow: hidden;
+    display: none;
+  }
+
+
+    /*//////////////////////CERRAR DASH*/
+    #cedrrarDash{
+        position: absolute;
+        height: 63%;
+        top: 27%;
+        left: 13%;
+        z-index: 100;
+        cursor: pointer;
+        display: none;
+        border: 1px solid transparent;
+      }
+      #imgcedrrarDash{
+        height: 100%;
+      }
